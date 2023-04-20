@@ -1,18 +1,49 @@
+use anyhow::{Context, Result};
 use reqwest::Error;
 use scraper::{Html, Selector};
 use serde::{Deserialize, Serialize};
 use serde_json;
-use std::collections::{BTreeMap, HashMap};
+use std::collections::{BTreeMap, BTreeSet, HashMap};
 use url::{ParseError, Url};
 
 #[tokio::main]
-async fn main() -> Result<(), Error> {
-    let courses = get_courses().await?;
-    println!("{}", serde_json::to_string_pretty(&courses).unwrap());
+async fn main() -> Result<()> {
+    //let courses = get_course_links().await?;
+    //println!("{}", serde_json::to_string_pretty(&courses).unwrap());
+    let response = reqwest::get("https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bia-business-intelligence-and-analytics/600/bia-676/").await?.text().await?;
+    let html = Html::parse_document(&response);
+    let element = match html
+        .select(&Selector::parse("div").unwrap())
+        .find(|element| element.value().attr("id") == Some("main"))
+    {
+        Some(value) => value,
+        _ => return Ok(()),
+    };
+    let title = element
+        .select(&Selector::parse("h1").unwrap())
+        .next()
+        .unwrap()
+        .inner_html()
+        .split_once("</span>")
+        .unwrap()
+        .1
+        .split_once("\n")
+        .unwrap()
+        .0
+        .trim()
+        .to_owned();
+    println!("{}", title);
+    let description = element
+        .select(&Selector::parse("div").unwrap())
+        .find(|element| element.value().attr("class") == Some("desc"))
+        .unwrap()
+        .text()
+        .collect::<Vec<_>>();
+    println!("{:#?}", description);
     Ok(())
 }
 
-async fn get_courses() -> Result<BTreeMap<String, String>, Error> {
+async fn get_course_links() -> Result<BTreeMap<String, String>> {
     let mut courses = BTreeMap::new();
     let url = "https://stevens.smartcatalogiq.com/Institutions/Stevens-Institution-of-Technology/json/2022-2023/Academic-Catalog.json";
     let response = reqwest::get(url).await?;
@@ -28,19 +59,21 @@ async fn get_courses() -> Result<BTreeMap<String, String>, Error> {
                 break;
             }
             for c3 in Counter::new(0) {
-                let l4 = &l3["Children"][c3];
-                if l4.is_null() {
-                    break;
-                }
-                let course: Course = serde_json::from_value(l4.clone()).unwrap();
+                let course = match &l3["Children"][c3] {
+                    value => match value.is_null() {
+                        true => break,
+                        _ => value,
+                    },
+                };
                 courses.insert(
-                    course.name,
-                    course
-                        .link
-                        .split_once("/2022-2023/Academic-Catalog/Courses/")
-                        .unwrap()
-                        .1
+                    course["Name"]
+                        .as_str()
+                        .context("\"Name\" field missing from course")?
                         .to_string(),
+                    "https://stevens.smartcatalogiq.com/en".to_string()
+                        + course["Path"]
+                            .as_str()
+                            .context("\"Path\" field missing from course")?,
                 );
             }
         }
@@ -48,39 +81,26 @@ async fn get_courses() -> Result<BTreeMap<String, String>, Error> {
     Ok(courses)
 }
 
-fn get_link(course_id: String, course_mappings: HashMap<String, String>) -> Option<String> {
-    let shared =
-        String::from("https://stevens.smartcatalogiq.com/en/2022-2023/Academic-Catalog/Courses/");
-    let (prefix, id) = match course_id.split_once(' ') {
-        Some(tuple) => (tuple.0, tuple.1),
-        _ => return None,
-    };
-    let department = match course_mappings.get(prefix) {
-        Some(value) => value,
-        _ => return None,
-    };
-    let level = match id.len() {
-        3 => format!("{}00", id.chars().next().unwrap()),
-        1 | 2 => String::from('0'),
-        _ => return None,
-    };
-    Some(format!(
-        "{shared}{prefix}-{department}/{level}/{prefix}-{id}"
-    ))
-}
+async fn get_course(id: String, link: String) -> Result<Course> {
+    let name = String::new();
+    let description = String::new();
+    let credits = 0_u8;
+    let prerequisites = String::new();
+    let corequisites = String::new();
+    let offered = String::new();
+    let distribution = String::new();
 
-#[derive(Serialize, Deserialize, Debug)]
-#[serde(transparent)]
-struct Courses {
-    pub courses: Vec<Course>,
-}
-
-#[derive(Serialize, Deserialize, Debug)]
-struct Course {
-    #[serde(rename = "Name")]
-    pub name: String,
-    #[serde(rename = "Path")]
-    pub link: String,
+    Ok(Course {
+        id,
+        name,
+        description,
+        credits,
+        prerequisites,
+        corequisites,
+        offered,
+        distribution,
+        link,
+    })
 }
 
 struct Counter {
@@ -101,4 +121,17 @@ impl Iterator for Counter {
         self.current += 1;
         Some(current)
     }
+}
+
+#[derive(Serialize, Deserialize, Debug)]
+struct Course {
+    pub id: String,
+    pub name: String,
+    pub description: String,
+    pub credits: u8,
+    pub prerequisites: String,
+    pub corequisites: String,
+    pub offered: String,
+    pub distribution: String,
+    pub link: String,
 }
