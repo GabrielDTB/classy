@@ -1,47 +1,34 @@
 use anyhow::{anyhow, bail, Context, Result};
+use indicatif::ProgressBar;
 use reqwest::Client;
 use scraper::{Html, Selector};
 use serde::{Deserialize, Serialize};
 use serde_json;
 use std::collections::{BTreeMap, BTreeSet, HashMap};
+use tokio::task::JoinSet;
 use url::{ParseError, Url};
 
 #[tokio::main]
 async fn main() -> Result<()> {
     let mut courses = Vec::new();
     let links = get_course_links().await?;
-    let client: 'static Client = Client::new();
+    let client = Client::new();
+    let bar = ProgressBar::new(links.len().try_into().unwrap());
     for link in links {
         courses.push(
             get_course(&link.to_lowercase(), &client)
                 .await
                 .context(format!("in parsing of {}", link))?,
         );
-        println!("{:?}", courses.last().unwrap());
+        bar.inc(1);
+        //println!("{:?}", courses.last().unwrap());
     }
-
-    // spawn tasks that run in parallel
-    let tasks: Vec<_> = links
-        .into_iter()
-        .map(|link| {
-            tokio::spawn(async {
-                get_course(&link, &client).await;
-                link
-            })
-        })
-        .collect();
-
-    let mut items = vec![];
-    // now await them to get the resolve's to complete
-    for task in tasks {
-        items.push(task.await.unwrap());
-    }
-    // and we're done
-    for item in &items {
-        println!("{:?}", item);
-    }
-
-    tokio::fs::write("here.json", serde_json::to_string_pretty(&courses).unwrap()).await?;
+    bar.finish();
+    tokio::fs::write(
+        "courses.json",
+        serde_json::to_string_pretty(&courses).unwrap(),
+    )
+    .await?;
 
     Ok(())
 }
@@ -80,7 +67,7 @@ async fn get_course_links() -> Result<BTreeSet<String>> {
     Ok(courses)
 }
 
-async fn get_course(link: &String, client: &Client) -> Result<Course> {
+async fn get_course(link: &str, client: &Client) -> Result<Course> {
     let response = client.get(link).send().await?.text().await?;
     let html = Html::parse_document(&response);
     let element = match html
