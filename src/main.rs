@@ -23,23 +23,70 @@ async fn main() -> Result<()> {
         .select(&Selector::parse("h1").unwrap())
         .next()
         .unwrap()
-        .inner_html()
-        .split_once("</span>")
+        .text()
+        .map(|s| s.trim())
+        .last()
         .unwrap()
-        .1
-        .split_once("\n")
-        .unwrap()
-        .0
-        .trim()
-        .to_owned();
+        .to_string();
     println!("{}", title);
     let description = element
         .select(&Selector::parse("div").unwrap())
         .find(|element| element.value().attr("class") == Some("desc"))
         .unwrap()
         .text()
-        .collect::<Vec<_>>();
-    println!("{:#?}", description);
+        .map(|s| s.trim())
+        .last()
+        .unwrap()
+        .to_string();
+    println!("{}", description);
+    let credits = element
+        .select(&Selector::parse("div").unwrap())
+        .find(|element| element.value().attr("class") == Some("sc_credits"))
+        .unwrap()
+        .select(&Selector::parse("div").unwrap())
+        .find(|element| element.value().attr("class") == Some("credits"))
+        .unwrap()
+        .text()
+        .map(|s| s.trim())
+        .last()
+        .unwrap()
+        .parse::<u8>()
+        .unwrap();
+    println!("{}", credits);
+    let prerequisites = element
+        .select(&Selector::parse("div").unwrap())
+        .find(|element| element.value().attr("class") == Some("sc_prereqs"))
+        .unwrap()
+        .select(&Selector::parse("a").unwrap())
+        .find(|element| element.value().attr("class") == Some("sc-courselink"))
+        .unwrap()
+        .text()
+        .map(|s| s.trim())
+        .last()
+        .unwrap()
+        .to_string();
+    println!("{}", prerequisites);
+    let distribution = element
+        .select(&Selector::parse("div").unwrap())
+        .find(|element| element.value().attr("id") == Some("distribution"))
+        .unwrap()
+        .text()
+        .map(|s| s.trim())
+        .last()
+        .unwrap()
+        .to_string();
+    println!("{}", distribution);
+    let offered = element
+        .select(&Selector::parse("div").unwrap())
+        .find(|element| element.value().attr("id") == Some("offered"))
+        .unwrap()
+        .text()
+        .map(|s| s.trim())
+        .last()
+        .unwrap()
+        .to_string();
+    println!("{}", offered);
+
     Ok(())
 }
 
