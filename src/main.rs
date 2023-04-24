@@ -1,4 +1,5 @@
-use anyhow::{Context, Result};
+use anyhow::{anyhow, bail, Context, Result};
+use reqwest::Client;
 use scraper::{Html, Selector};
 use serde::{Deserialize, Serialize};
 use serde_json;
@@ -7,14 +8,46 @@ use url::{ParseError, Url};
 
 #[tokio::main]
 async fn main() -> Result<()> {
-    //let courses = get_course_links().await?;
-    //println!("{}", serde_json::to_string_pretty(&courses).unwrap());
+    let mut courses = Vec::new();
+    let links = get_course_links().await?;
+    let client: 'static Client = Client::new();
+    for link in links {
+        courses.push(
+            get_course(&link.to_lowercase(), &client)
+                .await
+                .context(format!("in parsing of {}", link))?,
+        );
+        println!("{:?}", courses.last().unwrap());
+    }
+
+    // spawn tasks that run in parallel
+    let tasks: Vec<_> = links
+        .into_iter()
+        .map(|link| {
+            tokio::spawn(async {
+                get_course(&link, &client).await;
+                link
+            })
+        })
+        .collect();
+
+    let mut items = vec![];
+    // now await them to get the resolve's to complete
+    for task in tasks {
+        items.push(task.await.unwrap());
+    }
+    // and we're done
+    for item in &items {
+        println!("{:?}", item);
+    }
+
+    tokio::fs::write("here.json", serde_json::to_string_pretty(&courses).unwrap()).await?;
 
     Ok(())
 }
 
-async fn get_course_links() -> Result<BTreeMap<String, String>> {
-    let mut courses = BTreeMap::new();
+async fn get_course_links() -> Result<BTreeSet<String>> {
+    let mut courses = BTreeSet::new();
     let url = "https://stevens.smartcatalogiq.com/Institutions/Stevens-Institution-of-Technology/json/2022-2023/Academic-Catalog.json";
     let response = reqwest::get(url).await?;
     let l1 = &response.json::<serde_json::Value>().await?["Children"][23];
@@ -36,10 +69,6 @@ async fn get_course_links() -> Result<BTreeMap<String, String>> {
                     },
                 };
                 courses.insert(
-                    course["Name"]
-                        .as_str()
-                        .context("\"Name\" field missing from course")?
-                        .to_string(),
                     "https://stevens.smartcatalogiq.com/en".to_string()
                         + course["Path"]
                             .as_str()
@@ -51,78 +80,98 @@ async fn get_course_links() -> Result<BTreeMap<String, String>> {
     Ok(courses)
 }
 
-async fn get_course(id: String, link: String) -> Result<Course> {
-    let response = reqwest::get(link.clone()).await?.text().await?;
+async fn get_course(link: &String, client: &Client) -> Result<Course> {
+    let response = client.get(link).send().await?.text().await?;
     let html = Html::parse_document(&response);
     let element = match html
         .select(&Selector::parse("div").unwrap())
         .find(|element| element.value().attr("id") == Some("main"))
     {
         Some(value) => value,
-        _ => return Err(anyhow::anyhow!("IDK")),
+        _ => bail!(
+            "page did not have an element of the required selector\n{:#?}",
+            response
+        ),
     };
-
+    let flatten = regex::Regex::new(r"\s+").unwrap();
+    let id = element
+        .select(&Selector::parse("h1").unwrap())
+        .next()
+        .context("no elementt matched the first selector in name parsing")?
+        .text()
+        .nth(1)
+        .context("last element not found in name parsing")?
+        .trim()
+        .to_string();
     let name = element
         .select(&Selector::parse("h1").unwrap())
         .next()
-        .unwrap()
+        .context("no elementt matched the first selector in name parsing")?
         .text()
         .last()
-        .unwrap()
+        .context("last element not found in name parsing")?
         .trim()
         .to_string();
     let description = element
         .select(&Selector::parse("div").unwrap())
+        //println!("{}", serde_json::to_string_pretty(&courses).unwrap());
         .find(|element| element.value().attr("class") == Some("desc"))
-        .unwrap()
+        .context("no elementt matched the first attribute in description parsing")?
         .text()
         .last()
-        .unwrap()
-        .trim()
-        .to_string();
+        .context("last element not found in description parsing")?
+        .replace("\n", " ")
+        .replace("\t", " ");
+    let description = flatten.replace_all(&*description, " ").trim().to_string();
     let credits = element
         .select(&Selector::parse("div").unwrap())
         .find(|element| element.value().attr("class") == Some("sc_credits"))
-        .unwrap()
+        .context("no elementt matched the first attribute in credits parsing")?
         .select(&Selector::parse("div").unwrap())
         .find(|element| element.value().attr("class") == Some("credits"))
-        .unwrap()
+        .context("no element matched the second attribute in credits parsing")?
         .text()
         .last()
-        .unwrap()
+        .context("last element not found in credits parsing")?
         .trim()
-        .parse::<u8>()
-        .unwrap();
+        .to_string();
     let prerequisites = element
         .select(&Selector::parse("div").unwrap())
         .find(|element| element.value().attr("class") == Some("sc_prereqs"))
-        .unwrap()
-        .select(&Selector::parse("a").unwrap())
-        .find(|element| element.value().attr("class") == Some("sc-courselink"))
-        .unwrap()
+        .context("no element matched the first attribute in prerequisites parsing")?
         .text()
         .last()
-        .unwrap()
+        .context("last element not found in prerequisites parsing")?
         .trim()
         .to_string();
-    let distribution = element
+    let distribution = match element
         .select(&Selector::parse("div").unwrap())
         .find(|element| element.value().attr("id") == Some("distribution"))
-        .unwrap()
-        .text()
-        .last()
-        .unwrap()
-        .trim()
-        .to_string();
-    let offered = element
+    {
+        Some(value) => value
+            .text()
+            .last()
+            .context("last element not found in distribution parsing")?
+            .split(|c| c == '\n' || c == '\t')
+            .map(|s| s.trim().to_string())
+            .filter(|e| !e.is_empty())
+            .collect::<BTreeSet<String>>(),
+        _ => BTreeSet::new(),
+    };
+    let offered = match element
         .select(&Selector::parse("div").unwrap())
         .find(|element| element.value().attr("id") == Some("offered"))
-        .unwrap()
-        .text()
-        .last()
-        .unwrap()
-        .trim()
-        .to_string();
+    {
+        Some(e) => e
+            .text()
+            .last()
+            .context("last element not found in offered parsing")?
+            .split(|c| c == '\n' || c == '\t')
+            .map(|s| s.trim().to_string())
+            .filter(|e| !e.is_empty())
+            .collect::<BTreeSet<String>>(),
+        _ => BTreeSet::new(),
+    };
 
     Ok(Course {
         id,
@@ -132,7 +181,7 @@ async fn get_course(id: String, link: String) -> Result<Course> {
         prerequisites,
         offered,
         distribution,
-        link,
+        link: link.to_owned(),
     })
 }
 
@@ -156,14 +205,14 @@ impl Iterator for Counter {
     }
 }
 
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug, Clone)]
 struct Course {
     pub id: String,
     pub name: String,
     pub description: String,
-    pub credits: u8,
+    pub credits: String,
     pub prerequisites: String,
-    pub offered: String,
-    pub distribution: String,
+    pub offered: BTreeSet<String>,
+    pub distribution: BTreeSet<String>,
     pub link: String,
 }
