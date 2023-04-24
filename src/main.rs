@@ -1,5 +1,4 @@
 use anyhow::{Context, Result};
-use reqwest::Error;
 use scraper::{Html, Selector};
 use serde::{Deserialize, Serialize};
 use serde_json;
@@ -10,82 +9,6 @@ use url::{ParseError, Url};
 async fn main() -> Result<()> {
     //let courses = get_course_links().await?;
     //println!("{}", serde_json::to_string_pretty(&courses).unwrap());
-    let response = reqwest::get("https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bia-business-intelligence-and-analytics/600/bia-676/").await?.text().await?;
-    let html = Html::parse_document(&response);
-    let element = match html
-        .select(&Selector::parse("div").unwrap())
-        .find(|element| element.value().attr("id") == Some("main"))
-    {
-        Some(value) => value,
-        _ => return Ok(()),
-    };
-    let title = element
-        .select(&Selector::parse("h1").unwrap())
-        .next()
-        .unwrap()
-        .text()
-        .map(|s| s.trim())
-        .last()
-        .unwrap()
-        .to_string();
-    println!("{}", title);
-    let description = element
-        .select(&Selector::parse("div").unwrap())
-        .find(|element| element.value().attr("class") == Some("desc"))
-        .unwrap()
-        .text()
-        .map(|s| s.trim())
-        .last()
-        .unwrap()
-        .to_string();
-    println!("{}", description);
-    let credits = element
-        .select(&Selector::parse("div").unwrap())
-        .find(|element| element.value().attr("class") == Some("sc_credits"))
-        .unwrap()
-        .select(&Selector::parse("div").unwrap())
-        .find(|element| element.value().attr("class") == Some("credits"))
-        .unwrap()
-        .text()
-        .map(|s| s.trim())
-        .last()
-        .unwrap()
-        .parse::<u8>()
-        .unwrap();
-    println!("{}", credits);
-    let prerequisites = element
-        .select(&Selector::parse("div").unwrap())
-        .find(|element| element.value().attr("class") == Some("sc_prereqs"))
-        .unwrap()
-        .select(&Selector::parse("a").unwrap())
-        .find(|element| element.value().attr("class") == Some("sc-courselink"))
-        .unwrap()
-        .text()
-        .map(|s| s.trim())
-        .last()
-        .unwrap()
-        .to_string();
-    println!("{}", prerequisites);
-    let distribution = element
-        .select(&Selector::parse("div").unwrap())
-        .find(|element| element.value().attr("id") == Some("distribution"))
-        .unwrap()
-        .text()
-        .map(|s| s.trim())
-        .last()
-        .unwrap()
-        .to_string();
-    println!("{}", distribution);
-    let offered = element
-        .select(&Selector::parse("div").unwrap())
-        .find(|element| element.value().attr("id") == Some("offered"))
-        .unwrap()
-        .text()
-        .map(|s| s.trim())
-        .last()
-        .unwrap()
-        .to_string();
-    println!("{}", offered);
 
     Ok(())
 }
@@ -129,13 +52,77 @@ async fn get_course_links() -> Result<BTreeMap<String, String>> {
 }
 
 async fn get_course(id: String, link: String) -> Result<Course> {
-    let name = String::new();
-    let description = String::new();
-    let credits = 0_u8;
-    let prerequisites = String::new();
-    let corequisites = String::new();
-    let offered = String::new();
-    let distribution = String::new();
+    let response = reqwest::get(link.clone()).await?.text().await?;
+    let html = Html::parse_document(&response);
+    let element = match html
+        .select(&Selector::parse("div").unwrap())
+        .find(|element| element.value().attr("id") == Some("main"))
+    {
+        Some(value) => value,
+        _ => return Err(anyhow::anyhow!("IDK")),
+    };
+
+    let name = element
+        .select(&Selector::parse("h1").unwrap())
+        .next()
+        .unwrap()
+        .text()
+        .last()
+        .unwrap()
+        .trim()
+        .to_string();
+    let description = element
+        .select(&Selector::parse("div").unwrap())
+        .find(|element| element.value().attr("class") == Some("desc"))
+        .unwrap()
+        .text()
+        .last()
+        .unwrap()
+        .trim()
+        .to_string();
+    let credits = element
+        .select(&Selector::parse("div").unwrap())
+        .find(|element| element.value().attr("class") == Some("sc_credits"))
+        .unwrap()
+        .select(&Selector::parse("div").unwrap())
+        .find(|element| element.value().attr("class") == Some("credits"))
+        .unwrap()
+        .text()
+        .last()
+        .unwrap()
+        .trim()
+        .parse::<u8>()
+        .unwrap();
+    let prerequisites = element
+        .select(&Selector::parse("div").unwrap())
+        .find(|element| element.value().attr("class") == Some("sc_prereqs"))
+        .unwrap()
+        .select(&Selector::parse("a").unwrap())
+        .find(|element| element.value().attr("class") == Some("sc-courselink"))
+        .unwrap()
+        .text()
+        .last()
+        .unwrap()
+        .trim()
+        .to_string();
+    let distribution = element
+        .select(&Selector::parse("div").unwrap())
+        .find(|element| element.value().attr("id") == Some("distribution"))
+        .unwrap()
+        .text()
+        .last()
+        .unwrap()
+        .trim()
+        .to_string();
+    let offered = element
+        .select(&Selector::parse("div").unwrap())
+        .find(|element| element.value().attr("id") == Some("offered"))
+        .unwrap()
+        .text()
+        .last()
+        .unwrap()
+        .trim()
+        .to_string();
 
     Ok(Course {
         id,
@@ -143,7 +130,6 @@ async fn get_course(id: String, link: String) -> Result<Course> {
         description,
         credits,
         prerequisites,
-        corequisites,
         offered,
         distribution,
         link,
@@ -177,7 +163,6 @@ struct Course {
     pub description: String,
     pub credits: u8,
     pub prerequisites: String,
-    pub corequisites: String,
     pub offered: String,
     pub distribution: String,
     pub link: String,
