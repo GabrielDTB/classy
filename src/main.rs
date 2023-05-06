@@ -2,6 +2,7 @@ mod get_courses;
 
 use std::env;
 
+use anyhow::{bail, Result};
 use serenity::async_trait;
 use serenity::model::channel::Message;
 use serenity::model::gateway::Ready;
@@ -56,7 +57,8 @@ impl EventHandler for Handler {
 }
 
 #[tokio::main]
-async fn main() {
+async fn main() -> Result<()> {
+    get_courses::do_stuff().await?;
     // Configure the client with your Discord bot token in the environment.
     let token = env::var("DISCORD_TOKEN").expect("Expected a token in the environment");
     let intents = GatewayIntents::GUILD_MESSAGES
@@ -70,4 +72,5 @@ async fn main() {
     if let Err(why) = client.start().await {
         println!("Client error: {:?}", why);
     }
+    Ok(())
 }
