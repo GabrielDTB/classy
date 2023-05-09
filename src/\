@@ -11,18 +11,18 @@ pub async fn do_stuff() -> Result<()> {
     let links = get_course_links().await?;
     let client = Client::new();
     let bar = ProgressBar::new(links.len().try_into().unwrap());
-    let mut errors = Vec::new();
     for link in links {
         // This code is sequential, which defeats the whole purpose of async'ing everything,
         // but converting it to async is kinda hard with the way it's set up.
-        match get_course(&link.to_lowercase(), &client).await {
-            Ok(course) => courses.push(course),
-            Err(e) => errors.push(e),
-        };
+        courses.push(
+            get_course(&link.to_lowercase(), &client)
+                .await
+                .context(format!("in parsing of {}", link))?,
+        );
         bar.inc(1);
         //println!("{:?}", courses.last().unwrap());
     }
-    println!("{}", errors.len());
+
     bar.finish();
     tokio::fs::write(
         "courses.json",
@@ -237,7 +237,6 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                 .replace("(", " ( ")
                 .replace(")", " ) ")
                 .replace("/", " / ")
-                .replace(",", "")
         })
         .filter(|s| !s.is_empty() && s != "prerequisite")
         .collect::<Vec<String>>()
@@ -268,42 +267,32 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
     ) -> Result<String> {
         let mut letters = "".into();
         let mut numbers = "".into();
-        let token = iter.peek().context("HOW?!!")?;
-        if !token.chars().all(|c| !c.is_digit(10)) {
+        let token = std::iter::Peekable::peek(iter).unwrap();
+        if !token.chars().all(|c| !c.is_numeric()) {
             for char in token.chars() {
-                if char.is_digit(10) {
+                if char.is_numeric() {
                     let (l, r) = token.split_once(char).unwrap();
-                    letters = l.trim().to_owned();
-                    numbers = (char.to_string() + r).trim().to_owned();
+                    letters = l.to_owned();
+                    numbers = char.to_string() + r;
                     break;
                 }
             }
         } else {
-            letters = (iter.next().unwrap()).trim().to_owned();
-            numbers = (*iter
-                .peek()
-                .context("tokens unexpectedly ended after course letter code")?)
-            .trim()
-            .to_owned();
+            letters = (*token).to_owned();
+            numbers = iter
+                .nth(1)
+                .context("tokens unexpectedly ended after course letter code")?
+                .to_owned();
         }
-        if !numbers.chars().all(|c| c.is_digit(10)) {
+        if !numbers.chars().all(|c| c.is_numeric()) {
             bail!("course id numbers not all numeric: {}", numbers)
         }
-        if letters.len() < 2 || letters.len() > 4 {
-            bail!(
-                "couse id letters not of proper length: {} - {}",
-                letters.len(),
-                letters
-            )
+        if letters.len() < 2 || letters.len() > 3 {
+            bail!("couse id letters not of proper length: {}", letters)
         }
-        if numbers.len() < 1 || numbers.len() > 3 {
-            bail!(
-                "course id number not of proper length: {} - {}",
-                numbers.len(),
-                numbers
-            )
+        if numbers.len() < 1 || letters.len() > 3 {
+            bail!("course id number not of proper length: {}", numbers)
         }
-        iter.next();
         Ok(letters + " " + &numbers)
     }
 
@@ -314,7 +303,7 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                 prerequisites.push(Token::Logical(Logic::Or));
                 prereq_tokens.next();
             }
-            "and" "-" => {
+            "and" => {
                 prerequisites.push(Token::Logical(Logic::And));
                 prereq_tokens.next();
             }
@@ -404,7 +393,7 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                 }));
                 prereq_tokens.next();
             }
-            "permission" | "instructor's" | "instructors" | "instructor" => {
+            "permission" | "instructor's" | "instructors" => {
                 prerequisites.push(Token::Permission(Permission::Instructor));
                 prereq_tokens.next();
                 loop {
@@ -419,7 +408,6 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                 }
             }
             "no" => {
-                prereq_tokens.next();
                 if *prereq_tokens.peek().unwrap() != "freshmen" {
                     bail!(
                         "unexpected token after \"no\": \"{}\" expected \"freshmen\"",
@@ -483,30 +471,6 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                 "698" => prerequisites.push(Token::Permission(Permission::DeanGraduate)),
                 _ => bail!("unexpected token 5 after \"need\", expected DEAN course number"),
             },
-            "chem" => {
-                prereq_tokens.nth(8); // Specific edge case -- come back later
-            }
-            "chemical" => {
-                prereq_tokens.nth(2); // Specific edge case
-            }
-            "pinnacle" => {
-                prereq_tokens.nth(1); // Specific edge case
-            }
-            "class='sc-courselink'" => {
-                prereq_tokens.nth(21);
-            }
-            "engineering" => {
-                prereq_tokens.nth(2);
-            }
-            "biomedical" => {
-                prereq_tokens.nth(4);
-            }
-            "step" => {
-                prereq_tokens.nth(0);
-            }
-            "freshmen" => {
-                prereq_tokens.nth(4);
-            }
             _ => {
                 if *prereq_tokens.peek().unwrap() == "phd" {
                     prerequisites.push(Token::Seniority(Seniority {
@@ -517,16 +481,19 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                         graduate: true,
                         doctorate: true,
                         major: Some((*prereq_tokens.peek().unwrap()).to_owned()),
-                    }));
-                    prereq_tokens.next();
-                } else {
-                    let course = get_course_id(&mut prereq_tokens)?;
+                    }))
+                } else if let Ok(course) = get_course_id(&mut prereq_tokens) {
                     if prereq_tokens.peek().is_some() && *prereq_tokens.peek().unwrap() == "coreq" {
                         prerequisites.push(Token::CourseCoreq(course));
                         prereq_tokens.next();
                     } else {
                         prerequisites.push(Token::CoursePrereq(course));
                     }
+                } else {
+                    bail!(
+                        "encountered unexpected token \"{}\"",
+                        prereq_tokens.peek().unwrap()
+                    );
                 }
             }
         };
