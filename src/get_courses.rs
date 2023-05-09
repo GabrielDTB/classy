@@ -232,36 +232,18 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
         .map(|s| {
             s.trim()
                 .to_lowercase()
-                .replace("\n", "")
+                .replace("\n", "") // Remove html characters
                 .replace("\t", "")
-                .replace("(", " ( ")
-                .replace(")", " ) ")
-                .replace("/", " / ")
-                .replace(",", "")
+                .replace("(", " ( ") // Add space around parenthesis so
+                .replace(")", " ) ") // they can be parsed
         })
         .filter(|s| !s.is_empty() && s != "prerequisite")
         .collect::<Vec<String>>()
         .join(" ");
     let mut prereq_tokens = prereq_tokens
         .split(' ')
-        .filter(|s| {
-            !s.is_empty()
-                && !s.contains("student")
-                && *s != "allowed"
-                && *s != "only"
-                && *s != "complete"
-        })
-        .peekable(); // complete is questionable. Return to it later
-
-    pub trait PeekableIterator: std::iter::Iterator {
-        fn peek(&mut self) -> Option<&Self::Item>;
-    }
-
-    impl<I: std::iter::Iterator> PeekableIterator for std::iter::Peekable<I> {
-        fn peek(&mut self) -> Option<&Self::Item> {
-            std::iter::Peekable::peek(self)
-        }
-    }
+        .filter(|s| !s.is_empty())
+        .peekable();
 
     fn get_course_id<'a>(
         iter: &mut std::iter::Peekable<impl Iterator<Item = &'a str>>,
@@ -273,17 +255,16 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
             for char in token.chars() {
                 if char.is_digit(10) {
                     let (l, r) = token.split_once(char).unwrap();
-                    letters = l.trim().to_owned();
-                    numbers = (char.to_string() + r).trim().to_owned();
+                    letters = l.to_owned();
+                    numbers = (char.to_string() + r).to_owned();
                     break;
                 }
             }
         } else {
-            letters = (iter.next().unwrap()).trim().to_owned();
+            letters = (iter.next().unwrap()).to_owned();
             numbers = (*iter
                 .peek()
                 .context("tokens unexpectedly ended after course letter code")?)
-            .trim()
             .to_owned();
         }
         if !numbers.chars().all(|c| c.is_digit(10)) {
@@ -309,12 +290,13 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
 
     let mut prerequisites: Vec<Token> = vec![];
     while prereq_tokens.peek().is_some() {
+        println!("{}", prereq_tokens.peek().unwrap());
         match *prereq_tokens.peek().unwrap() {
             "or" => {
                 prerequisites.push(Token::Logical(Logic::Or));
                 prereq_tokens.next();
             }
-            "and" "-" => {
+            "and" => {
                 prerequisites.push(Token::Logical(Logic::And));
                 prereq_tokens.next();
             }
@@ -340,6 +322,7 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                     doctorate: true,
                     major: None,
                 }));
+
                 prereq_tokens.next();
             }
             "at" => {
@@ -392,7 +375,7 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                 }));
                 prereq_tokens.next();
             }
-            "doctoral" => {
+            "doctoral" | "phd" => {
                 prerequisites.push(Token::Seniority(Seniority {
                     freshman: false,
                     sophomore: false,
@@ -483,50 +466,13 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                 "698" => prerequisites.push(Token::Permission(Permission::DeanGraduate)),
                 _ => bail!("unexpected token 5 after \"need\", expected DEAN course number"),
             },
-            "chem" => {
-                prereq_tokens.nth(8); // Specific edge case -- come back later
-            }
-            "chemical" => {
-                prereq_tokens.nth(2); // Specific edge case
-            }
-            "pinnacle" => {
-                prereq_tokens.nth(1); // Specific edge case
-            }
-            "class='sc-courselink'" => {
-                prereq_tokens.nth(21);
-            }
-            "engineering" => {
-                prereq_tokens.nth(2);
-            }
-            "biomedical" => {
-                prereq_tokens.nth(4);
-            }
-            "step" => {
-                prereq_tokens.nth(0);
-            }
-            "freshmen" => {
-                prereq_tokens.nth(4);
-            }
             _ => {
-                if *prereq_tokens.peek().unwrap() == "phd" {
-                    prerequisites.push(Token::Seniority(Seniority {
-                        freshman: false,
-                        sophomore: false,
-                        junior: false,
-                        senior: false,
-                        graduate: true,
-                        doctorate: true,
-                        major: Some((*prereq_tokens.peek().unwrap()).to_owned()),
-                    }));
+                let course = get_course_id(&mut prereq_tokens)?;
+                if prereq_tokens.peek().is_some() && *prereq_tokens.peek().unwrap() == "coreq" {
+                    prerequisites.push(Token::CourseCoreq(course));
                     prereq_tokens.next();
                 } else {
-                    let course = get_course_id(&mut prereq_tokens)?;
-                    if prereq_tokens.peek().is_some() && *prereq_tokens.peek().unwrap() == "coreq" {
-                        prerequisites.push(Token::CourseCoreq(course));
-                        prereq_tokens.next();
-                    } else {
-                        prerequisites.push(Token::CoursePrereq(course));
-                    }
+                    prerequisites.push(Token::CoursePrereq(course));
                 }
             }
         };
