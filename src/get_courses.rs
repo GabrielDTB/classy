@@ -12,42 +12,32 @@ pub async fn do_stuff() -> Result<()> {
     let links = get_course_links().await?;
     let links_iter = links.iter();
     let client = Client::new();
-    //let bar = ProgressBar::new(links.len().try_into().unwrap());
+    let bar = ProgressBar::new(links.len().try_into().unwrap());
     let mut errors = Vec::new();
     let mut futures = FuturesOrdered::new();
-    let mut interval = tokio::time::interval(std::time::Duration::from_millis(50));
+    let batch_size: usize = 15;
+    let mut interval = tokio::time::interval(std::time::Duration::from_millis(batch_size as u64));
 
     for link in links_iter {
         futures.push_back(get_course(&link, &client));
-        if futures.len() == 2 {
-            interval.tick().await;
+        if futures.len() == batch_size {
             match futures.next().await.unwrap() {
                 Ok(course) => courses.push(course),
                 Err(e) => errors.push(e),
             }
-            //bar.inc(1);
         }
+        bar.inc(1);
+        interval.tick().await;
     }
     while let Some(result) = futures.next().await {
         match result {
             Ok(course) => courses.push(course),
             Err(e) => errors.push(e),
         }
-        //bar.inc(1);
     }
-
-    // for link in links {
-    //     // This code is sequential, which defeats the whole purpose of async'ing everything,
-    //     // but converting it to async is kinda hard with the way it's set up.
-    //     match get_course(&link.to_lowercase(), &client).await {
-    //         Ok(course) => courses.push(course),
-    //         Err(e) => errors.push(e),
-    //     };
-    //     bar.inc(1);
-    //     //println!("{:?}", courses.last().unwrap());
-    // }
-    //bar.finish();
-    println!("{}", errors.len());
+    bar.finish();
+    println!("{:#?}", errors);
+    println!("Total Errors: {}", errors.len());
     // tokio::fs::write(
     //     "courses.json",
     //     serde_json::to_string_pretty(&courses).unwrap(),
@@ -180,74 +170,6 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
         .context("last element not found in credits parsing")?
         .trim()
         .to_string();
-    // Our first assumption is that we are stripping "\n" and "\t" from
-    // the string before parsing it.
-    // // Class ID's are always surrounded by double hyphens.
-    // // eg. "--BT 200--"
-    // Actualy, only classes with a hyperlink are surrounded by double hyphens.
-    // Otherwise they are just plain text.
-    // Therefore, assumption 2 is that we are stripping all double hyphens.
-    // Coreq courses are marked as such by a trailing "CoReq".
-    // eg "--ACC 312-- CoReq"
-    // When there are no prerequisites, the string will be empty. **SEE FIRST ASSUMPLTION.
-    // When there is at least one prerequisite, the string will start with
-    // "Prerequisite--".
-    // If permission is needed (special class), the string will have
-    // "Need Permission - Graduate DEAN 698" **Unconfirmed whether DEAN 698 will always be the
-    // same.
-    // UPDATE: Confirmed to NOT always be 698. At least 498 has been found.
-    // Commas and the word "and" are treated interchangeably.
-    // Otherwise everything is straightforward. "or" placed between two things means to or them,
-    // same with "and", and parenthesis are placed as expected. So all that has to be
-    // done is actually parse the strings.
-    // The final assumption is that when we match on "and" and "or", we are being case insensitive.
-    // Example:
-    // "\n\t--\n\t\tPrerequisite\n\t--BME 306-- and --BME 482-- and --ENGR 245-- and (Grad Student or (Junior or Senior))\n"
-    // First we strip "--", "\n", "\t", and "Prerequisite".
-    // "BME 306 and BME 482 and ENGR 245 and (Grad Student or (Junior or Senior))"
-    // Now this alone might be good enough. And, indeed, it is the least risky for
-    // fudging requirements. But it sucks and I want to standardize it.
-    //
-    //
-    // Classes of tokens: (Assume case insensitive -- capitalization will be added after parsing)
-    // Ends in "student(s)" -- Examples:
-    //     Biomedical PHD or Masters Student
-    //     Grad Student
-    //     Graduate Student
-    //     Graduate Students
-    // Starts with "graduate" -- Examples:
-    //     Graduate
-    //     Graduate Student
-    //     Graduate Students
-    // Ends in a number (optionally a 3 digit number) -- Examples:
-    //     BME 520
-    // Is exactly "or"
-    // Is exactly "and"
-    // Is exactly "("
-    // Is exactly ")"
-    // Starts with "at least" -- Examples:
-    //     At Least Junior
-    // Followed by "coreq" -- Examples:
-    //     BME 306 Coreq
-    // Starts with "need permission" -- Examples:
-    //     Need Permission - Undergraduate DEAN 498
-    //     Need Permission - Graduate DEAN 698
-    // Is exactly "permission required"
-    // Is exactly "instructor's permission"
-    // Starts with "junior(s)"
-    // Starts with "senior(s)"
-    // Ends with "only" -- Examples:
-    //     Seniors Only
-    //     Doctoral Students Only
-    // Ends with "allowed" -- Examples:
-    //    Graduate Student Allowed
-    // Starts with "no" and ends with "cohort" -- Examples:
-    //     No Freshmen or Sophomores Cohort
-    // Is exactly "no freshmen or sophomores cohort"
-    // Starts with "pre-/co-req" -- Examples:
-    //     Pre-/Co-Req IDE 401
-    // Starts with "coreq" -- Examples:
-    //     CoReq CH 116
 
     let prereq_tokens = element
         .select(&Selector::parse("div").unwrap())
@@ -314,210 +236,217 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
     }
 
     let mut prerequisites: Vec<Token> = vec![];
-    while prereq_tokens.peek().is_some() {
-        println!("{}", prereq_tokens.peek().unwrap());
-        match *prereq_tokens.peek().unwrap() {
-            "or" => {
-                prerequisites.push(Token::Logical(Logic::Or));
-                prereq_tokens.next();
-            }
-            "and" => {
-                prerequisites.push(Token::Logical(Logic::And));
-                prereq_tokens.next();
-            }
-            "(" => {
-                prerequisites.push(Token::Logical(Logic::GroupStart));
-                prereq_tokens.next();
-            }
-            ")" => {
-                prerequisites.push(Token::Logical(Logic::GroupEnd));
-                prereq_tokens.next();
-            }
-            "at" => {
-                if prereq_tokens
-                    .nth(1)
-                    .context("tokens unexpectedly ended after \"at\", epected to find \"least\"")?
-                    == "least"
-                {
-                    // TODO Add error message
-                    match prereq_tokens
-                        .next()
-                        .context("tokens unexpectedly ended after \"input\"")?
+    let mut get_prereqs = || {
+        while prereq_tokens.peek().is_some() {
+            match *prereq_tokens.peek().unwrap() {
+                "or" => {
+                    prerequisites.push(Token::Logical(Logic::Or));
+                    prereq_tokens.next();
+                }
+                "and" => {
+                    prerequisites.push(Token::Logical(Logic::And));
+                    prereq_tokens.next();
+                }
+                "(" => {
+                    prerequisites.push(Token::Logical(Logic::GroupStart));
+                    prereq_tokens.next();
+                }
+                ")" => {
+                    prerequisites.push(Token::Logical(Logic::GroupEnd));
+                    prereq_tokens.next();
+                }
+                "at" => {
+                    if prereq_tokens.nth(1).context(
+                        "tokens unexpectedly ended after \"at\", epected to find \"least\"",
+                    )? == "least"
                     {
-                        "junior" => prerequisites.push(Token::Seniority(Seniority {
-                            freshman: false,
-                            sophomore: false,
-                            junior: true,
-                            senior: true,
-                            graduate: true,
-                            doctorate: true,
-                            major: None,
-                        })),
-                        _ => bail!("{}", prereq_tokens.next().unwrap()), // TODO Add error message
+                        // TODO Add error message
+                        match prereq_tokens
+                            .next()
+                            .context("tokens unexpectedly ended after \"input\"")?
+                        {
+                            "junior" => prerequisites.push(Token::Seniority(Seniority {
+                                freshman: false,
+                                sophomore: false,
+                                junior: true,
+                                senior: true,
+                                graduate: true,
+                                doctorate: true,
+                                major: None,
+                            })),
+                            _ => bail!("{}", prereq_tokens.next().unwrap()), // TODO Add error message
+                        }
+                    } else {
+                        bail!("unexpected token following \"at\"")
                     }
-                } else {
-                    bail!("unexpected token following \"at\"")
                 }
-            }
-            "junior" | "juniors" => {
-                prerequisites.push(Token::Seniority(Seniority {
-                    freshman: false,
-                    sophomore: false,
-                    junior: true,
-                    senior: false,
-                    graduate: false,
-                    doctorate: false,
-                    major: None,
-                }));
-                prereq_tokens.next();
-            }
-            "senior" | "seniors" => {
-                prerequisites.push(Token::Seniority(Seniority {
-                    freshman: false,
-                    sophomore: false,
-                    junior: false,
-                    senior: true,
-                    graduate: false,
-                    doctorate: false,
-                    major: None,
-                }));
-                prereq_tokens.next();
-            }
-            "graduate" | "grad" => {
-                prerequisites.push(Token::Seniority(Seniority {
-                    freshman: false,
-                    sophomore: false,
-                    junior: false,
-                    senior: false,
-                    graduate: true,
-                    doctorate: true,
-                    major: None,
-                }));
-                prereq_tokens.next();
-                if prereq_tokens.peek().is_some()
-                    && (*prereq_tokens.peek().unwrap() == "student"
-                        || *prereq_tokens.peek().unwrap() == "students")
-                {
+                "junior" | "juniors" => {
+                    prerequisites.push(Token::Seniority(Seniority {
+                        freshman: false,
+                        sophomore: false,
+                        junior: true,
+                        senior: false,
+                        graduate: false,
+                        doctorate: false,
+                        major: None,
+                    }));
                     prereq_tokens.next();
                 }
-                if prereq_tokens.peek().is_some() && (*prereq_tokens.peek().unwrap() == "only") {
+                "senior" | "seniors" => {
+                    prerequisites.push(Token::Seniority(Seniority {
+                        freshman: false,
+                        sophomore: false,
+                        junior: false,
+                        senior: true,
+                        graduate: false,
+                        doctorate: false,
+                        major: None,
+                    }));
                     prereq_tokens.next();
                 }
-            }
-
-            "doctoral" | "phd" => {
-                prerequisites.push(Token::Seniority(Seniority {
-                    freshman: false,
-                    sophomore: false,
-                    junior: false,
-                    senior: false,
-                    graduate: false,
-                    doctorate: true,
-                    major: None,
-                }));
-                prereq_tokens.next();
-                if prereq_tokens.peek().is_some()
-                    && (*prereq_tokens.peek().unwrap() == "student"
-                        || *prereq_tokens.peek().unwrap() == "students")
-                {
+                "graduate" | "grad" => {
+                    prerequisites.push(Token::Seniority(Seniority {
+                        freshman: false,
+                        sophomore: false,
+                        junior: false,
+                        senior: false,
+                        graduate: true,
+                        doctorate: true,
+                        major: None,
+                    }));
                     prereq_tokens.next();
-                }
-                if prereq_tokens.peek().is_some() && (*prereq_tokens.peek().unwrap() == "only") {
-                    prereq_tokens.next();
-                }
-            }
-            "permission" | "instructor's" | "instructors" | "instructor" => {
-                prerequisites.push(Token::Permission(Permission::Instructor));
-                prereq_tokens.next();
-                loop {
                     if prereq_tokens.peek().is_some()
-                        && (*prereq_tokens.peek().unwrap() == "permission"
-                            || *prereq_tokens.peek().unwrap() == "required")
+                        && (*prereq_tokens.peek().unwrap() == "student"
+                            || *prereq_tokens.peek().unwrap() == "students")
                     {
                         prereq_tokens.next();
-                    } else {
-                        break;
+                    }
+                    if prereq_tokens.peek().is_some() && (*prereq_tokens.peek().unwrap() == "only")
+                    {
+                        prereq_tokens.next();
                     }
                 }
-            }
-            "no" => {
-                prereq_tokens.next();
-                if *prereq_tokens.peek().unwrap() != "freshmen" {
-                    bail!(
-                        "unexpected token after \"no\": \"{}\" expected \"freshmen\"",
-                        prereq_tokens.peek().unwrap()
-                    )
-                } else {
-                    prereq_tokens.next();
-                }
-                if prereq_tokens.peek().is_some() && *prereq_tokens.peek().unwrap() != "or" {
-                    bail!(
-                        "unexpected token after \"freshmen\": \"{}\" expected \"or\"",
-                        prereq_tokens.peek().unwrap()
-                    )
-                } else {
-                    prereq_tokens.next();
-                }
-                if prereq_tokens.peek().is_some() && *prereq_tokens.peek().unwrap() != "sophomores"
-                {
-                    bail!(
-                        "unexpected token after \"or\": \"{}\" expected \"sophomores\"",
-                        prereq_tokens.peek().unwrap()
-                    )
-                } else {
-                    prereq_tokens.next();
-                }
-                if prereq_tokens.peek().is_some() && *prereq_tokens.peek().unwrap() != "cohort" {
-                    bail!(
-                        "unexpected token after \"sophomores\": \"{}\" expected \"cohort\"",
-                        prereq_tokens.peek().unwrap()
-                    )
-                } else {
-                    prereq_tokens.next();
-                }
-                prerequisites.push(Token::Seniority(Seniority {
-                    freshman: false,
-                    sophomore: false,
-                    junior: true,
-                    senior: true,
-                    graduate: true,
-                    doctorate: true,
-                    major: None,
-                }));
-            }
-            "coreq" => {
-                prereq_tokens.next();
-                prerequisites.push(Token::CourseCoreq(get_course_id(&mut prereq_tokens)?));
-            }
-            "pre-/co-req" => {
-                prereq_tokens.next();
-                let course = get_course_id(&mut prereq_tokens)?;
-                prerequisites.push(Token::Logical(Logic::GroupStart));
-                prerequisites.push(Token::CoursePrereq(course.clone()));
-                prerequisites.push(Token::CourseCoreq(course.clone()));
-                prerequisites.push(Token::Logical(Logic::GroupEnd));
-            }
-            "need" => match prereq_tokens
-                .nth(5)
-                .context("tokens ended unexpected after \"need\"")?
-            {
-                "498" => prerequisites.push(Token::Permission(Permission::DeanUndergraduate)),
-                "698" => prerequisites.push(Token::Permission(Permission::DeanGraduate)),
-                _ => bail!("unexpected token 5 after \"need\", expected DEAN course number"),
-            },
-            _ => {
-                let course = get_course_id(&mut prereq_tokens)?;
-                if prereq_tokens.peek().is_some() && *prereq_tokens.peek().unwrap() == "coreq" {
-                    prerequisites.push(Token::CourseCoreq(course));
-                    prereq_tokens.next();
-                } else {
-                    prerequisites.push(Token::CoursePrereq(course));
-                }
-            }
-        };
-    }
-    println!("{:?}", prerequisites);
 
+                "doctoral" | "phd" => {
+                    prerequisites.push(Token::Seniority(Seniority {
+                        freshman: false,
+                        sophomore: false,
+                        junior: false,
+                        senior: false,
+                        graduate: false,
+                        doctorate: true,
+                        major: None,
+                    }));
+                    prereq_tokens.next();
+                    if prereq_tokens.peek().is_some()
+                        && (*prereq_tokens.peek().unwrap() == "student"
+                            || *prereq_tokens.peek().unwrap() == "students")
+                    {
+                        prereq_tokens.next();
+                    }
+                    if prereq_tokens.peek().is_some() && (*prereq_tokens.peek().unwrap() == "only")
+                    {
+                        prereq_tokens.next();
+                    }
+                }
+                "permission" | "instructor's" | "instructors" | "instructor" => {
+                    prerequisites.push(Token::Permission(Permission::Instructor));
+                    prereq_tokens.next();
+                    loop {
+                        if prereq_tokens.peek().is_some()
+                            && (*prereq_tokens.peek().unwrap() == "permission"
+                                || *prereq_tokens.peek().unwrap() == "required")
+                        {
+                            prereq_tokens.next();
+                        } else {
+                            break;
+                        }
+                    }
+                }
+                "no" => {
+                    prereq_tokens.next();
+                    if *prereq_tokens.peek().unwrap() != "freshmen" {
+                        bail!(
+                            "unexpected token after \"no\": \"{}\" expected \"freshmen\"",
+                            prereq_tokens.peek().unwrap()
+                        )
+                    } else {
+                        prereq_tokens.next();
+                    }
+                    if prereq_tokens.peek().is_some() && *prereq_tokens.peek().unwrap() != "or" {
+                        bail!(
+                            "unexpected token after \"freshmen\": \"{}\" expected \"or\"",
+                            prereq_tokens.peek().unwrap()
+                        )
+                    } else {
+                        prereq_tokens.next();
+                    }
+                    if prereq_tokens.peek().is_some()
+                        && *prereq_tokens.peek().unwrap() != "sophomores"
+                    {
+                        bail!(
+                            "unexpected token after \"or\": \"{}\" expected \"sophomores\"",
+                            prereq_tokens.peek().unwrap()
+                        )
+                    } else {
+                        prereq_tokens.next();
+                    }
+                    if prereq_tokens.peek().is_some() && *prereq_tokens.peek().unwrap() != "cohort"
+                    {
+                        bail!(
+                            "unexpected token after \"sophomores\": \"{}\" expected \"cohort\"",
+                            prereq_tokens.peek().unwrap()
+                        )
+                    } else {
+                        prereq_tokens.next();
+                    }
+                    prerequisites.push(Token::Seniority(Seniority {
+                        freshman: false,
+                        sophomore: false,
+                        junior: true,
+                        senior: true,
+                        graduate: true,
+                        doctorate: true,
+                        major: None,
+                    }));
+                }
+                "coreq" => {
+                    prereq_tokens.next();
+                    prerequisites.push(Token::CourseCoreq(get_course_id(&mut prereq_tokens)?));
+                }
+                "pre-/co-req" => {
+                    prereq_tokens.next();
+                    let course = get_course_id(&mut prereq_tokens)?;
+                    prerequisites.push(Token::Logical(Logic::GroupStart));
+                    prerequisites.push(Token::CoursePrereq(course.clone()));
+                    prerequisites.push(Token::CourseCoreq(course.clone()));
+                    prerequisites.push(Token::Logical(Logic::GroupEnd));
+                }
+                "need" => match prereq_tokens
+                    .nth(5)
+                    .context("tokens ended unexpected after \"need\"")?
+                {
+                    "498" => prerequisites.push(Token::Permission(Permission::DeanUndergraduate)),
+                    "698" => prerequisites.push(Token::Permission(Permission::DeanGraduate)),
+                    _ => bail!("unexpected token 5 after \"need\", expected DEAN course number"),
+                },
+                _ => {
+                    let course = get_course_id(&mut prereq_tokens)?;
+                    if prereq_tokens.peek().is_some() && *prereq_tokens.peek().unwrap() == "coreq" {
+                        prerequisites.push(Token::CourseCoreq(course));
+                        prereq_tokens.next();
+                    } else {
+                        prerequisites.push(Token::CoursePrereq(course));
+                    }
+                }
+            };
+        }
+        Ok(())
+    };
+    match get_prereqs() {
+        Err(e) => Err(e).context(format!("ID: {} - Link: {}", id, link))?,
+        _ => {}
+    }
     let distribution = match element
         .select(&Selector::parse("div").unwrap())
         .find(|element| element.value().attr("id") == Some("distribution"))
