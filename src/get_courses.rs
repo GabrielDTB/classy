@@ -1,4 +1,5 @@
 use anyhow::{bail, Context, Result};
+use futures::stream::*;
 use indicatif::ProgressBar;
 use reqwest::Client;
 use scraper::{Html, Selector};
@@ -9,26 +10,49 @@ use std::collections::BTreeSet;
 pub async fn do_stuff() -> Result<()> {
     let mut courses = Vec::new();
     let links = get_course_links().await?;
+    let links_iter = links.iter();
     let client = Client::new();
-    let bar = ProgressBar::new(links.len().try_into().unwrap());
+    //let bar = ProgressBar::new(links.len().try_into().unwrap());
     let mut errors = Vec::new();
-    for link in links {
-        // This code is sequential, which defeats the whole purpose of async'ing everything,
-        // but converting it to async is kinda hard with the way it's set up.
-        match get_course(&link.to_lowercase(), &client).await {
+    let mut futures = FuturesOrdered::new();
+    let mut interval = tokio::time::interval(std::time::Duration::from_millis(50));
+
+    for link in links_iter {
+        futures.push_back(get_course(&link, &client));
+        if futures.len() == 2 {
+            interval.tick().await;
+            match futures.next().await.unwrap() {
+                Ok(course) => courses.push(course),
+                Err(e) => errors.push(e),
+            }
+            //bar.inc(1);
+        }
+    }
+    while let Some(result) = futures.next().await {
+        match result {
             Ok(course) => courses.push(course),
             Err(e) => errors.push(e),
-        };
-        bar.inc(1);
-        //println!("{:?}", courses.last().unwrap());
+        }
+        //bar.inc(1);
     }
+
+    // for link in links {
+    //     // This code is sequential, which defeats the whole purpose of async'ing everything,
+    //     // but converting it to async is kinda hard with the way it's set up.
+    //     match get_course(&link.to_lowercase(), &client).await {
+    //         Ok(course) => courses.push(course),
+    //         Err(e) => errors.push(e),
+    //     };
+    //     bar.inc(1);
+    //     //println!("{:?}", courses.last().unwrap());
+    // }
+    //bar.finish();
     println!("{}", errors.len());
-    bar.finish();
-    tokio::fs::write(
-        "courses.json",
-        serde_json::to_string_pretty(&courses).unwrap(),
-    )
-    .await?;
+    // tokio::fs::write(
+    //     "courses.json",
+    //     serde_json::to_string_pretty(&courses).unwrap(),
+    // )
+    // .await?;
 
     Ok(())
 }
@@ -57,9 +81,10 @@ async fn get_course_links() -> Result<BTreeSet<String>> {
                 };
                 courses.insert(
                     "https://stevens.smartcatalogiq.com/en".to_string()
-                        + course["Path"]
+                        + &*course["Path"]
                             .as_str()
-                            .context("\"Path\" field missing from course")?,
+                            .context("\"Path\" field missing from course")?
+                            .to_lowercase(),
                 );
             }
         }
@@ -308,23 +333,6 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                 prerequisites.push(Token::Logical(Logic::GroupEnd));
                 prereq_tokens.next();
             }
-            "/" => {
-                prerequisites.push(Token::Logical(Logic::Equivalence));
-                prereq_tokens.next();
-            }
-            "graduate" | "grad" => {
-                prerequisites.push(Token::Seniority(Seniority {
-                    freshman: false,
-                    sophomore: false,
-                    junior: false,
-                    senior: false,
-                    graduate: true,
-                    doctorate: true,
-                    major: None,
-                }));
-
-                prereq_tokens.next();
-            }
             "at" => {
                 if prereq_tokens
                     .nth(1)
@@ -375,6 +383,28 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                 }));
                 prereq_tokens.next();
             }
+            "graduate" | "grad" => {
+                prerequisites.push(Token::Seniority(Seniority {
+                    freshman: false,
+                    sophomore: false,
+                    junior: false,
+                    senior: false,
+                    graduate: true,
+                    doctorate: true,
+                    major: None,
+                }));
+                prereq_tokens.next();
+                if prereq_tokens.peek().is_some()
+                    && (*prereq_tokens.peek().unwrap() == "student"
+                        || *prereq_tokens.peek().unwrap() == "students")
+                {
+                    prereq_tokens.next();
+                }
+                if prereq_tokens.peek().is_some() && (*prereq_tokens.peek().unwrap() == "only") {
+                    prereq_tokens.next();
+                }
+            }
+
             "doctoral" | "phd" => {
                 prerequisites.push(Token::Seniority(Seniority {
                     freshman: false,
@@ -386,6 +416,15 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                     major: None,
                 }));
                 prereq_tokens.next();
+                if prereq_tokens.peek().is_some()
+                    && (*prereq_tokens.peek().unwrap() == "student"
+                        || *prereq_tokens.peek().unwrap() == "students")
+                {
+                    prereq_tokens.next();
+                }
+                if prereq_tokens.peek().is_some() && (*prereq_tokens.peek().unwrap() == "only") {
+                    prereq_tokens.next();
+                }
             }
             "permission" | "instructor's" | "instructors" | "instructor" => {
                 prerequisites.push(Token::Permission(Permission::Instructor));
