@@ -15,7 +15,7 @@ pub async fn do_stuff() -> Result<()> {
     let bar = ProgressBar::new(links.len().try_into().unwrap());
     let mut errors = Vec::new();
     let mut futures = FuturesOrdered::new();
-    let batch_size: usize = 15;
+    let batch_size: usize = 1;
     let mut interval = tokio::time::interval(std::time::Duration::from_millis(batch_size as u64));
 
     for link in links_iter {
@@ -98,7 +98,6 @@ struct Seniority {
     pub senior: bool,
     pub graduate: bool,
     pub doctorate: bool,
-    pub major: Option<String>,
 }
 #[derive(Serialize, Deserialize, Debug, Clone)]
 enum Permission {
@@ -107,12 +106,18 @@ enum Permission {
     Instructor,
 }
 #[derive(Serialize, Deserialize, Debug, Clone)]
+enum Special {
+    Major(String),
+    Pinnacle(bool),
+}
+#[derive(Serialize, Deserialize, Debug, Clone)]
 enum Token {
     CoursePrereq(String),
     CourseCoreq(String),
     Logical(Logic),
     Seniority(Seniority),
     Permission(Permission),
+    Special(Special),
 }
 
 async fn get_course(link: &str, client: &Client) -> Result<Course> {
@@ -239,6 +244,9 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
     let mut get_prereqs = || {
         while prereq_tokens.peek().is_some() {
             match *prereq_tokens.peek().unwrap() {
+                "complete" => {
+                    prereq_tokens.next(); // Skip
+                }
                 "or" => {
                     prerequisites.push(Token::Logical(Logic::Or));
                     prereq_tokens.next();
@@ -272,12 +280,42 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                                 senior: true,
                                 graduate: true,
                                 doctorate: true,
-                                major: None,
                             })),
                             _ => bail!("{}", prereq_tokens.next().unwrap()), // TODO Add error message
                         }
                     } else {
                         bail!("unexpected token following \"at\"")
+                    }
+                }
+                "freshman" | "freshmen" => {
+                    if let Some(t) = prereq_tokens.nth(1) {
+                        match t {
+                            "pinnacle" => {
+                                if prereq_tokens.peek().is_some()
+                                    && *prereq_tokens.peek().unwrap() == "scholars"
+                                {
+                                    prereq_tokens.next();
+                                }
+                                if prereq_tokens.peek().is_some()
+                                    && *prereq_tokens.peek().unwrap() == "only"
+                                {
+                                    prereq_tokens.next();
+                                }
+                                prerequisites.push(Token::Seniority(Seniority {
+                                    freshman: true,
+                                    sophomore: false,
+                                    junior: false,
+                                    senior: false,
+                                    graduate: false,
+                                    doctorate: false,
+                                }));
+                                prerequisites.push(Token::Logical(Logic::And));
+                                prerequisites.push(Token::Special(Special::Pinnacle(true)));
+                            }
+                            _ => bail!("unexpected token \"{}\" after freshm[ae]n", t),
+                        }
+                    } else {
+                        bail!("tokens unexpectedly ended after \"freshm[ae]n\"");
                     }
                 }
                 "junior" | "juniors" => {
@@ -288,7 +326,6 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                         senior: false,
                         graduate: false,
                         doctorate: false,
-                        major: None,
                     }));
                     prereq_tokens.next();
                 }
@@ -300,19 +337,6 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                         senior: true,
                         graduate: false,
                         doctorate: false,
-                        major: None,
-                    }));
-                    prereq_tokens.next();
-                }
-                "graduate" | "grad" => {
-                    prerequisites.push(Token::Seniority(Seniority {
-                        freshman: false,
-                        sophomore: false,
-                        junior: false,
-                        senior: false,
-                        graduate: true,
-                        doctorate: true,
-                        major: None,
                     }));
                     prereq_tokens.next();
                     if prereq_tokens.peek().is_some()
@@ -324,6 +348,36 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                     if prereq_tokens.peek().is_some() && (*prereq_tokens.peek().unwrap() == "only")
                     {
                         prereq_tokens.next();
+                    }
+                }
+                "graduate" | "grad" => {
+                    prereq_tokens.next();
+                    if prereq_tokens.peek().is_some()
+                        && (*prereq_tokens.peek().unwrap() == "student"
+                            || *prereq_tokens.peek().unwrap() == "students")
+                    {
+                        prereq_tokens.next();
+                    }
+                    if prereq_tokens.peek().is_some() && (*prereq_tokens.peek().unwrap() == "only")
+                    {
+                        prerequisites.push(Token::Seniority(Seniority {
+                            freshman: false,
+                            sophomore: false,
+                            junior: false,
+                            senior: false,
+                            graduate: true,
+                            doctorate: false,
+                        }));
+                        prereq_tokens.next();
+                    } else {
+                        prerequisites.push(Token::Seniority(Seniority {
+                            freshman: false,
+                            sophomore: false,
+                            junior: false,
+                            senior: false,
+                            graduate: true,
+                            doctorate: true,
+                        }));
                     }
                 }
 
@@ -335,7 +389,6 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                         senior: false,
                         graduate: false,
                         doctorate: true,
-                        major: None,
                     }));
                     prereq_tokens.next();
                     if prereq_tokens.peek().is_some()
@@ -349,17 +402,20 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                         prereq_tokens.next();
                     }
                 }
+                "with" => {}
                 "permission" | "instructor's" | "instructors" | "instructor" => {
                     prerequisites.push(Token::Permission(Permission::Instructor));
                     prereq_tokens.next();
-                    loop {
-                        if prereq_tokens.peek().is_some()
-                            && (*prereq_tokens.peek().unwrap() == "permission"
-                                || *prereq_tokens.peek().unwrap() == "required")
-                        {
-                            prereq_tokens.next();
+                    'outer: loop {
+                        if prereq_tokens.peek().is_some() {
+                            match *prereq_tokens.peek().unwrap() {
+                                "permission" | "required" | "of" => {
+                                    prereq_tokens.next();
+                                }
+                                _ => break 'outer,
+                            }
                         } else {
-                            break;
+                            break 'outer;
                         }
                     }
                 }
@@ -407,7 +463,6 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                         senior: true,
                         graduate: true,
                         doctorate: true,
-                        major: None,
                     }));
                 }
                 "coreq" => {
