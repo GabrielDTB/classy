@@ -633,8 +633,24 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                 pre("bme 306"),
             ]
         }
-        "bme 424" => prerequisites = vec![],
-        "" => prerequisites = vec![],
+        "bme 424" => prerequisites = vec![cor("ide 402"), AND, pre("bme 423")],
+        "bme 520" => {
+            prerequisites = vec![
+                START,
+                pre("bio 281"),
+                AND,
+                pre("ma 221"),
+                AND,
+                pre("pep 221"),
+                END,
+                OR,
+                BEGIN,
+                major("bio med"),
+                AND,
+                GRADUATE,
+                END,
+            ]
+        }
         "" => prerequisites = vec![],
         "" => prerequisites = vec![],
         "" => prerequisites = vec![],

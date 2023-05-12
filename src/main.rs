@@ -3,11 +3,13 @@ mod get_courses;
 use std::env;
 
 use anyhow::{bail, Result};
+use get_courses::Course;
 use serenity::async_trait;
 use serenity::model::channel::Message;
 use serenity::model::gateway::Ready;
 use serenity::prelude::*;
 use serenity::utils::MessageBuilder;
+use std::collections::HashSet;
 
 struct Handler;
 
@@ -74,3 +76,25 @@ async fn main() -> Result<()> {
     }
     Ok(())
 }
+
+fn query_course(courses: HashSet<Course>, quarry: &str) -> Option<Course> {
+    // Separate course prefix from numbers and reorder to allow for more acceptable queries
+    let mut prefix = Vec::with_capacity(8);
+    let mut numbers = Vec::with_capacity(3);
+    for char in quarry
+        .to_ascii_uppercase()
+        .chars()
+        .filter(|c| c.is_alphanumeric())
+    {
+        match char.is_digit(10) {
+            true => numbers.push(char),
+            false => prefix.push(char),
+        }
+    }
+    prefix.push(' ');
+    prefix.append(&mut numbers);
+    let id = prefix.into_iter().collect::<String>();
+    courses.get(&id)
+}
+
+fn format_for_discord(course: Course) -> String {}
