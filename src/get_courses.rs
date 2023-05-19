@@ -6,8 +6,11 @@ use scraper::{Html, Selector};
 use serde::{Deserialize, Serialize};
 use serde_json;
 use std::collections::BTreeSet;
+use std::collections::HashMap;
+use tokio::fs::File;
+use tokio::io::{AsyncReadExt, AsyncWriteExt};
 
-pub async fn do_stuff() -> Result<()> {
+pub async fn do_stuff() -> Result<HashMap<String, Course>> {
     let mut courses = Vec::new();
     let links = get_course_links().await?;
     let links_iter = links.iter();
@@ -43,8 +46,12 @@ pub async fn do_stuff() -> Result<()> {
     //     serde_json::to_string_pretty(&courses).unwrap(),
     // )
     // .await?;
+    let mut out_courses = HashMap::<String, Course>::new();
+    for course in courses {
+        out_courses.insert(course.id.to_owned(), course);
+    }
 
-    Ok(())
+    Ok(out_courses)
 }
 
 async fn get_course_links() -> Result<BTreeSet<String>> {
@@ -82,139 +89,21 @@ async fn get_course_links() -> Result<BTreeSet<String>> {
     Ok(courses)
 }
 
-#[derive(Serialize, Deserialize, Debug, Clone)]
-enum Logic {
-    Or,
-    And,
-    GroupStart,
-    GroupEnd,
-    Equivalence,
-}
-const OR: Token = Token::Logical(Logic::Or);
-const AND: Token = Token::Logical(Logic::And);
-const START: Token = Token::Logical(Logic::GroupStart);
-const END: Token = Token::Logical(Logic::GroupEnd);
-const EQUIVALENCE: Token = Token::Logical(Logic::Equivalence);
-#[derive(Serialize, Deserialize, Debug, Clone)]
-struct Seniority {
-    pub certificate: bool,
-    pub freshman: bool,
-    pub sophomore: bool,
-    pub junior: bool,
-    pub senior: bool,
-    pub graduate: bool,
-    pub doctorate: bool,
-}
-const CERTIFICATE: Token = Token::Seniority(Seniority {
-    certificate: true,
-    freshman: false,
-    sophomore: false,
-    junior: false,
-    senior: false,
-    graduate: false,
-    doctorate: false,
-});
-const FRESHMAN: Token = Token::Seniority(Seniority {
-    certificate: true,
-    freshman: true,
-    sophomore: false,
-    junior: false,
-    senior: false,
-    graduate: false,
-    doctorate: false,
-});
-const JUNIOR: Token = Token::Seniority(Seniority {
-    certificate: true,
-    freshman: false,
-    sophomore: false,
-    junior: true,
-    senior: false,
-    graduate: false,
-    doctorate: false,
-});
-const AT_LEAST_JUNIOR: Token = Token::Seniority(Seniority {
-    certificate: true,
-    freshman: false,
-    sophomore: false,
-    junior: true,
-    senior: true,
-    graduate: false,
-    doctorate: false,
-});
-const SENIOR: Token = Token::Seniority(Seniority {
-    certificate: true,
-    freshman: false,
-    sophomore: false,
-    junior: true,
-    senior: false,
-    graduate: false,
-    doctorate: false,
-});
-const GRADUATE_ONLY: Token = Token::Seniority(Seniority {
-    certificate: true,
-    freshman: false,
-    sophomore: false,
-    junior: false,
-    senior: false,
-    graduate: true,
-    doctorate: true,
-});
-const GRADUATE: Token = Token::Seniority(Seniority {
-    certificate: true,
-    freshman: false,
-    sophomore: false,
-    junior: false,
-    senior: false,
-    graduate: true,
-    doctorate: false,
-});
-const DOCTORATE: Token = Token::Seniority(Seniority {
-    certificate: true,
-    freshman: false,
-    sophomore: false,
-    junior: false,
-    senior: false,
-    graduate: false,
-    doctorate: true,
-});
-
-#[derive(Serialize, Deserialize, Debug, Clone)]
-enum Permission {
-    DeanUndergraduate,
-    DeanGraduate,
-    Instructor,
-}
-const DEAN_GRADUATE: Token = Token::Permission(Permission::DeanGraduate);
-const DEAN_UNDERGRADUATE: Token = Token::Permission(Permission::DeanUndergraduate);
-const INSTRUCTOR: Token = Token::Permission(Permission::Instructor);
-#[derive(Serialize, Deserialize, Debug, Clone)]
-enum Special {
-    Major(String),
-    Pinnacle(bool),
-    Cgpa(String),
-}
-#[derive(Serialize, Deserialize, Debug, Clone)]
-enum Token {
-    CoursePrereq(String),
-    CourseCoreq(String),
-    Logical(Logic),
-    Seniority(Seniority),
-    Permission(Permission),
-    Special(Special),
-}
-fn pre(name: &str) -> Token {
-    Token::CoursePrereq(name.to_owned())
-}
-fn cor(name: &str) -> Token {
-    Token::CourseCoreq(name.to_owned())
-}
-fn major(name: &str) -> Token {
-    Token::Special(Special::Major(name.to_owned()))
-}
-
 async fn get_course(link: &str, client: &Client) -> Result<Course> {
-    let response = client.get(link).send().await?.text().await?;
-    let html = Html::parse_document(&response);
+    let html;
+    let file_path = format!("resources/responses/{}", link.replace("/", "%"));
+    match File::open(file_path.clone()).await {
+        Ok(mut file) => {
+            let mut lines = String::new();
+            file.read_to_string(&mut lines).await?;
+            html = Html::parse_document(&*lines);
+        }
+        _ => {
+            let response = client.get(link).send().await?.text().await?;
+            html = Html::parse_document(&response);
+            tokio::fs::write(file_path, response).await?;
+        }
+    };
     let element = match html
         .select(&Selector::parse("div").unwrap())
         .find(|element| element.value().attr("id") == Some("main"))
@@ -222,7 +111,7 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
         Some(value) => value,
         _ => bail!(
             "page did not have an element of the required selector\n{:#?}",
-            response
+            html
         ),
     };
     let flatten = regex::Regex::new(r"\s+").unwrap();
@@ -644,7 +533,7 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                 pre("pep 221"),
                 END,
                 OR,
-                BEGIN,
+                START,
                 major("bio med"),
                 AND,
                 GRADUATE,
@@ -724,7 +613,7 @@ impl Iterator for Counter {
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
-struct Course {
+pub struct Course {
     pub id: String,
     pub name: String,
     pub description: String,
@@ -733,4 +622,134 @@ struct Course {
     pub offered: BTreeSet<String>,
     pub distribution: BTreeSet<String>,
     pub link: String,
+}
+
+#[derive(Serialize, Deserialize, Debug, Clone)]
+enum Logic {
+    Or,
+    And,
+    GroupStart,
+    GroupEnd,
+    Equivalence,
+}
+const OR: Token = Token::Logical(Logic::Or);
+const AND: Token = Token::Logical(Logic::And);
+const START: Token = Token::Logical(Logic::GroupStart);
+const END: Token = Token::Logical(Logic::GroupEnd);
+const EQUIVALENCE: Token = Token::Logical(Logic::Equivalence);
+#[derive(Serialize, Deserialize, Debug, Clone)]
+struct Seniority {
+    pub certificate: bool,
+    pub freshman: bool,
+    pub sophomore: bool,
+    pub junior: bool,
+    pub senior: bool,
+    pub graduate: bool,
+    pub doctorate: bool,
+}
+const CERTIFICATE: Token = Token::Seniority(Seniority {
+    certificate: true,
+    freshman: false,
+    sophomore: false,
+    junior: false,
+    senior: false,
+    graduate: false,
+    doctorate: false,
+});
+const FRESHMAN: Token = Token::Seniority(Seniority {
+    certificate: true,
+    freshman: true,
+    sophomore: false,
+    junior: false,
+    senior: false,
+    graduate: false,
+    doctorate: false,
+});
+const JUNIOR: Token = Token::Seniority(Seniority {
+    certificate: true,
+    freshman: false,
+    sophomore: false,
+    junior: true,
+    senior: false,
+    graduate: false,
+    doctorate: false,
+});
+const AT_LEAST_JUNIOR: Token = Token::Seniority(Seniority {
+    certificate: true,
+    freshman: false,
+    sophomore: false,
+    junior: true,
+    senior: true,
+    graduate: false,
+    doctorate: false,
+});
+const SENIOR: Token = Token::Seniority(Seniority {
+    certificate: true,
+    freshman: false,
+    sophomore: false,
+    junior: true,
+    senior: false,
+    graduate: false,
+    doctorate: false,
+});
+const GRADUATE_ONLY: Token = Token::Seniority(Seniority {
+    certificate: true,
+    freshman: false,
+    sophomore: false,
+    junior: false,
+    senior: false,
+    graduate: true,
+    doctorate: true,
+});
+const GRADUATE: Token = Token::Seniority(Seniority {
+    certificate: true,
+    freshman: false,
+    sophomore: false,
+    junior: false,
+    senior: false,
+    graduate: true,
+    doctorate: false,
+});
+const DOCTORATE: Token = Token::Seniority(Seniority {
+    certificate: true,
+    freshman: false,
+    sophomore: false,
+    junior: false,
+    senior: false,
+    graduate: false,
+    doctorate: true,
+});
+
+#[derive(Serialize, Deserialize, Debug, Clone)]
+enum Permission {
+    DeanUndergraduate,
+    DeanGraduate,
+    Instructor,
+}
+const DEAN_GRADUATE: Token = Token::Permission(Permission::DeanGraduate);
+const DEAN_UNDERGRADUATE: Token = Token::Permission(Permission::DeanUndergraduate);
+const INSTRUCTOR: Token = Token::Permission(Permission::Instructor);
+#[derive(Serialize, Deserialize, Debug, Clone)]
+enum Special {
+    Major(String),
+    Pinnacle(bool),
+    Cgpa(String),
+}
+#[derive(Serialize, Deserialize, Debug, Clone)]
+pub enum Token {
+    CoursePrereq(String),
+    CourseCoreq(String),
+    Logical(Logic),
+    Seniority(Seniority),
+    Permission(Permission),
+    Special(Special),
+}
+fn pre(name: &str) -> Token {
+    Token::CoursePrereq(name.to_owned())
+}
+fn cor(name: &str) -> Token {
+    Token::CourseCoreq(name.to_owned())
+}
+fn major(name: &str) -> Token {
+    Token::Special(Special::Major(name.to_owned()))
 }

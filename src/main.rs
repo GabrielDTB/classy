@@ -9,14 +9,29 @@ use serenity::model::channel::Message;
 use serenity::model::gateway::Ready;
 use serenity::prelude::*;
 use serenity::utils::MessageBuilder;
-use std::collections::HashSet;
+use std::cell::RefCell;
+use std::collections::HashMap;
+use thiserror::Error;
+
+#[derive(Error, Debug)]
+pub enum CourseQueryError {
+    #[error("course distribution `{distribution}` not found in course list")]
+    DistributionNotFound { distribution: String },
+    #[error("course `{course_id}` is not available")]
+    CourseNotFound { course_id: String },
+}
 
 struct Handler;
+
+const PREFIX: &str = "!classy";
+thread_local! {
+    static COURSES: RefCell<HashMap<String, Course>> = RefCell::new(HashMap::new());
+}
 
 #[async_trait]
 impl EventHandler for Handler {
     async fn message(&self, context: Context, msg: Message) {
-        if msg.content.starts_with("!classy") {
+        if msg.content.starts_with(PREFIX) {
             let channel = match msg.channel_id.to_channel(&context).await {
                 Ok(channel) => channel,
                 Err(why) => {
@@ -25,30 +40,32 @@ impl EventHandler for Handler {
                     return;
                 }
             };
-            let mut response: String;
-            let command = msg.content.split_once("!class").unwrap().1.trim();
+            let command = msg.content.split_once(PREFIX).unwrap().1.trim();
             if command.starts_with("query") {
                 let body = command.split_once("query").unwrap().1.trim();
-                let body = body
-                    .chars()
-                    .filter(|c| *c != ' ' && *c != ',' && *c != '-' && *c != '_')
-                    .collect::<String>()
-                    .to_uppercase();
-            }
-            // The message builder allows for creating a message by
-            // mentioning users dynamically, pushing "safe" versions of
-            // content (such as bolding normalized content), displaying
-            // emojis, and more.
-            let response = MessageBuilder::new()
-                .push("User ")
-                .push_bold_safe(&msg.author.name)
-                .push(" used the 'ping' command in the ")
-                .mention(&channel)
-                .push(" channel")
-                .build();
+                let response = match query_course(&*body) {
+                    Ok(course) => format_for_discord(&course),
+                    _ => "Couldn't find course".to_owned(),
+                };
+                if let Err(why) = msg.channel_id.say(&context.http, &response).await {
+                    println!("Error sending message: {:?}", why);
+                }
+            } else {
+                // The message builder allows for creating a message by
+                // mentioning users dynamically, pushing "safe" versions of
+                // content (such as bolding normalized content), displaying
+                // emojis, and more.
+                let response = MessageBuilder::new()
+                    .push("User ")
+                    .push_bold_safe(&msg.author.name)
+                    .push(" used the 'ping' command in the ")
+                    .mention(&channel)
+                    .push(" channel")
+                    .build();
 
-            if let Err(why) = msg.channel_id.say(&context.http, &response).await {
-                println!("Error sending message: {:?}", why);
+                if let Err(why) = msg.channel_id.say(&context.http, &response).await {
+                    println!("Error sending message: {:?}", why);
+                }
             }
         }
     }
@@ -60,7 +77,14 @@ impl EventHandler for Handler {
 
 #[tokio::main]
 async fn main() -> Result<()> {
-    get_courses::do_stuff().await?;
+    let courses = get_courses::do_stuff().await?;
+    COURSES.with(|refer| {
+        let mut c = refer.borrow_mut();
+        for key in courses.keys() {
+            c.insert(key.to_owned(), courses.get(key).unwrap().clone());
+        }
+        ()
+    });
     // Configure the client with your Discord bot token in the environment.
     let token = env::var("DISCORD_TOKEN").expect("Expected a token in the environment");
     let intents = GatewayIntents::GUILD_MESSAGES
@@ -77,24 +101,46 @@ async fn main() -> Result<()> {
     Ok(())
 }
 
-fn query_course(courses: HashSet<Course>, quarry: &str) -> Option<Course> {
-    // Separate course prefix from numbers and reorder to allow for more acceptable queries
-    let mut prefix = Vec::with_capacity(8);
-    let mut numbers = Vec::with_capacity(3);
-    for char in quarry
-        .to_ascii_uppercase()
-        .chars()
-        .filter(|c| c.is_alphanumeric())
-    {
-        match char.is_digit(10) {
-            true => numbers.push(char),
-            false => prefix.push(char),
+fn query_course(quarry: &str) -> Result<Course, CourseQueryError> {
+    let mut r = Err(CourseQueryError::CourseNotFound {
+        course_id: "".into(),
+    });
+    COURSES.with(|refer| {
+        let courses = refer.borrow();
+        // Separate course prefix from numbers and reorder to allow for more acceptable queries
+        let letters = quarry
+            .chars()
+            .filter(|c| c.is_ascii_alphabetic())
+            .map(|c| c.to_ascii_lowercase())
+            .collect::<String>();
+        let numbers = quarry
+            .chars()
+            .filter(|c| c.is_ascii_digit())
+            .collect::<String>();
+        if let Some(course) = courses.get(&(format!("{letters} {numbers}"))) {
+            r = Ok(course.clone());
+        } else if !courses.keys().any(|s| s.contains(&letters)) {
+            r = Err(CourseQueryError::DistributionNotFound {
+                distribution: letters,
+            });
+        } else {
+            r = Err(CourseQueryError::CourseNotFound {
+                course_id: letters + " " + &*numbers,
+            });
         }
-    }
-    prefix.push(' ');
-    prefix.append(&mut numbers);
-    let id = prefix.into_iter().collect::<String>();
-    courses.get(&id)
+    });
+    r
 }
 
-fn format_for_discord(course: Course) -> String {}
+fn format_for_discord(course: &Course) -> String {
+    let name = format!("**{} -- {}**", course.id, course.name);
+    let description = format!("*{}*", course.description);
+    let credits = format!("Credits: {}", course.id);
+    let prerequisites = format!("Prerequisites: {:?}", course.prerequisites);
+    let offered = format!("Offered: {:?}", course.offered);
+    let distribution = format!("Distribution: {:?}", course.distribution);
+    let link = &course.link;
+    format!(
+        "{name}\n\n{description}\n\n{credits}\n{prerequisites}\n{offered}\n{distribution}\n{link}"
+    )
+}
