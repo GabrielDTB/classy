@@ -30,7 +30,7 @@ pub async fn do_stuff() -> Result<HashMap<String, Course>> {
             }
         }
         bar.inc(1);
-        interval.tick().await;
+        //interval.tick().await;
     }
     while let Some(result) = futures.next().await {
         match result {
@@ -39,7 +39,7 @@ pub async fn do_stuff() -> Result<HashMap<String, Course>> {
         }
     }
     bar.finish();
-    println!("{:#?}", errors);
+    //println!("{:#?}", errors);
     println!("Total Errors: {}", errors.len());
     // tokio::fs::write(
     //     "courses.json",

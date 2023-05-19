@@ -14,7 +14,9 @@ serde = "1"
 anyhow = "1"
 regex = "1"
 indicatif = "0.17"
-serenity = { default-features = false, features = ["client", "gateway", "rustls_backend", "model"] }
+serenity = { default-features = false, features = ["client", "gateway", "rustls_backend", "model", "builder"] }
 tokio = { version = "1.0", features = ["full"] }
 futures = "0.3.28"
 thiserror = "1"
+lazy_static = "1.4"
+async_once = "0.2.6"
