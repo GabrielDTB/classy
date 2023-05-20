@@ -274,7 +274,13 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                         .peek()
                         .context("tokens unexpectedly ended in \"at\" branch")?
                     {
-                        "junior" => prerequisites.push(AT_LEAST_JUNIOR),
+                        "junior" => {
+                            prerequisites.push(START);
+                            prerequisites.push(JUNIOR);
+                            prerequisites.push(OR);
+                            prerequisites.push(SENIOR);
+                            prerequisites.push(END);
+                        }
                         _ => bail!(
                             "unexpected token within \"at\" branch: {}",
                             prereq_tokens.next().unwrap()
@@ -291,7 +297,11 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                     if prereq_tokens.peek().is_some() {
                         match *prereq_tokens.peek().unwrap() {
                             "standing" => {
-                                prerequisites.push(AT_LEAST_JUNIOR);
+                                prerequisites.push(START);
+                                prerequisites.push(JUNIOR);
+                                prerequisites.push(OR);
+                                prerequisites.push(SENIOR);
+                                prerequisites.push(END);
                                 prereq_tokens.next();
                             }
                             _ => prerequisites.push(JUNIOR),
@@ -324,10 +334,14 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                     }
                     if prereq_tokens.peek().is_some() && (*prereq_tokens.peek().unwrap() == "only")
                     {
-                        prerequisites.push(GRADUATE_ONLY);
+                        prerequisites.push(GRADUATE);
                         prereq_tokens.next();
                     } else {
+                        prerequisites.push(START);
                         prerequisites.push(GRADUATE);
+                        prerequisites.push(OR);
+                        prerequisites.push(DOCTORATE);
+                        prerequisites.push(END);
                     }
                 }
 
@@ -443,7 +457,11 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
                     } else {
                         prereq_tokens.next();
                     }
-                    prerequisites.push(AT_LEAST_JUNIOR);
+                    prerequisites.push(START);
+                    prerequisites.push(JUNIOR);
+                    prerequisites.push(OR);
+                    prerequisites.push(SENIOR);
+                    prerequisites.push(END);
                 }
                 "coreq" => {
                     prereq_tokens.next();
@@ -593,16 +611,37 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
     })
 }
 
+fn simplify_prerequisites(tokens: &mut Vec<Token>) -> bool {
+    // Remove parenthesis enclosing groups of size 0 or 1
+
+    // Search for two adjacent groups containing only one type of operator connected by the same
+    // operator and combine them into the same group
+
+    // If a higher ranking seniority token is to the left of a lower ranking one, swap them
+
+    // If a class' id evaluates to less than a left adjacent class, swap them
+
+    // Search for...
+    // "Exactly Freshman or Exactly Sophomore or Exactly Junior or Exactly Senior or Exactly Graduate or Exactly Doctorate"
+    // and replace it with "Minimum Freshman"
+    // then search for...
+    // "Exactly Sophomore or Exactly Junior or Exactly Senior or Exactly Graduate or Exactly Doctorate"
+    // and replace it with "Minimum Sophomore"
+    // all the way to...
+    // "Exactly Graduate or Exactly Doctorate"
+    // and replace it with "Minimum Graduate"
+
+    false
+}
+
 struct Counter {
     current: usize,
 }
-
 impl Counter {
     fn new(start: usize) -> Counter {
         Counter { current: start }
     }
 }
-
 impl Iterator for Counter {
     type Item = usize;
 
@@ -625,7 +664,7 @@ pub struct Course {
     pub link: String,
 }
 
-#[derive(Serialize, Deserialize, Debug, Clone)]
+#[derive(Serialize, Deserialize, PartialEq, Eq, Debug, Clone)]
 enum Logic {
     Or,
     And,
@@ -635,7 +674,7 @@ enum Logic {
 }
 impl std::fmt::Display for Logic {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        match *self {
+        match self {
             Logic::Or => write!(f, "or"),
             Logic::And => write!(f, "and"),
             Logic::GroupStart => write!(f, "("),
@@ -649,100 +688,74 @@ const AND: Token = Token::Logical(Logic::And);
 const START: Token = Token::Logical(Logic::GroupStart);
 const END: Token = Token::Logical(Logic::GroupEnd);
 const EQUIVALENCE: Token = Token::Logical(Logic::Equivalence);
-#[derive(Serialize, Deserialize, Debug, Clone)]
-struct Seniority {
-    pub certificate: bool,
-    pub freshman: bool,
-    pub sophomore: bool,
-    pub junior: bool,
-    pub senior: bool,
-    pub graduate: bool,
-    pub doctorate: bool,
-}
-// impl std::fmt::Display for Seniority {
-//     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-//         let mut s = String::from("(");
-//         if *self.certificate {
-//             s += "Certificate";
-//         };
-//
-//         write!(f, "{}", s)
-//     }
-// }
-const CERTIFICATE: Token = Token::Seniority(Seniority {
-    certificate: true,
-    freshman: false,
-    sophomore: false,
-    junior: false,
-    senior: false,
-    graduate: false,
-    doctorate: false,
-});
-const FRESHMAN: Token = Token::Seniority(Seniority {
-    certificate: false,
-    freshman: true,
-    sophomore: false,
-    junior: false,
-    senior: false,
-    graduate: false,
-    doctorate: false,
-});
-const JUNIOR: Token = Token::Seniority(Seniority {
-    certificate: false,
-    freshman: false,
-    sophomore: false,
-    junior: true,
-    senior: false,
-    graduate: false,
-    doctorate: false,
-});
-const AT_LEAST_JUNIOR: Token = Token::Seniority(Seniority {
-    certificate: false,
-    freshman: false,
-    sophomore: false,
-    junior: true,
-    senior: true,
-    graduate: false,
-    doctorate: false,
-});
-const SENIOR: Token = Token::Seniority(Seniority {
-    certificate: false,
-    freshman: false,
-    sophomore: false,
-    junior: false,
-    senior: true,
-    graduate: false,
-    doctorate: false,
-});
-const GRADUATE_ONLY: Token = Token::Seniority(Seniority {
-    certificate: false,
-    freshman: false,
-    sophomore: false,
-    junior: false,
-    senior: false,
-    graduate: true,
-    doctorate: true,
-});
-const GRADUATE: Token = Token::Seniority(Seniority {
-    certificate: false,
-    freshman: false,
-    sophomore: false,
-    junior: false,
-    senior: false,
-    graduate: true,
-    doctorate: false,
-});
-const DOCTORATE: Token = Token::Seniority(Seniority {
-    certificate: false,
-    freshman: false,
-    sophomore: false,
-    junior: false,
-    senior: false,
-    graduate: false,
-    doctorate: true,
-});
 
-#[derive(Serialize, Deserialize, Debug, Clone)]
+#[derive(Serialize, Deserialize, PartialEq, Eq, Debug, Clone)]
+pub enum Seniority {
+    Minimum(MinimumSeniority),
+    Exact(ExactSeniority),
+}
+impl std::fmt::Display for Seniority {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            Seniority::Minimum(s) => write!(f, "{s}"),
+            Seniority::Exact(s) => write!(f, "{s}"),
+        }
+    }
+}
+#[derive(Serialize, Deserialize, PartialEq, Eq, Debug, Clone)]
+pub enum MinimumSeniority {
+    Certificate,
+    Freshman,
+    Sophomore,
+    Junior,
+    Senior,
+    Graduate,
+    Doctorate,
+}
+impl std::fmt::Display for MinimumSeniority {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            MinimumSeniority::Certificate => write!(f, "Minimum Certificate"),
+            MinimumSeniority::Freshman => write!(f, "Minimum Freshman"),
+            MinimumSeniority::Sophomore => write!(f, "Minimum Sophomore"),
+            MinimumSeniority::Junior => write!(f, "Minimum Junior"),
+            MinimumSeniority::Senior => write!(f, "Minimum Senior"),
+            MinimumSeniority::Graduate => write!(f, "Minimum Graduate"),
+            MinimumSeniority::Doctorate => write!(f, "Minimum Doctorate"),
+        }
+    }
+}
+const CERTIFICATE: Token = Token::Seniority(Seniority::Exact(ExactSeniority::Certificate));
+const FRESHMAN: Token = Token::Seniority(Seniority::Exact(ExactSeniority::Freshman));
+const JUNIOR: Token = Token::Seniority(Seniority::Exact(ExactSeniority::Junior));
+const SENIOR: Token = Token::Seniority(Seniority::Exact(ExactSeniority::Senior));
+const GRADUATE: Token = Token::Seniority(Seniority::Exact(ExactSeniority::Graduate));
+const DOCTORATE: Token = Token::Seniority(Seniority::Exact(ExactSeniority::Doctorate));
+#[derive(Serialize, Deserialize, PartialEq, Eq, Debug, Clone)]
+pub enum ExactSeniority {
+    Certificate,
+    Freshman,
+    Sophomore,
+    Junior,
+    Senior,
+    Graduate,
+    Doctorate,
+}
+impl std::fmt::Display for ExactSeniority {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            ExactSeniority::Certificate => write!(f, "Exactly Certificate"),
+            ExactSeniority::Freshman => write!(f, "Exactly Freshman"),
+            ExactSeniority::Sophomore => write!(f, "Exactly Sophomore"),
+            ExactSeniority::Junior => write!(f, "Exactly Junior"),
+            ExactSeniority::Senior => write!(f, "Exactly Senior"),
+            ExactSeniority::Graduate => write!(f, "Exactly Graduate"),
+            ExactSeniority::Doctorate => write!(f, "Exactly Doctorate"),
+        }
+    }
+}
+
+#[derive(Serialize, Deserialize, PartialEq, Eq, Debug, Clone)]
 enum Permission {
     DeanUndergraduate,
     DeanGraduate,
@@ -760,7 +773,8 @@ impl std::fmt::Display for Permission {
 const DEAN_GRADUATE: Token = Token::Permission(Permission::DeanGraduate);
 const DEAN_UNDERGRADUATE: Token = Token::Permission(Permission::DeanUndergraduate);
 const INSTRUCTOR: Token = Token::Permission(Permission::Instructor);
-#[derive(Serialize, Deserialize, Debug, Clone)]
+
+#[derive(Serialize, Deserialize, PartialEq, Eq, Debug, Clone)]
 enum Special {
     Major(String),
     Pinnacle(bool),
@@ -779,7 +793,7 @@ impl std::fmt::Display for Special {
     }
 }
 
-#[derive(Serialize, Deserialize, Debug, Clone)]
+#[derive(Serialize, Deserialize, PartialEq, Eq, Debug, Clone)]
 pub enum Token {
     CoursePrereq(String),
     CourseCoreq(String),
@@ -794,7 +808,7 @@ impl std::fmt::Display for Token {
             Token::CoursePrereq(t) => write!(f, "{}", t.to_uppercase()),
             Token::CourseCoreq(t) => write!(f, "{}", t.to_uppercase()),
             Token::Logical(t) => write!(f, "{}", t),
-            Token::Seniority(t) => write!(f, "{:?}", t),
+            Token::Seniority(t) => write!(f, "{}", t),
             Token::Permission(t) => write!(f, "{}", t),
             Token::Special(t) => write!(f, "{}", t),
         }
