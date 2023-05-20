@@ -2,15 +2,15 @@ mod get_courses;
 
 use std::env;
 
-use anyhow::{bail, Result};
+use anyhow::Result;
 use async_once::AsyncOnce;
 use get_courses::Course;
 use lazy_static::lazy_static;
+use rand::Rng;
 use serenity::async_trait;
 use serenity::model::channel::*;
 use serenity::model::gateway::Ready;
 use serenity::prelude::*;
-use serenity::utils::MessageBuilder;
 use std::collections::HashMap;
 use thiserror::Error;
 
@@ -24,7 +24,7 @@ pub enum CourseQueryError {
 
 struct Handler;
 
-const PREFIX: &str = "!classy";
+const PREFIX: &str = "classy";
 lazy_static! {
     static ref COURSES: AsyncOnce<HashMap<String, Course>> =
         AsyncOnce::new(async { get_courses::do_stuff().await.unwrap() });
@@ -32,16 +32,8 @@ lazy_static! {
 
 #[async_trait]
 impl EventHandler for Handler {
-    async fn message(&self, context: Context, msg: Message) {
+    async fn message(&self, context: Context, mut msg: Message) {
         if msg.content.starts_with(PREFIX) {
-            let channel = match msg.channel_id.to_channel(&context).await {
-                Ok(channel) => channel,
-                Err(why) => {
-                    println!("Error getting channel: {:?}", why);
-
-                    return;
-                }
-            };
             let command = msg.content.split_once(PREFIX).unwrap().1.trim();
             if command.starts_with("query") {
                 let body = command.split_once("query").unwrap().1.trim();
@@ -63,7 +55,18 @@ impl EventHandler for Handler {
                                             if !course.prerequisites.is_empty() {
                                                 fields.push((
                                                     "Prerequisites #IN PROGRESS",
-                                                    format!("{:?}", course.prerequisites),
+                                                    format!(
+                                                        "{}",
+                                                        course
+                                                            .prerequisites
+                                                            .iter()
+                                                            .map(|t| t.to_string())
+                                                            .collect::<Vec<String>>()
+                                                            .join(" ") // .replace(" (", "(")
+                                                                       // .replace("( ", "(")
+                                                                       // .replace(" )", ")")
+                                                                       // .replace(") ", ")")
+                                                    ),
                                                     false,
                                                 ));
                                             } else {
@@ -105,34 +108,28 @@ impl EventHandler for Handler {
                             })
                             .await
                         {
-                            println!("Error sending message: {:?}", why);
+                            println!("\u{200B}Error sending message: {:?}", why);
                         };
                     }
                     Err(why) => {
                         println!("{:#?}", why);
-                        if let Err(why) = msg
-                            .channel_id
-                            .send_message(&context.http, |m| {
-                                m.embed(|e| e.title("CS 115 Introduction to Computer Science"))
-                            })
-                            .await
+                        if let Err(why) =
+                            msg.channel_id.say(&context.http, format!("{}", why)).await
                         {
                             println!("Error sending message: {:?}", why);
                         };
                     }
                 };
-            } else {
-                let response = MessageBuilder::new()
-                    .push("User ")
-                    .push_bold_safe(&msg.author.name)
-                    .push(" used the 'ping' command in the ")
-                    .mention(&channel)
-                    .push(" channel")
-                    .build();
-
-                if let Err(why) = msg.channel_id.say(&context.http, &response).await {
+            } else if command.starts_with("help") {
+                if let Err(why) = msg.channel_id.say(&context.http, format!("Use the \"query\" command followed by the course id (eg. CS 115) to get details about a course.")).await {
                     println!("Error sending message: {:?}", why);
-                }
+                };
+            } else if command.starts_with("random") {
+                let keys = COURSES.get().await.keys();
+                let r = rand::thread_rng().gen_range(0..keys.len() - 1);
+                let key = keys.skip(r).next().unwrap();
+                msg.content = format!("classy query {}", key);
+                self.message(context, msg).await;
             }
         }
     }

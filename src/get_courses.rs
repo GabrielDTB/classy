@@ -1,5 +1,6 @@
 use anyhow::{bail, Context, Result};
 use futures::stream::*;
+use heck::ToTitleCase;
 use indicatif::ProgressBar;
 use reqwest::Client;
 use scraper::{Html, Selector};
@@ -139,8 +140,8 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
         .find(|element| element.value().attr("class") == Some("desc"))
         .context("no elementt matched the first attribute in description parsing")?
         .text()
-        .last()
-        .context("last element not found in description parsing")?
+        .collect::<String>()
+        //.context("last element not found in description parsing")?
         .replace("\n", " ")
         .replace("\t", " ");
     let description = flatten.replace_all(&*description, " ").trim().to_string();
@@ -632,6 +633,17 @@ enum Logic {
     GroupEnd,
     Equivalence,
 }
+impl std::fmt::Display for Logic {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match *self {
+            Logic::Or => write!(f, "or"),
+            Logic::And => write!(f, "and"),
+            Logic::GroupStart => write!(f, "("),
+            Logic::GroupEnd => write!(f, ")"),
+            Logic::Equivalence => write!(f, "/"),
+        }
+    }
+}
 const OR: Token = Token::Logical(Logic::Or);
 const AND: Token = Token::Logical(Logic::And);
 const START: Token = Token::Logical(Logic::GroupStart);
@@ -647,6 +659,16 @@ struct Seniority {
     pub graduate: bool,
     pub doctorate: bool,
 }
+// impl std::fmt::Display for Seniority {
+//     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+//         let mut s = String::from("(");
+//         if *self.certificate {
+//             s += "Certificate";
+//         };
+//
+//         write!(f, "{}", s)
+//     }
+// }
 const CERTIFICATE: Token = Token::Seniority(Seniority {
     certificate: true,
     freshman: false,
@@ -657,7 +679,7 @@ const CERTIFICATE: Token = Token::Seniority(Seniority {
     doctorate: false,
 });
 const FRESHMAN: Token = Token::Seniority(Seniority {
-    certificate: true,
+    certificate: false,
     freshman: true,
     sophomore: false,
     junior: false,
@@ -666,7 +688,7 @@ const FRESHMAN: Token = Token::Seniority(Seniority {
     doctorate: false,
 });
 const JUNIOR: Token = Token::Seniority(Seniority {
-    certificate: true,
+    certificate: false,
     freshman: false,
     sophomore: false,
     junior: true,
@@ -675,7 +697,7 @@ const JUNIOR: Token = Token::Seniority(Seniority {
     doctorate: false,
 });
 const AT_LEAST_JUNIOR: Token = Token::Seniority(Seniority {
-    certificate: true,
+    certificate: false,
     freshman: false,
     sophomore: false,
     junior: true,
@@ -684,16 +706,16 @@ const AT_LEAST_JUNIOR: Token = Token::Seniority(Seniority {
     doctorate: false,
 });
 const SENIOR: Token = Token::Seniority(Seniority {
-    certificate: true,
+    certificate: false,
     freshman: false,
     sophomore: false,
-    junior: true,
-    senior: false,
+    junior: false,
+    senior: true,
     graduate: false,
     doctorate: false,
 });
 const GRADUATE_ONLY: Token = Token::Seniority(Seniority {
-    certificate: true,
+    certificate: false,
     freshman: false,
     sophomore: false,
     junior: false,
@@ -702,7 +724,7 @@ const GRADUATE_ONLY: Token = Token::Seniority(Seniority {
     doctorate: true,
 });
 const GRADUATE: Token = Token::Seniority(Seniority {
-    certificate: true,
+    certificate: false,
     freshman: false,
     sophomore: false,
     junior: false,
@@ -711,7 +733,7 @@ const GRADUATE: Token = Token::Seniority(Seniority {
     doctorate: false,
 });
 const DOCTORATE: Token = Token::Seniority(Seniority {
-    certificate: true,
+    certificate: false,
     freshman: false,
     sophomore: false,
     junior: false,
@@ -726,6 +748,15 @@ enum Permission {
     DeanGraduate,
     Instructor,
 }
+impl std::fmt::Display for Permission {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match *self {
+            Permission::DeanUndergraduate => write!(f, "Permission of Undergraduate Dean"),
+            Permission::DeanGraduate => write!(f, "Permission of Graduate Dean"),
+            Permission::Instructor => write!(f, "Permission of Instructor"),
+        }
+    }
+}
 const DEAN_GRADUATE: Token = Token::Permission(Permission::DeanGraduate);
 const DEAN_UNDERGRADUATE: Token = Token::Permission(Permission::DeanUndergraduate);
 const INSTRUCTOR: Token = Token::Permission(Permission::Instructor);
@@ -735,6 +766,19 @@ enum Special {
     Pinnacle(bool),
     Cgpa(String),
 }
+impl std::fmt::Display for Special {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            Special::Major(s) => write!(f, "{} Major", s.to_title_case()),
+            Special::Pinnacle(s) => match s {
+                true => write!(f, "Pinnacle"),
+                false => write!(f, "Not Pinnacle"),
+            },
+            Special::Cgpa(s) => write!(f, "Cumulative GPA {}+", s),
+        }
+    }
+}
+
 #[derive(Serialize, Deserialize, Debug, Clone)]
 pub enum Token {
     CoursePrereq(String),
@@ -743,6 +787,18 @@ pub enum Token {
     Seniority(Seniority),
     Permission(Permission),
     Special(Special),
+}
+impl std::fmt::Display for Token {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            Token::CoursePrereq(t) => write!(f, "{}", t.to_uppercase()),
+            Token::CourseCoreq(t) => write!(f, "{}", t.to_uppercase()),
+            Token::Logical(t) => write!(f, "{}", t),
+            Token::Seniority(t) => write!(f, "{:?}", t),
+            Token::Permission(t) => write!(f, "{}", t),
+            Token::Special(t) => write!(f, "{}", t),
+        }
+    }
 }
 fn pre(name: &str) -> Token {
     Token::CoursePrereq(name.to_owned())
