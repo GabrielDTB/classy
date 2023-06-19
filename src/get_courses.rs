@@ -1,65 +1,84 @@
-use anyhow::{bail, Context, Result};
 use futures::stream::*;
 use heck::ToTitleCase;
 use indicatif::ProgressBar;
 use reqwest::Client;
+use scraper::ElementRef;
 use scraper::{Html, Selector};
 use serde::{Deserialize, Serialize};
 use serde_json;
 use std::collections::BTreeSet;
 use std::collections::HashMap;
+use thiserror::Error;
 use tokio::fs::File;
 use tokio::io::{AsyncReadExt, AsyncWriteExt};
 
-pub async fn do_stuff() -> Result<HashMap<String, Course>> {
-    let mut courses = Vec::new();
-    let links = get_course_links().await?;
-    let links_iter = links.iter();
-    let client = Client::new();
-    let bar = ProgressBar::new(links.len().try_into().unwrap());
-    let mut errors = Vec::new();
-    let mut futures = FuturesOrdered::new();
-    let batch_size: usize = 15;
-    let mut interval = tokio::time::interval(std::time::Duration::from_millis(batch_size as u64));
-
-    for link in links_iter {
-        futures.push_back(get_course(&link, &client));
-        if futures.len() == batch_size {
-            match futures.next().await.unwrap() {
-                Ok(course) => courses.push(course),
-                Err(e) => errors.push(e),
-            }
-        }
-        bar.inc(1);
-        //interval.tick().await;
-    }
-    while let Some(result) = futures.next().await {
-        match result {
-            Ok(course) => courses.push(course),
-            Err(e) => errors.push(e),
-        }
-    }
-    bar.finish();
-    //println!("{:#?}", errors);
-    println!("Total Errors: {}", errors.len());
-    // tokio::fs::write(
-    //     "courses.json",
-    //     serde_json::to_string_pretty(&courses).unwrap(),
-    // )
-    // .await?;
-    let mut out_courses = HashMap::<String, Course>::new();
-    for course in courses {
-        out_courses.insert(course.id.to_owned(), course);
-    }
-
-    Ok(out_courses)
+#[derive(Error)]
+pub enum ClassQueryError {
+    Reqwest {
+        #[from]
+        source: reqwest::Error,
+    },
+    CachedLinkNotFound {
+        cached_link: String,
+    },
 }
 
-async fn get_course_links() -> Result<BTreeSet<String>> {
-    let mut courses = BTreeSet::new();
-    let url = "https://stevens.smartcatalogiq.com/Institutions/Stevens-Institution-of-Technology/json/2022-2023/Academic-Catalog.json";
-    let response = reqwest::get(url).await?;
+const a = ""
+
+pub struct ClassPage {
+    link: String,
+    text: String,
+}
+
+/// Queries classes from the provided api link
+/// and returns a vec of the response texts,
+/// returning early if an error is added to
+/// the vec.
+pub async fn query_classes(
+    link: String,
+    cache: Vec<ClassPage>,
+) -> Vec<Result<ClassPage, ClassQueryError>> {
+    let mut links = match query_class_links(link).await {
+        Ok(value) => value,
+        Err(why) => return vec![Err(why)],
+    };
+    let mut responses = Vec::with_capacity(links.len());
+    for response in cache {
+        let position = links.iter().position(|l| *l == response.link);
+        match position {
+            Some(value) => {
+                links.remove(value);
+                responses.push(Ok(response.text));
+            }
+            None => {
+                responses.push(Err(ClassQueryError::CachedLinkNotFound {
+                    cached_link: response.link,
+                }));
+                return responses;
+            }
+        };
+    }
+    let client = Client::new();
+    for link in links {
+        match client.get(&link).send().await {
+            Ok(value) => responses.push(Ok(ClassPage {
+                link,
+                text: value.text().await?,
+            })),
+            Err(why) => {
+                responses.push(Err(why));
+                return responses;
+            }
+        };
+    }
+    responses
+}
+
+async fn query_class_links(link: String) -> Result<Vec<String>, ClassQueryError> {
+    let mut links = vec![];
+    let response = reqwest::get(link).await?;
     let l1 = &response.json::<serde_json::Value>().await?["Children"][23];
+    // TODO Rewrite
     for c1 in Counter::new(0) {
         let l2 = &l1["Children"][c1];
         if l2.is_null() {
@@ -77,7 +96,7 @@ async fn get_course_links() -> Result<BTreeSet<String>> {
                         _ => value,
                     },
                 };
-                courses.insert(
+                links.push(
                     "https://stevens.smartcatalogiq.com/en".to_string()
                         + &*course["Path"]
                             .as_str()
@@ -87,77 +106,163 @@ async fn get_course_links() -> Result<BTreeSet<String>> {
             }
         }
     }
-    Ok(courses)
+    Ok(links)
 }
 
-async fn get_course(link: &str, client: &Client) -> Result<Course> {
-    let html;
-    let file_path = format!("resources/responses/{}", link.replace("/", "%"));
-    match File::open(file_path.clone()).await {
-        Ok(mut file) => {
-            let mut lines = String::new();
-            file.read_to_string(&mut lines).await?;
-            html = Html::parse_document(&*lines);
-        }
-        _ => {
-            let response = client.get(link).send().await?.text().await?;
-            html = Html::parse_document(&response);
-            tokio::fs::write(file_path, response).await?;
-        }
-    };
-    let element = match html
+#[derive(Error)]
+pub enum ClassParseError {
+    TargetNotFound { target: String },
+}
+
+#[derive(Serialize, Deserialize, Debug, Clone)]
+pub struct Class {
+    pub id: String,
+    pub name: String,
+    pub description: String,
+    pub credits: String,
+    pub cross_listed: Vec<String>,
+    pub prerequisites: String,
+    pub offered: Vec<String>,
+    pub distribution: Vec<String>,
+    pub link: String,
+}
+
+pub fn parse_class(page: ClassPage) -> Result<Class, ClassParseError> {
+    let main = match Html::parse_document(&*page.text)
         .select(&Selector::parse("div").unwrap())
         .find(|element| element.value().attr("id") == Some("main"))
     {
         Some(value) => value,
-        _ => bail!(
-            "page did not have an element of the required selector\n{:#?}",
-            html
-        ),
+        None => {
+            return Err(ClassParseError::TargetNotFound {
+                target: "main".into(),
+            })
+        }
     };
-    let flatten = regex::Regex::new(r"\s+").unwrap();
-    let id = element
+    Ok(Class {
+        id: parse_id(&main)?,
+        name: parse_name(&main)?,
+        description: parse_description(&main)?,
+        credits: parse_credits(&main)?,
+        cross_listed: parse_cross_listed(&main)?,
+        prerequisites: parse_prerequisites(&main)?,
+        offered: parse_offered(&main)?,
+        distribution: parse_distribution(&main)?,
+        link: page.link,
+    })
+}
+
+fn parse_id(main: &ElementRef) -> Result<String, ClassParseError> {
+    Ok(main
         .select(&Selector::parse("h1").unwrap())
         .next()
-        .context("no elementt matched the first selector in id parsing")?
+        .unwrap_or(
+            return Err(ClassParseError::TargetNotFound {
+                target: "h1".into(),
+            }),
+        )
         .text()
         .nth(1)
-        .context("(1)th element not found in id parsing")?
+        .unwrap_or(
+            return Err(ClassParseError::TargetNotFound {
+                target: "second element".into(),
+            }),
+        )
         .trim()
-        .to_string();
-    let name = element
+        .to_string())
+}
+fn parse_name(main: &ElementRef) -> Result<String, ClassParseError> {
+    Ok(main
         .select(&Selector::parse("h1").unwrap())
         .next()
-        .context("no elementt matched the first selector in name parsing")?
+        .unwrap_or(
+            return Err(ClassParseError::TargetNotFound {
+                target: "h1".into(),
+            }),
+        )
         .text()
         .last()
-        .context("last element not found in name parsing")?
+        .unwrap_or(
+            return Err(ClassParseError::TargetNotFound {
+                target: "last element".into(),
+            }),
+        )
         .trim()
-        .to_string();
-    let description = element
+        .to_string())
+}
+fn parse_description(main: &ElementRef) -> Result<String, ClassParseError> {
+    let flatten = regex::Regex::new(r"\s+").unwrap();
+    let description = main
         .select(&Selector::parse("div").unwrap())
         //println!("{}", serde_json::to_string_pretty(&courses).unwrap());
         .find(|element| element.value().attr("class") == Some("desc"))
-        .context("no elementt matched the first attribute in description parsing")?
+        .unwrap_or(
+            return Err(ClassParseError::TargetNotFound {
+                target: "desc".into(),
+            }),
+        )
         .text()
         .collect::<String>()
         //.context("last element not found in description parsing")?
         .replace("\n", " ")
         .replace("\t", " ");
-    let description = flatten.replace_all(&*description, " ").trim().to_string();
-    let credits = element
+    Ok(flatten.replace_all(&*description, " ").trim().to_string())
+}
+fn parse_credits(main: &ElementRef) -> Result<String, ClassParseError> {
+    Ok(main
         .select(&Selector::parse("div").unwrap())
         .find(|element| element.value().attr("class") == Some("sc_credits"))
-        .context("no elementt matched the first attribute in credits parsing")?
+        .unwrap_or(
+            return Err(ClassParseError::TargetNotFound {
+                target: "sc_credits".into(),
+            }),
+        )
         .select(&Selector::parse("div").unwrap())
         .find(|element| element.value().attr("class") == Some("credits"))
-        .context("no element matched the second attribute in credits parsing")?
+        .unwrap_or(
+            return Err(ClassParseError::TargetNotFound {
+                target: "credits".into(),
+            }),
+        )
         .text()
-        .last()
-        .context("last element not found in credits parsing")?
+        .collect::<String>()
         .trim()
-        .to_string();
+        .to_owned())
+}
+fn parse_cross_listed(main: &ElementRef) -> Result<Vec<String>, ClassParseError> {
+    let mut out = vec![];
+    let text = main
+        .select(&Selector::parse("div.sc_credits + h3 + a.sc-courselink").unwrap())
+        .next()
+        .unwrap_or(
+            
+        ) {
+        Some(a) => Some(a.text().collect::<String>()),
+        None => {
+            match element
+                .select(&Selector::parse("div.sc_credits + h3").unwrap())
+                .next()
+            {
+                Some(h3) => Some(
+                    h3.next_sibling()
+                        .unwrap()
+                        .value()
+                        .as_text()
+                        .context(format!("{} {:?}", id, h3.next_sibling().unwrap().value()))
+                        .unwrap()
+                        .chars()
+                        .collect::<String>(),
+                ),
+                _ => None,
+            }
+        }
+    };
+}
+fn parse_prerequisites(main: &ElementRef) -> Result<String, ClassParseError> {}
+fn parse_distribution(main: &ElementRef) -> Result<String, ClassParseError> {}
+fn parse_offered(main: &ElementRef) -> Result<String, ClassParseError> {}
 
+async fn get_course(link: &str, client: &Client) -> Result<Course> {
     let prereq_tokens = element
         .select(&Selector::parse("div").unwrap())
         .find(|element| element.value().attr("class") == Some("sc_prereqs"))
@@ -604,6 +709,7 @@ async fn get_course(link: &str, client: &Client) -> Result<Course> {
         name,
         description,
         credits,
+        cross_listed,
         prerequisites,
         offered,
         distribution,
@@ -658,6 +764,7 @@ pub struct Course {
     pub name: String,
     pub description: String,
     pub credits: String,
+    pub cross_listed: Option<String>,
     pub prerequisites: Vec<Token>,
     pub offered: BTreeSet<String>,
     pub distribution: BTreeSet<String>,

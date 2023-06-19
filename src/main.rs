@@ -52,6 +52,13 @@ impl EventHandler for Handler {
                                             if !course.credits.is_empty() {
                                                 fields.push(("Credits", course.credits, false));
                                             }
+                                            if course.cross_listed.is_some() {
+                                                fields.push((
+                                                    "Cross Listed Courses",
+                                                    course.cross_listed.unwrap(),
+                                                    false,
+                                                ));
+                                            }
                                             if !course.prerequisites.is_empty() {
                                                 fields.push((
                                                     "Prerequisites #IN PROGRESS",
@@ -125,11 +132,50 @@ impl EventHandler for Handler {
                     println!("Error sending message: {:?}", why);
                 };
             } else if command.starts_with("random") {
-                let keys = COURSES.get().await.keys();
-                let r = rand::thread_rng().gen_range(0..keys.len() - 1);
-                let key = keys.skip(r).next().unwrap();
-                msg.content = format!("classy query {}", key);
-                self.message(context, msg).await;
+                let args = command
+                    .split_once("random")
+                    .unwrap()
+                    .1
+                    .split(" ")
+                    .filter(|s| !s.is_empty())
+                    .map(|s| s.to_uppercase())
+                    .collect::<Vec<_>>();
+                let keys = match args.len() {
+                    0 => COURSES.get().await.keys().collect::<Vec<_>>(),
+                    _ => COURSES
+                        .get()
+                        .await
+                        .keys()
+                        .filter(|k| {
+                            for arg in args.iter() {
+                                if k.split(" ").next().unwrap() == arg {
+                                    return true;
+                                }
+                            }
+                            false
+                        })
+                        .collect::<Vec<_>>(),
+                };
+                if keys.len() == 0 {
+                    if let Err(why) = msg
+                        .channel_id
+                        .say(
+                            &context.http,
+                            format!(
+                                "No courses matched the arguments \"{}\"",
+                                command.split_once("random").unwrap().1.trim()
+                            ),
+                        )
+                        .await
+                    {
+                        println!("Error sending message: {:?}", why);
+                    };
+                } else {
+                    let r = rand::thread_rng().gen_range(0..keys.len() - 1);
+                    let key = keys.iter().skip(r).next().unwrap();
+                    msg.content = format!("classy query {}", key);
+                    self.message(context, msg).await;
+                }
             }
         }
     }
