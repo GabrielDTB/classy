@@ -1,0 +1,18 @@
+{
+  "id": "CM 541",
+  "name": "Project Management for Construction",
+  "description": "This course deals with the problems of managing a project. A project is defined as a temporary organization of human and nonhuman resources, within a permanent organization, for the purpose of achieving a specific objective. Both operational and conceptual issues will be considered. Operational issues include definition, planning, implementation, control and evaluation of the project; conceptual issues include project management vs. hierarchical management, matrix organization, project authority, motivation and morale. Cases will include construction management, chemical plant construction and other examples.",
+  "credits": "3",
+  "cross_listed": "CE 541",
+  "prerequisites": "CM 511 and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Fall Semester",
+    "Summer Session 1",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Civil Engineering Program",
+    "Construction Management Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cm-construction-management/500/cm-541"
+}

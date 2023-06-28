@@ -1,0 +1,13 @@
+{
+  "id": "MA 691",
+  "name": "Dynamical Systems",
+  "description": "Theory and methods in continuous and discrete dynamical systems. Topics may vary, but will typically include local bifurcation theory for vector fields and maps, center manifold reductions, normal forms, periodic orbits and Poincaré maps, averaging methods, Melnikov methods, chaotic dynamics, the Smale horseshoe map, and symbolic dynamics.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "MA 649",
+  "offered": [],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-691"
+}

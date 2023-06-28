@@ -1,0 +1,15 @@
+{
+  "id": "CE 261",
+  "name": "Mechanics of Materials",
+  "description": "Fundamental material response from a variety of loads. Concepts of stress and strain,applications including beams, columns and shafts, stresses are combined to determine principalstresses, deformation of structures and statically indeterminate structures.Prerequisites: ENGR 211",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "ENGR 211",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Civil Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/200/ce-261"
+}

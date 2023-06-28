@@ -1,0 +1,15 @@
+{
+  "id": "MA 361",
+  "name": "Partial Differential Equations",
+  "description": "This course offers a rigorous approach to classical partial differential equations. It begins with definitions, properties, and derivations of some basic equations of mathematical physics followed by the topics: solving of first order equations with the method of characteristics; classification of second order equations; the heat equation and wave equation; Fourier series and separation of variables; Green’s functions and elliptic theory; examples of the first and second order nonlinear partial differential equations.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "( MA 221 or MA 281 ) and ( MA 227 or MA 282 )",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/300/ma-361"
+}

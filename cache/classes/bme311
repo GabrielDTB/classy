@@ -1,0 +1,17 @@
+{
+  "id": "BME 311",
+  "name": "Biomaterials in Medical Design",
+  "description": "Materials have been used extensively in the biomedicine and healthcare for the fabrication of various medical devices, implants, sutures, dressings, and medical machinery for modern medicine. Through this course, students will be able to: (1) correlate the structure of materials with their properties engineered for important biomedical uses; (2) get familiar with different types of materials relevant to the application to the human body; (3) discuss the reactions and interactions of cells and tissues with foreign materials, as well as the degradation of these materials in the human body; (4) implement rational materials and process selection based on the selected examples used in various applications such as implants, burn dressings, drug delivery systems, biosensors, artificial organs, and elements of tissue engineering; Project based learning techniques are used with actual implant samples in class and labs to demonstrate real-world applications of biomaterials. Students will create and evaluate material-enabled product solutions that would impact our society through a semester-long open-ended lab design project.",
+  "credits": "4",
+  "cross_listed": "",
+  "prerequisites": "CH 115 and ENGR 211",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Semester"
+  ],
+  "distribution": [
+    "Biomedical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/300/bme-311"
+}

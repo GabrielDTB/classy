@@ -1,0 +1,17 @@
+{
+  "id": "CPE 536",
+  "name": "Integrated Services - Multimedia",
+  "description": "Types of multimedia information: voice, data video facsimile, graphics, and their characterization; modeling techniques to represent multimedia information; analysis and comparative performances of different models; detection techniques for multimedia signals; specification of multimedia representation based on service requirements; and evaluation of different multimedia representations to satisfy user applications and for generating test scenarios for standardization.",
+  "credits": "3",
+  "cross_listed": "CS 536, NIS 536",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Computer Engineering Program",
+    "Computer Science Program",
+    "Information and Data Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/500/cpe-536"
+}

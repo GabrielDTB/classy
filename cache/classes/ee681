@@ -1,0 +1,13 @@
+{
+  "id": "EE 681",
+  "name": "Fourier Optics",
+  "description": "An introduction to two-dimensional linear systems, scalar diffraction theory, and Fresnel and Fraunhofer diffraction. Applications of diffraction theory to thin lenses, optical imaging systems, spatial filtering, optical information processing, and holography.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "EE 603",
+  "offered": [],
+  "distribution": [
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-681"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "CH 118",
+  "name": "General Chemistry Laboratory II",
+  "description": "Laboratory work to accompany CH 116: analytical techniques properties of solutions, kinetics, chemical and phase equilibria, acid-base titrations, thermodynamic properties, electrochemical cells, and properties of chemical elements.",
+  "credits": "1",
+  "cross_listed": "",
+  "prerequisites": "CH 117 and CoReq CH 116",
+  "offered": [
+    "Spring Semester",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Chemical Sciences Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/100/ch-118"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "NANO 553",
+  "name": "Quantum Mechanics and Engineering Applications",
+  "description": "This course is an introduction to quantum mechanics for students in physics and engineering. Techniques discussed include solutions of the Schrodinger equation in one and three dimensions, and operator and matrix methods. Applications include infinite and finite quantum wells, barrier penetration and scattering in one dimension, the harmonic oscillator, angular momentum, central force problems, including the hydrogen atom, and spin. Fall semester. Typical text: Quantum Physics by Gasiorowicz.",
+  "credits": "3",
+  "cross_listed": "PEP 553",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nano-nanotechnology/500/nano-553"
+}

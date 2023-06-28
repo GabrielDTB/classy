@@ -1,0 +1,17 @@
+{
+  "id": "FE 621",
+  "name": "Computational Methods in Finance",
+  "description": "This course provides computational tools used in industry by the modern financial analyst. The current financial models and algorithms are further studied and numerically analyzed using regression and time series analysis, decision methods, and simulation techniques. The results are applied to forecasting involving asset pricing, hedging, portfolio and risk assessment, some portfolio and risk management models, investment strategies, and other relevant financial problems. Emphasis will be placed on using modern software.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "FE 543 or FE 610",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/600/fe-621"
+}

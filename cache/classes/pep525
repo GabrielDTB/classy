@@ -1,0 +1,16 @@
+{
+  "id": "PEP 525",
+  "name": "Techniques of Surface and Nanostructure Characterization",
+  "description": "Lectures, demonstrations and laboratory experiments, selected from among the following topics, depending on student interest: vacuum technology; thin-film preparation; scanning electron microscopy; infrared spectroscopy, ellipsometry: electron spectroscopies-Auger, photoelectron, LEED; ion spectroscopies SIMS, IBS, field emission; surface properties-area, roughness, and surface tension. Alternate years.",
+  "credits": "3",
+  "cross_listed": "NANO 525, MT 525",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Department of Physics",
+    "Materials Science and Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-525"
+}

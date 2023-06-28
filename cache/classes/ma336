@@ -1,0 +1,15 @@
+{
+  "id": "MA 336",
+  "name": "Modern Algebra",
+  "description": "A rigorous introduction to group theory and related areas with applications as time permits. Topics include proof by induction, greatest common divisor, and prime factorization; sets, functions, and relations; definition of groups and examples of other algebraic structures; and permutation groups, Lagrange’s Theorem, and Sylow’s Theorems. Typical application: error correcting group codes.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "MA 232",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/300/ma-336"
+}

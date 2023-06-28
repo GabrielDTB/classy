@@ -1,0 +1,18 @@
+{
+  "id": "HPL 111",
+  "name": "Philosophy I: Theories of Human Nature",
+  "description": "This course is intended as a general introduction to the discipline of philosophy through an examination of various attempts throughout history to answer the very fundamental question, \"What does it mean to be human?\" Topics discussed include happiness, the soul, virtue, good and evil, and the like. Readings from classical sources include Plato, Aristotle, Augustine, Hume, Mill, Nietzsche, Sartre and others.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "No Freshmen",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1",
+    "Winter Intersession"
+  ],
+  "distribution": [
+    "Humanities and Social Sciences Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hpl-humanitiesphilosophy/100/hpl-111"
+}

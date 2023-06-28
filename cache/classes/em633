@@ -1,0 +1,15 @@
+{
+  "id": "EM 633",
+  "name": "Decision Sciences and Data Analytics in Healthcare",
+  "description": "Introduction to the use of decision sciences and data analytics in health-care. Conceptual understanding of medical decision making and data analytics will cover the main methods, techniques and algorithms in Data Science, such as decision trees, reinforcement learning, sensitivity analysis, data visualization, Markov (decision) processes, and Monte Carlo simulations using examples from the current medical literature. The course aims to provide the foundation for healthcare data analytics. Topics such as cost analysis, machine learning, and visualizations will be discussed in the context of analytic applications. The course dives into healthcare data and hands-on programming, leaning more toward a data scientist with healthcare specialty. Students will learn to select, prepare, analyze, interpret, evaluate, and present data related to health system performance and clinical effectiveness. More specifically, student will learn: How to design and construct data models using data science techniques How to use data science methods to make critical decisions in the healthcare setting, and measure the cost effectiveness of clinical interventions or processes within the domains of finance and operations. While there are no formal prerequisites for this course, students are expected to have a foundation in applied mathematics including probability and statistics such as found in an undergraduate engineering program.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Engineering Management Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/600/em-633"
+}

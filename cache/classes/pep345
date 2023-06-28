@@ -1,0 +1,18 @@
+{
+  "id": "PEP 345",
+  "name": "Modeling and Simulation",
+  "description": "Development of deterministic and non-deterministic models for physical systems, engineering applications, and simulation tools for deterministic and non-deterministic systems. Case studies and projects.",
+  "credits": "3",
+  "cross_listed": "CPE 345, EE 345",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Engineering Program",
+    "Department of Physics",
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/300/pep-345"
+}

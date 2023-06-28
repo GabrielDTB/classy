@@ -1,0 +1,13 @@
+{
+  "id": "ES 691",
+  "name": "Advanced Topics in Infrastructure Systems",
+  "description": "Building on the topics presented in ES 690, this course introduces advanced topics in infrastructure systems, focusing on tools and methodologies crucial to infrastructure systems analysis and planning. Topics discussed include CLIOS analysis and dynamic modeling of infrastructure systems, fundamentals of network analysis, decision analysis for infrastructure systems, and infrastructure resiliency.",
+  "credits": "3",
+  "cross_listed": "SYS 744, EM 691, EM 744",
+  "prerequisites": "ES 690",
+  "offered": [],
+  "distribution": [
+    "Systems Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/es-enterprise-systems/600/es-691"
+}

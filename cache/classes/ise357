@@ -1,0 +1,15 @@
+{
+  "id": "ISE 357",
+  "name": "Elements Of Operations Research",
+  "description": "This course emphasizes building analytical skills for developing mathematical models for decision-making and optimization. The course provides an introduction to deterministic operations research (OR) concepts and analysis techniques for mathematical programming and decision making. Basic computers skills (Excel) and knowledge of statistics are necessary to solve the problems discussed in the lectures and assigned for homework. The course emphasis is on problem formulation, model building, data analysis, solution techniques, and evaluation of alternative designs/processes in complex systems. Modeling techniques and methods for decision analysis including linear and integer programming, transportation and network models, dynamic programming, goal programming, classical optimization theory, and non-linear programming.",
+  "credits": "3",
+  "cross_listed": "EM 357",
+  "prerequisites": "EM 365",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Engineering Management Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ise-industrial-and-systems-engineering/300/ise-357"
+}

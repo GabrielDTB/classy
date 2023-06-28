@@ -1,0 +1,15 @@
+{
+  "id": "CHE 332",
+  "name": "Separation Operations",
+  "description": "The design of industrial separation equipment using both analytical and graphical methods is studied. Equilibrium based design techniques for single and multiple stages in distillation, absorption/stripping, and liquid-liquid extraction are employed. An introduction to gas-solid and solid-liquid systems is presented as well. Mass transfer considerations are included in efficiency calculations and design procedures for packed absorption towers, membrane separations, and adsorption. Ion exchange and chromatography are discussed. The role of solution thermodynamics and the methods of estimating or calculating thermodynamic properties are also studied. Degrees of freedom analyses are threaded throughout the course as well as the appropriate use of software. Iterative rigorous solutions are discussed as bases for Aspen simulation models used in Design VI.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CHE 210 and (CHE 234 or CoReq CHE 333)",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Chemical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/300/che-332"
+}

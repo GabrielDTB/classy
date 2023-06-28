@@ -1,0 +1,19 @@
+{
+  "id": "PEP 562",
+  "name": "Solid State Electronics for Engineering II",
+  "description": "This course introduces operating principles and develops models of modern semiconductor devices that are useful in the analysis and design of integrated circuits. Topics covered include: charge carrier transport in semiconductors; diffusion and drift, injection and lifetime of carriers; p-n junction devices; bipolar junction transistors; metal-oxide-semiconductor field effect transistors; metal-semiconductor field effect transistors and high electron mobility transistors; microwave devices; light emitting diodes, semiconductor lasers and photodetectors; integrated devices.",
+  "credits": "3",
+  "cross_listed": "EE 562, MT 562",
+  "prerequisites": "( EE 561 or MT 561 or PEP 561 ) and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Department of Physics",
+    "Electrical Engineering Program",
+    "Materials Science and Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-562"
+}

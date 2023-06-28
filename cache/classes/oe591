@@ -1,0 +1,17 @@
+{
+  "id": "OE 591",
+  "name": "Introduction to Dynamic Meteorology",
+  "description": "Introduction to meteorology presents a cogent explanation of the fundamentals of atmospheric dynamics. The course begins with a discussion of the Earth’s atmospheric system including global circulation, climate, and the greenhouse effect. The basic conservation laws and the applications of the basic equations of motion are discussed in the context of synoptic scale meteorology. The thermodynamics of the atmosphere are derived based on the equation of state of the atmosphere with specific emphasis on adiabatic and pseudo-adiabatic motions. The concept of atmospheric stability is presented in terms of the moist and dry lapse rate. The influence of the planetary boundary layer on atmospheric motions is presented with emphasis on topographic and open ocean frictional effects, temperature discontinuity between land and sea, and the generation of sea breezes. The mesoscale dynamics of tornadoes and hurricanes are discussed as well as the cyclogenesis of extratropical coast allows. The course makes use of a multitude of web-based products including interactive learning sites, weather forecasts from the National Weather Service (NWS), tropical predictions from the National Hurricane Center and NWS model outputs (AVN, NGM, ETA, and WAM).",
+  "credits": "3",
+  "cross_listed": "CE 591",
+  "prerequisites": "CE 342 and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Civil Engineering Program",
+    "Ocean Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-591"
+}

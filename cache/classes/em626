@@ -1,0 +1,16 @@
+{
+  "id": "EM 626",
+  "name": "Applied AI & Machine Learning for Systems and Enterprises",
+  "description": "The aim of this course is to provide an all-around practical education on how to leverage on Machine Learning to better address key needs of Systems and Enterprises. This is an advanced application course and even if it is focused on applications rather than theoretical components, it requires students to have a good mathematical, statistical and coding background. Course is using Python and its main Machine Learning libraries.",
+  "credits": "3",
+  "cross_listed": "SYS 626",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Engineering Management Program",
+    "Systems Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/600/em-626"
+}

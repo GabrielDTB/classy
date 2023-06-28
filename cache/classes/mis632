@@ -1,0 +1,15 @@
+{
+  "id": "MIS 632",
+  "name": "Data Management LAB",
+  "description": "This 1-credit lab course provides an experiential learning component for MIS 631 Data Management for which it is a co-requisite. MIS 632 provides hands-on experience in designing, implementing, and querying data bases. The relevant software is introduced using demonstrations, in-class exercises and homework exercises that are closely tied to and executed in synch with the conceptual and theoretical material covered in MIS 631. Specifically, students will gain hands-on experience in: (i) ERWIN - a widely used commercial tool for representing conceptual (e.g., E-R diagrams) and logical data models (e.g., relational DBMS), (ii) PostgreSQL (relational database software), (iii) SQL Structured Query Language) and (iv) MongoDB a NoSQL document data store. Students in MIS 632 must also be enrolled in the associated 2-credit lecture course MIS 631 Managing Data course.",
+  "credits": "1",
+  "cross_listed": "",
+  "prerequisites": "MIS 631 CoReq",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mis-information-systems/600/mis-632"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "MA 526",
+  "name": "Foundations of computation and computational complexity",
+  "description": "The goal of this course is to formalize and analyze algorithms in a mathematically rigorous fashion. The course begins with Turing machines (the standard model of computation) and uses them to answer some fundamental questions in computer science and mathematics:, e.g., mathematical truth is undecidable. After that notions offeasibility are introduced and studied, culminating with the famous P vs NP question. Finally there is an introduction to quantum computation.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-526"
+}

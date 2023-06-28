@@ -1,0 +1,17 @@
+{
+  "id": "CHE 633",
+  "name": "Advanced Heat and Mass Transfer",
+  "description": "This course introduces students to the different approaches for developing models of heat and mass transfer based on partial differential equations that describe conservation of mass and energy concepts, and for transient and steady state conditions, with their solution by different mathematical methods. The mathematical methods include scaling and approximation, similarity solutions, perturbation methods and eigenfunction expansions. Different boundary conditions are applied for each mathematical method. Novel applications demonstrated in class and problems assigned for homework provide experience in using the concepts",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CHE 632",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Semester"
+  ],
+  "distribution": [
+    "Chemical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/600/che-633"
+}

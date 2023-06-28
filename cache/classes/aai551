@@ -1,0 +1,15 @@
+{
+  "id": "AAI 551",
+  "name": "Engineering Programming: Python",
+  "description": "This course presents tool, techniques, algorithms, and programming techniques using the Python programming language for data intensive applications and decision making. The course formally introduces techniques to: (i) gather,(ii) store, and (iii) process large volumes of data to make informed decisions. Such techniques find applicability in many engineering application areas, including communications systems, embedded systems, smart grids, robotics, Internet, and enterprise networks, or any network where information flows and alters decision making.",
+  "credits": "3",
+  "cross_listed": "CPE 551, EE 551",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [],
+  "distribution": [
+    "Computer Engineering Program",
+    "Electrical Engineering Program",
+    "Information and Data Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/aai-applied-artificial-intelligence/500/aai-551"
+}

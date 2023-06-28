@@ -1,0 +1,14 @@
+{
+  "id": "EE 473",
+  "name": "Electromagnetic Fields",
+  "description": "Electrostatics; Coulomb-Gauss Law; Poisson-Laplace equations; boundary value problems; image techniques, dielectric media; magnetostatics; multipole expansion, electromagnetic energy, electromagnetic induction, Maxwell’s equations, electromagnetic waves, waves in bounded regions, wave equations and retarded solutions, simple dipole antenna radiation theory, transformation law of electromagnetic fields.",
+  "credits": "3",
+  "cross_listed": "PEP 331",
+  "prerequisites": "EE 250",
+  "offered": [],
+  "distribution": [
+    "Department of Physics",
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/400/ee-473"
+}

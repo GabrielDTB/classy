@@ -1,0 +1,16 @@
+{
+  "id": "FE 519",
+  "name": "Financial Lab: Advanced Bloomberg",
+  "description": "This course provides an extended coverage of the Bloomberg terminals with focus on financial data for derivatives. The topics include interest rate derivatives, foreign exchange derivatives, multi asset risk management system, yield curves construction, and derivative libraries. Bloomberg terminal access will be required for any student taking the course on the web.",
+  "credits": "1",
+  "cross_listed": "",
+  "prerequisites": "FE 511 and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-519"
+}

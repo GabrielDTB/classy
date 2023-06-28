@@ -1,0 +1,17 @@
+{
+  "id": "ME 361",
+  "name": "Design of Machine Components",
+  "description": "Application of the principles of strength of materials to the analysis and design of machine parts. Stress and deflection analysis. Curved bars, multi-support shafts, torsion, cylinders under pressure, thermal stresses, creep, and relaxation, rotating disks, fasteners, springs, bearings, gears, brakes and other machine elements are considered. Failure of structural materials under cyclic stress.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "( ENGR 126 or ENGR 211) and ( MA 221 or MA 281 )",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/300/me-361"
+}

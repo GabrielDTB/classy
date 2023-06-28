@@ -1,0 +1,16 @@
+{
+  "id": "ME 453",
+  "name": "Advanced Fluid Dynamics",
+  "description": "Review of basic concepts of fluid flow, Navier-Stokes equations, introduction to fluid turbulence, inviscid incompressible flow, introduction to airfoil theory, compressible fluid flow and applications.",
+  "credits": "3",
+  "cross_listed": "NE 453",
+  "prerequisites": "MA 227 and ME 342",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Mechanical Engineering Program",
+    "Ocean Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/400/me-453"
+}

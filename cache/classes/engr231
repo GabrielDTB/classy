@@ -1,0 +1,17 @@
+{
+  "id": "ENGR 231",
+  "name": "Structural Performance and Failure",
+  "description": "This course continues the experiential sequence in design. Design projects are linked with Mechanics of Solids topics taught concurrently. Core design themes are further developed.",
+  "credits": "2",
+  "cross_listed": "",
+  "prerequisites": "ENGR 122 and ENGR 126 CoReq",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "School of Engineering and Science"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/200/engr-231"
+}

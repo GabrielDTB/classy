@@ -1,0 +1,16 @@
+{
+  "id": "PEP 242",
+  "name": "Modern Physics",
+  "description": "Simple harmonic motion, oscillations and pendulums; Fourier analysis; wave properties; wave-particle dualism; the Schrödinger equation and its interpretation; wave functions; the Heisenberg uncertainty principle; quantum mechanical tunneling and application; quantum mechanics of a particle in a \"box,\" the hydrogen atom; electronic spin; properties of many electron atoms; atomic spectra; principles of lasers and applications; electrons in solids; conductors and semiconductors; the n-p junction and the transistor; properties of atomic nuclei; radioactivity; fusion and fission.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "PEP 112",
+  "offered": [
+    "Spring Semester",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/200/pep-242"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "MA 653",
+  "name": "Numerical Solutions of Partial Differential Equations",
+  "description": "Partial differential equations (PDEs) are a cornerstone of the mathematical modeling for a wide spectrum of phenomena in Physics, Engineering, Biology, and Medicine. They relate physical characteristics, e.g., fluid velocity, displacement, temperature, etc., and their derivatives as functions of time and space. Analytical solutions of PDEs are available only in some simple cases, and for almost any real-life problem, PDEs can be solved only approximately by numerical methods. This course introduces the widely used finite difference and finite element methods and discusses conditions under which the numerical schemes are stable and converge to the true solutions of the PDEs; the latter is critical for understanding when the predictions from the approximations obtained by the numerical methods can be trusted. The course also offers projects, where the students can implement the finite difference and finite element methods for proposed problems. Prerequisites: Undergraduate knowledge of PDEs or by instructor permission.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-653"
+}

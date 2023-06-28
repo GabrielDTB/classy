@@ -1,0 +1,16 @@
+{
+  "id": "SYS 511",
+  "name": "System Engineering Applications to Healthcare",
+  "description": "This course provides introduction to process and production of health care in the United States. The students will learn application of industrial and systems engineering (ISYE) methodologies to analyze and solve health systems challenges.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Systems Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/500/sys-511"
+}

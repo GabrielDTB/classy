@@ -1,0 +1,13 @@
+{
+  "id": "CE 613",
+  "name": "Matrix Analysis of Structures",
+  "description": "Formulation of structural theory based on matrix algebra; discussion of force method and displacement method; use of matrix transformation chain in structural analysis; application to indeterminate structures, space frames, vibration and buckling of structures; computer application. Spring semester.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Civil Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/600/ce-613"
+}

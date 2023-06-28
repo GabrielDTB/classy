@@ -1,0 +1,17 @@
+{
+  "id": "ME 322",
+  "name": "Engineering Design VI",
+  "description": "This course is intended to teach modern systematic design techniques used in the practice of mechanical engineering. Methodology for the development of design objective(s), literature surveys, base case designs, and design alternatives are given. Economic analyses with an emphasis on capital investment and operating costs are introduced. Integrated product and process design concepts are emphasized with case studies. Students are encouraged to select their senior capstone design project near the end of the course, form teams, and commence preliminary work. A number of design projects are required of all students.",
+  "credits": "2",
+  "cross_listed": "",
+  "prerequisites": "ENGR 122 and ME 345 CoReq",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/300/me-322"
+}

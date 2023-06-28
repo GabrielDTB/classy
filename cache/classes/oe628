@@ -1,0 +1,13 @@
+{
+  "id": "OE 628",
+  "name": "Technologies for Maritime Security",
+  "description": "The course is intended to acquaint students with the underlying technologies pertaining to Maritime Safety and Security. Students will understand current technologies applicable to threat mitigation including threats from criminal activities, illegal immigration, piracy, and terrorism. The considered technologies will include: X-Ray scanning, Gamma Ray and neutron scanning, biometrics, radiation detection, Radio Frequency Identification Tags, underwater acoustic surveillance, wireless sensor networks, and infrared techniques. The physical principles of radio waves, optic and infrared waves, acoustic and seismic waves applied in these technologies will be introduced to student. The course also surveys recent developments in port protection conducted by Stevens scientists.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CE 561 / EE 560 / ME 524 / OE 560 / PEP 560",
+  "offered": [],
+  "distribution": [
+    "Ocean Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-628"
+}

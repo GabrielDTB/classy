@@ -1,0 +1,15 @@
+{
+  "id": "ME 517",
+  "name": "Nuclear Power Plant Design and Operation",
+  "description": "This course covers design methodologies for major systems and components in a nuclear power plant and discusses how the integrated nuclear plant works and the challenges an operator faces. The course provides a study of the interrelationship and propagation of effects that systems and design changes have on one another, especially in relation to nuclear power plant operations and safety. Emphasis is placed on how operations of and faults in systems and components can influence reactivity and core behavior. The students will examine a typical nuclear power plant and those components and systems of the nuclear plant system that have the potential for affecting core power and whose failure could be an initiating event for a plant transient. One main outcome is the ability to predict behavior under complex interactions among systems and to predict transient behavior of the integrated nuclear plant considering factors that are important for safe and efficient operation of the plant including reactivity management and control, coolant inventory control and core heat removal. A replica simulator (PCTRAN) is used as an effective way for students to understand accident control, emergency operating procedures and plant control. The course includes case studies and design projects.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-517"
+}

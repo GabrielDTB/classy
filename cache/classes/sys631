@@ -1,0 +1,18 @@
+{
+  "id": "SYS 631",
+  "name": "DAU Level II and III Certification Examination",
+  "description": "This will test the knowledge of students who have achieved the equivalent of Level II certification through the Defense Acquisition University or who have completed selected industry training programs. Typically students take more than 160 hours training for this certification level equivalent. Upon successful completion (graded pass/fail), students will be awarded between 3 and 6 credits toward a Master of Engineering in Systems Engineering.",
+  "credits": "3-6",
+  "cross_listed": "",
+  "prerequisites": "Need Permission - Graduate DEAN 698",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Systems Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-631"
+}

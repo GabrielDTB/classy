@@ -1,0 +1,16 @@
+{
+  "id": "CS 135",
+  "name": "Discrete Structures",
+  "description": "The aim of this course is to integrate knowledge and applications of basic mathematics with program specification and design. Students will learn how to present logically sound arguments involving lists, sets, numbers, functions, and graphs, and apply these to prove properties of simple programs. Labs will focus on composing programs in a functional language. A major focus will be on inductive proofs and recursively defined programs",
+  "credits": "4",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/100/cs-135"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "CPE 592",
+  "name": "Computer and Multimedia Network Security",
+  "description": "The objective of this course is to introduce current techniques in securing IP and multimedia networks. Topics under IP security will include classic cryptography, Diffie-Hellman, RSA, end-to-end authentication, Kerberos, viruses, worms and intrusion detection. Topics from multimedia will include steganography, digital watermarking, covert channels, hacking, jamming, security features in MPEG-4, secure media streaming, wireless multimedia, copy control and other mechanisms for secure storage and transfer of audio, image and video data.",
+  "credits": "3",
+  "cross_listed": "NIS 592",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Computer Engineering Program",
+    "Information and Data Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/500/cpe-592"
+}

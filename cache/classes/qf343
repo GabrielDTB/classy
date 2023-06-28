@@ -1,0 +1,13 @@
+{
+  "id": "QF 343",
+  "name": "Introduction to Stochastic Calculus for QF",
+  "description": "This course is designed for undergraduate students in Quantitative Finance. In order for students to be able to price derivatives, they must first understand the behavior of the underlying. To this end, the students will need to understand how many of the most common stock models are created and utilized. At the core of this is understanding Brownian motion and other adapted stochastic processes from a conceptual level, which requires the knowledge of quadratic variation, martingales, and filtrations. Using these building blocks, many different structures of stock and interest rate processes can be developed: geometric Brownian motion, stochastic volatility models, Cox-Ingersoll-Ross, and Vasicek to name a few. After this course, the students will be able to price simple derivatives based on some of these models. In addition, through the use of stochastic integration, students will have a better understanding of portfolio valuation. By the end of this course, the student will be able to derive in its entirety the Black-Scholes-Merton European option pricing formula for Geometric Brownian Motion.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "QF 212",
+  "offered": [],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/300/qf-343"
+}

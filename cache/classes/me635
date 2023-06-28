@@ -1,0 +1,18 @@
+{
+  "id": "ME 635",
+  "name": "Modeling and Simulation",
+  "description": "This course emphasizes the development of modeling and simulation concepts and analysis skills necessary to design, program, implement and use computers to solve complex systems/products analysis problems. The key emphasis is on problem formulation, model building, data analysis, solution techniques and evaluation of alternative designs/processes in complex systems/products. Overview of modeling techniques and methods used in decision analysis, including multi- attribute utility models, decision trees, and optimization methods are discussed.",
+  "credits": "3",
+  "cross_listed": "IPD 611",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Integrated Product Development Program",
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-635"
+}

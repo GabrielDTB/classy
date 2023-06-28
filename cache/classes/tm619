@@ -1,0 +1,15 @@
+{
+  "id": "TM 619",
+  "name": "E-Commerce Technologies",
+  "description": "The course provides an understanding of electronic commerce and related architectures, protocols and technologies. The course introduces the E-commerce concept, objectives, and market drivers, and identifies its requirements, underpinning techniques, and technologies. These include Internet techniques like tunneling and Telnet and WWW techniques like Forms, and Common Gateway Interface (CGI). Other related topics such as multimedia, intelligent agents and their applications in E-commerce, the client/server model, and Commitment, Concurrency and Recovery (CCR) are also presented. Network, service, and application management, which are important aspects of E-commerce, are discussed. Quality of Service (QoS) management, Service Level Agreement (SLA) management, Application Programming Interface (APIs), and the role of Application Service Providers (ASPs) are discussed. There will be strong emphasis on the important topic of security management. Topics here include security concepts and technologies, types of security attacks, encryption techniques, public key systems, Data Encryption Standard (DES), and authentication techniques. Virtual Private Networks (VPNs), secure tunneling techniques, firewalls, Intranets, extranets, and VPN management are covered. The policy and regulatory issues in E-commerce are discussed. Finally, various E-commerce applications in the areas of finance, securities, trading, auctions, and travel are described. The course includes some E-commerce case studies and demonstrations.",
+  "credits": "3",
+  "cross_listed": "CPE 619, NIS 619",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Computer Engineering Program",
+    "Information and Data Engineering Program",
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/tm-telecommunications-management/600/tm-619"
+}

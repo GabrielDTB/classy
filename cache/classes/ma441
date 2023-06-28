@@ -1,0 +1,15 @@
+{
+  "id": "MA 441",
+  "name": "Introduction to Mathematical Analysis",
+  "description": "This course introduces students to the fundamentals of mathematical analysis at an adequate level of rigor. Topics include fundamental mathematical logic and set theory, the real number systems, sequences, limits and completeness, elements of topology, continuity, derivatives and related theorems, Taylor expansions, the Riemann integral, and the Fundamental Theorem of Calculus.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "MA 226 or MA 227",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/400/ma-441"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "CS 581",
+  "name": "Online Social Networks",
+  "description": "The technical issues involved in modern internet and online social networks. Basic social network terminology; properties of social networks: connectivity, long tail, network effects; and how these properties affect real life software systems, e.g.: blogs, wikis, social bookmarks and tagging, folksonomy, and online social networks. Students will learn programming with online social networking APIs: OpenSocial, Facebook, and Twitter. They shall also develop an appreciation of ethical, legal, and technical issues like privacy, anonymity, and authentication inherent in online social network applications. Course includes a term project resulting in a social networking application that uses the social networking APIs to operate on one of the popular social software platforms.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CS 392 and ( CS 182 or CS 385 or CS 570 or CS 590 ) and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-581"
+}

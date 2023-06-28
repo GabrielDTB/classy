@@ -1,0 +1,13 @@
+{
+  "id": "PEP 662",
+  "name": "Solid-State Physics II",
+  "description": "Crystal symmetry. Space-group-theory analysis of normal modes of lattice vibration, phonon dispersion relations, and Raman and infrared activity. Crystal field splitting of ion energy level and transition selection rules. Bloch theorem and calculation of electronic energy bands through tight binding and pseudopotential methods for metals and semiconductors and Fermi surfaces. Transport theory, electrical conduction, thermal properties, cyclotron resonance, de Haas van Alfen, and Hall effects. Dia-, para-, and ferro-magnetism and magnon spinwaves. Spring semester. Typical texts: Callaway, Quantum Theory of Solid State; Ashcroft and Mermin, Solid State Physics; and Kittel, Quantum Theory of Solids.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "PEP 661",
+  "offered": [],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/600/pep-662"
+}

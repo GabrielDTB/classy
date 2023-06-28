@@ -1,0 +1,13 @@
+{
+  "id": "CS 625",
+  "name": "Foundations of Distributed Computing",
+  "description": "Design and analysis of distributed algorithms, and impossibility results showing when some problems are unsolvable. Models of synchronous and asynchronous distributed computing. Fault models, including crash failures and malicious failures, and communication models, including message passing and shared memory systems. Distributed algorithms and impossibility results for problems, such as consensus, Byzantine agreement, clock synchronization, mutual exclusion, and secure multiparty computation.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CS 600",
+  "offered": [],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/600/cs-625"
+}

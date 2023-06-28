@@ -1,0 +1,15 @@
+{
+  "id": "BIO 282",
+  "name": "Introductory Biology Laboratory",
+  "description": "An introductory laboratory illustrating basic techniques and principles of modern biology by means of laboratory experiments and simulated experiments. This laboratory does not satisfy medical school admission requirements.",
+  "credits": "1",
+  "cross_listed": "",
+  "prerequisites": "BIO 281 CoReq",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Biological Sciences Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/200/bio-282"
+}

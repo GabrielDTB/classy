@@ -1,0 +1,15 @@
+{
+  "id": "BT 344",
+  "name": "Intermediate Microeconomics",
+  "description": "This is a course in intermediate microeconomics designed with the goal of providing students with a deeper understanding of economic analysis. It broadly involves the study of consumer and firm behavior starting from the standard perfect competition paradigm and introducing models of imperfect competition. Throughout the course, formal models will be motivated and discussed. The theory will be accompanied by the study of real world applications, as well as considering economic policies targeted at specific industries or sectors.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "BT 244",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/300/bt-344"
+}

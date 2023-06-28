@@ -1,0 +1,15 @@
+{
+  "id": "ME 631",
+  "name": "Mechanical Vibrations I",
+  "description": "Vibration of damped linear systems; free and forced responses of single-degree of freedom systems; Lagrange’s equations; Small oscillation theory; free vibration eigenvalue problem, modes of vibration and modal analysis of multi-degree of freedom systems; vibration isolation; vibration absorbers; vibration of simple continuous systems.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-631"
+}

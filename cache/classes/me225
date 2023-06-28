@@ -1,0 +1,18 @@
+{
+  "id": "ME 225",
+  "name": "Dynamics",
+  "description": "Particle kinematics and kinetics, systems of particles, work-energy, impulse and momentum, rigid-body kinematics, relative motion, Coriolis acceleration, rigid-body kinetics, direct and oblique impact, eccentric impact.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "( ENGR 126 or ENGR 211) and ( MA 124 or MA 126) and PEP 112",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/200/me-225"
+}

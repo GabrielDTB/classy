@@ -1,0 +1,13 @@
+{
+  "id": "CM 532",
+  "name": "Unmanned Aerial Systems-Technology and Applications",
+  "description": "In recent years, Unmanned Aerial Systems (UAS) have been successfully used in military applications. This success has driven major advances in UAS technology and its use in a rapidly expanding set of civilian, law enforcement, and security applications. In this course, we will begin by reviewing the evolution of UAS technology and the various types of Unmanned Aerial Vehicles (UAV) such as fixed wing and rotary propeller UAVs, and the overall system components, including the Flight Controllers, and the communications links. Next, we will study some of the many UAS applications including environmental (e.g. oil spills, changing ice formations), construction management (e.g. inspecting major construction sites), and security (e.g. detection of maritime crime) and the underlying sensor technologies, e.g photogrammetry, infrared). Finally, we will consider the concerns raised by UAS as a threat.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [],
+  "distribution": [
+    "Construction Management Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cm-construction-management/500/cm-532"
+}

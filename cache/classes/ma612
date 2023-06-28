@@ -1,0 +1,15 @@
+{
+  "id": "MA 612",
+  "name": "Mathematical Statistics",
+  "description": "Point estimation, method of moments, maximum likelihood, and properties of point estimators; confidence intervals and hypothesis testing; sufficiency; Neyman-Pearson theorem, uniformly most powerful tests, and likelihood ratio tests; and Fisher information and the Cramer-Rao inequality. Additional topics may include nonparametric statistics, decision theory, and linear models.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "MA 611",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-612"
+}

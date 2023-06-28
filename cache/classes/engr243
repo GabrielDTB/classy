@@ -1,0 +1,17 @@
+{
+  "id": "ENGR 243",
+  "name": "Probability and Statistics for Engineers",
+  "description": "Descriptive statistics, pictorial and tabular methods, measures of location and of variability, sample space and events, probability and independence, Bayes’ formula, discrete random variables, densities and moments, normal, gamma, exponential and Weibull distributions, distribution of the sum and average of random samples, the central limit theorem, confidence intervals for the mean and the variance, hypothesis testing and p-values, applications for prediction in a regression model. A statistical computer package is used throughout the course for teaching and for project assignments.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "MA 124 or MA 126",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "School of Engineering and Science"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/200/engr-243"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "CPE 625",
+  "name": "Fundamentals of Systems Engineering",
+  "description": "This course presents the fundamental principles and process for designing effective and reliable, supportable, and maintainable systems. The participants will also understand the concept of system operational effectiveness, and the inherent \"cause and effect\" relationship between design decisions and system operation, maintenance and logistics. Furthermore, the course will also discuss system life cycle cost modeling as a strategic design decision making methodology and present illustrative case studies.",
+  "credits": "3",
+  "cross_listed": "SYS 625",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Semester",
+    "Summer Session 1",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Computer Engineering Program",
+    "Systems Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/600/cpe-625"
+}

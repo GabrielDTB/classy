@@ -1,0 +1,17 @@
+{
+  "id": "MA 226",
+  "name": "Multivariable Calculus II",
+  "description": "This is a course on integral calculus of multivariable functions and vector fields. Topics include double and triple integrals, polar, cylindrical, and spherical coordinates; Jacobian and change of coordinates formulas; surface and line integrals; curl, divergence and integral theorems of Green, Gauss and Stokes. This is a seven (7) week course.",
+  "credits": "2",
+  "cross_listed": "",
+  "prerequisites": "MA 126",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/200/ma-226"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "MA 637",
+  "name": "Mathematical Logic I",
+  "description": "Prepositional calculus; syntax and semantics of first order theories; completeness theorem; elementary model theory: axiomatic development of Zermelo-Fraenkel or Bernays-Gödel set theory; and ordinals, cardinals, the axiom of choice, and several equivalent axioms.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-637"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "MA 613",
+  "name": "Spatial and Spatio-Temporal Statistical Modeling",
+  "description": "This course introduces the students to data exploration tools, algorithms and statistical models designed for spatial and spatio-temporal data. The course is a natural follow-up to time series modeling or introductory stochastic processes courses in that it expands on the notions of stationarity and ergodicity, auto-correlation, and the Markov property. The first part of the course focuses on spatial data, highlighting the generalization to the Euclidean plane from a onedimensional indexing typical of time series. The second part of the course deals with spatiotemporal data, emphasizing how concepts can then be extended further to indexing of higher dimensions. The course balances the mathematical study of the properties of models with the computational aspects involved in their implementation and the interpretation of real-life data examples, the latter relying on the statistical software and environment R.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "MA 641",
+  "offered": [],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-613"
+}

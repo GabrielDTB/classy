@@ -1,0 +1,13 @@
+{
+  "id": "PEP 691",
+  "name": "Physics and Applications Semiconductor Nanostructures",
+  "description": "This course is intended to introduce the concept of electronic energy band engineering for device applications. Topics to be covered are electronic energy bands, optical properties, electrical transport properties of multiple quantum wells, superlattices, quantum wires, and quantum dots; mesoscopic systems, applications of such structures in various solid state devices, such as high electron mobility, resonant tunneling diodes, and other negative differential conductance devices, double-heterojunction injection lasers, superlattice-based infrared detectors, electron-wave devices (wave guides, couplers, switching devices), and other novel concepts and ideas made possible by nano-fabrication technology. Fall semester. Typical text: M. Jaros, Physics and Applications of Semiconductor Microstructures; G. Bastard, Wave Mechanics Applied to Semiconductor Heterostructures.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/600/pep-691"
+}

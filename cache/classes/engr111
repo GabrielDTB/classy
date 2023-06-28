@@ -1,0 +1,15 @@
+{
+  "id": "ENGR 111",
+  "name": "Introduction to Engineering Design & Systems Thinking",
+  "description": "The Design and Systems Thinking course introduces the first-year engineering students to the elementsof design and system synthesis. Students learn to use a computer aided design software to designdigitally. The course will introduce design of physical components and learn to integrate simple roboticsystems with mechanical, sensing, actuation, and micro-processor hardware components and control and communications software components. The course will prepare students to function effectively both as a team member and in the role of a leader. Through a series of self-directed modules, the course introduces engineering disciplines and several personal and professional strategies.",
+  "credits": "4",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/100/engr-111"
+}

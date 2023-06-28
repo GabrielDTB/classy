@@ -1,0 +1,13 @@
+{
+  "id": "MA 638",
+  "name": "Mathematical Logic II",
+  "description": "First order number theory; primitive and general recursive functions; arithmetization; Gödel’s incompleteness theorems; Tarski’s theorems; and syntax and semantics of second order theories.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "MA 637",
+  "offered": [],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-638"
+}

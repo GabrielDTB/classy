@@ -1,0 +1,15 @@
+{
+  "id": "BT 442",
+  "name": "Fixed Income Analysis",
+  "description": "The aim of this course is to provide you with an introduction to the valuation of fixed income securities and the management of fixed income investment portfolios. We will start with the basics of bond pricing - the relationship between the price of a bond, measures of return on the bond and measures of risk. Next, we will discuss the credit rick assessment and bond issuance process from a market practitioner perspective. The tools for the valuation of bonds, fixed income derivatives and credit derivatives will be the focus of the third segment of the course.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "BT 321 and BT 440",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/400/bt-442"
+}

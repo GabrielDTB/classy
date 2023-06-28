@@ -1,0 +1,16 @@
+{
+  "id": "SSW 541",
+  "name": "Fundamentals of Software Engineering for Non-Software Engineers",
+  "description": "This course teaches the fundamentals of software and software engineering for those who need to understand how software systems are developed, but are not expected to have direct responsibility for software development themselves.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Software Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/500/ssw-541"
+}

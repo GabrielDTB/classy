@@ -1,0 +1,15 @@
+{
+  "id": "CHE 336",
+  "name": "Fluid Mechanics",
+  "description": "Fluid categories, balances of mass, energy, and momentum in the context of fluid components. Hydrostatics and the fluids in laminar, turbulent, and transitional flows. Particular attention is given to flow inside pipes including the concepts of friction and pressure drop, and the effects of changes in height and pumping energy. Fluid moving equipment and flow in porous media. Use of computational tools to solve complex and/or repetitive fluid flow problems.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CHE 210 and (CHE 233 or CHE 234)",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Chemical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/300/che-336"
+}

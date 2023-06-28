@@ -1,0 +1,18 @@
+{
+  "id": "ME 261",
+  "name": "Mechanics of Materials",
+  "description": "Fundamental material response from a variety of loads. Concepts of stress and strain,applications including beams, columns and shafts, stresses are combined to determine principalstresses, deformation of structures and statically indeterminate structures.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "ENGR 211",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/200/me-261"
+}

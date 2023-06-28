@@ -1,0 +1,15 @@
+{
+  "id": "EE 613",
+  "name": "Digital Signal Processing for Communications",
+  "description": "This course teaches digital signal processing techniques for wireless communications. It consists of two parts. Part 1 covers basic DSP fundamentals, such as DFT, FFT, IIR and FIR filters and DSP algorithms (ZF, ML, MMSE). Part 2 covers DSP applications in wireless communications. Various physical layer issues in wireless communications are addressed, including channel estimation, adaptive equalization, synchronization, interference cancellation, OFDM, multi-user detection and rake receiver in CDMA, space-time coding and smart antennae.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-613"
+}

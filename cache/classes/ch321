@@ -1,0 +1,15 @@
+{
+  "id": "CH 321",
+  "name": "Thermodynamics",
+  "description": "Thermodynamics is the science of the transformations of energy and provides a powerful way to discuss equilibria and the direction of natural changes in chemistry. Its concepts apply to both physical change, such as fusion and vaporization, and chemical change, including electrochemistry. This course will cover the laws of thermodynamics, thermodynamic functions (including energy, enthalpy, entropy, Gibbs energy and the chemical potential) and the application to phase equilibria, chemical reaction equilibria and solution theory for both ideal and real systems. Applications of thermodynamic principles to current scientific problems will be explored.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CH 116 and ( MA 124 or MA 126)",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Chemical Sciences Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/300/ch-321"
+}

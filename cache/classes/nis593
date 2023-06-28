@@ -1,0 +1,17 @@
+{
+  "id": "NIS 593",
+  "name": "Applied Data Structures and Algorithms",
+  "description": "The course provides the student with an integrated presentation of (i) the formalisms of data structures, graphs and algorithms, (ii) the development of efficient and reliable software using these formalisms, and (iii) the applications of the data structures, graphs and algorithms topics (including appropriate elements of graph theory) within representative computing, information, and communications engineering applications. Principles will be applied through programming projects solving representative problems drawn from data networking and other applications.",
+  "credits": "3",
+  "cross_listed": "CPE 593",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Engineering Program",
+    "Information and Data Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/500/nis-593"
+}

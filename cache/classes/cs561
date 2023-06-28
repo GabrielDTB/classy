@@ -1,0 +1,18 @@
+{
+  "id": "CS 561",
+  "name": "Database Management Systems I",
+  "description": "Introduction to the design and querying of relational databases. Topics include: relational schemas; keys and foreign key references; relational algebra (as an introduction to SQL); SQL in depth; Entity-Relationship (ER) database design; translating from ER models to relational schemas and from relational schemas to ER models; functional dependencies; and normalization. Undergraduate data structures and algorithms (CS 385 ) OR CS 590. Undergraduates not allowed to enroll.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "( CS 385 or CS 590 ) and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-561"
+}

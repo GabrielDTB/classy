@@ -1,0 +1,15 @@
+{
+  "id": "PEP 681",
+  "name": "Coherence Optics",
+  "description": "Since the birth of laser in the 1960s, optical coherence has become a key subject in the field of both classical and quantum optics. It has played central roles in the fundamental understanding of light as well as in numerous applications including optical communications, imaging, sensing, engineering, information processing, and quantum information technologies. This course introduces the fundamental theory of optical coherence, its analogy to quantum wave theory, along with current frontier research developments. It is dedicated to train students with basic knowledge of various optical concepts including, statistical process, interference coherence theory, partial polarization theory, entanglement theory, wave-particle duality, as well as their analogies and applications in quantum mechanics/information.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/600/pep-681"
+}

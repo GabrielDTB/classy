@@ -1,0 +1,16 @@
+{
+  "id": "FE 543",
+  "name": "Introduction to Stochastic Calculus for Finance",
+  "description": "This course introduces the stochastic calculus to students of finance and financial engineering. The course deals with Markov chains, Poisson processes, random walks, Brownian motion, asset prices as processes, limits of stochastic sequences, Ito sums and integral, fundamental models in modern finance, price dynamics and elementary examples of stochastic differential equations.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-543"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "SOC 524",
+  "name": "Introduction to Cloud Computing",
+  "description": "This course introduces the concepts of cloud computing, using the frameworks of software as a service (SaaS), platform as a service (PaaS), and infrastructure as a service (IaaS). Fundamental concepts from each framework are introduced and related to the structure of the modern cloud. Cloud computing: economics of outsourcing. SaaS: The Web as a client-server system. Web stack: HTML and HTTP. Web data: XML and JSON. Web services and example APIs. PaaS: Introduction to databases and middleware. Data storage in the cloud. Privacy issues. IaaS: Design of server farms. Virtualization and green computing. Service discovery: DNS and content distribution networks. Batch processing in the cloud. Assignments include quizzes, examinations, and a presentation and term paper on a cloud-related topic.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "(CS 492 or CS 520) and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/soc-service-oriented-computing/500/soc-524"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "MT 528",
+  "name": "Solar Energy: System Designs",
+  "description": "This course provides an in-depth treatment of how to transfer the latest solar thermal technology available to real world applications. It takes the student through the various phases of development of a solar space heating and photovoltaic integrated building; review occupant’s requirements, site analysis, design concept, solar system design, cost estimates, building design, performance predictions and construction. The emphasis of the class is on solar system design methods, economic optimization of solar systems and installation.",
+  "credits": "3",
+  "cross_listed": "ME 519",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Materials Science and Engineering Program",
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/500/mt-528"
+}

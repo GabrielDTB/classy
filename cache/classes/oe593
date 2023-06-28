@@ -1,0 +1,14 @@
+{
+  "id": "OE 593",
+  "name": "Urban Meteorology",
+  "description": "This course will cover the dynamics of meteorology in urban environments. The course will explore urban heat islands and how they arise, and common circulation patterns impacting cities. The course will examine ways to measure and model heterogeneous cityscapes and their emission characteristics. A portion of the course will address transport of airborne contaminants in urban environments. Sensor technologies and airborne release studies will be examined for insight on transport and dispersion in urban canyons and other heterogeneous environments. The course will also study the basics of modeling methodologies (e.g., mesoscale and computational fluid dynamics) as tools to predict urban airflow at various scales.",
+  "credits": "3",
+  "cross_listed": "CE 593",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [],
+  "distribution": [
+    "Civil Engineering Program",
+    "Ocean Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-593"
+}

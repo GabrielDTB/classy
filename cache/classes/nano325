@@ -1,0 +1,16 @@
+{
+  "id": "NANO 325",
+  "name": "Introduction Nanofabrication and Characterization",
+  "description": "The course addresses the science underpinnings of nanotechnology to provide a hands-on experience for undergraduate students in nanofabrication and characterization. It will discuss the grand challenges of nanofabrication and will showcase examples of specific applications in electronics, photonics, chemistry, biology, medicine, defense, and energy. NANO 200 would be a pre-requisite for this course. This course will offer hands-on experiments to fabricate prototype devices/systems (e.g. relatively simple sensors or actuators) in order for students to understand the full sequence/spectrum of development of nanodevices and systems, e.g. from concept design, fabrication and characterization.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "NANO 200",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Materials Science and Engineering Program",
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nano-nanotechnology/300/nano-325"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "MA 346",
+  "name": "Numerical Methods",
+  "description": "This course begins with a brief introduction to writing programs in a higher level language, such as Matlab. Students are taught fundamental principles regarding machine representation of numbers, types of computational errors, and propagation of errors. The numerical methods include finding zeros of functions, solving systems of linear equations, interpolation and approximation of functions, numerical integration and differentiation, and solving initial value problems of ordinary differential equations.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "(MA 124 or MA 126) and CoReq MA 221",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/300/ma-346"
+}

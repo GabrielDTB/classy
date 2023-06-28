@@ -1,0 +1,15 @@
+{
+  "id": "CS 423",
+  "name": "Senior Design I",
+  "description": "Students in this course work in teams to develop real software for real clients. Topics in software engineering additional to, or more advanced than those taught in CS 347 are introduced \"just in time,\" as needed.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CS 347 and ( CS 182 OR CS 385 ) andSeniors only",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/400/cs-423"
+}

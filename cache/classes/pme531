@@ -1,0 +1,17 @@
+{
+  "id": "PME 531",
+  "name": "Process Safety Management",
+  "description": "This course reviews the 12 elements of the Process Safety Management (PSM) model created by the Center for Chemical Process Safety of the American Institute of Chemical Engineers. PSM systems were developed as an expectation/demand of the public, customers, in-plant personnel, stockholders and regulatory agencies because reliance on chemical process technologies were not enough to control, reduce and prevent hazardous materials incidents. PSM systems are comprehensive sets of policies, procedures and practices designed to ensure that barriers to major incidents are in place, in use and effective. The objectives of this course are to: define PSM and why it is important, describe each of the 12 elements and their applicability, identify process safety responsibilities, give real examples and practical applications to help better understand each element, share experiences and lessons learned of all participants, and assess the quality and identify enhancements to student’s site PSM program.",
+  "credits": "3",
+  "cross_listed": "CHE 531",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Chemical Engineering Program",
+    "Pharmaceutical Manufacturing Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pme-pharmaceutical-manufacturing/500/pme-531"
+}

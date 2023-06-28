@@ -1,0 +1,14 @@
+{
+  "id": "NIS 611",
+  "name": "Digital Communications Engineering",
+  "description": "Waveform characterization and modeling of speech/image sources; quantization of signals; uniform, nonuniform and adaptive quantizing; pulse code modulation (PCM) systems; differential PCM (DPCM); linear prediction theory, adaptive prediction; delta modulation and sigma-delta modulation systems; subband coding with emphasis on speech coding; data compression methods like Huffman coding, Ziv-Lempel coding and run length coding.",
+  "credits": "3",
+  "cross_listed": "EE 611",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Electrical Engineering Program",
+    "Information and Data Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/600/nis-611"
+}

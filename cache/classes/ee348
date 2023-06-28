@@ -1,0 +1,17 @@
+{
+  "id": "EE 348",
+  "name": "Signals and Systems",
+  "description": "An introduction to the mathematical methods used in the study of communications systems with practical applications. Discrete and fast Fourier transforms. Functions of a complex variable. Laplace and Z transforms.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "EE 250 and ENGR 245",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/300/ee-348"
+}

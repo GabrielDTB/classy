@@ -1,0 +1,15 @@
+{
+  "id": "PEP 124",
+  "name": "Physics for Business & Technology II",
+  "description": "This is the second course of a two course algebra-based introductory physics sequence for students outside of the engineering or science curriculum. This course covers the basic principles and applications of electricity and magnetism, oscillations and waves, and optics. Recitations include a laboratory component.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "PEP 123",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/100/pep-124"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "EE 424",
+  "name": "Engineering Design VIII",
+  "description": "A continuation of EE 423 in which the design is implemented and demonstrated. This includes the completion of a prototype (hardware and/or software), testing and demonstrating performance and evaluating the results. To be taken during the student’s last spring semester as an undergraduate student.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "IDE 402 Coreq and (Engineering Design VII))",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/400/ee-424"
+}

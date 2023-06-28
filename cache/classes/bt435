@@ -1,0 +1,15 @@
+{
+  "id": "BT 435",
+  "name": "Social Media and Network Analysis",
+  "description": "Recently, the advent of electronically mediated social networks has transformed the way we interact in government, educational, and business institutions. A set of social network analysis methods, with roots in sociology, graph theory, and computer science, can help us make sense of this complicated phenomenon. This course will provide a basic understanding of electronically mediated social networks in the context of the management discipline of marketing. In order to provide this understanding, we will survey ideas that have surfaced in, management, psychology, computer science, and sociology. By the end of the course, students will be capable of understanding electronically mediated social networks: the way they form, the way they grow, and the way they are applied in business. Students will be capable of analyzing existing networks, and will also be able to build new networks. That is, there will be labs in which tools and techniques for both understanding and designing electronically mediated social networks will be explained and used. Students will also be asked to actively participate in creating a part of an electronically mediated social network: working in teams, they will attempt to create ideas or applications that will go viral: they will attempt to create an information cascade.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "BT 221 and BT 350",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/400/bt-435"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "EE 682",
+  "name": "Fuzzy Logic Systems",
+  "description": "The geometry of fuzzy sets; the universe as a fuzzy set; fuzzy relational algebra; fuzzy systems; the fuzzy entropy theorem; the subsethood theorem; the fuzzy approximation theorem (FAT); fuzzy associative memories (FAM); adaptive FAMs (AFAM); fuzzy learning methods; approximate reasoning (linguistic modeling); different integration of neural networks and fuzzy systems; neuro-fuzzy controller and their applications; expert systems: knowledge acquisition, knowledge representation, and inference engines; hybrid expert systems (soft computing): knowledge-based systems, fuzzy systems, and neural networks; and applications: image processing, data compression, pattern recognition, computer vision, qualitative modeling, retrieval from fuzzy database, process control, robotics, and some industrial applications.",
+  "credits": "3",
+  "cross_listed": "CPE 682, CS 682",
+  "prerequisites": "CS 505 / EE 605 / NIS 605",
+  "offered": [],
+  "distribution": [
+    "Computer Engineering Program",
+    "Computer Science Program",
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-682"
+}

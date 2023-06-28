@@ -1,0 +1,19 @@
+{
+  "id": "ME 541",
+  "name": "Validation of Computerized Systems",
+  "description": "Computers and computerized systems are ubiquitous in pharmaceutical manufacturing. Validation of these systems is essential to assure public safety and compliance with appropriate regulatory issues regarding validation: GMP, GCP, 21CFR Part 11, etc. This course covers validation concepts for various classes of computerized systems and applications used in the pharmaceutical industry; importance of requirements engineering in validation; test protocols and design; organizational maturity considerations.",
+  "credits": "3",
+  "cross_listed": "CHE 541, PME 541",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Chemical Engineering Program",
+    "Mechanical Engineering Program",
+    "Pharmaceutical Manufacturing Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-541"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "EN 637",
+  "name": "Environmental Control Laboratory",
+  "description": "Laboratory verification of theoretical concepts involved in design and analysis of unit operations and unit processes for environmental pollution control and conservation. Laboratory investigations include mixing, coagulation, flocculation, sedimentation, filtration, vacuum operations, flotation, disinfection, corrosion control, chemical precipitation, adsorption, ion exchange, membrane processes, biological oxidation and anaerobic digestion.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Environmental Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/600/en-637"
+}

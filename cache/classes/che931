@@ -1,0 +1,16 @@
+{
+  "id": "CHE 931",
+  "name": "Chemical Engineering Qualifying Exam - Oral",
+  "description": "CHE931 will test the aptitude of students, who have completed CHE930, for advanced research on a frontier research topic (including ongoing doctoral research) chosen by the students. Students shall take the oral exam within one year after passing the written exam. The student's advisor will not serve on the examination board. Students with a Master's degree should pass the oral qualifying within two years from time of admission. Students without a Master's degree should pass the oral qualifying exam within three years from time of admission. The oral qualifying exam is offered in May and December each year. The department reserves the right not to offer the exam in case of low enrollment. Two chances are given for a student to pass the oral exam. The student officially becomes a doctoral candidate upon completing CHE931.",
+  "credits": "0",
+  "cross_listed": "",
+  "prerequisites": "CHE 930",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Chemical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/900/che-931"
+}

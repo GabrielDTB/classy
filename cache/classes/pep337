@@ -1,0 +1,16 @@
+{
+  "id": "PEP 337",
+  "name": "Observational Astrophysics",
+  "description": "This course focuses on the detection principles and technology of modern telescopes and observatories. Data analysis and instrumentation projects are an essential component of the course. Topics covered include: propagation of astrophysical information via photons and particles, the Earth’s atmosphere, spacecraft design and launch, telescope optics, interferometry techniques, and a systematic survey of detection techniques from radio to gamma-ray telescopes and astro-particle instruments.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "PEP 112 and PEP 151",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/300/pep-337"
+}

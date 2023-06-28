@@ -1,0 +1,15 @@
+{
+  "id": "EN 424",
+  "name": "Engineering Design VIII",
+  "description": "Senior design courses. Complete design sequence with a required capstone project spanning two semesters. The capstone design project will use the entire range of knowledge and skills acquired in earlier courses. The design experience will include exposure to engineering standards, professional ethics, environmental impacts, and economics.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "IDE 402 Coreq and (Engineering Design VII))",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Environmental Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/400/en-424"
+}

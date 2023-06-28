@@ -1,0 +1,18 @@
+{
+  "id": "MA 126",
+  "name": "Multivariable Calculus I",
+  "description": "This is a first course in multivariable calculus, introducing students to both differential and integral calculus of multivariable functions. Topics include partial derivatives, the gradient and directional derivatives, the chain rule, maps between Euclidean spaces and Jacobian, implicit differentiation and implicit function theorem, local extrema, double integrals, change of coordinates formula for double integrals. This is a seven (7) week course.",
+  "credits": "2",
+  "cross_listed": "",
+  "prerequisites": "MA 125",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/100/ma-126"
+}

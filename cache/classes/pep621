@@ -1,0 +1,11 @@
+{
+  "id": "PEP 621",
+  "name": "Quantum Chemistry",
+  "description": "Theorems and postulates of quantum mechanics; operator relationships; solutions of the Schrödinger equation for model systems; variational and perturbation methods; pure spin states; Hartree-Fock self-consistent field theory; and applications to many-electron atoms and molecules.",
+  "credits": "3",
+  "cross_listed": "CH 621/ PEP 621 - Quantum Chemistry",
+  "prerequisites": "CH 520 or PEP 554",
+  "offered": [],
+  "distribution": [],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/600/pep-621"
+}

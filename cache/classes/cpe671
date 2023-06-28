@@ -1,0 +1,13 @@
+{
+  "id": "CPE 671",
+  "name": "High-Speed Signal and Image Processing with VLSI",
+  "description": "The design of ASCA (Application Specific Computer Architectures) for signal and image processing; topics include an overview of VLSI architectural design principles, signal and image processing algorithms, mapping algorithms onto array structures, parallel architectures and implementation, and systolic design for neural network processing.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CPE 644 and EE 603",
+  "offered": [],
+  "distribution": [
+    "Computer Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/600/cpe-671"
+}

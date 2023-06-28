@@ -1,0 +1,13 @@
+{
+  "id": "ME 473",
+  "name": "Design of Mechanical Systems",
+  "description": "Static and dynamic force analysis of mechanisms, dynamics of reciprocating and rotating machinery, balancing of machinery, friction and wear, vibration and noise control in machines, manipulators and robots, computer-aided design.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "(MA 226 or MA 227) and ME 358",
+  "offered": [],
+  "distribution": [
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/400/me-473"
+}

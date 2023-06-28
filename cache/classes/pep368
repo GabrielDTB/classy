@@ -1,0 +1,13 @@
+{
+  "id": "PEP 368",
+  "name": "Transport: Theory and Simulation",
+  "description": "Numerical solution of ordinary differential equations describing oscillation and/or decay. Formulation of diffusion and heat conduction equations (conservation laws, continuity equation, laws of Fick and Fourier). Numerical solution of heat equation by explicit method. Theory of simulation of sound waves.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/300/pep-368"
+}

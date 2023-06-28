@@ -1,0 +1,16 @@
+{
+  "id": "EE 552",
+  "name": "Engineering Programming: Java",
+  "description": "This course is a hands-on intensive introduction to solving engineering problem using Java. The focus is on building real applications including an electrical CAD package, molecular modelers, and controlling network communications. In the process, Java and object-oriented programming are mastered in order to implement efficient solutions to the target applications.",
+  "credits": "3",
+  "cross_listed": "CPE 552",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Engineering Program",
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/500/ee-552"
+}

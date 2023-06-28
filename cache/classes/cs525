@@ -1,0 +1,16 @@
+{
+  "id": "CS 525",
+  "name": "Systems Programming",
+  "description": "In this course, students will learn to develop system-level software in the C programming language while gaining an understanding of the UNIX family of operating systems and their programming environment. Topics covered will include the user/kernel interface, LINUX/UNIX operating system essentials, user authentication, basic and advanced I/O, file systems, signals, process relationships, and inter-process communication. Concepts of software development, debugging, and maintenance on LINUX/UNIX systems will also be covered.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-525"
+}

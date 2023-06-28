@@ -1,0 +1,17 @@
+{
+  "id": "SYS 623",
+  "name": "Data Science and Knowledge Discovery",
+  "description": "This course provides an hands-on introduction to the major techniques and solutions to discover knowledge in data and text. Traditional data mining along with text mining and network analysis will be presented and will be used by the students via open source software, addressing information mining needs on both structured and unstructured data.",
+  "credits": "3",
+  "cross_listed": "EM 623",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Engineering Management Program",
+    "Systems Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-623"
+}

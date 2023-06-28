@@ -1,0 +1,15 @@
+{
+  "id": "CE 483",
+  "name": "Geotechnical Engineering",
+  "description": "Principles of engineering geology and solid mechanics covering: properties and classification of soils, seepage analysis, theory of soil strength, stress distribution theory and settlement prediction, consolidation theory, introduction to the stability of slopes and the design of shallow foundations. The course is accompanied by concurrent weekly laboratory sessions where students are introduced to geotechnical laboratory tests in a hands-on fashion.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CE 342 and (CE 261 or ENGR 126 )",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Civil Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/400/ce-483"
+}

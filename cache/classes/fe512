@@ -1,0 +1,16 @@
+{
+  "id": "FE 512",
+  "name": "Database Engineering",
+  "description": "The course provides an introduction to SQL databases and NoSQL databases as available to the Hanlon Financial Systems Lab. At the end of the course the students will be familiar with all the lab resources as well as a working knowledge on how to use them. The students will receive hands on instructions about setting up and working with databases. Most of the software will be introduced using case studies or demonstrations, followed by a lecture of related fundamental knowledge. The course covers SQL (MySQL, WinSQL, PosgreSQL), NoSQL (IBM DB2, OneTick) and database managers Aqua. The course will cover accessing databases using API, SQLConnect and Access methods for DB2.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-512"
+}

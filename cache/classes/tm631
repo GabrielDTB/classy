@@ -1,0 +1,15 @@
+{
+  "id": "TM 631",
+  "name": "Broadband Service Management",
+  "description": "Broadband Service Management is a comprehensive course for those interested in deploying and operating broadband networks from a technical and managerial aspect. A broadband networks success is based on its ability to deliver a desired service with a specific service requirement referred to as a Service Level Agreement (SLA). The Service Level Management whether it is with an operator, infrastructure vendor, Third Party Vendor (3PV) or customer all have specific Key Performance Indicators (KPI) associated with them. The ability to define, identify, and manage those Key Performance Indicators associated with a broadband network Service Level Agreement requires a thorough understanding of the entire broadband ecosystem. The course will present key topics and criteria required to implement and sustain a network. Emphasis will be placed on the ability to define performance quantities and manage the network balancing business risks while minimizing costs to meet the objectives of the broadband network.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "TM 630",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/tm-telecommunications-management/600/tm-631"
+}

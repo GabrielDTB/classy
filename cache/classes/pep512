@@ -1,0 +1,15 @@
+{
+  "id": "PEP 512",
+  "name": "Introduction to Nuclear Physics and Nuclear Reactors",
+  "description": "Historical introduction; radioactivity; laws of statistics of radioactive decay; alpha decay; square well model; gamma decay; beta decay; beta energy spectrum; neutrinos; nuclear reactions; relativistic treatment; semiempirical mass formula; nuclear models; uranium and the transuranic elements; fission; and nuclear reactors.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "PEP 201 or PEP 242 or (Grad Student)",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-512"
+}

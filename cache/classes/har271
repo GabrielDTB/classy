@@ -1,0 +1,13 @@
+{
+  "id": "HAR 271",
+  "name": "Creative Programming I",
+  "description": "In this interdisciplinary course, students will explore the computer as a tool of powerful creative possibility, not via pre-built software but instead by writing code. Students will learn about the structures and affordances of code, including iteration, recursion, randomness, interactivity, and object-oriented programming as an inspiration for making artworks. Social and political issues around code, such as open source software, will also be discussed. Students will be introduced to historical and contemporary artists and designers who use programming as their medium.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/200/har-271"
+}

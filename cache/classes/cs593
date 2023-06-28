@@ -1,0 +1,15 @@
+{
+  "id": "CS 593",
+  "name": "Data Mining II: Advanced Algorithms for Mining Big Data",
+  "description": "The recently introduced terminology of Big Data refers to data sets whose volume (amount of data collected, number of data sources), velocity (rate at which data is collected) and variety (heterogeneity of data and data sources) are so extreme that advanced data mining algorithms are needed to process and discover useful patterns in data for actionable intelligent decisions, in a reasonable amount of time.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-593"
+}

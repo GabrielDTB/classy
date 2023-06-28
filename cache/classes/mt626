@@ -1,0 +1,16 @@
+{
+  "id": "MT 626",
+  "name": "Optical Communication Systems",
+  "description": "Components for and design of optical communication systems; propagation of optical signals in single mode and multimode optical fibers; optical sources and photodetectors; optical modulators and multiplexers; optical communication systems: coherent modulators, optical fiber amplifiers and repeaters, transcontinental and transoceanic optical telecommunication system design; optical fiber local area networks.",
+  "credits": "3",
+  "cross_listed": "EE 626, NIS 626, PEP 626",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Department of Physics",
+    "Electrical Engineering Program",
+    "Information and Data Engineering Program",
+    "Materials Science and Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/600/mt-626"
+}

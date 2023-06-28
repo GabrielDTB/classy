@@ -1,0 +1,15 @@
+{
+  "id": "OE 616",
+  "name": "Sediment Transport",
+  "description": "Theory of sediment transport in open channel flow, including applications to riverine, ocean, and coastal environments. Topics covered include boundary layer dynamics, the initiation of motion, sediment characteristics, suspended load, and bed load. Applications include the estimation of transport rates in waves and currents, and the influence of hydraulic structures.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Ocean Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-616"
+}

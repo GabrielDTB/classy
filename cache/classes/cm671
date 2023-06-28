@@ -1,0 +1,17 @@
+{
+  "id": "CM 671",
+  "name": "Practicum in Construction Management",
+  "description": "This will be a capstone course taken at the end of a student’s program of studies. The students will be organized into construction management groups.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Construction Management Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cm-construction-management/600/cm-671"
+}

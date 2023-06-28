@@ -1,0 +1,15 @@
+{
+  "id": "MA 629",
+  "name": "Nonlinear Optimization",
+  "description": "This course introduces the students to the foundation of optimization. The first part of the class focuses on basic results of convex analysis and their application to the development of necessary and sufficient conditions of optimality and Lagrangian duality theory. The main numerical methods of optimization and their convergence constitute the second portion of the class. Along with the theoretical results and methods, examples of optimization models in probability, statistics, and approximation theory will be discussed as well as some basic models from management, finance, and other practical situations will be introduced in order to illustrate the discussed notions and phenomena, and to demonstrate the scope of applications. Linear optimization techniques will be treated as a special case. Some attention will be paid to using optimization software such as AMPL and CPLEX in the numerical assignments.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-629"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "SYS 581",
+  "name": "Introduction to Systems Engineering",
+  "description": "The growing complexity of today’s engineered systems presents daunting challenges to those who are charged with creating, operating, enhancing and sustaining them throughout their lifecycles. While the components of these systems require no less design effort than in the past, attention to the components is not sufficient to ensure overall system success. This course focuses on the interactions between the elements of a complex system, the context within which they are designed and operate, and the relationships between the technical systems and the organizations that design them and the enterprises that they serve. Students develop the understanding of techniques and processes that can help them ensure that their individual contributions are not only excellent in themselves, but that they become part of a cohesive, successful whole.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Systems Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/500/sys-581"
+}

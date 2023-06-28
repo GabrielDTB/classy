@@ -1,0 +1,19 @@
+{
+  "id": "ENGR 234",
+  "name": "Thermodynamics",
+  "description": "This course introduces students to concepts of energy, energy transfer and analysis. Major thermodynamic devices such as heat exchangers, turbines and compressors will be discussed in the context of the first and second laws of thermodynamics along with the required property relationships and equations necessary to analyze these systems. The fundamental mechanisms of heat transfer will also be presented before the course culminates with a discussion of integrated thermodynamic systems and cycles such as refrigeration and air conditioning units.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CH 115 and (MA 115 or MA 122 ) and PEP 111",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Semester",
+    "Summer Session 1",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "School of Engineering and Science"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/200/engr-234"
+}

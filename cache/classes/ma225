@@ -1,0 +1,16 @@
+{
+  "id": "MA 225",
+  "name": "Infinite Series",
+  "description": "This course introduces students to infinite sequences, series and Fourier series and some of their applications. Topics include convergence properties of sequences and series, Taylor polynomials and Taylor series for smooth functions, power series and their convergence intervals, power series solutions to differential equations, periodic functions, Fourier series and Fourier Sine and Cosine series. This is a seven (7) week course.",
+  "credits": "2",
+  "cross_listed": "",
+  "prerequisites": "MA 122",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/200/ma-225"
+}

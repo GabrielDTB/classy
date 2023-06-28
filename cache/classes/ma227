@@ -1,0 +1,17 @@
+{
+  "id": "MA 227",
+  "name": "Multivariable Calculus",
+  "description": "Review of matrix operations, Cramer’s rule, row reduction of matrices; inverse of a matrix, eigenvalues and eigenvectors; systems of linear algebraic equations; matrix methods for linear systems of differential equations, normal form, homogeneous constant coefficient systems, complex eigenvalues, nonhomogeneous systems, the matrix exponential; double and triple integrals; polar, cylindrical and spherical coordinates; surface and line integrals; integral theorems of Green, Gauss and Stokes.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "(MA 124 or MA 126) and CoReq MA 221",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/200/ma-227"
+}

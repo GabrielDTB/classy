@@ -1,0 +1,15 @@
+{
+  "id": "PEP 653",
+  "name": "Quantum Mechanics II",
+  "description": "This course is a continuation of PEP 554. Topics include: principles of quantum dynamics, time-dependent perturbation theory, scattering theory, the density matrix, quantization of the electromagnetic field, interaction of photons with atoms and non-relativistic particles, identical particles, and second quantization for many-body systems. Typical text: Quantum Mechanics by E. Merzbacher.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/600/pep-653"
+}

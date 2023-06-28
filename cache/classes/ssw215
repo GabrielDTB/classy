@@ -1,0 +1,15 @@
+{
+  "id": "SSW 215",
+  "name": "Individual Software Engineering",
+  "description": "In this course students learn to practice a disciplined engineering process for developing software. Individual skills and practices, such as effort estimation and unit testing, are mastered so that students can become successful members of software engineering teams. Best practices in software engineering are followed, including the use of simple design patterns with well-known properties. Students work in small teams to construct a simple web service using the industry standard Ruby programming language, Rails framework and MySQL database technology.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "ENGR 115 or ENGR 116",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Software Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/200/ssw-215"
+}

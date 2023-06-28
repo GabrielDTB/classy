@@ -1,0 +1,17 @@
+{
+  "id": "MA 222",
+  "name": "Probability and Statistics",
+  "description": "Introduces the essentials of probability theory and elementary statistics. Lectures and assignments greatly stress the manifold applications of probability and statistics to computer science, production management, quality control, and reliability. Contents include: descriptive statistics, pictorial and tabular methods, and measures of location and of variability; sample space and events, probability axioms, and counting techniques; conditional probability and independence, and Bayes’ formula; discrete random variables, distribution functions and moments, and binomial and Poisson distributions; continuous random variables, densities and moments, normal, gamma, and exponential and Weibull distributions unions; distribution of the sum and average of random samples; the Central Limit Theorem; confidence intervals for the mean and the variance; hypothesis testing and p-values, and applications for the mean; simple linear regression, and estimation of and inference about the parameters; and correlation and prediction in a regression model.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "MA 124 or MA 126",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/200/ma-222"
+}

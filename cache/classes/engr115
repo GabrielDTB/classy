@@ -1,0 +1,15 @@
+{
+  "id": "ENGR 115",
+  "name": "Introduction to Programming",
+  "description": "An introduction to the use of an advanced programming language for use in engineering applications, using C++ as the basic programming language and Microsoft Visual C++ as the program development environment. Topics covered include basic syntax (data types and structures, input/output instructions, arithmetic instructions, loop constructs, functions, subroutines, etc.) needed to solve basic engineering problems as well as an introduction to advanced topics (use of files, principles of objects and classes, libraries, etc.). Algorithmic thinking for development of computational programs and control programs from mathematical and other representations of the problems will be developed. Basic concepts of computer architectures impacting the understanding of a high-level programming language will be covered.",
+  "credits": "2",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "School of Engineering and Science"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/100/engr-115"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "CS 382",
+  "name": "Computer Architecture and Organization",
+  "description": "An introduction to computer architecture. Topics include: data (data types and formats), hardware (stored program computer concept, addressing methods and program sequencing, instruction sets and their implementation, the CPU and microprogrammed control, input/output organization, peripherals and interfacing, and main memory), communication (network protocols), software (operating systems, dispatching algorithms), assembly language programming, compiling, debugging.",
+  "credits": "4",
+  "cross_listed": "",
+  "prerequisites": "CS 284",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/300/cs-382"
+}

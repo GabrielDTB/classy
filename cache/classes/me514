@@ -1,0 +1,18 @@
+{
+  "id": "ME 514",
+  "name": "Sustainable Energy",
+  "description": "This course assesses the current and potential future energy systems, covers resources, extraction, conversion, and end-use, and emphasizes meeting regional and global energy needs in the 21st century in a sustainable manner. Topics relevant to renewable and conventional energy technologies will be presented including fossil fuels, combustion, environmental effects, carbon sequestration, nuclear power, wind power, solar energy, hydrogen and fuel cells. Key attributes will be described within a framework that aids in evaluation and analysis of energy technology systems in the context of political, social, economic, and environmental goals.",
+  "credits": "3",
+  "cross_listed": "MT 514",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Materials Science and Engineering Program",
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-514"
+}

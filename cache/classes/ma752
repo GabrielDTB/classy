@@ -1,0 +1,13 @@
+{
+  "id": "MA 752",
+  "name": "Advanced Topics in Algebra",
+  "description": "Selected topics in algebra not treated in other courses; topics may include: group representations, Lie algebra, structure of rings, valuation theory, algebraic curves, Galois theory of non-commutative fields, polynomial ideals, elimination theory.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "MA 606",
+  "offered": [],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/700/ma-752"
+}

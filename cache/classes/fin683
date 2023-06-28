@@ -1,0 +1,13 @@
+{
+  "id": "FIN 683",
+  "name": "Financial Services Industry Back Office",
+  "description": "This course is designed to provide the student with an in-depth understanding of the back-office trade process and the role of information technology (IT) in this process, with the goal of helping the student to be an effective provider of information system development and operations in this arena. The various phases of the trade process will be described, including key regulatory requirements. The current contributions of IT to the process will be reviewed, including straight-through processing, T+1 and foreign exchange trades. Topics include the structure and vocabulary of a trade and trade processing, the street-side view of a process flow, global processing, regulatory and compliance, back-office best practices, improving efficiencies and real-time processing.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/600/fin-683"
+}

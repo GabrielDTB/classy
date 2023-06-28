@@ -1,0 +1,15 @@
+{
+  "id": "CS 615",
+  "name": "Systems Administration",
+  "description": "This course covers some of the most essential aspects of systems administration, giving students the opportunity to develop the skills necessary to analyze and troubleshoot problems arising in every day usage of networked computer systems, applying equally to single-user systems, as well as to large-scale installations. Some of the topics covered include: hardware configuration, operating system installation, shell programming, security policies, back-up deployment and disaster recovery, network design, software installation and maintenance, operating system tuning, and best practices for problem determination. Security topics including packet sniffers and spoofers, buffer overflow attacks and stack protection, and firewalls and intrusion detection are also covered, with an emphasis on their implementation. Students are expected to be comfortable in a Unix-like environment on a user level and have a solid understanding of TCP/IP networking and operating system concepts. Background in systems programming and operating systems is recommended. Interested students should describe their programming background and experience with Unix; enrollment with permission of the instructor only. Undergraduates also require CS492.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Instructor Permission Required - Graduate",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/600/cs-615"
+}

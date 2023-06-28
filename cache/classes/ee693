@@ -1,0 +1,15 @@
+{
+  "id": "EE 693",
+  "name": "Heterogeneous Computer Architecture and Hardware",
+  "description": "This course presents tools, techniques and algorithms to accelerate compute intensive applications, via a combination of computing devices such as the GPU, FPGA and multi-core CPU on a heterogeneous platform. Computationally intensive problems present various challenges in terms of tasks with different characteristics and features. With the exponential growth of data from sensors, biological sequencing, financial transactions, multimedia and user generated content; there is a strong need to accelerate the processing involved at various levels. Such applications benefit highly from heterogeneous computing architecture. The basics of GPU architecture, programming tools, such as CUDA and OpenCL, real-world applications that benefit from GPU computing will be presented. This is followed by the techniques for multi-core CPU programming, hardware design via Verilog as well as advantages of FPGA for various low latency applications and a combination of the two architectures to accelerate scientific applications.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-693"
+}

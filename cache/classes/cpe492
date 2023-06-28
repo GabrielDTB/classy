@@ -1,0 +1,16 @@
+{
+  "id": "CPE 492",
+  "name": "Operating Systems",
+  "description": "The use and internals of modern operating systems. Lectures focus on internals whereas programming assignments focus on use of the operating system interface. Major topics include: the process concept; concurrency and how to program with threads; memory management techniques, including virtual memory and shared libraries; file system data structures; and I/O.",
+  "credits": "3",
+  "cross_listed": "CS 492",
+  "prerequisites": "(CS 382 OR CS 383 ) AND CS 385",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Engineering Program",
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/400/cpe-492"
+}

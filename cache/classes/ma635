@@ -1,0 +1,15 @@
+{
+  "id": "MA 635",
+  "name": "Functional Analysis I",
+  "description": "In this course the students learn the foundations of measure theory and integration, the main principles of analysis in metric, normed, Banach and Hilbert spaces. Open, closed, compact sets, continuity, convergence, completeness, contraction mapping principle, linear operators and functionals are included.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "MA 547",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-635"
+}

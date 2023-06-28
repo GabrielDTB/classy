@@ -1,0 +1,15 @@
+{
+  "id": "CPE 423",
+  "name": "Engineering Design VII",
+  "description": "Senior Design course. The development of design skills and engineering judgment, based upon previous and current course and laboratory experience, is accomplished by participation in a design project. Projects are selected in areas of current interest such as communication and control systems, signal processing, and hardware and software design for computer- based systems. To be taken during the student’s last fall semester as an undergraduate student.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Seniors only and CPE 322 and (Pre-/Co-Req IDE 401)",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Computer Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/400/cpe-423"
+}

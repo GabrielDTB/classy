@@ -1,0 +1,14 @@
+{
+  "id": "CPE 563",
+  "name": "Networked Applications Engineering",
+  "description": "Introduction to the engineering principles and practices to build networked applications, such as e-mail and www; programming networked applications using Web Services; coordinating the execution of application components on different computers on the network; ensuring consistency of data among the components in online banking-like applications; monitoring, recovery, and rejuvenation capabilities to handle component failures; authentication among components for eCommerce-like applications; application quality of service; middleware platforms that address these issues in practice; and large-scale networked application examples.",
+  "credits": "3",
+  "cross_listed": "NIS 563",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [],
+  "distribution": [
+    "Computer Engineering Program",
+    "Information and Data Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/500/cpe-563"
+}

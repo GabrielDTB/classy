@@ -1,0 +1,13 @@
+{
+  "id": "MA 711",
+  "name": "Inverse Problems in Science and Engineering",
+  "description": "This course introduces basic concepts and techniques to solve inverse problems for both integral and differential equations. Topics include: Ill-posed problems, Tikhonov regularization, collocation methods, Galerkin methods, inverse eigenvalue problems, inverse boundary value problems, conditions on dense solvability. Computational projects may be assigned.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "MA 548",
+  "offered": [],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/700/ma-711"
+}

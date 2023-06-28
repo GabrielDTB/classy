@@ -1,0 +1,13 @@
+{
+  "id": "MA 632",
+  "name": "Theory of Games",
+  "description": "Strategic games and Nash equilibrium, strictly competitive (zero-sum) games and max-minimization, Strategic games with imperfect information (Bayesian games), extensive games with perfect information (bargaining and repeated games), extensive games with imperfect information and signaling games, coalitional games (the core, stable sets, and bargaining sets), and auctions.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "MA 520 and MA 540",
+  "offered": [],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-632"
+}

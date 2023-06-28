@@ -1,0 +1,17 @@
+{
+  "id": "CHE 629",
+  "name": "Manufacturing of Sterile Pharmaceuticals",
+  "description": "This course is focused on the special characteristics and types of sterile dosage forms and the technologies for their manufacturing. Topics such as environmental and contamination controls, facility design, water and air quality, personnel and other requirements for sterile manufacturing are covered. Sterilization methods for the equipment, components, intermediate and finished products are reviewed. Terminal sterilization and aseptic processing technologies including blow- fill-seal and barrier isolation systems are discussed. The course also includes topics such as Good Manufacturing Practices (GMP) regulations and guidance on aseptic manufacturing, quality assurance and control, stability, storage and distribution applicable to sterile dosage forms manufacturing.",
+  "credits": "3",
+  "cross_listed": "ME 629, PME 629",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Mechanical Engineering Program",
+    "Pharmaceutical Manufacturing Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/600/che-629"
+}

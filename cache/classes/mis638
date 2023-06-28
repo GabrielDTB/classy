@@ -1,0 +1,15 @@
+{
+  "id": "MIS 638",
+  "name": "Knowledge Discovery in Databases II",
+  "description": "This course will focus on Data Mining & Knowledge Discovery Methods and Models. We concentrate on both methods and applications. The course will begin with a n introduction to probability, statistics, and sampling techniques. Methodological and practical aspects of knowledge discovery tools and techniques including: Principle Components, Linear Regression, Logistic Regression, Naive Bayes Estimations and Bayesian Networks will be covered. Practical examples and case studies will be present throughout the course.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mis-information-systems/600/mis-638"
+}

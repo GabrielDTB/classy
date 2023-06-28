@@ -1,0 +1,15 @@
+{
+  "id": "MIS 722",
+  "name": "Research Seminar: Business Process Management and Innovation",
+  "description": "The course introduces PhD students to research areas surrounding the design, implementation, and improvement of organizational processes. The process-oriented analysis of organizations serves as a focal point for the integration of business requirements (in form of business processes) with technology capabilities (in form of process support systems). Research topics within the area of process innovation range from organization theory and workplace design to control theory and the formal representation of processes. Students will discuss seminal research papers in the individual course modules and develop a research paper of their own on a topic related to process innovation.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "NIS 630 / MIS 710",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mis-information-systems/700/mis-722"
+}

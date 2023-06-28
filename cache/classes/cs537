@@ -1,0 +1,14 @@
+{
+  "id": "CS 537",
+  "name": "Interactive Computer Graphics",
+  "description": "This is an introductory-level course to computer graphics. No previous knowledge on the subject is assumed. The objective of the course is to provide a comprehensive introduction to the field of computer graphics, focusing on the underlying theory, and thus providing strong foundations for both designers and users of graphical systems. The course will study the conceptual framework for interactive computer graphics, introduce the use of OpenGL as an application programming interface (API), and cover algorithmic and computer architecture issues.",
+  "credits": "3",
+  "cross_listed": "CPE 537",
+  "prerequisites": "( CS 385 or CS 590 ) and (Grad Student or (Junior or Senior))",
+  "offered": [],
+  "distribution": [
+    "Computer Engineering Program",
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-537"
+}

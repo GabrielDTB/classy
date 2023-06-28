@@ -1,0 +1,17 @@
+{
+  "id": "FE 522",
+  "name": "C++ Programming in Finance",
+  "description": "This course is a hands on C++ introduction for Financial applications. The course will teach the basics of C++ and will teach the student how to program for finance. Very little time will be spent on the philosophy and much more time on the actual programming. QT and Visual Studio will be used as IDE’s throughout the course. The course will be designed as a prerequisite for other advanced courses at Stevens.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-522"
+}

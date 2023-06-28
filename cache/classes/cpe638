@@ -1,0 +1,11 @@
+{
+  "id": "CPE 638",
+  "name": "Advanced Computer Graphics",
+  "description": "Mathematical foundations and algorithms for advanced computer graphics. Topics include 3-D modeling, texture mapping, curves and surfaces, physics-based modeling, and visualization. Special attention will be paid to surfaces and shapes. The class will consist of lectures and discussion on research papers assigned for reading. In class, we will study the theoretical foundations and algorithmic issues. In programming assignments, we will use OpenGL as the particular API for writing graphics programs. C/C++ programming skills are essential for this course.",
+  "credits": "3",
+  "cross_listed": "CPE 638/ CS 638 - Advanced Computer Graphics",
+  "prerequisites": "CS 437 or CS 537",
+  "offered": [],
+  "distribution": [],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/600/cpe-638"
+}

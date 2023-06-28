@@ -1,0 +1,15 @@
+{
+  "id": "EN 379",
+  "name": "Environmental Engineering Laboratory",
+  "description": "An introduction to environmental engineering through laboratory experiments, including: principles of laboratory methods, including common instrumental methods of analysis; application of experimental results to the design of environmental treatment processes.",
+  "credits": "1",
+  "cross_listed": "",
+  "prerequisites": "CoReq EN 377",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Environmental Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/300/en-379"
+}

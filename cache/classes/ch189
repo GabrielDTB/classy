@@ -1,0 +1,16 @@
+{
+  "id": "CH 189",
+  "name": "Seminar in Chemistry and Biology",
+  "description": "Introduction to chemistry as the \"central science\" and its impact on other fields, particularly biology. Areas to be explored include the interaction of radiation with matter, the effect of symmetry on chemical and physical properties of molecules, hyphenated methods of analysis, the chemistry of biological signals, biochemical cycles, the physiology of exercise, and chaotic reactions. Corequisite: CH 115",
+  "credits": "1",
+  "cross_listed": "",
+  "prerequisites": "CH 115 CoReq",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Chemical Sciences Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/100/ch-189"
+}

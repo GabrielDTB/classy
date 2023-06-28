@@ -1,0 +1,17 @@
+{
+  "id": "EE 441",
+  "name": "Introduction to Wireless Systems",
+  "description": "Review of history, concepts and technologies of wireless communications; Explanations and mathematical models for analyzing and designing wireless systems; Description of various wireless systems, including cellular systems, wireless local area networks and satellite-based communication systems; Wireless design projects using Matlab, LabView and software defined radio.",
+  "credits": "3",
+  "cross_listed": "CPE 441",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Engineering Program",
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/400/ee-441"
+}

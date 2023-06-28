@@ -1,0 +1,16 @@
+{
+  "id": "NE 322",
+  "name": "Engineering Design VI",
+  "description": "This course is intended to teach modern systematic design techniques used in the practice of naval engineering. The emphasis is placed on usage of CAD tools for ship hullform design and development. Methodology for the development of design objective(s), literature surveys, base case designs, and design alternatives are given. Students are encouraged to select their senior capstone design project near the end of the course, form teams, and commence preliminary work. Corequisite: OE 528",
+  "credits": "2",
+  "cross_listed": "",
+  "prerequisites": "NE 224 and CoReq OE 528",
+  "offered": [
+    "Spring Semester",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Ocean Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ne-naval-engineering/300/ne-322"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "CS 115",
+  "name": "Introduction to Computer Science",
+  "description": "This is an introduction to computer science with an emphasis on programming. The topics include: design; algorithmic thinking; recursion; object-oriented programming; ethics in computer science; and some basics about computer systems: machine language, interpreters, compilers, and data representation.",
+  "credits": "4",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/100/cs-115"
+}

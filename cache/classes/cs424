@@ -1,0 +1,15 @@
+{
+  "id": "CS 424",
+  "name": "Senior Design II",
+  "description": "This course is a continuation of CS423.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CS 423",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/400/cs-424"
+}

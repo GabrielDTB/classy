@@ -1,0 +1,15 @@
+{
+  "id": "FE 571",
+  "name": "Quantitative Hedge Fund Strategies",
+  "description": "Hedge funds are among the most influential participants in the financial markets with unique features. They are subject to less regulation and their strategies vary significantly from one another. Examples of common strategies include discretionary investing, quantitative equity investing, global macro, managed futures and exploitation of arbitrage opportunities. This course provides an overview of the hedge fund industry by going into the mechanics of the industry and then follows with detailed descriptions of the different strategies employed. Furthermore, it provides the economic intuition behind each of these strategies as well as the implementation along with practical considerations. It also discusses various examples of how financial engineering toolsets can be utilized to enhance hedge fund performance. In addition, this course emphasizes on the practical techniques of building a quantitative trading system using R programming language. Topics such as the lifecycle of developing a sound trading strategy and strategy validation in the form of back-testing are introduced.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "FE 570 and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-571"
+}

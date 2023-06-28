@@ -1,0 +1,13 @@
+{
+  "id": "OE 637",
+  "name": "Estuarine Oceanography",
+  "description": "Classification of estuaries; salt balance equation, forms of the salt balance equation for major types of estuaries, equations of motion, estuarine circulation, diffusion and dispersion in estuaries.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "OE 633",
+  "offered": [],
+  "distribution": [
+    "Ocean Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-637"
+}

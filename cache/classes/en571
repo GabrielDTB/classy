@@ -1,0 +1,15 @@
+{
+  "id": "EN 571",
+  "name": "Physicochemical Processes for Environmental Control",
+  "description": "Chemical and physical principles for the treatment of potable water, industrial process water, and wastewater effluent; chemical precipitation, coagulation, flocculation, sedimentation, filtration, disinfection, ion exchange, oxidation, adsorption, flotation, and membrane processes. The approach of unit operations and unit processes is stressed. Numerical methods of reactor design. Modeling and simulations using an advanced software.",
+  "credits": "3",
+  "cross_listed": "NANO 571",
+  "prerequisites": "EN 377 and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Environmental Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-571"
+}

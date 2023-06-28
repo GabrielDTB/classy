@@ -1,0 +1,16 @@
+{
+  "id": "ISE 451",
+  "name": "Analysis of Networks & Strategies",
+  "description": "This course is designed to help with understanding the complexity, structure and dynamics of a highly connected world. It takes an interdisciplinary look at economics, sociology, information science and applied mathematics to discuss some of the fundamental features of networks and their behavior. The course is designed to equip students with a modeling lens to analyze, quantify and reason about structures, dynamics and evolution of complex networks. Key topics that are covered in the course are mathematical description of complex networks, fundamental measures of network structure, diffusion and cascading, voting and economic and market implications. The course will also have a particular emphasis on game theory as the method to model resource allocation in networks in the presence of autonomous agents.",
+  "credits": "3",
+  "cross_listed": "EM 451",
+  "prerequisites": "EM 365",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Engineering Management Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ise-industrial-and-systems-engineering/400/ise-451"
+}

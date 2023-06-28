@@ -1,0 +1,15 @@
+{
+  "id": "CPE 424",
+  "name": "Engineering Design VIII",
+  "description": "A continuation of CPE423 in which the design is implemented and demonstrated. This includes the completion of a prototype (hardware or software), testing and demonstrating the performance, and the evaluation of results. To be taken during the student’s last spring semester as an undergraduate student.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "IDE 402 Coreq and (Engineering Design VII))",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/400/cpe-424"
+}

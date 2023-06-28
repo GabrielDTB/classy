@@ -1,0 +1,13 @@
+{
+  "id": "MGT 733",
+  "name": "Applied Regression Analysis",
+  "description": "A substantial portion of the models developed to describe phenomena in both the physical and social sciences utilizes regression analysis from simple linear regression to multiple regression; non-linear coefficient estimators are derived, their properties discussed, and numerous examples are used to demonstrate various aspects of interpretation. Tests of significance are also covered for most of the techniques presented.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "MGT 796",
+  "offered": [],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/700/mgt-733"
+}

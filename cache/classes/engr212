@@ -1,0 +1,17 @@
+{
+  "id": "ENGR 212",
+  "name": "Design of Dynamical Systems",
+  "description": "Fundamental concepts of engineering experimentation and ethics including measurementsystems with electronic signals; computer data acquisition systems; discrete sampling; analysisof time-varying signals; statistical analysis of experimental data; experimental uncertaintyanalysis; dynamic measurements systems; Internet of Things (Iot) and 5g Mobile wirelessapplications; ethics in engineering design. Students will learn and apply software toolsincluding, MATLAB, Simulink, and work with experimental equipment to apply concepts ofiterative design, analysis, and experimental testing in a design project.",
+  "credits": "4",
+  "cross_listed": "",
+  "prerequisites": "ENGR 245",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "School of Engineering and Science"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/200/engr-212"
+}

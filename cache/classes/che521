@@ -1,0 +1,16 @@
+{
+  "id": "CHE 521",
+  "name": "Chemical and Materials Thermodynamics",
+  "description": "The principal areas of concentration include a review of the first and second laws of thermodynamics for closed and open systems; the calculus of thermodynamics; equilibrium criteria and stability criteria; properties of pure materials and unary systems; elementary applications of statistical thermodynamics to determine specific heats; chemical potentials and equilibria in heterogeneous systems, fugacity and activity functions; solution thermodynamics; vapor-liquid, liquid-liquid, vapor-liquid- liquid and solid-liquid equilibria and phase diagrams; chemical equilibria; surfaces and surface tension.",
+  "credits": "3",
+  "cross_listed": "MT 521",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Chemical Engineering Program",
+    "Materials Science and Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/500/che-521"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "MA 525",
+  "name": "Introduction to Computational Science",
+  "description": "This course is primarily for students interested in using numerical methods to solve problems in mathematics, science, engineering, and management. Computational projects will be a significant part of this course and it is expected that students already have experience programming in at least one high level language. Standard topics include numerical solutions of ordinary and partial differential equations, techniques in numerical linear algebra, the Fast Fourier Transform, optimization methods, and an introduction to parallel programming. Additional topics will depend on the interests of the instructor and students.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "( MA 232 or MA 346 ) and (Grad Student or (Junior or Senior))",
+  "offered": [],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-525"
+}

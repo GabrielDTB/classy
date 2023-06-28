@@ -1,0 +1,17 @@
+{
+  "id": "MT 518",
+  "name": "Solar Energy: Theory & Application",
+  "description": "This course is an in depth treatment of the principles and practice associated with using solar radiation as an alternate energy source. It examines the science of solar radiation, technologies for its capture and the design principles that are used to apply solar energy in building design.",
+  "credits": "3",
+  "cross_listed": "ME 518",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Materials Science and Engineering Program",
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/500/mt-518"
+}

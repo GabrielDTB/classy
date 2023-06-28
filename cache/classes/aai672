@@ -1,0 +1,16 @@
+{
+  "id": "AAI 672",
+  "name": "Applied Game Theory and Evolutionary Algorithms",
+  "description": "Part I: Introduction to game theory and evolutionary algorithms: games in strategic form and Nash equilibrium, existence and properties of Nash equilibrium, Pareto efficiency, extensive form games, repeated games, Bayesian games and Bayesian equilibrium, types of games and equilibrium properties, learning in games, evolutionary algorithms. Part II: Engineering applications of game theory and evolutionary algorithms. Examples may include: network optimization, cognitive radio networks, internet of things, smart health, smart grids, security applications.",
+  "credits": "3",
+  "cross_listed": "EE 672",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Electrical Engineering Program",
+    "Information and Data Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/aai-applied-artificial-intelligence/600/aai-672"
+}

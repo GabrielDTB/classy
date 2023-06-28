@@ -1,0 +1,15 @@
+{
+  "id": "MA 231",
+  "name": "Nonlinear Optimization",
+  "description": "This course will introduce the students to the theory of linear and non-linear optimization. The students will be familiarized with some fundamental notions and results of convex analysis. We shall use those results to derive necessary and sufficient conditions of optimality for linear and nonlinear optimization problems and to develop the fundamentals of Lagrangian duality theory. The notions and results will be illustrated on examples of optimization models arising in statistics, engineering, finance, and business. This is a seven (7) week course.",
+  "credits": "2",
+  "cross_listed": "",
+  "prerequisites": "MA 125 , MA 126 , MA 225",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/200/ma-231"
+}

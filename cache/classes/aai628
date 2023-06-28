@@ -1,0 +1,16 @@
+{
+  "id": "AAI 628",
+  "name": "Data Acquisition, Modeling and Analysis: Deep Learning",
+  "description": "This course will provide a comprehensive introduction on deep learning techniques used by practitioners in industry, with a focus on programming exercises using deep learning software packages. The course starts with a brief overview on statistics, linear algebra, and machine learning basics, and emphasizes teaching the analytical tools and the programming skills for applying deep neural networks for different application scenarios. By the end of the course, students will have a thorough knowledge on the state-of-the-art approaches used in deep learning for engineering applications.",
+  "credits": "3",
+  "cross_listed": "EE 628",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/aai-applied-artificial-intelligence/600/aai-628"
+}

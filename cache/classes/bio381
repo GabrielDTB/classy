@@ -1,0 +1,15 @@
+{
+  "id": "BIO 381",
+  "name": "Cell and Molecular Biology",
+  "description": "The structure and function of the cell and its subcellular organelles is studied. Biological macromolecules, enzymes, biomembranes, biological transport, bioenergetics, DNA replication, protein synthesis and secretion, motility, and cancer are covered. Cell biology experiments and interactive computer simulation exercises are conducted in the laboratory.",
+  "credits": "4",
+  "cross_listed": "",
+  "prerequisites": "BIO 281",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Biological Sciences Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/300/bio-381"
+}

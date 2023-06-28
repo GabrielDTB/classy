@@ -1,0 +1,14 @@
+{
+  "id": "EE 643",
+  "name": "Logical Design of Digital Systems I",
+  "description": "Design concepts for combinational and sequential (synchronous and asynchronous) logic systems; the design processes are described algorithmically and are applied to complex function design at the gate and register level; the designs are also implemented using software development tools, logic compilers for programmable logic devices and gate arrays.",
+  "credits": "3",
+  "cross_listed": "CPE 643",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Computer Engineering Program",
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-643"
+}

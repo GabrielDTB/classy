@@ -1,0 +1,15 @@
+{
+  "id": "TM 618",
+  "name": "Wireless Network Performance Management",
+  "description": "This course develops a fundamental understanding of the performance, management, and life-cycle analysis of emerging mobile wireless networks. The major components of a mobile wireless network, the Radio Access Network (RAN), and the core Back-Bone Network (BBN), are described in terms of their major functional elements. The impact of these functional elements upon the ability of the system to achieve established performance metrics is examined. This course will also examine the trade-offs in system performance and management that each of the elements has on system complexity, planning, and ability to meet the required performance objectives. Life-cycle analysis and, in particular, the migration of mobile wireless systems to third generation networks is discussed with emphasis on the impact of migration on system architecture and cost. The topics of system performance, management, and life-cycle analysis are crucial to wireless managers and professionals in the planning and migration of mobile wireless networks. The course includes a team project where the students will apply the knowledge covered by the course to a practical case study.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "TM 615",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/tm-telecommunications-management/600/tm-618"
+}

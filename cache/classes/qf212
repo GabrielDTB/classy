@@ -1,0 +1,15 @@
+{
+  "id": "QF 212",
+  "name": "Advanced Probability and Stochastic Processes for Quantitative Finance",
+  "description": "This course is designed for undergraduate students in Quantitative Finance, ideally to be taken the first semester of their second year. In this field, many of the concepts are built upon probabilistic and stochastic models. This course is designed to provide students with a better understanding of the underlying concepts, so that they will be prepared when they encounter them in later courses. To further this focus, this course will provide examples from within the Quantitative Finance discipline to provide perspective on many of these topics.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "QF 112",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/200/qf-212"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "PEP 182",
+  "name": "Honors Electricity and Magnetism",
+  "description": "Introduction in classical electricity and magnetism, this course emphasizes the interdependence of electromagnetic phenomena. It begins with Maxwell’s equations in integral form, and dissects each equation carefully, showing how it is used as well as the experimental evidence for its derivation. Topics such as electrostatic and magnetostatic fields, capacitors, inductors, electromagnetic radiation, waveguide propagation, microwave cavities, dielectrics, and magnetic materials are explored using Maxwell’s equations. The transformations of the fields to equivalent inertial reference frames using some ideas from Special Relativity is also explored. The concept of symmetry and its’ applications will be studied in depth.",
+  "credits": "5",
+  "cross_listed": "",
+  "prerequisites": "PEP 182 (Pre-Req or Co-Req Rule)",
+  "offered": [],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/100/pep-182"
+}

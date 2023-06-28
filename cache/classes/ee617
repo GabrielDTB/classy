@@ -1,0 +1,13 @@
+{
+  "id": "EE 617",
+  "name": "Statistical Signal Processing",
+  "description": "Mathematical modeling of signal processing; Wiener-Kalman filters, LP, and LMS methods; estimation and detection covering minimum-variance-unbiased (MVUB) and maximum likelihood (ML) estimators, Cramer-Rao bound, Bayes and Neyman- Pearson detectors, and CFAR detectors; methods of least squares (LS): batch mode, weighted LS, total LS (TLS), and recursive LS (RLS); SVD and high resolution spectral estimation methods including MUSIC, modified FBLP, and Min-Norm; higher order spectral analysis (HOSA) with applications of current interest; PDA and JPDA data association trackers with MultiDATTM; and applied computer projects on major topics.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "EE 616",
+  "offered": [],
+  "distribution": [
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-617"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "FA 641",
+  "name": "Multivariate Statistics and Advanced Time Series in Finance",
+  "description": "The course is an advanced statistics course designed to incorporate the newest areas of statistics research and applications in the Stevens Institute curriculum. Topics include multivariate statistics methods such as principal components, independent components, factor analysis, discriminant analysis, mixture models, and lasso regression. Advanced topics in time series such as Granger causality, vector auto regressive models, co-integration, and error corrected models, VARMA models and multivariate volatility models will be presented.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "FE 541 or BIA 652 or FE 542 or MA 641",
+  "offered": [],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fa-financial-analytics/600/fa-641"
+}

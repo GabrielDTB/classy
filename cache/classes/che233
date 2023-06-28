@@ -1,0 +1,17 @@
+{
+  "id": "CHE 233",
+  "name": "Chemical Engineering Thermodynamics I",
+  "description": "This course generalizes thermodynamic laws as material, energy, and entropy balance equations, explores theories, models, and estimation methods for thermodynamic properties of pure substances, and studies heating/cooling, expansion/compression, and thermodynamic cycles. After the course study, students will be able to apply material, energy, and entropy balances and create pure component property data for separation operation analysis, reactor design, and chemical process design. The theories and models are also the basis for students to study heterogeneous mixtures in Chemical Engineering Thermodynamics II.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "( CH 116 and MA 221 ) and (CoReq CHE 210 or CoReq EN 377)",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Semester"
+  ],
+  "distribution": [
+    "Chemical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/200/che-233"
+}

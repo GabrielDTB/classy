@@ -1,0 +1,15 @@
+{
+  "id": "EN 322",
+  "name": "Engineering Design VI",
+  "description": "Introduction to AutoCAD and computer graphics. Introduction to SAP2000 finite element code. Application of software and design codes to analyze and design full structure. Case studies and projects taken from architectural drawings of real structures.",
+  "credits": "2",
+  "cross_listed": "",
+  "prerequisites": "CE 342 and EN 377",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Environmental Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/300/en-322"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "CS 397",
+  "name": "Outreach Participation",
+  "description": "Under the guidance of a faculty member, students will prepare for, participate in, then evaluate an experience in which the students represent Stevens in an off campus team outreach activity. Examples of such activities include, but are not limited to, technical competitions, cross-discipline design contests, and Ambassador programs. Course may be repeated as a free elective up to a maximum of 3 credits.",
+  "credits": "1",
+  "cross_listed": "",
+  "prerequisites": "CS 182 or CS 284",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/300/cs-397"
+}

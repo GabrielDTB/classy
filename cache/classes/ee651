@@ -1,0 +1,14 @@
+{
+  "id": "EE 651",
+  "name": "Spread Spectrum and CDMA",
+  "description": "Basic concepts, models, and techniques; direct sequence frequency hopping, time hopping, chirp and hybrid systems, jamming game, anti-jam systems, and analysis of coherent and non-coherent systems; synchronization and demodulation; multiple access systems; ranging and tracking; and pseudo-noise generators.",
+  "credits": "3",
+  "cross_listed": "NIS 651",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Electrical Engineering Program",
+    "Information and Data Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-651"
+}

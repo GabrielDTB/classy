@@ -1,0 +1,16 @@
+{
+  "id": "CH 581",
+  "name": "Biochemistry II: Biomolecular Structure and Function",
+  "description": "Discusses the physical and structural chemistry of proteins and nucleotides, as well as the functional role these molecules play in biochemistry. Extensive use of known X-ray structural information will be used to visualize the three-dimensional structure of these biomolecules. This structural information will be used to relate the molecules to known functional information.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CH 244 and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Chemical Sciences Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/500/ch-581"
+}
