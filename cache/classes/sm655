@@ -1,0 +1,18 @@
+{
+  "id": "SM 655",
+  "name": "Sustainable Transportation Systems: Technology, Management and Policy",
+  "description": "Transportation systems are the backbone of cities, communities, and the economy. This course aims at teaching students how to use transportation technologies and management strategies to develop effective policies and to achieve sustainable transportation systems. Throughout the course various quantitative decision making methods and tools including decision trees, benefit-cost and cost-effective analyses, and more advanced decision and risk analysis methods including sensitivity analysis, and multi-attribute simulations will be examined. Transportation case studies will be assessed and analyzed using these techniques and tools. By the end of the course students should be able to quantitatively assess transportation systems and their implications on environment, energy issues, land-use, economic development and equity as well as stakeholders’ roles and responsibilities to make holistic decisions and policy choices. Integration of risk and uncertainty into formal methods is a fundamental component of this course, which tells us how confident we should be in our analyses while formulating/ revising policies.",
+  "credits": "3",
+  "cross_listed": "EM 655, OE 657",
+  "prerequisites": "SYS 660",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Engineering Management Program",
+    "Environmental Engineering Program",
+    "Ocean Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sm-sustainability-management/600/sm-655"
+}

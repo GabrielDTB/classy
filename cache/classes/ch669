@@ -1,0 +1,13 @@
+{
+  "id": "CH 669",
+  "name": "Applied Quantum Chemistry",
+  "description": "Quantum chemistry is the foundation of modern chemistry. Modern quantum chemistry software can be used to obtain accurate information of interesting chemical and biochemical systems that are in excellent agreement with available experiments and can provide useful predictions for future experimental research. This course focuses on the applications of modern quantum chemistry to help solve real-world experimental research problems. It will provide hands-on experience to use currently state-of-the-art quantum chemistry software and modeling software to build various kinds of molecules and calculate various kinds of molecular properties, including reaction pathways. It has both lecture and lab parts, which utilize materials from recent research publications in highly prestigious peer-reviewed journals. Students will learn about the power of modern quantum chemistry through the accuracy of predictions of experimental properties and the usefulness of information that cannot be easily obtained from experimental studies.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CH 520",
+  "offered": [],
+  "distribution": [
+    "Chemical Sciences Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/600/ch-669"
+}

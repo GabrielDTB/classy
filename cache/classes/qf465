@@ -1,0 +1,15 @@
+{
+  "id": "QF 465",
+  "name": "Advanced Topics in Financial Computer Science",
+  "description": "C++ is the main program used in the financial industry because of its efficiency and object oriented structure that facilitates the development of specialized financial libraries. The course will extend the students’ knowledge base, learned in QF365, and move them further into C++ object oriented programming through the use of design patterns and expose them how to price out derivative instruments learned throughout the quantitative finance curriculum.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/400/qf-465"
+}

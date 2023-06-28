@@ -1,0 +1,14 @@
+{
+  "id": "CPE 678",
+  "name": "Information Networks I",
+  "description": "CpE 678 Information Networks I is the first of two courses on modern computer networks. Its focus is the physical and data link levels of the OSI layers. It traces the evolution of client/server computing to the Internet. Topics covered include OSI layering, TCP/IP overview, the application of Shannon’s and Nyquist’s bandwidth theorem’s, Discrete Wave Division Multiplexing, wireless transmission, local loops, QAM, TDM, SONET/SDH, circuit switching, ATM switching, knockout switch, ISDN, ATM, framing, error detection and correction, CRC, ARQ protocol, sliding window protocols, finite state machines, Universal Modeling Language, PPP, ALOHA, CSMA, LANs, fast and gigabit Ethernet, Bridges and FDDI. A significant amount of time is spent on designing 802.3 LANs.",
+  "credits": "3",
+  "cross_listed": "NIS 678",
+  "prerequisites": "CS 505 or EE 605 or NIS 605 or TM 605",
+  "offered": [],
+  "distribution": [
+    "Computer Engineering Program",
+    "Information and Data Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/600/cpe-678"
+}

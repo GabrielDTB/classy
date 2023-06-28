@@ -1,0 +1,11 @@
+{
+  "id": "FE 646",
+  "name": "Optimization Models and Methods in Finance",
+  "description": "This course concerns making sound financial decisions in an uncertain world. Increasingly, financial decision-makers are depending on optimization techniques to guide them in their decisions. This course introduces the approach of modeling financial decisions as optimization problems and then developing appropriate optimization methodologies to solve these problems. The course discusses the main classes of optimization problems encountered in financial engineering: linear and nonlinear programming, integer programming, dynamic programming, stochastic programming, and robust optimization. Recent topics about portfolio optimization arising in behavior finance will also be discussed in the later part of the course. The course will also emphasize effective modeling, the use of modeling languages, such as AMPL1, and the use of commercial solvers for solving financial optimization problems.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/600/fe-646"
+}

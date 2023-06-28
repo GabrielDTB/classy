@@ -1,0 +1,16 @@
+{
+  "id": "EE 568",
+  "name": "Software-Defined Radio",
+  "description": "This course offers an introduction to software-defined radios, devices that can be programmed to work with a variety of different radios. The course covers the following topics: software radio architectures, existing software radio efforts, a review of basic receiver design principles, and application to software radios. Basic questions, design tradeoffs, and architectural issues are also discussed. Several case studies of software radios will be discussed throughout the course.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/500/ee-568"
+}

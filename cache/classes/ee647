@@ -1,0 +1,13 @@
+{
+  "id": "EE 647",
+  "name": "Analog and Digital Control Theory",
+  "description": "State space description of linear dynamical systems; canonical forms; solutions of state equations; controllability, observability, and minimality; Lyapunov stability; pole placement; asymptotic observer and compensator design and quadratic regulator theory; extensions to multivariable systems; matrix fraction description approach; and elements of time-varying systems.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "EE 602 and EE 603",
+  "offered": [],
+  "distribution": [
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-647"
+}

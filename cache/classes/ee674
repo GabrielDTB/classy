@@ -1,0 +1,13 @@
+{
+  "id": "EE 674",
+  "name": "Satellite Communications",
+  "description": "Overview of communication theory, modulation techniques, conventional multiple access schemes, and SS/TDMA; satellite and frequency allocation, analysis of satellite link, and identification of the parameters necessary for the link calculation; modulation and coding; digital modulation methods and their comparison; error correction coding for the satellite channel, including Viterbi decoding and system performance; synchronization methods and carrier recovery; and effects of impairment on the channel.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "EE 603",
+  "offered": [],
+  "distribution": [
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-674"
+}

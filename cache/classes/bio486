@@ -1,0 +1,15 @@
+{
+  "id": "BIO 486",
+  "name": "Fundamental Immunology",
+  "description": "This course is an introduction to the biology and physiology of the immune system. The development and evolution of immune responses as well as the mechanisms of host-pathogen interactions will be discussed. The widespread applications of immunology in biological research, modern medicine and therapeutics will be emphasized. Students will expected to search current research literature, read, interpret and evaluate scientific data and present current topics in immunology.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "BIO 381 and BIO 382",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Biological Sciences Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/400/bio-486"
+}

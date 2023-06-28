@@ -1,0 +1,17 @@
+{
+  "id": "MA 547",
+  "name": "Advanced Calculus I",
+  "description": "Elementary topology of Euclidean spaces; differential calculus of functions of several variables; inverse and implicit function theorems; integration; differential forms; and theorems of Gauss, Green, and Stokes.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "MA 227 and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-547"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "EE 585",
+  "name": "Physical Design of Wireless Systems",
+  "description": "Physical design of wireless communication systems, emphasizing present and next generation architectures. Impact of non-linear components on performance; noise sources and effects; interference; optimization of receiver and transmitter architectures; individual components (LNAs, power amplifiers, mixers, filters, VCOs, phase-locked loops, frequency synthesizers, etc.); digital signal processing for adaptable architectures; analog-digital converters; new component technologies (SiGe, MEMS, etc.); specifications of component performance; reconfigurability and the role of digital signal processing in future generation architectures; direct conversion; RF packaging; minimization of power dissipation in receivers.",
+  "credits": "3",
+  "cross_listed": "MT 685, PEP 685",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Department of Physics",
+    "Electrical Engineering Program",
+    "Materials Science and Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/500/ee-585"
+}

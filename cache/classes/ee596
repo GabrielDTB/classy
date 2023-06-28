@@ -1,0 +1,18 @@
+{
+  "id": "EE 596",
+  "name": "Microfabrication Techniques",
+  "description": "Deals with aspects of the technology of processing procedures involved in the fabrication of microelectronic devices and microelectromechanical systems (MEMS). Students will become familiar with various fabrication techniques used for discrete devices as well as large-scale integrated thin-film circuits. Students will also learn that MEMS are sensors and actuators that are designed using different areas of engineering disciplines and they are constructed using a microlithographically-based manufacturing process in conjunction with both semiconductor and micromachining microfabrication technologies.",
+  "credits": "3",
+  "cross_listed": "MT 596, PEP 596",
+  "prerequisites": "MT 501 and PEP 501 and EE 507 / MT 507 / PEP 507 and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Department of Physics",
+    "Electrical Engineering Program",
+    "Materials Science and Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/500/ee-596"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ME 557",
+  "name": "Foundations for Medical Device Design Planning",
+  "description": "Many major medical device design practices have been established or changed as a result of an event or group of events. This course examines current practices and their relationship to events which shaped them, providing rationale and historical context for these practices. Spanning the past century, this course begins by examining events which shaped early medical device regulations and standards. It describes the ramifications of those events and how guidelines and rules for medical device design were formulated or changed as a result. It then reviews unique considerations in current medical device design practices, including regulatory, research and reimbursement practices and special challenges in clinical use. Medical devices that were marketed but resulted in poor outcomes or with technical flaws are studied to illustrate general themes among goals and needs for improved medical device design practices in the future. Aiming to expose students to broadly relevant and current issues, in its entirety, this course reviews the top causes of death, the most expensive diseases and illnesses, and current performance issues with common medical devices. Each lesson summarizes at least one critical element of design strategy for medical devices. Selected examples represent common medical device design challenges. This course is geared toward students seeking or recently entering a career in medical devices. In many cases, medical device practices were based upon practices established for drug regulation, and so relevant pharmaceutical industry developments are also presented, making this course interesting and pertinent to a student pursuing a career in the pharmaceutical field as well. It is also strongly applicable to those pursuing careers involving technology in clinical settings, including hospitals, and in pre-clinical/clinical research. The material that is presented includes highlights from several hundred references. Most of the references are publicly available. Students are encouraged to review the references in their entirety if they want to know more about a topic. Recognizing the multi-disciplinary nature of this field, the course is suitable for a student in any engineering and science program.",
+  "credits": "3",
+  "cross_listed": "BME 555",
+  "prerequisites": "( BIO 281 and CH 115 and PEP 112 ) and (Grad Student or (Junior or Senior))",
+  "offered": [],
+  "distribution": [
+    "Biomedical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-557"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ME 664",
+  "name": "Special Topics in Applied Finite-Element Methods",
+  "description": "This course covers the development and application of finite-element theory to (1) fluid structure interaction, (2) large deformations of incompressible material, (3) electromechanical coupling problems, and (4) nonlinear heat transfer with phase change.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "ME 663",
+  "offered": [],
+  "distribution": [
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-664"
+}

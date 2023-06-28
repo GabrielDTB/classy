@@ -1,0 +1,16 @@
+{
+  "id": "CS 579",
+  "name": "Foundations of Cryptography",
+  "description": "This course provides a broad introduction to cornerstones of security (authenticity, confidentiality, message integrity and non- repudiation) and the mechanisms to achieve them as well as the underlying mathematical basics. Topics include: block and stream ciphers, public-key systems, key management, certificates, public-key infrastructure (PKI), digital signature, non- repudiation, and message authentication. Various security standards and protocols such as DES, AES, PGP and Kerberos, are studied.",
+  "credits": "3",
+  "cross_listed": "CPE 579",
+  "prerequisites": "CS 503 and ( CS 182 or CS 385 or CS 570 or CS 590 ) and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Engineering Program",
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-579"
+}

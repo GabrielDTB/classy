@@ -1,0 +1,16 @@
+{
+  "id": "CS 488",
+  "name": "Computer Architecture",
+  "description": "An introduction to the functional level structure of modern pipelined processors and the empirical and analytic evaluation of their performance. Topics include: empirical and analytic techniques for measuring performance (use of various means, Amdahl’s Law, and benchmarks); tradeoff analysis; principles of instruction set design and evaluation (memory addressing, operations, types and sizes of operands, instruction set encoding, CISC vs. RISC, and related compilation issues); pipelining (basics, data hazards, and control hazards); and memory systems.",
+  "credits": "3",
+  "cross_listed": "CPE 488",
+  "prerequisites": "( CPE 390 or CS 390) and ( ENGR 243 or MA 222 ) or ( CS 383 or CS 382)",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Engineering Program",
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/400/cs-488"
+}

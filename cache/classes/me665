@@ -1,0 +1,16 @@
+{
+  "id": "ME 665",
+  "name": "Advanced Product Development",
+  "description": "This course addresses methodologies and tools to define product development phases and also provides experience working in teams to design high-quality competitive products. Primary goals are to improve ability to reason about design, material and process alternatives and apply modeling techniques appropriate for different development phases, as well as development of competitive product design and plans for its manufacture along with facilities layout simulation, testing and service. Topics covered are: user requirements gathering, quality function deployment (QFD), design for assembly, design for materials and manufacturing processes, optimizing the design for cost and producibility, manufacturing process specifications and planning, process control and optimization, SPC and six sigma process, tolerance analysis, flexible manufacturing, product testing and rapid prototyping.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-665"
+}

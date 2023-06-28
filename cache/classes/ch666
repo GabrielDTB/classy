@@ -1,0 +1,15 @@
+{
+  "id": "CH 666",
+  "name": "Modern Mass Spectrometry",
+  "description": "A comprehensive hands-on course covering both fundamentals and modern aspects of mass spectrometry, with emphasis on biological and biochemical applications. Topics include: contemporary methods of gas phase ion formation [electron ionization (EI), chemical ionization (CI), inductively coupled plasma (ICP), fast atom bombardment (FAB), plasma desorption (PD), electrospray (ESI), atmospheric pressure chemical ionization (APCI), matrix assisted laser desorption ionization (MALDI), detection (electron and photomultipliers, and array detectors), and mass analysis [magnetic deflection, quadrupole, ion trap, time of flight (TOF), and Fourier-transform (FTMS)]. Detailed interpretation of organic mass spectra for structural information, with special emphasis on even-electron-ion fragmentation. Qualitative and quantitative applications in environmental, biological, pharmacological, forensic, and geochemical sciences.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Chemical Sciences Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/600/ch-666"
+}

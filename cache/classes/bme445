@@ -1,0 +1,15 @@
+{
+  "id": "BME 445",
+  "name": "Biosystems Simulation and Control",
+  "description": "Time and frequency domain analysis of linear control systems. Proportional, derivative and integral control actions. Stability. Applications of control theory to physiological control systems: biosensors, information processors and bioactuators. Mathematical modeling and analysis of heart and blood pressure regulation, body temperature regulation, regulation of intracellular ionic concentrations, eye movement and pupil dilation controls. Use of Matlab and Simulink to model blood pressure regulation, auto regulation of blood flow, force development by muscle contraction, and integrated response of cardiac output, blood pressure and respiration to exercise.",
+  "credits": "4",
+  "cross_listed": "",
+  "prerequisites": "BME 482",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Biomedical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/400/bme-445"
+}

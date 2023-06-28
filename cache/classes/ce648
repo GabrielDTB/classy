@@ -1,0 +1,17 @@
+{
+  "id": "CE 648",
+  "name": "Numerical Hydrodynamics",
+  "description": "Potential flows around bodies: panel singularities methods and conformal mapping methods. Finite-difference and spectral methods for Poisson equations: numerical inversion of matrices, and potential flows in or around irregular domains. Consistency, stability, and convergence of numerical methods: linear stability analysis. Numerical methods for diffusion equations and methods for ordinary differential equations. One-dimensional Burger’s equation and nonlinear problems, Newton iteration, error analysis. Numerical methods for stream function vorticity equations: flows in or around irregular domains. Discussions of current research in computational fluid dynamics. Four exercise projects and one examination project will be assigned to each student.",
+  "credits": "3",
+  "cross_listed": "OE 648",
+  "prerequisites": "OE 600",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Civil Engineering Program",
+    "Ocean Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/600/ce-648"
+}

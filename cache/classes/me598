@@ -1,0 +1,17 @@
+{
+  "id": "ME 598",
+  "name": "Introduction to Robotics",
+  "description": "Elements of a robotic/flexible automation system; overview of applications; manipulator anatomy; drive systems; end effectors; sensors; computer control: functions, levels of intelligence, motion control, programming and interfacing to sensors and actuators; applications: identification, hardware selection, work cell design, economics, case studies; design of parts and assemblies; advanced topics.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-598"
+}

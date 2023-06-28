@@ -1,0 +1,13 @@
+{
+  "id": "MA 654",
+  "name": "Topological Data Analysis",
+  "description": "This course introduces students to applications of topological methods in data science. Topological Data Analysis (TDA) provides a valuable approach for extracting characteristics of complicated data by recognizing the ‘shape’ of the data. TDA-based algorithms have been successfully used for tasks such as identifying new cancer types, detecting warning signals for imminent financial market crashes, and optimizing materials for methane capture. As a generalization of graphs, simplical complexes formed from data are used for recognizing topological properties algorithmically and are introduced with natural motivating examples from areas such as neuroscience and multi-agent decision tasks. With this in mind, we turn to algebraic topology, specifically simplicial homology, and then follow the development and implementation of persistent homology. Common challenges in data science, such as clustering and dimension reduction, are repeated themes and appear naturally in the Mapper algorithm. Examples of applications are given throughout the course, with coding mostly in Python. Prerequisites: Undergraduate linear algebra, basic familiarity with Python, Matlab or R",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-654"
+}

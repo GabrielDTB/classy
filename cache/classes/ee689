@@ -1,0 +1,13 @@
+{
+  "id": "EE 689",
+  "name": "Applied Antenna Theory",
+  "description": "Brief review of electromagnetic theory; Maxwell’s equations; the wave equations; plane waves and spherical waves; explanation of phenomenon of radiation; the incremental dipole antenna; dipole antennas including half-wave dipole and grounded monopole. Linear-antenna arrays such as Yagi-Uda array and log-periodic array. Radiation from an aperture such as rectangular and circular apertures. Prime-focus fed paraboloidal reflector antennas; far-field patterns, directivity, effects of scanning and effects of random surface imperfections. Shaped-reflector paraboloidal reflector antennas, Cassegrain and Gregorian paraboloidal antennas. Offset para-boloidal reflectors, spherical reflectors. Tracking antennas, types of monopulse patterns, antenna noise, concept of G/T.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-689"
+}

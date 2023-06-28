@@ -1,0 +1,15 @@
+{
+  "id": "EE 589",
+  "name": "Introduction to Power Engineering",
+  "description": "Electric power systems provide the essential infrastructure upon which the modern industrial society is built. This course deals with the fundamental concepts in Power Systems. Topics covered will describe how electrical power is created, transmitted, and effectively used, including generators, transmission lines, transformers, and protection devices.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/500/ee-589"
+}

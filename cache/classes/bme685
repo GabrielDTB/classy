@@ -1,0 +1,15 @@
+{
+  "id": "BME 685",
+  "name": "Nanobiotechnology",
+  "description": "This course describes the application of nano- and micro-fabrication methods to build tools for exploring the mysteries of biological systems. It is a graduate-level course that will cover the basics of biology and the principles and practice of nano- and microfabrication techniques, with a focus on applications in biomedical and biological research.",
+  "credits": "3",
+  "cross_listed": "NANO 675, BME 675, NANO 685",
+  "prerequisites": "NANO 600",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Biomedical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/600/bme-685"
+}

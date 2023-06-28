@@ -1,0 +1,17 @@
+{
+  "id": "SYS 689",
+  "name": "Engineering of Trusted Software Systems",
+  "description": "Trusted systems are dependable, safe, and secure. None of this happens by accident – it all must be engineered in. The course goes beyond the traditional software engineering, quality and development courses to focus on the theory and practical techniques required to create trusted systems. The course covers software reliability engineering, software security engineering, control systems concepts, hazard analysis and management, trusted architecture patterns, and software fault and failure tolerance and management. Specific techniques such as analysis of attack patterns, degraded operation, simplex architectures and rejuvenations, are studied in depth to understand their usefulness and contribution to an overall trusted system solution. Case studies (e.g. Mars Rover) and team projects (e.g. analyzing and reengineering a system to be trustworthy) are used throughout.",
+  "credits": "3",
+  "cross_listed": "SSW 689",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Software Engineering Program",
+    "Systems Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-689"
+}

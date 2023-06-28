@@ -1,0 +1,17 @@
+{
+  "id": "CPE 487",
+  "name": "Digital System Design",
+  "description": "Design of complex digital CMOS/VLSI circuits. Introduction to MOS transistor characteristics and fabrication, digital circuit design and layout for integrated circuits, major categories of VLSI circuit functions, design methodologies including use of Hardware Description Languages (HDL), FPGA, verification, simulation, testability. The course includes a project using VHDL for the design of a significant system function.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "ENGR 245",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Computer Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/400/cpe-487"
+}

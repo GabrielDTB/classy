@@ -1,0 +1,17 @@
+{
+  "id": "MA 567",
+  "name": "Computational Algebraic Geometry",
+  "description": "The course is devoted to systems of polynomial equations (ideals), their solution sets (varieties), and how these objects can be effectively manipulated (algorithms). It introduces main computational techniques used to solve systems of polynomial equations. These techniques are very important in a wide range of problems including applications to robotics, motion planning, and computer proofs/ automatic theorem proving. Special attention is given to multivariate cryptography, the branch of post quantum cryptography that uses hardness of solving systems of polynomial equations over finite fields.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "MA 336 and (Grad Student (or Junior or Senior))",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Semester"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-567"
+}

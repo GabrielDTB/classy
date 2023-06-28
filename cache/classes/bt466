@@ -1,0 +1,13 @@
+{
+  "id": "BT 466",
+  "name": "Data Analytics",
+  "description": "This course will cover techniques for data collection, cleaning, analysis, and visualization. The students will learn how to use established tools, as well as develop their own customized solutions to work with data from different domains. The R programming language & libraries will be used as the working platform for the course.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "BT 221 and BT 223 and MIS 201 and ( CS 110 or MIS110)",
+  "offered": [],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/400/bt-466"
+}

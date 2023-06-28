@@ -1,0 +1,14 @@
+{
+  "id": "CPE 565",
+  "name": "Management of Local Area Networks",
+  "description": "Principles and practices of managing local area networks are presented from the perspective of a network systems engineer, including hands-on projects working with a real local area network (Cisco routers, switches, firewalls, etc.). The SNMP protocols and network management using SNMP are presented in terms of the general organization of information regarding network components and from the perspective of creating basic network management functions using SNMP. Techniques for troubleshooting practical networks, along with setting up and maintaining an IP network are covered. The course includes a project-based learning experience.",
+  "credits": "3",
+  "cross_listed": "NIS 565",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [],
+  "distribution": [
+    "Computer Engineering Program",
+    "Information and Data Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/500/cpe-565"
+}

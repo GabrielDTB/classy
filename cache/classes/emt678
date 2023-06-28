@@ -1,0 +1,17 @@
+{
+  "id": "EMT 678",
+  "name": "Big Data Technologies",
+  "description": "The field of Big Data is emerging as one of the transformative business processes of recent times. It utilizes classic techniques from business intelligence & analysis (BI&A), along with a new tools and processes to deal with the volume, velocity, and variety associate with big data. As they enter the workforce, a significant percentage of BIA students will be directly involved with big data as technologists, managers, or users. This course will build on their understanding of the basic concepts of BI&A to provide them with the background to succeed in the evolving data-centric world, not only from the point of view of the technologies required, but also in terms of management, governance, and organization. Students taking the course will be expected to have some background in areas such as multivariate statistics, data mining, data management, and programming.",
+  "credits": "3",
+  "cross_listed": "BIA 678",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/emt-executive-management-of-technology/600/emt-678"
+}

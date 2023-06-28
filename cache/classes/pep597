@@ -1,0 +1,13 @@
+{
+  "id": "PEP 597",
+  "name": "Elementary Particles",
+  "description": "This course is intended as an introduction to elementary particle physics for advanced undergraduate and beginning graduate students. The course is taught from both the phenomenological and theoreticalperspectives, covering details of the underlying theory and the experimental techniques. It will cover thephysics of quarks, leptons and gauge bosons, including the weak, electromagnetic and strong forces. This course will also discuss symmetries of the fundamental interactions as well as experimental techniques including modern particle accelerator design. Students should have some minimal background in quantum mechanics and special relativity.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-597"
+}

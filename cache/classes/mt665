@@ -1,0 +1,16 @@
+{
+  "id": "MT 665",
+  "name": "Soft Matter Physics",
+  "description": "The course will cover soft matter systems, including colloids, gels, polymers, liquid crystals, micelles and biological membranes. Phenomena occurring in these systems, such as crystallization and phase transitions, will be explored at molecular and microscopic levels. Quantitative characterization of the mechanical, electrical, and optical properties of soft matter systems will also be developed. Seminal papers in each of the fields will be assigned as readings and discussed in lectures.",
+  "credits": "3",
+  "cross_listed": "CHE 665",
+  "prerequisites": "",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Chemical Engineering Program",
+    "Materials Science and Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/600/mt-665"
+}

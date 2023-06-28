@@ -1,0 +1,14 @@
+{
+  "id": "BIO 584",
+  "name": "Pathophysiology",
+  "description": "The course focuses on how pathological conditions are manifested in humans. Topics include the structural and functional changes in cells, tissues, and organs during the pathological manifestations of a disease, the cause of these changes, and the collateral damage caused by malfunctioning of one or more organ systems. Diagnostic testing and interventions for certain health problems are discussed.",
+  "credits": "3",
+  "cross_listed": "BME 584",
+  "prerequisites": "(BIO 281 and BIO 484) or Graduate",
+  "offered": [],
+  "distribution": [
+    "Biological Sciences Program",
+    "Biomedical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/500/bio-584"
+}

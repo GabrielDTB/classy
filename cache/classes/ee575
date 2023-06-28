@@ -1,0 +1,16 @@
+{
+  "id": "EE 575",
+  "name": "Introduction to Control Theory",
+  "description": "An introduction to classic and modern feedback control that does not presume an undergraduate background in control. Transfer function and state space modeling of linear dynamic systems, closed-loop response, root locus, proportional, integral, and derivative control, compensators, controllability, observability, pole placement, linear–quadratic cost controllers, and Lyapunov stability. MATLAB simulations in control system design.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/500/ee-575"
+}

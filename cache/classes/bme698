@@ -1,0 +1,16 @@
+{
+  "id": "BME 698",
+  "name": "Continuum Biomechanics",
+  "description": "An introduction to the mathematical foundations of continuum mechanics for modeling and simulation of soft biological materials. Vectors and tensors, properties and basic operations. Kinematics of nonlinear tissue deformation. Conservation laws, thermodynamics. Stress. Constitutive equations of biological materials. Elastic, viscous, and viscoelastic response. Linearization. Simple problems in finite and linear elasticity. Growth, muscle contraction, shrinking, and remodeling in biological tissues.",
+  "credits": "3",
+  "cross_listed": "ME 694",
+  "prerequisites": "",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Biomedical Engineering Program",
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/600/bme-698"
+}

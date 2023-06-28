@@ -1,0 +1,13 @@
+{
+  "id": "BME 557",
+  "name": "Sensory Systems I",
+  "description": "The Sensory Systems I course will focus on speech, audition, and vision systems. Students will begin with a review of system principles including sampling, filtering, analog to digital conversion (ADC), spectral (Fourier) analysis and transfer functions. The second topic will cover the audio spectrum and properties of sound as they relate to both speech and hearing. The course will then cover basic anatomy and physiology of the larynx, ear, and eye. Students will participate in two types of Labs for each of the three topics. Sensory Labs are designed to enhance the student’s knowledge of sound production, auditory response and image processing. Reverse Engineering (RE) Labs utilizing existing speech, hearing, and vision enhancement products will be conducted as well.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "BME 306 and BME 482 and ENGR 245 and (Grad Student or (Junior or Senior))",
+  "offered": [],
+  "distribution": [
+    "Biomedical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/500/bme-557"
+}

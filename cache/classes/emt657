@@ -1,0 +1,17 @@
+{
+  "id": "EMT 657",
+  "name": "Operations Management",
+  "description": "Covers the general area of management of operations, both manufacturing and non-manufacturing. The focus of the course is on productivity and total quality management. Topics include quality control and quality management, systems of inventory control, work and materials scheduling, and process management.",
+  "credits": "3",
+  "cross_listed": "MGT 657",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/emt-executive-management-of-technology/600/emt-657"
+}

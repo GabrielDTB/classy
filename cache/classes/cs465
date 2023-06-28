@@ -1,0 +1,16 @@
+{
+  "id": "CS 465",
+  "name": "Selected Topics in Computer Science",
+  "description": "A participating seminar on topics of current interest and importance in computer science. Open only to undergraduates.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Undergrad Students Only",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/400/cs-465"
+}

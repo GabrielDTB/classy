@@ -1,0 +1,16 @@
+{
+  "id": "BT 499",
+  "name": "Independent Study",
+  "description": "Independent study allows the student to participate in research, explore a topic not covered by existing courses, or continue to study in greater depth a topic introduced by a course. Independent study courses must be conducted under the guidance of a full time faculty member, whose approval is required prior to enrollment. The student and faculty member must agree on the scope and details of participation in advance. Independent Study courses carry one to three credits.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Need Permission - Undergraduate DEAN 498",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/400/bt-499"
+}

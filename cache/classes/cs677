@@ -1,0 +1,15 @@
+{
+  "id": "CS 677",
+  "name": "Parallel Programming for Many Core Processors",
+  "description": "The course covers advanced architectures and programming techniques for visual computing and machine learning and their applications in gaming, simulation, data analysis and visualization. This class covers the architecture and programming of multicore processors and graphical processing units and associated programming frameworks and languages, for example, CUDA and OpenCL. The course will cover a wide range of applications including real-time rendering of populations and scenario developments in large scale dynamic environments, machine learning and computer vision algorithms for recognition and tracking, large scale dynamic scientific visualizations.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CS 511 or CS 537 or CS 631 or CS 392",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/600/cs-677"
+}

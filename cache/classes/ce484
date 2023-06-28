@@ -1,0 +1,15 @@
+{
+  "id": "CE 484",
+  "name": "Reinforced Concrete Design",
+  "description": "Ultimate strength design for bending and shear of rectangular sections, slabs, \"T\" sections and continuous beams, girders, columns, retaining walls and footings. Code requirements.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CE 373",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Civil Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/400/ce-484"
+}

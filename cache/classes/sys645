@@ -1,0 +1,18 @@
+{
+  "id": "SYS 645",
+  "name": "Design for Reliability, Maintainability, and Supportability",
+  "description": "This course provides the participant with the tools and techniques that can be used early in the design phase to effectively influence a design from the perspective of system reliability, maintainability, and supportability. Students will be introduced to various requirements definition and analysis tools and techniques to include Quality Function Deployment, Input-Output Matrices, and Parameter Taxonomies. An overview of the system functional analysis and system architecture development heuristics will be provided. Further, the students will learn to exploit this phase of the system design and development process to impart enhanced reliability, maintainability, and supportability to the design configuration being developed. Given the strategic nature of early design decisions, the participants will also learn selected multiattribute design decision and risk analysis methodologies, including Analytic Hierarchy Process (AHP). As part of the emphasis on maintainability, the module addresses issues such as accessibility, standardization, modularization, testability, mobility, interchangeability and serviceability, and the relevant methods, tools, and techniques. Further, the students will learn to exploit this phase of the system design and development process to impart enhanced supportability to the design configuration being developed through an explicit focus on configuration commonality and interchangeability, use of standard parts and fasteners, adherence to open system standards and profiles, and use of standard networking and communication protocols. Examples and case studies will be used to facilitate understanding of these principles and concepts.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Systems Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-645"
+}

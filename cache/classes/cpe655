@@ -1,0 +1,15 @@
+{
+  "id": "CPE 655",
+  "name": "Queuing Systems with Computer Applications I",
+  "description": "Queuing models will be developed and applied to current problems in telecommunication networks and performance analysis of networked computer systems. Topics include elementary queuing theory, birth-death processes, open and closed networks of queues, priority queues, conservation laws, models for time-shared computer systems and computer communication networks.",
+  "credits": "3",
+  "cross_listed": "CS 655, NIS 655",
+  "prerequisites": "CS 505 or EE 605 or NIS 605",
+  "offered": [],
+  "distribution": [
+    "Computer Engineering Program",
+    "Computer Science Program",
+    "Information and Data Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/600/cpe-655"
+}

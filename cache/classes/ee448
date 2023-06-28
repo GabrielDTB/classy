@@ -1,0 +1,16 @@
+{
+  "id": "EE 448",
+  "name": "Digital Signal Processing",
+  "description": "Introduction to the theory and design of digital signal processing systems. Include sampling, linear convolution, impulse response, and difference equations; discrete-time Fourier transform, DFT/FFT, circular convolution, and Z-transform; frequency response, magnitude, phase and group delays; ideal filters, linear-phase FIR filters, all-pass filters, minimum- phase and inverse systems; digital processing of continuous-time signals.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "EE 348",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/400/ee-448"
+}

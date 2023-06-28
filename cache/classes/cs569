@@ -1,0 +1,13 @@
+{
+  "id": "CS 569",
+  "name": "Software Development Project II",
+  "description": "Students will work in teams on a software development project that was begun in CS568. In this course they will re-baseline the following documents: operational concept, requirements, architecture, life cycle plan, and feasibility argument and will execute its implementation and deployment. Undergraduate students in the computer science department.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CS 568 and (Grad Student or (Junior or Senior))",
+  "offered": [],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-569"
+}

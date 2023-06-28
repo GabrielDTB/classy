@@ -1,0 +1,15 @@
+{
+  "id": "CS 597",
+  "name": "User Experience Design and Programming",
+  "description": "This course targets how to create, design, code and evaluate effective, efficient and enjoyable user experiences using both standard and emerging techniques. It explores psychological and computational foundations, fundamental concepts, task analysis and requirements analysis. The course emphasizes design, implementation and evaluation and encourages extensive use of design patterns in the design and construction of user experiences. This is truly an interactive course in all ways with demonstrations and exercises drawn from real and virtual worlds. At the end of the course the student should have a heightened appreciation of coding and evaluating user experiences in the real and virtual worlds.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-597"
+}

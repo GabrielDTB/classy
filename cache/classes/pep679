@@ -1,0 +1,15 @@
+{
+  "id": "PEP 679",
+  "name": "Fourier Optics",
+  "description": "Abbe diffraction theory of image formation, spatial filtering, coherence lengths, and areas. Holograms; speckle photography; impulse response function; CTF, OTF, and MTF of lens system; and coherent and incoherent optical signal processing. Spring semester. Typical text: Goodman, Introduction to Fourier Optics.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/600/pep-679"
+}

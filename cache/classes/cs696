@@ -1,0 +1,13 @@
+{
+  "id": "CS 696",
+  "name": "Database Security",
+  "description": "This course is an advanced graduate course that provides an up-to-date overview of data security models, techniques, and architectures in a variety of data management applications and settings. It will cover some of the most comprehensive work on database security, with the covered topics as: (1) access control policies and mechanisms for both relational and structured databases, (2) database integrity auditing techniques, (3) database watermarking, and (4) security in distributed database management systems.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/600/cs-696"
+}

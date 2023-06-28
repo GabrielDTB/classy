@@ -1,0 +1,17 @@
+{
+  "id": "ME 655",
+  "name": "Wearable Robotics and Sensors",
+  "description": "Review of introductory robotics and modern control topics. Biomechanics of human locomotion: kinematics and kinetics. Design, analysis, sensing, actuation, and low-level control of robotic exoskeletons and powered orthoses. Finite state machines for powered orthoses. Principles of human cooperative control for rehabilitation and assistance. Model-based and model-free assistive controllers. Machine learning control in wearable robotics. Overview of wearable inertial sensors and applications to motion analysis and wearable robotics. Supervised learning methods for motor task classification and motion analysis.",
+  "credits": "3",
+  "cross_listed": "BME 656",
+  "prerequisites": "ME 598",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Semester"
+  ],
+  "distribution": [
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-655"
+}

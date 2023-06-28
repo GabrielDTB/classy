@@ -1,0 +1,16 @@
+{
+  "id": "CS 559",
+  "name": "Machine Learning: Fundamentals and Applications",
+  "description": "In this course we will talk about the foundational principles that drive machine learning applications and practice implementing machine learning algorithms. Specific topics include supervised learning, unsupervised learning, neural networks, and graphical models. The main goal of the course is to equip you with the tools to tackle new ML problems you might encounter in life.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "( MA 222 and MA 232 ) or CS 556 and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-559"
+}

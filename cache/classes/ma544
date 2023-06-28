@@ -1,0 +1,13 @@
+{
+  "id": "MA 544",
+  "name": "Numerical Linear Algebra for Big Data",
+  "description": "This course will introduce foundational ideas as well as advanced techniques in linear algebra that are employed in computational science of Big Data. Students will work with vector-matrix representation of several types of structured and unstructured data and how different models and processes could be understood in terms of linear algebra operations and algorithms. Efficient implementation of algorithms for high dimensional data by using Randomized Numerical Linear Algebra will be one of the focal points. Students will develop and improve their coding skills in Python for implementation of several algorithms. In addition, students will read past and current literature in machine learning and data science to familiarize themselves with the current trends and challenges in linear algebra for solving real life problems. Students must have knowledge of undergraduate linear algebra and statistics, and have basic knowledge of Python.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-544"
+}

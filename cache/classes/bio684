@@ -1,0 +1,15 @@
+{
+  "id": "BIO 684",
+  "name": "Molecular Biology Laboratory Techniques",
+  "description": "This laboratory course introduces essential techniques in molecular biology and genetic engineering in a project format. The course includes Hands on experinece in aseptic techniques and the handling of microbes; isolation, purification and quantitation of nucleic acids; construction, selection and analysis of recombinant DNA molecules; restriction mapping; cDNA synthesis and PCR methods; gene editing and other modern molecular biology techniques",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "BIO 484 or Graduate Students",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Biological Sciences Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/600/bio-684"
+}

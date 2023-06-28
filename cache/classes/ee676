@@ -1,0 +1,13 @@
+{
+  "id": "EE 676",
+  "name": "Neural Information Processing Systems",
+  "description": "Basic neural computational models: Basic concepts of neural networks, inference and learning, classification models, association models, optimization models, self-organization models. Learning: supervised and unsupervised: AI learning, neural network learning-backpropagation, Generalization methods, radial basis function networks, reinforcement learning, genetic algorithms. Learning: incremental symbolic methods- COBWEB, decision tree approaches, neural network approaches, probabilistic neural networks, cascade correlation learning. Complex domains: hierarchical models- neocognitron, complex networks, modular neural networks, differentiation models-Kohonen's self-organizing nets. Learning spatiotemporal patterns. Neural networks and expert systems: expert systems, hybrid expert systems, fuzzy logic and neural networks. Rule generation from neural networks. Learning grammars: formal grammars, the neural network approach.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "EE 605",
+  "offered": [],
+  "distribution": [
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-676"
+}

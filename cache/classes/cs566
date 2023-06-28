@@ -1,0 +1,11 @@
+{
+  "id": "CS 566",
+  "name": "Smartphone and Mobile Security",
+  "description": "Mobile devices have evolved and experienced an immense popularity over the last few years, becoming the de-facto computing and communication devices of tomorrow. Nevertheless, this growth has exposed mobile devices to an increasing number of security threats. More specifically, sophisticated, and powerful OSs, such as Android and iOS, new wireless communication technologies, and ambiguous mobile services can bring new opportunities to attackers towards compromising both device, and data stored on it. This, along with the rise of mobile malwares is anticipated to comprise a serious threat in the near future. This course aims on the aspects of information and network security that come to light in this challenging and evolving field of mobile communication systems, focusing not only on smartphones and mobile telecommunication security, but also including aspects of mobile ad hoc, and sensor networks.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "( CS 182 or CS 385 or CS 570 or CS 590 ) and (Grad Student or (Junior or Senior))",
+  "offered": [],
+  "distribution": [],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-566"
+}

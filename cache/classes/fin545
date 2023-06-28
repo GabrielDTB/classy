@@ -1,0 +1,16 @@
+{
+  "id": "FIN 545",
+  "name": "Risk Management for Financial Cybersecurity",
+  "description": "This course examines topics related to efforts to maintain security over financial systems within the organization. Students examine recent financial systems breaches, and consider common threats and vulnerabilities related to financial systems. Several methods of risk assessment are explored, as well as the creation of risk treatment strategies, including the design of internal technical and process controls. Students analyze relevant financial services industry regulation and discuss organizational compliance requirements. Response planning is examined for information and cyber security breaches. It is recommended that participants have completed an introductory course in Management Information Systems.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/500/fin-545"
+}

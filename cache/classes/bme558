@@ -1,0 +1,16 @@
+{
+  "id": "BME 558",
+  "name": "Introduction to Brain-Machine Interfaces",
+  "description": "This course aims for understanding the emerging field of Brain Machine Interfaces (BMI). After the completion of this course the students will have working knowledge of what BMIs are, how they are designed, implemented and tested. The core modules of BMI are data acquisition, decoding and application. Each of these modules will be expanded in detail. A common midterm project will be assigned to all the students. Then the students are expected to select a specialized topic, do a final project and write a term paper towards the final week. This course serves as an introduction to this emerging field of BMIs. This can serve both undergraduate seniors and graduate students.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Summer Session 1",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Biomedical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/500/bme-558"
+}

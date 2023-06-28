@@ -1,0 +1,16 @@
+{
+  "id": "FE 655",
+  "name": "Systemic Risk and Financial Regulation",
+  "description": "This course deals with aspects of systemic risk in financial systems. It covers a review of classical risk measures and introduces non-classical risk measures such as Extreme Value Theory. It also covers the study of financial systems as a system of complex adaptive systems, agent-based modeling, history and analysis of bubble formations as a systemic risk, the role of rating agencies, the financial systems ecosystem, risk and regulatory environment, risk and the socio-political environment. It also studies international financial inter-system risk propagation and containment and its impact on international financial systems, the International Monetary Fund assessments and the effect of extreme risk on poverty, international instability and globalization.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "FE 535",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/600/fe-655"
+}

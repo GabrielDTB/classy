@@ -1,0 +1,16 @@
+{
+  "id": "EM 585",
+  "name": "Introduction to System Architecture and Design",
+  "description": "EM 585 builds on EM 385 and gives the student a practical introduction to Systems Architecture and Design. Lectures will introduce the students to the motivation for System Architecture and Design, the different views on a System Architecture, as well as theory and best practices on behavioral definition, logical and physical partitioning, and interface definitions. Key aspects of system verification and validation will also be discussed. Tutorials will give the students practical experience using SySML and a commercial modeling tool to model system architectures. The students will apply the principles on a team project, designing and building a robot.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "EM 385 and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Engineering Management Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/500/em-585"
+}

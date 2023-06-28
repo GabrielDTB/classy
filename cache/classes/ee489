@@ -1,0 +1,16 @@
+{
+  "id": "EE 489",
+  "name": "Introduction to Electric Energy Systems",
+  "description": "This is the first undergraduate course on electric energy systems, covering a broad introduction to basic concepts underlying the current and emerging methods of generation, delivery, and usage of electric energy. Topics include non-renewable and renewable/sustainable energy resources and their environmental impacts, basic electric energy system analysis approach (e.g., AC circuits, phasor analysis, and three-phase system), power electronics, electrical machines and drives, power quality, energy system control, economic, and regulatory issues, system reliability, high voltage engineering, grounding and safety issues, as well as blackouts and emerging smart grid technologies.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "( MA 123 and MA 124 ) OR ( MA 125 or MA 126 )",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/400/ee-489"
+}

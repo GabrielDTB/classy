@@ -1,0 +1,13 @@
+{
+  "id": "GEN 599",
+  "name": "Multiple Enrollment Filler Course",
+  "description": "Multiple Enrollment Filler Course used as a dummy course",
+  "credits": "0",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Stevens Institute of Technology"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/gen-general-elective/500/gen-599"
+}

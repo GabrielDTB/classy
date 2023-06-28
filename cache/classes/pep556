@@ -1,0 +1,13 @@
+{
+  "id": "PEP 556",
+  "name": "Introduction to Quantum Control",
+  "description": "Interference phenomena in electromagnetism and quantum mechanics; interaction of light and matter, principles of coherent control; adaptive and optimal algorithms; Rabi flopping in two-level systems; control of three-level systems including STRIRAP and electromagnetically induced transparency; tools for quantum control; various current and proposed applications.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "PEP 553 and (Grad Student or (Junior or Senior))",
+  "offered": [],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-556"
+}

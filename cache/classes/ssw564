@@ -1,0 +1,17 @@
+{
+  "id": "SSW 564",
+  "name": "Software Requirements Analysis and Engineering",
+  "description": "Requirements Acquisition is one of the least understood and hardest phases in the development of software products, especially because requirements are often unclear in the minds of many or most stakeholders. This course deals with the identification of stakeholders, the elicitation and verification, with their participation, of the requirements for a new or to-be-extended software product. It deals further with the analysis and modeling of requirements, the first steps in the direction of software design. Finally, it deals with the quality assurance aspects of the software requirements phase of the software development process. This course is case-history and project-oriented, and uses industry-standard software tools.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Software Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/500/ssw-564"
+}

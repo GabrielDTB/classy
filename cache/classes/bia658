@@ -1,0 +1,17 @@
+{
+  "id": "BIA 658",
+  "name": "Social Network Analysis",
+  "description": "This course introduces concepts and theories of social networks as well as techniques to conduct marketing research from a network perspective. Network concepts covered include graph-theoretic fundamentals, centrality, cohesion, affiliations, equivalence, and roles. Network theories covered include embeddedness, social capital, homophily, and models of network growth. Design issues will also be covered, including data sampling and hypothesis testing. Another focus of this course is on marketing applications of social network analysis, in particular the use of knowledge about network properties and behavior, such as hubs and paths, the robustness of the network, and information cascades, to better broadcast products and search targets. Application areas include customer profiling, community detection, targeting, sentiment analysis, and development of recommendation systems. Knowledge and skills learned in these required courses (e.g., R, python, machine learning) are applied to social network analysis.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bia-business-intelligence-and-analytics/600/bia-658"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "NIS 645",
+  "name": "Image Processing and Computer Vision",
+  "description": "The goal is to acquaint the students with the fundamental techniques of image processing. Specific topics include: Digital imaging fundamentals; neighborhood operators; clustering, region growing; split and merge, segmentation; edge and line linking; degradation model, restoration, inverse filtering; zero-crossing methods, gradient edge detectors; gray level co- occurrence, texture analysis; morphological operations; image registration and enhancement; scale space filtering; motion estimation;3D image recognition and estimation.",
+  "credits": "3",
+  "cross_listed": "CPE 645",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Computer Engineering Program",
+    "Information and Data Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/600/nis-645"
+}

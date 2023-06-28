@@ -1,0 +1,16 @@
+{
+  "id": "ME 565",
+  "name": "Introduction to Additive Manufacturing",
+  "description": "This course introduces the students to the rapidly growing field of additive manufacturing (more commonly known as 3D printing). The course takes the students through the entire additive manufacturing process, including CAD modeling and tolerancing for additive manufacturing, 3D scanning and file processing, part orientation and layout, model slicing, support and tool path generation, machine and material selection, print optimization as well as an overview of the basic economics of additive manufacturing. The students will get hands-on exposure to many of the technical aspects and applications of additive manufacturing through several projects. The course will also allow students to gain practical experience in machine operation and maintenance tasks such as machine setup and post-processing operations.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "(ENGR 111 or ENGR 120 or ME 322 ) and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-565"
+}

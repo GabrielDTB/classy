@@ -1,0 +1,15 @@
+{
+  "id": "CS 676",
+  "name": "Advanced Topics in Systems and Security",
+  "description": "This course covers a wide range of advanced topics in the area of Systems Security. A computer system is composed by software, hardware, policies, and practices. Systems security involves both designing and building secure systems, as well as improving and evaluating the security of existing systems. During this course, students will study and present in the classroom recent papers in the area of systems security, write a literature survey on a particular topic, and work on a semester-long project, which will involve designing, implementing, and evaluating a system. Those who take the class should be skilled programmers and should already have some knowledge in the area of systems security.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CS 576",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/600/cs-676"
+}

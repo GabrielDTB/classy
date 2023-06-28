@@ -1,0 +1,15 @@
+{
+  "id": "CS 577",
+  "name": "Reverse Engineering and Application Analysis",
+  "description": "Software in binary form reveals very little about its design, inner workings, and purpose. There are many reasons for obtaining such information, such as recovering information about the software’s development when it is lost, enabling interoperability, recovering data stored in obsolete encodings, analyzing software of unknown provenance, retrofitting software with additional functionality, etc. This course introduces students to the techniques involved in software reverse engineering and analysis. The course goes over multiple architectures, but mostly focuses on x86 and x86_64, and students are exposed to both static and dynamic analyses. This course is giving a particular emphasis into providing hands-on experience to students through disassembling, reverse engineering software, and programming custom analyses. Those who take the class should be skilled programmers and should not be afraid to dive deep into low-level code.",
+  "credits": "4",
+  "cross_listed": "",
+  "prerequisites": "(( CS 306 and CS 392 ) or CS 631 ) and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-577"
+}

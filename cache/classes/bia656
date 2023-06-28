@@ -1,0 +1,16 @@
+{
+  "id": "BIA 656",
+  "name": "Advanced Data Analytics and Machine Learning",
+  "description": "The significant amount of corporate information available requires a systematic and analytical approach to select the most important information and anticipate major events. Statistical learning algorithms facilitate this process understanding, modeling and forecasting the behavior of major corporate variables. This course introduces time series and statistical and graphical models used for inference and prediction. The emphasis of the course is in the learning capability of the algorithms and their application to finance, direct marketing, operations, and biomedicine. Students should have a basic knowledge of probability theory, and linear algebra.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student and Complete BIA 652 OR MGT 620",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bia-business-intelligence-and-analytics/600/bia-656"
+}

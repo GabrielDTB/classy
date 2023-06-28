@@ -1,0 +1,15 @@
+{
+  "id": "CS 576",
+  "name": "Systems Security",
+  "description": "This course will cover a wide range of topics in the area of Systems Security. A computer system is composed by software, hardware, policies, and practices. Systems security involves both designing and building secure systems, as well as improving and evaluating the security of exiting systems. This course is giving a particular emphasis into providing hands-on experience to students through building, attacking, and securing systems. The class is programming intensive. Those who take the class should be skill programmers and should have some experience with the C programming language and programming on a Linux environment. It is recommended that students are also familiar with the assembly language and with network and operating system basics.",
+  "credits": "4",
+  "cross_listed": "",
+  "prerequisites": "(( CS 306 and CS 392 ) or CS 631 ) and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-576"
+}

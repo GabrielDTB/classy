@@ -1,0 +1,18 @@
+{
+  "id": "SSW 567",
+  "name": "Software Testing, Quality Assurance and Maintenance",
+  "description": "This course introduces students to systematic testing of software systems, software verification, symbolic execution, software debugging, quality assurance, measurement and prediction of software reliability, project management, software maintenance, software reuse and reverse engineering.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Software Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/500/ssw-567"
+}

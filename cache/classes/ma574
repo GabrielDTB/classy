@@ -1,0 +1,17 @@
+{
+  "id": "MA 574",
+  "name": "Foundational Mathematics for Data Science",
+  "description": "This course provides students with the essential background in linear algebra and multivariate calculus to take on study of data science. Throughout, various applications will be considered with hands-on numerical and coding exercises supplementing the theory. Topics include vectors, matrices, vector spaces and subspaces, norms and projections, basis and dimension, eigenvalues and eigenvectors, singular values, limits, derivatives and definite integrals of multivariate functions, continuous optimization, maps between Euclidean spaces and Jacobians.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Semester"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-574"
+}

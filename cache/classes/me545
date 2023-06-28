@@ -1,0 +1,15 @@
+{
+  "id": "ME 545",
+  "name": "Introduction to Aerospace Engineering",
+  "description": "This course lays the foundations in aerospace engineering. Topics include the history of aviation, basic aerodynamics, airfoils, wings and other aerodynamic shapes, aircraft performance, stability and control, aircraft structures (structural analysis and materials), propulsion, flight test, rockets, space flight, and orbits.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "ME 342 and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-545"
+}

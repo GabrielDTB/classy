@@ -1,0 +1,13 @@
+{
+  "id": "MA 575",
+  "name": "Optimization Models in Quantitative Finance",
+  "description": "This course introduces the students to mathematical models and computational methods for static (one-step) and dynamic optimization problems occurring in finance. The models involve knowledge of probability, optimality conditions, duality, and basic numerical methods. We shall discuss approaches to portfolio optimization with fixed income securities, immunization, risky assets portfolios, asset-liability management in dynamic models, dynamic optimization techniques for pricing, re-balancing, and others. Special attention will be paid to mathematical models of risk and risk management for static and dynamic systems. Most assignments will require use of software.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-575"
+}

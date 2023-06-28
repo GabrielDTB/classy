@@ -1,0 +1,14 @@
+{
+  "id": "CPE 679",
+  "name": "Computer and Information Networks",
+  "description": "Learn the technologies that make the Internet work. You will understand the IP and TCP protocols and their interaction. You will study TCP slow start in low noise and high noise environments, the use of proxy servers, web caching and gain understanding of the technologies used to make routers perform well under load. These include shortest path routing, new routing algorithms, TCP congestion control, leaky bucket and token bucket admission Control, weighted fair queuing and random early detection of congestion. Networks are described in terms of their architecture, transport, routing, and their management. Quality of Service issues (QoS) are integrated with communication models. The course requires problem solving and extensive reading on network technology. After an introduction to bridges, gigabit Ethernet, routing and the Internet Protocol, a fundamental understanding of shortest path and distance vector routing is taught. A ‘problem/solution’ approach is used to develop how and why the technology evolved to keep engineering tradeoffs in focus. Continuation of Information Networks I with a focus on the network and transport layers of the OSI layers. Protocol definitions for distributed networks and performance analysis of various routing protocols including Bellman-Ford, BGP, and OSPF. TCP over IP is discussed Other topics include pipelining, broadcast routing, congestion control and reservations, Leaky and Token Bucket algorithms, weighted fair queuing, tunneling, firewalls, Ipv4 and IPv6. Network layers in SAN including the different service categories are discussed. The TCP and UDP transport protocols are discussed in depth along with network security, DNS, SAN, SLIP, firewalls and naming",
+  "credits": "3",
+  "cross_listed": "NIS 679",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Computer Engineering Program",
+    "Information and Data Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/600/cpe-679"
+}

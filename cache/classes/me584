@@ -1,0 +1,17 @@
+{
+  "id": "ME 584",
+  "name": "Vibration and Acoustics in Product Design",
+  "description": "This course offers concurrent design as they apply to quiet product design; vibration and acoustic characteristics in design or products and systems; source-path-receiver model for vibration and acoustics; vibration of single and two degrees of freedom models; features of continuous systems, design for low vibration and vibration control; acoustic plane and spherical waves; acoustical source models; acoustic performance descriptions; design of quiet products and systems; application of computational methods; case studies.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Spring Semester",
+    "Summer Session 1",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-584"
+}

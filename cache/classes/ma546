@@ -1,0 +1,13 @@
+{
+  "id": "MA 546",
+  "name": "Long-Term Actuarial Mathematics",
+  "description": "This course is designed to satisfy the Validation by ASA requirement for Long-Term Actuarial Mathematics (LTAM) Exam. The course contents comprise various aspects of long- term actuarial mathematics, including, long-term insurance coverages, survival models and their estimation, present value random variables, premium calculation, reserves calculation, pension plans and retirement benefits. Discussions are also made on applying advanced probability and statistic to evaluate various long-term insurances.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "MA 540 and MA 541 and (Grad Student (or Junior or Senior))",
+  "offered": [],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-546"
+}
