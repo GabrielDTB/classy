@@ -25,16 +25,17 @@ pub enum ClassQueryError {
     CachedLinkNotFound { cached_link: String },
 }
 
+#[derive(Serialize, Deserialize, Clone)]
 pub struct ClassPage {
-    link: String,
-    text: String,
+    pub link: String,
+    pub text: String,
 }
 
 /// Queries classes from the provided api link
 /// and returns a vec of the response texts,
 /// returning early if an error is added to
 /// the vec.
-pub async fn query_classes(cache: Vec<ClassPage>) -> Vec<Result<ClassPage, ClassQueryError>> {
+pub async fn query_classes(cache: &Vec<ClassPage>) -> Vec<Result<ClassPage, ClassQueryError>> {
     let mut links = match query_class_links().await {
         Ok(value) => value,
         Err(why) => return vec![Err(why)],
@@ -43,16 +44,19 @@ pub async fn query_classes(cache: Vec<ClassPage>) -> Vec<Result<ClassPage, Class
     for response in cache {
         if let Some(index) = links.iter().position(|link| *link == response.link) {
             links.remove(index);
-            responses.push(Ok(response));
+            responses.push(Ok((*response).clone()));
         } else {
             responses.push(Err(ClassQueryError::CachedLinkNotFound {
-                cached_link: response.link,
+                cached_link: response.link.clone(),
             }));
             return responses;
         }
     }
     let client = Client::new();
+    let mut counter = 1;
+    let length = links.len();
     for link in links {
+        println!("Querying {}: {}", length, counter);
         match client.get(&link).send().await {
             Ok(response) => responses.push(Ok(ClassPage {
                 link,
@@ -63,6 +67,7 @@ pub async fn query_classes(cache: Vec<ClassPage>) -> Vec<Result<ClassPage, Class
                 return responses;
             }
         };
+        counter += 1;
     }
     responses
 }
@@ -110,8 +115,8 @@ pub struct Class {
     pub credits: String,
     pub cross_listed: String,
     pub prerequisites: String,
-    pub offered: String,
-    pub distribution: String,
+    pub offered: Vec<String>,
+    pub distribution: Vec<String>,
     pub link: String,
 }
 
@@ -203,7 +208,7 @@ fn parse_cross_listed(main: &ElementRef) -> String {
                     .unwrap_or_else(|| todo!())
                     .chars()
                     .collect::<String>(),
-                _ => todo!(),
+                _ => String::from(""),
             }
         }
     }
@@ -218,7 +223,24 @@ fn parse_prerequisites(main: &ElementRef) -> String {
         .collect::<Vec<&str>>()
         .join(" ")
 }
-fn parse_distribution(main: &ElementRef) -> String {
+fn parse_offered(main: &ElementRef) -> Vec<String> {
+    match main
+        .select(&Selector::parse("div").unwrap())
+        .find(|element| element.value().attr("id") == Some("offered"))
+    {
+        Some(e) => e
+            .text()
+            .last()
+            .unwrap_or_else(|| unreachable!())
+            .split("\n")
+            .map(|s| s.trim())
+            .filter(|s| !s.is_empty())
+            .map(|s| s.to_owned())
+            .collect::<Vec<_>>(),
+        _ => vec![],
+    }
+}
+fn parse_distribution(main: &ElementRef) -> Vec<String> {
     match main
         .select(&Selector::parse("div").unwrap())
         .find(|element| element.value().attr("id") == Some("distribution"))
@@ -226,18 +248,12 @@ fn parse_distribution(main: &ElementRef) -> String {
         Some(value) => value
             .text()
             .last()
-            .unwrap_or_else(|| todo!())
-            .trim()
-            .to_owned(),
-        _ => String::from(""),
-    }
-}
-fn parse_offered(main: &ElementRef) -> String {
-    match main
-        .select(&Selector::parse("div").unwrap())
-        .find(|element| element.value().attr("id") == Some("offered"))
-    {
-        Some(e) => e.text().last().unwrap_or_else(|| todo!()).trim().to_owned(),
-        _ => String::from(""),
+            .unwrap_or_else(|| unreachable!())
+            .split("\n")
+            .map(|s| s.trim())
+            .filter(|s| !s.is_empty())
+            .map(|s| s.to_owned())
+            .collect::<Vec<_>>(),
+        _ => vec![],
     }
 }

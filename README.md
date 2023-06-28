@@ -1,4 +1,14 @@
-Work in progress course query and information bot for Stevens Institute of Technology.
+Class query Discord bot for Stevens Institute of Technology. 
+
+Supply your Discord bot token as the DISCORD_TOKEN environment variable. 
+
+Caches responses and classes in ./cache on startup if they are are not already present. 
+
+If you must delete the cache, startup will take some time to query all the courses since the requests are asynchronous but sequential. 
+
+Pull requests welcome. 
+
+<sub><sup>(Not affiliated in any way with Stevens Institute of Technology).</sup></sub>
 
 #### License
 

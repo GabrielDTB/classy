@@ -1,29 +1,28 @@
 mod get_courses;
 
 use anyhow::Result;
-// use async_once::AsyncOnce;
-use futures::future::join_all;
 use get_courses::*;
-// use lazy_static::lazy_static;
-// use rand::Rng;
+use rand::Rng;
+use serde_json;
 use serenity::async_trait;
 use serenity::builder::CreateEmbed;
 use serenity::model::channel::*;
 use serenity::model::gateway::Ready;
 use serenity::prelude::*;
-// use std::collections::HashMap;
 use std::env;
 // use thiserror::Error;
 
 const PREFIX: &str = "classy";
+const STEVENS_RED: serenity::utils::Color = serenity::utils::Color::from_rgb(163, 35, 56);
 
 struct Handler {
     classes: Vec<Class>,
 }
 impl Handler {
     fn class_embed(class: &Class) -> CreateEmbed {
-        let mut embed = CreateEmbed::default();
-        embed
+        let offered = class.offered.join("\n");
+        let distribution = class.distribution.join("\n");
+        CreateEmbed::default()
             .title(format!("{} {}", class.id, class.name))
             .url(format!("{}", class.link))
             .description(format!("{}", class.description))
@@ -38,23 +37,28 @@ impl Handler {
                 if !class.prerequisites.is_empty() {
                     fields.push(("Prerequisites", &*class.prerequisites, false));
                 } else {
-                    fields.push(("Prerequisites", "None".into(), false));
+                    fields.push(("Prerequisites", "None", false));
                 }
-                if !class.offered.is_empty() {
-                    fields.push(("Offered", &*class.offered, false));
+                if !offered.is_empty() {
+                    fields.push(("Offered", &*offered, false));
                 }
-                if !class.distribution.is_empty() {
-                    fields.push(("Distribution", &*class.distribution, false));
+                if !distribution.is_empty() {
+                    fields.push(("Distribution", &*distribution, false));
                 }
                 fields
             })
-            .footer(|f| f.text("Database updated"))
-            .timestamp("2023-05-19T19:00:02Z");
-        embed
+            .footer(|f| f.text("Database Years: 2022-2023"))
+            .to_owned()
     }
     fn query(&self, id: &str) -> Option<&Class> {
         for class in self.classes.iter() {
-            if class.id.eq_ignore_ascii_case(id) {
+            if class
+                .id
+                .chars()
+                .filter(|c| *c != ' ') // TODO this is a hack
+                .collect::<String>()
+                .eq_ignore_ascii_case(id)
+            {
                 return Some(class);
             }
         }
@@ -74,103 +78,51 @@ impl EventHandler for Handler {
             Some(PREFIX) => {}
             _ => return,
         }
-        let errors = match tokens.next().as_deref() {
+        let statuses = match tokens.next().as_deref() {
             Some("query") => {
-                let ids = tokens.collect::<Vec<_>>();
-                let classes = ids.iter().map(|id| self.query(id)).collect::<Vec<_>>();
-                let embeds = classes
-                    .iter()
-                    .map(|class| match class {
-                        Some(class) => {
-                            let mut embed = Handler::class_embed(class);
-                            embed.author(|a| a.name(msg.author.clone()));
-                            Some(embed)
-                        }
-                        None => None,
-                    })
-                    .collect::<Vec<_>>();
-
-                join_all(ids.iter().zip(embeds).map(|(id, embed)| async {
-                    match embed {
-                        Some(embed) => {
-                            msg.channel_id
-                                .send_message(&context.http, |m| m.set_embed(embed))
-                                .await
-                        }
-                        None => {
-                            msg.channel_id
-                                .send_message(&context.http, |m| {
-                                    m.content(format!(r#"Class "{}" not found"#, *id))
-                                })
-                                .await
-                        }
+                let id = tokens.collect::<String>();
+                let class = self.query(&id);
+                let embed = match class {
+                    Some(class) => {
+                        let mut embed = Handler::class_embed(class);
+                        embed
+                            .color(STEVENS_RED);
+                        Some(embed)
                     }
-                }))
-                .await
-                .into_iter()
-                .filter_map(|r| match r {
-                    Err(why) => Some(why),
-                    Ok(_) => None,
-                })
-                .collect::<Vec<_>>()
+                    None => None,
+                };
+                vec![ 
+                    if let Some(embed) = embed {
+                        msg.channel_id
+                            .send_message(&context.http, |m| m.set_embed(embed))
+                            .await
+                    } else {
+                        msg.reply(&context.http, format!(r#"Class "{id}" not found"#))
+                            .await
+                    }
+                ]
             }
-            Some("help") => todo!(),
+            Some("random") => {
+                let filters = tokens.collect::<Vec<_>>();
+                let matches = self.classes.iter().filter(|c| filters.contains(&c.id.chars().filter(|c| c.is_ascii_alphabetic()).collect::<String>().to_lowercase())).collect::<Vec<_>>();
+                let matches = match matches.len() {
+                    0 => self.classes.iter().collect::<Vec<_>>(),
+                    _ => matches,
+                };
+                let class = matches.get(rand::thread_rng().gen_range(0..matches.len())).unwrap();
+                let embed =  Handler::class_embed(class).color(STEVENS_RED).to_owned();
+                vec![msg.channel_id.send_message(&context.http, |m| m.set_embed(embed)).await]
+            }
+            Some("help") => vec![msg.channel_id.say(&context.http, r#"Use the "query" command followed by the course id (eg. CS 115) to get details about a course."#).await],
             _ => return,
         };
 
-        for error in errors {
-            println!("{:?}", error);
+        for status in statuses {
+            match status {
+                Ok(_) => {}
+                Err(why) => println!("{:?}", why),
+            }
         }
-        // else if command.starts_with("help") {
-        //     if let Err(why) = msg.channel_id.say(&context.http, format!("Use the \"query\" command followed by the course id (eg. CS 115) to get details about a course.")).await {
-        //             println!("Error sending message: {:?}", why);
-        //         };
-        // } else if command.starts_with("random") {
-        //     let args = command
-        //         .split_once("random")
-        //         .unwrap()
-        //         .1
-        //         .split(" ")
-        //         .filter(|s| !s.is_empty())
-        //         .map(|s| s.to_uppercase())
-        //         .collect::<Vec<_>>();
-        //     let keys = match args.len() {
-        //         0 => COURSES.get().await.keys().collect::<Vec<_>>(),
-        //         _ => COURSES
-        //             .get()
-        //             .await
-        //             .keys()
-        //             .filter(|k| {
-        //                 for arg in args.iter() {
-        //                     if k.split(" ").next().unwrap() == arg {
-        //                         return true;
-        //                     }
-        //                 }
-        //                 false
-        //             })
-        //             .collect::<Vec<_>>(),
-        //     };
-        //     if keys.len() == 0 {
-        //         if let Err(why) = msg
-        //             .channel_id
-        //             .say(
-        //                 &context.http,
-        //                 format!(
-        //                     "No courses matched the arguments \"{}\"",
-        //                     command.split_once("random").unwrap().1.trim()
-        //                 ),
-        //             )
-        //             .await
-        //         {
-        //             println!("Error sending message: {:?}", why);
-        //         };
-        //     } else {
-        //         let r = rand::thread_rng().gen_range(0..keys.len() - 1);
-        //         let key = keys.iter().skip(r).next().unwrap();
-        //         msg.content = format!("classy query {}", key);
-        //         self.message(context, msg).await;
-        //     }
-        // }
     }
     async fn ready(&self, _: Context, ready: Ready) {
         println!("{} is connected!", ready.user.name);
@@ -179,14 +131,90 @@ impl EventHandler for Handler {
 
 #[tokio::main]
 async fn main() -> Result<()> {
-    let responses = query_classes(Vec::new()).await;
-    let classes = responses
-        .into_iter()
-        .filter_map(|r| match r {
-            Ok(class) => Some(parse_class(class)),
-            Err(_) => None,
-        })
+    println!("Checking cache paths and creating if absent...");
+    for path in ["./cache/responses", "./cache/classes"] {
+        tokio::fs::create_dir_all(path).await?;
+    }
+
+    println!("Listing entries in ./cache/responses...");
+    let cached_response_names = std::fs::read_dir("./cache/responses")
+        .unwrap()
+        .map(|d| d.unwrap().file_name().to_str().unwrap().to_owned())
         .collect::<Vec<_>>();
+
+    println!("Listing entries in ./cache/classes...");
+    let cached_class_names = std::fs::read_dir("./cache/classes")
+        .unwrap()
+        .map(|d| d.unwrap().file_name().to_str().unwrap().to_owned())
+        .collect::<Vec<_>>();
+
+    let mut classes = Vec::with_capacity(cached_class_names.len());
+    if cached_class_names.len() >= cached_response_names.len() && cached_class_names.len() != 0 {
+        println!("Loading {} cached classes from ./cache/classes...", cached_class_names.len());
+        classes.extend(cached_class_names.iter().map(|name| {
+            let file = std::fs::File::open(format!("./cache/classes/{name}")).unwrap();
+            let reader = std::io::BufReader::new(file);
+            serde_json::from_reader(reader).unwrap()
+        }));
+    } else {
+        println!(
+            "Loading {} cached responses from ./cache/responses...",
+            cached_response_names.len()
+        );
+        let mut responses = cached_response_names
+            .iter()
+            .map(|name| {
+                let file = std::fs::File::open(format!("./cache/responses/{name}")).unwrap();
+                let reader = std::io::BufReader::new(file);
+                serde_json::from_reader(reader).unwrap()
+            })
+            .collect::<Vec<_>>();
+
+        println!("Checking for missing links in cached responses...");
+        'outer: loop {
+            let query = query_classes(&responses).await;
+            for response in query {
+                let response = match response {
+                    Ok(response) => response,
+                    Err(_) => continue 'outer,
+                };
+                if responses
+                    .iter()
+                    .filter(|r| (**r).link == response.link)
+                    .count()
+                    == 0
+                {
+                    responses.push(response);
+                }
+            }
+            break;
+        }
+
+        println!(
+            "Writing {} new responses to ./cache/responses...",
+            responses.len() - cached_response_names.len()
+        );
+        for response in responses.iter() {
+            let sanitized_link = response.link.replace("/", "%");
+            if !cached_response_names.contains(&sanitized_link) {
+                std::fs::write(format!("./cache/responses/{sanitized_link}"), serde_json::to_string_pretty(&response).unwrap()).unwrap();
+            };
+        }
+
+        println!("Parsing responses into Class objects...");
+        classes.extend(responses.into_iter().map(|r| parse_class(r)));
+
+        println!("Checking against {} cached classes...", cached_class_names.len());
+        for class in classes.iter() {
+            let short_id = class.id.chars().filter(|c| *c != ' ').map(|c| c.to_lowercase().next().unwrap()).collect::<String>();
+            if !cached_class_names.contains(&short_id) {
+                std::fs::write(format!("./cache/classes/{short_id}"), serde_json::to_string_pretty(class).unwrap()).unwrap();
+            }
+        }
+        println!("Wrote new classes to ./cache/classes...");
+    }
+
+    println!("Starting bot...");
     let token = env::var("DISCORD_TOKEN").expect("Expected a token in the environment");
     let intents = GatewayIntents::GUILD_MESSAGES
         | GatewayIntents::DIRECT_MESSAGES
@@ -197,7 +225,7 @@ async fn main() -> Result<()> {
         .expect("Err creating client");
 
     if let Err(why) = client.start().await {
-        println!("Client error: {:?}", why);
+        println!("Client error: {:?} : '{}'", why, token);
     }
     Ok(())
 }
