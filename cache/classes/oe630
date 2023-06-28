@@ -1,0 +1,15 @@
+{
+  "id": "OE 630",
+  "name": "Hydrodynamics",
+  "description": "Development of the kinematic and dynamic equations for incompressible fluid flow, the Navier-Stokes equation, velocity potential and stream function, Bernoulli’s equation, conformal mapping, free surface flows, wave theory, flow in porous media, and turbulence.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CE 342 and (MA 227 or MA 226)  and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Ocean Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-630"
+}

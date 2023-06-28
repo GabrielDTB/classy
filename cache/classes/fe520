@@ -1,0 +1,16 @@
+{
+  "id": "FE 520",
+  "name": "Introduction to Python for Financial Applications",
+  "description": "This course is a primer on Python (language syntax, data structures, basic data processing, Python functions, modules and classes). The remainder of the course covers open source Python tools relevant to solving financial programming problems. The lecture, supporting examples, and practical applications are intertwined. The content will be delivered in a fully equipped financial computing laboratory where the students are immersed in case studies of real life applications. There will be reading assignments of the corresponding chapters in the textbook and additional materials will be provided.",
+  "credits": "1",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-520"
+}

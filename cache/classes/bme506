@@ -1,0 +1,16 @@
+{
+  "id": "BME 506",
+  "name": "Biomechanics",
+  "description": "This course reviews basic engineering principles governing materials and structures such as mechanics, rigid body dynamics, fluid mechanics and solid mechanics and applies these to the study of biological systems such as ligaments, tendons, bone, muscles, joints, etc. The influence of material properties on the structure and function of organisms provides an appreciation for the mechanical complexity of biological systems. Methods for both rigid body and deformational mechanics are developed in the context of bone, muscle, and connective tissue. Multiple applications of Newton’s Laws of mechanical are made to human motion.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "BME 306 and CoReq BME 505 and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Biomedical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/500/bme-506"
+}

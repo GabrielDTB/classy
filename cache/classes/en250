@@ -1,0 +1,16 @@
+{
+  "id": "EN 250",
+  "name": "Quantitative Biology",
+  "description": "Topics in biology are discussed from a quantitative point of view to develop an appreciation for biology and mathematics and the connections between them. Living systems are viewed through an engineering perspective as open systems using descriptive and quantitative models. Mathematical approaches are taken to heredity and genetics, cellular organization, transport and metabolism, human physiology, ecology, and toxicology. These are presented as applications of probability, linear algebra, ordinary differential equations, and other methods. The relevant mathematical principles are introduced as needed in each module.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "MA 117 or MA 122",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Environmental Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/200/en-250"
+}

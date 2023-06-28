@@ -1,0 +1,15 @@
+{
+  "id": "CHE 650",
+  "name": "Reactor Design",
+  "description": "A graduate-level reaction engineering course that builds on previous student experience in undergraduate reactor design. Review of design equations based on the mole balances of ideal reactor types. Review of algorithms for isothermal reactor design. Theory of reaction rates and the measurement and assessment of rate data. Basis and approach to using the steady- state approximation for catalytic and biological reactions. Residence time distributions, their experimental determination and implementation for the prediction of conversion. Modeling reactors with fundamental equations of transport as the basis. Modeling reactors in three dimensions with computational tools.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Chemical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/600/che-650"
+}

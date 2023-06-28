@@ -1,0 +1,17 @@
+{
+  "id": "FIN 730",
+  "name": "Seminar in Information Economics",
+  "description": "Information economics studies economic interactions where imperfect or asymmetric information impacts behavior of people and organizations. Methods of information economics help explain observed phenomenon and are used to guide design of economic mechanisms, institutions, organizations, and government policies. Applications span corporate finance, banking, accounting, marketing, strategy, and healthcare among others. The course discusses the tools of information economics and game theory that form the building blocks for most theoretical research in social sciences and surveys research articles exemplifying applications in finance and various other fields. Students gain an appreciation of how information economics shapes business world, acquire ability to understand and critique theoretical research models, and develop a toolkit to model their research insights.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "FIN 703",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Semester"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/700/fin-730"
+}

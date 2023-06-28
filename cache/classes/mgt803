@@ -1,0 +1,18 @@
+{
+  "id": "MGT 803",
+  "name": "Project Management Examination",
+  "description": "This will test the project management knowledge of students from AT&T, Lucent Technologies and Verizon who have completed company-sponsored project management courses. Upon successful completion, (graded pass/fail) students will be awarded three credits towards a Master of Science degree. The examination is normally given twice each year.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Instructor Permission Required - Graduate",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/800/mgt-803"
+}

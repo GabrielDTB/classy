@@ -1,0 +1,15 @@
+{
+  "id": "CHE 630",
+  "name": "Theory of Transport Processes",
+  "description": "Generalized approach to differential and macroscopic balances: constitutive material equations; momentum and energy transport in laminar and turbulent flow; interphase and intraphase transport; dimensionless correlations.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Chemical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/600/che-630"
+}

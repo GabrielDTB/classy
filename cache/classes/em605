@@ -1,0 +1,17 @@
+{
+  "id": "EM 605",
+  "name": "Elements of Operations Research",
+  "description": "This course brings a strong modeling orientation to bear on the process of obtaining and utilizing resources to produce and deliver useful goods and services so as to meet the goals of the organization. Decision-oriented models such as linear programming, inventory control, and forecasting are discussed and then implemented utilizing spreadsheets and other commercial software. A review of the fundamentals of statistical analysis oriented toward business problems will also be conducted.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Engineering Management Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/600/em-605"
+}

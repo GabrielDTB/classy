@@ -1,0 +1,18 @@
+{
+  "id": "NIS 900",
+  "name": "Thesis in Networked Information Systems (ME)",
+  "description": "A thesis of significance to be filed in libraries, demonstrating competence in a research area of Networked Information Systems.",
+  "credits": "1-10",
+  "cross_listed": "",
+  "prerequisites": "Need Permission - Graduate DEAN 698",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Information and Data Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/900/nis-900"
+}

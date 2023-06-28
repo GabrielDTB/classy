@@ -1,0 +1,18 @@
+{
+  "id": "CS 800",
+  "name": "Special Problems in Computer Science (M.S.)",
+  "description": "An investigation of a current research topic at the pre-master’s level, under the direction of a faculty member. A written report is required, which should have the substance of a publishable article. Students with no practical experience who do not write a master’s thesis are invited to take advantage of this experience. One to six credits for the degree of Master of Science (Computer Science).",
+  "credits": "1-6",
+  "cross_listed": "",
+  "prerequisites": "Need Permission - Graduate DEAN 698",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/800/cs-800"
+}

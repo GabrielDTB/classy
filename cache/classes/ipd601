@@ -1,0 +1,16 @@
+{
+  "id": "IPD 601",
+  "name": "Integrated Product Development I",
+  "description": "The first IPD course addresses methodologies and tools to define product development phases and also provides experience working in teams to design high-quality competitive products. Primary goals are to improve ability to reason about design, material, and process alternatives and apply modeling techniques appropriate for different development phases. Topics covered are: user requirements gathering, quality function deployment (QFD), design for assembly, design for materials and manufacturing processes, and optimizing the design for cost and producibility.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Integrated Product Development Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ipd-integrated-product-development/600/ipd-601"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "SOC 510",
+  "name": "Human-Computer Interaction",
+  "description": "This is an introduction to Human Computer Interaction (HCI). It covers basic concepts, principles, and frameworks in HCI; models of interaction; and design guidelines and methodologies. The course includes extensive readings and reports, as well as work on projects involving interface design and development. Prerequisites: Graduate students - Undergraduate data structures and algorithms OR CS 590. Undergraduate students - CS 385.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "( CS 590 or CS 385 ) and Graduate Student or At Least a Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/soc-service-oriented-computing/500/soc-510"
+}

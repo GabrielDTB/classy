@@ -1,0 +1,16 @@
+{
+  "id": "BME 505",
+  "name": "Biomaterials",
+  "description": "Intended as an introduction to materials science for biomedical engineers, this course first reviews the materials properties relevant to the application to the human body. It goes on to discuss proteins, cells, tissues, and their reactions and interactions with foreign materials, as well as the degradation of these materials in the human body. The course then treats various implants, burn dressings, drug delivery systems, biosensors, artificial organs, and elements of tissue engineering. Laboratory exercises accompany the major topics discussed in class and are conducted at the same time.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "( ENGR 344 OR ENGR 311 OR BME 311 ) and BME 306 Coreq and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Biomedical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/500/bme-505"
+}

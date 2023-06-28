@@ -1,0 +1,16 @@
+{
+  "id": "ENGR 301",
+  "name": "International Engineering Experience",
+  "description": "This course designation provides a vehicle to award general elective academic credit to approved international educational experiences that meet School of Engineering and Science/engineering program educational outcomes, but would not otherwise be transferable as equivalent to a Stevens course or courses. Multiple activities can be combined for approval if they present a coherent whole that addresses school/program outcomes. The program or activities must be approved for credit by the School of Engineering and Science Education and Assessment Committee.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Need Permission - Undergraduate DEAN 498",
+  "offered": [
+    "Fall Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "School of Engineering and Science"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/300/engr-301"
+}

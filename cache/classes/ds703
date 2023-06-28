@@ -1,0 +1,19 @@
+{
+  "id": "DS 703",
+  "name": "Practicum in Data Science/Mathematics",
+  "description": "This course provides the educational framework, supervision, and awards credits for off-campus internships or paid short-term positions for international graduate students on F-1 visas. These internships or paid positions need to be relevant to the program of study. In particular, projects proposed for this course should contribute to better understanding of the methods and techniques learned in the program courses or lead to learning new techniques associated with the subjects of the program. Furthermore, many conditions need to be fulfilled as directed by the International Student and Scholar Services (ISSS). In particular, students must remain in good standing throughout the practicum; prior approval of the graduate program coordinator, in consultation with the student’s academic advisor, is required for enrollment; the student must show evidence of a real commitment from a specific employer for a specific project, with preferably a detailed description of the project and job responsibilities. All these materials, including a job offer letter, must be provided to the program coordinator with sufficient advance notice so that the program coordinator has time to review the materials and determine if the project is appropriate. During the semester, the student must submit written monthly progress reports. At the end of the semester, the student must submit for grading a written report that describes their activities, even if the project is ongoing. The student must also present their activities in an accompanying oral presentation that is also graded. This is a one-credit course that may be repeated up to a total of three credits.",
+  "credits": "1",
+  "cross_listed": "MA 703",
+  "prerequisites": "Need Permission - Graduate DEAN 698",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Computer Science Program",
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ds-data-science/700/ds-703"
+}

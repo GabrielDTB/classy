@@ -1,0 +1,15 @@
+{
+  "id": "CS 609",
+  "name": "Data Management and Exploration on the Web",
+  "description": "This course is an advanced graduate course on database systems and data exploration on Web. It covers a few key current research topics in database systems and Web data exploration including: (1) information retrieval (IR) from Web, (2) semi- structured XML databases from the perspective of theory (thus accompanies the application-centric software engineering courses that uses XML), and (3) Web information integration. This course is suitable for advanced undergraduate computer science majors, graduate students in computer science, and students in technology management or other majors with some computer science background. Course readings are drawn from the recent top-tier international database conferences and journals.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/600/cs-609"
+}

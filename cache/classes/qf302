@@ -1,0 +1,15 @@
+{
+  "id": "QF 302",
+  "name": "Financial Market Microstructure and Trading",
+  "description": "This course will offer students an understanding of the main micro-structural features of financial markets, and the opportunity to test and practice different trading strategies. The course concentrates on the operations of exchanges, trading systems and broker/dealer intermediaries. Students will have a high level view of the trading decision process, market structure design, and market structure regulation. The course is based on computer simulations that recreate a trading environment and the typical challenges faced by professional traders.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "QF 301",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/300/qf-302"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "CPE 610",
+  "name": "Introduction to Bioinformatics Engineering",
+  "description": "This is an introductory course. Topics that will be covered in this course include an introduction to the basic concepts in biology such as DNA and RNA, biological data in digital symbol sequences, genomes—diversity, size and structure, genome, proteome, protein function, alignment versus prediction, consensus sequences and sequence logos, graphical models, secondary encoding and output interpretation, prediction of protein secondary structure, phylogenetic trees, Shannon model of a biological system and its implications, data analysis using BLAST tool, and probabilistic evolutionary models.",
+  "credits": "3",
+  "cross_listed": "BME 610",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Biomedical Engineering Program",
+    "Computer Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/600/cpe-610"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "BME 650",
+  "name": "Advanced Biomaterials",
+  "description": "Upon completion of this course, students will be able to demonstrate an understanding of the major classes of engineering materials, their principle properties and design requirements that serve as both the basis for materials selection as well as for the ongoing development of new materials. This course is substantially differentiated from introductory materials courses by its very specific focus on material whose use puts them in direct contact with physiological systems. Thus the course begins with brief sections on inflammatory response, thrombosis, infection and device failure. It then concentrates on developing the fundamental material science and engineering concepts underlying the structure-property relationships in both synthetic and natural polymers, metals and alloys, and ceramics relevant to in vivo medial-device technology.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Biomedical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/600/bme-650"
+}

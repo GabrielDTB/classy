@@ -1,0 +1,17 @@
+{
+  "id": "SSW 590",
+  "name": "DevOps Principles and Practices",
+  "description": "This course introduces students to the Software Engineering principles and practices of DevOps. DevOps helps companies to shorten development cycles and deliver higher quality products to customers more quickly by creating a culture of working together in a unified team, using automated processes throughout the product lifecycle, and focusing on continual improvement by monitoring and experimentation. Students will learn about the team culture, processes, technologies, and tools that enable successful DevOps teams to deliver better products faster. Prerequisites: Programming experience with Python, Java, or permission of the instructor.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Grad Student or (Junior or Senior) and Permission Required",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Semester"
+  ],
+  "distribution": [
+    "Software Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/500/ssw-590"
+}

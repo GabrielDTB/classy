@@ -1,0 +1,14 @@
+{
+  "id": "CE 710",
+  "name": "Multiscale Mechanics and Computational Methods",
+  "description": "This graduate course will introduce the applications of multiscale theory and computational techniques in the fields of materials and mechanics. Students will obtain fundamental knowledge on homogenization and heterogeneous materials, and be exposed to various sequential and concurrent multiscale techniques. The first half of the course will be focused on the homogenization theory and its applications in heterogeneous materials. In the second half multiscale computational techniques will be addressed through multiscale finite element methods and atomistic/continuum computing. Students are expected to develop their own course projects based on their research interests and the relevant topics learned from the course.",
+  "credits": "3",
+  "cross_listed": "CE 701, NANO 701, NANO 710",
+  "prerequisites": "CE 518 and CE 681",
+  "offered": [],
+  "distribution": [
+    "Civil Engineering Program",
+    "School of Engineering and Science"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/700/ce-710"
+}

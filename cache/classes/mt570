@@ -1,0 +1,13 @@
+{
+  "id": "MT 570",
+  "name": "Electronic Materials and Devices",
+  "description": "This course serves as introductory course in electronic materials for electrical engineers and materials scientists. It will provide a broad understanding of the materials and devices used in the current semiconductor industry. It is suitable for a broad audience for undergraduate and graduate students with a background in Materials Science, Chemical, Mechanical Engineering, and Physics. The course covers elementary materials science, electrical and thermal conduction in solids, basic physics behind semiconductor materials, dielectric materials and insulations, and basics of devices with emphasis on their electronic characteristics. This course will introduce students to the language, nomenclature, and tools of electronic materials commonly used in semiconductor industry. Industries that value this course: semiconductor device companies like IBM, Intel, Applied Materials, etc.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "( EE 503 or MT 503 or PEP 503 ) and (Grad Student or (Junior or Senior))",
+  "offered": [],
+  "distribution": [
+    "Materials Science and Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/500/mt-570"
+}

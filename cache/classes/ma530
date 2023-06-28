@@ -1,0 +1,16 @@
+{
+  "id": "MA 530",
+  "name": "Applied Mathematics for Engineers & Scientists II",
+  "description": "Review of first order and second order constant coefficient differential equations, nonhomogeneous equations; series solutions, Bessel and Legendre functions; boundary value problems, Fourier-Bessel series and separation of variables for partial differential equations; classification of partial differential equations; Laplace transform methods; calculus of variations; introduction to finite-difference methods.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "MA 227 and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Fall Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-530"
+}

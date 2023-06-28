@@ -1,0 +1,16 @@
+{
+  "id": "SYS 640",
+  "name": "System Supportability and Logistics",
+  "description": "The supportability of a system can be defined as the ability of the system to be supported in a cost effective and timely manner, with a minimum of logistics support resources. The required resources might include test and support equipment, trained maintenance personnel, spare and repair parts, technical documentation and special facilities. For large complex systems, supportability considerations may be significant and often have a major impact upon life-cycle cost. It is therefore particularly important that these considerations be included early during the system design trade studies and design decision-making.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Summer Semester"
+  ],
+  "distribution": [
+    "Systems Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-640"
+}

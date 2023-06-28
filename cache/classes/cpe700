@@ -1,0 +1,13 @@
+{
+  "id": "CPE 700",
+  "name": "Seminar in Computer Engineering",
+  "description": "An ECE Department seminar on topics of current interest.",
+  "credits": "0",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Computer Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/700/cpe-700"
+}

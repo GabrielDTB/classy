@@ -1,0 +1,18 @@
+{
+  "id": "PEP 900",
+  "name": "Thesis in Physics (MS)",
+  "description": "For the degree of Master of Science. Five to ten credits with departmental approval.",
+  "credits": "1-10",
+  "cross_listed": "",
+  "prerequisites": "Need Permission - Graduate DEAN 698",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/900/pep-900"
+}

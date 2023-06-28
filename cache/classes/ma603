@@ -1,0 +1,13 @@
+{
+  "id": "MA 603",
+  "name": "Methods of Mathematical Physics I",
+  "description": "A unified development of mathematical tools for treating a variety of problems in physics and engineering. Linear algebra, normed and inner product spaces, and spectral theory of operators; integral equations; boundary value problems for ordinary and partial differential equations; Green’s functions; calculus of variations; and other related topics as time permits. Problem solving is stressed.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "MA 548",
+  "offered": [],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-603"
+}

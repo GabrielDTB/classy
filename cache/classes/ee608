@@ -1,0 +1,18 @@
+{
+  "id": "EE 608",
+  "name": "Applied Modeling and Optimization",
+  "description": "This course will deal with the main aspects of applied modeling and optimization suitable for engineering, science, and business students. Sample applications to be used as case studies include channel capacity computation (information theory), statistical detection and estimation (signal processing), sequential decision making/revenue maximization (business), and others. Topics will include introduction to convex and non-linear optimization and modeling; linear, quadratic, and geometric program models and applications; stochastic modeling; combinatorial issues; gradient techniques; machine learning algorithms; stochastic approximation; genetic algorithms; and ant colony optimization.",
+  "credits": "3",
+  "cross_listed": "CPE 608, NIS 608",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Engineering Program",
+    "Electrical Engineering Program",
+    "Information and Data Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-608"
+}

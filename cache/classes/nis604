@@ -1,0 +1,18 @@
+{
+  "id": "NIS 604",
+  "name": "Analytical Methods for Networks",
+  "description": "This course is an introduction on modern information networks with an emphasis on providing the student with the mathematical background and required analytical skills for performance analysis of information networks protocols. The material concentrates mostly on the bottom three layers of the protocol stack, focusing on delay and throughput analysis. Topics covered include an overview of the OSI layering model, data link layer issues, medium access control, queueing analysis, mathematical models for routing in broadcast and point-to-point networks, and flow and congestion control. Cross- listed with: NIS 604",
+  "credits": "3",
+  "cross_listed": "CPE 604",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Computer Engineering Program",
+    "Information and Data Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/600/nis-604"
+}

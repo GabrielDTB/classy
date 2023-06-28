@@ -1,0 +1,13 @@
+{
+  "id": "PEP 608",
+  "name": "Plasma Physics II",
+  "description": "Motion of charged particles in electromagnetic field; Boltzmann equation for plasma; properties of magnetoplasmas; and fundamentals of magnetohydrodynamics. Applications to include: mirror geometry, high frequency confinement, plasma confinement, and heating by means of magnetic fields; motion of plasmas along and across magnetic field lines; magnetohydrodynamic stability theory; plasma oscillations; microinstabilities waves in magnetoplasma; dispersion relations; Fokker-Planck equation for plasmas; plasma conductivity; runaway electrons; relaxation times; radiation phenomena in magnetoplasmas; stability theories; finite Larmor radius stabilization; minimum-B stability; and universal instabilities. Typical text: Schmidt, Physics of High Temperature Plasmas.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "PEP 607",
+  "offered": [],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/600/pep-608"
+}

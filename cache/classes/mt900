@@ -1,0 +1,18 @@
+{
+  "id": "MT 900",
+  "name": "Thesis in Materials (MS)",
+  "description": "Research for the degree of Master of Science or Master of Engineering. Hours and credits to be arranged.",
+  "credits": "1-10",
+  "cross_listed": "",
+  "prerequisites": "Need Permission - Graduate DEAN 698",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Materials Science and Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/900/mt-900"
+}

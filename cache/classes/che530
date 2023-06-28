@@ -1,0 +1,19 @@
+{
+  "id": "CHE 530",
+  "name": "Introduction to Pharmaceutical Manufacturing",
+  "description": "Pharmaceutical manufacturing is a vital part of technical operations in any pharmaceutical company. This course introduces students to manufacturing various drug products while considering regulatory compliance requirements regarding safety, effectiveness, identity, strength, quality, and purity of the products manufactured for distribution and sale by the company. Topics covered include: overview of the pharmaceutical industry and cGMP regulations pharmaceutical product and process development pharmaceutical dosage forms and methods of their manufacturing pharmaceutical supply chain and manufacturing operations",
+  "credits": "3",
+  "cross_listed": "ME 530, PME 530",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Chemical Engineering Program",
+    "Mechanical Engineering Program",
+    "Pharmaceutical Manufacturing Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/500/che-530"
+}

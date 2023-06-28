@@ -1,0 +1,13 @@
+{
+  "id": "PEP 550",
+  "name": "Fluid Mechanics",
+  "description": "Description of principle flow phenomena: pipe and channel flows, laminar flow, transition, and turbulence; flow past an object-boundary layer, wake, separation, vortices, and drag; convection in horizontal layers-conduction, convection, and transition from periodic to chaotic behavior. Equations of motion; dynamical scaling; simple viscous flows; inviscid flow; boundary layers, drag, and lift; thermal flows; flow in rotating fluids; hydro-dynamic stability; and transitions to turbulence.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-550"
+}

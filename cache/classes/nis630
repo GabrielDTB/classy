@@ -1,0 +1,19 @@
+{
+  "id": "NIS 630",
+  "name": "Process Innovation and Management",
+  "description": "This course focuses on the role of information technology (IT) in reengineering and enhancing key business processes. The implications for organizational structures and processes, as the result of increased opportunities to deploy information and streamlining business systems are covered.",
+  "credits": "3",
+  "cross_listed": "MIS 710",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Information and Data Engineering Program",
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/600/nis-630"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "MA 930",
+  "name": "Mathematics Qualifying Exam - Written",
+  "description": "The qualifying exam is offered once a year, typically, in the second half of September, and in case of failure, needs to be retaken in the same academic year, typically, in the first half of February. The exam tests the knowledge of three subjects: real analysis and two subjects chosen in consultation with the student’s academic advisor. The real analysis subject is based on two courses: Functional Analysis I and II (MA 635, MA 636), and each chosen subject is based on two closely related courses.",
+  "credits": "0",
+  "cross_listed": "",
+  "prerequisites": "Need Permission - Graduate DEAN 698",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/900/ma-930"
+}

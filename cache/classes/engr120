@@ -1,0 +1,16 @@
+{
+  "id": "ENGR 120",
+  "name": "Engineering Graphics",
+  "description": "Engineering graphics: principles of orthographic and auxiliary projections, pictorial presentation of engineering designs, dimensioning and tolerance, sectional and detail views, assembly drawings. Descriptive geometry. Engineering figures and graphs. Solid modeling introduction to computer-aided design and manufacturing (CAD/CAM) using numerically-controlled (NC) machines.",
+  "credits": "1",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "School of Engineering and Science"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/100/engr-120"
+}

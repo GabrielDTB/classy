@@ -1,0 +1,15 @@
+{
+  "id": "MA 630",
+  "name": "Advanced Optimization Methods",
+  "description": "This course introduces the students to the several advanced topics in the theory and methods of optimization. The first portion of the class focuses on subgradient calculus for non-smooth convex functions, optimality conditions for non-smooth optimization problems, conjugate and Lagrangian convex duality. The second part of the class discusses numerical methods for non-smooth optimization as well as approaches to large-scale optimization problems. The latter include decomposition methods, design of distributed and parallel methods of optimization, as well as stochastic approximation methods. Along with the theoretical results and methods, examples of optimization models in statistical learning and data mining, compressed sensing and image reconstruction will be discussed in order to illustrate the challenges and the phenomena, and to demonstrate the scope of applications. Some attention will be paid to using optimization software such as AMPL, CPLEX and SNOPT in the numerical assignments.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student Allowed and MA 230",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-630"
+}

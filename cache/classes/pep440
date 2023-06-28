@@ -1,0 +1,15 @@
+{
+  "id": "PEP 440",
+  "name": "Astrophysical Flows: Planets, Stars, and Accretion Disks",
+  "description": "Nearly all of the baryonic Universe is fluid, and the study of how these fluids move is central to astrophysics. This course covers the basic concepts needed to understand fluid dynamical processes in astrophysics – such as rotation, compression, and magnetic fields. One of the core aims is to introduce mathematical descriptions (e.g., linear and nonlinear differential equations) as well as techniques for analyzing and understanding them at a mathematically sophisticated, but tractable, level (e.g., approximations, normal modes, and scaling). The students will explore the latest mathematical models and solution techniques and discuss problems in astrophysical flows to reinforce concepts encountered in lectures.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "( MA 226 or MA 227 ) and ( PEP 201 or PEP 242 )",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/400/pep-440"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "PEP 330",
+  "name": "Introduction Thermal and Statistical Physics",
+  "description": "An introduction to statistical mechanics including classical thermodynamics and their statistical foundation. Essential concepts in both classical and quantum statistical mechanics are developed along with their relations to thermodynamics. Topics covered include: laws of thermodynamics, entropy, thermal processes including Carnot engine and refrigerators, basic concepts of probability theory, statistical description of systems of particles, microscopic description of macroscopic quantities such as temperature and entropy, ideal and real gases, Maxwell-Boltzmann distribution, kinetics of classical gases, Bose-Einstein and Fermi-Dirac distributions, blackbody radiation, thermal properties of solids, and phase transitions.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "PEP 112 and ( MA 124 or MA 126 )",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/300/pep-330"
+}

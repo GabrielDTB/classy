@@ -1,0 +1,16 @@
+{
+  "id": "BME 602",
+  "name": "Principles of Tissue Engineering",
+  "description": "This course is an introduction to the field of Tissue Engineering. It is rapidly emerging as a therapeutic approach to treating damaged or diseased tissues in the biotechnology industry. In essence, new and functional living tissue can be fabricated using living cells combined with a scaffolding material to guide tissue development. Such scaffolds can be synthetic, natural, or a combination of both. This course will cover the advances in the field of cell biology, molecular biology, material science and their relationship towards developing novel ‘tissue engineered’ materials.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Biomedical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/600/bme-602"
+}

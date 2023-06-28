@@ -1,0 +1,16 @@
+{
+  "id": "FE 710",
+  "name": "Applied Stochastic Differential Equations",
+  "description": "Topics include Ito calculus review, linear stochastic differential equations (SDE’s), examples of solvable SDE’s, weak and strong solutions, existence and uniqueness of strong solutions, Ito-Taylor expansions, SDE for Markov processes with jumps, Levy processes, forward and backward equations and the Feynman-Kac representation formula, and introduction to stochastic control. Applications are mostly from financial engineering but applications in areas such as population dynamics, energy, climatology and seismology may also be presented.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "FE 610 or MA 611 or MA 623",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/700/fe-710"
+}

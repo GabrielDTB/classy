@@ -1,0 +1,18 @@
+{
+  "id": "CPE 900",
+  "name": "Thesis in Computer Engineering (M.Eng.)",
+  "description": "A thesis of significance to be filed in libraries, demonstrating competence in a research area of computer engineering. Credits to be arranged.",
+  "credits": "1-10",
+  "cross_listed": "",
+  "prerequisites": "Need Permission - Graduate DEAN 698",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Computer Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/900/cpe-900"
+}

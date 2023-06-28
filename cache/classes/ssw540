@@ -1,0 +1,18 @@
+{
+  "id": "SSW 540",
+  "name": "Fundamentals of Software Engineering",
+  "description": "This course introduces the subject of software engineering, also known as software development process or software development best practice from a quantitative, i.e., analytic- and metrics-based point of view. Topics include introductions to: software life-cycle process models from the heaviest weight, used on very large projects, to the lightest weight, e.g., extreme programming; industry-standard software engineering tools; teamwork; project planning and management; object-oriented analysis and design. The course is case history and project oriented.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Software Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/500/ssw-540"
+}

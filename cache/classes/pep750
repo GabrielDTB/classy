@@ -1,0 +1,13 @@
+{
+  "id": "PEP 750",
+  "name": "Quantum Field Theory",
+  "description": "This course is open to students who have taken PEP 754 or its equivalent. It concerns itself with modern field theory; such topics as Yang-Mills fields, the renormalization group, and functional integration. It will concern itself with applications to both elementary particles and condensed matter physics; i.e. the theory of critical exponents. Typical text: C. Quigg, Gauge Theories of Strong, Weak, and Electromagnetic Interactions.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/700/pep-750"
+}

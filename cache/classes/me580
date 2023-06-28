@@ -1,0 +1,17 @@
+{
+  "id": "ME 580",
+  "name": "Medical Device Design and Technology",
+  "description": "Early history of medical devices and procedures. Minimally invasive and open procedures, techniques and devices, including mechanical and electrosurgical devices. Manufacturing methods for catheters, balloons, plastic and metal components. Design of metal device components including material selection and strength and deformation adequacy using material properties and classical mechanics. Selection of insulation materials for and testing of electrosurgical devices. Selection of medical plastics and design elements. Balloon and catheter burst strength. The Poiseuille flow equation and its use for fluid flow through catheters and vessels. Rapid prototyping techniques, advantages and limitations. Understanding of biocompatibility testing and accelerated age testing using the Arrhenius equation. Device sterilization methods and testing. Developing a project plan from brainstorming to product release for a new device.",
+  "credits": "3",
+  "cross_listed": "PME 580",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Mechanical Engineering Program",
+    "Pharmaceutical Manufacturing Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-580"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "SYS 750",
+  "name": "Advanced System and Software Architecture Modeling and Assessment",
+  "description": "This course presents the fundamentals of complex systems architecting using the Object Modeling Group’s (OMG) SysML. It addresses the differences between functional decomposition and object oriented decomposition while architecting complex systems. Emphasis is placed on modeling mission objectives to the definition of the system level architecture. Topics include identification of system level architecture alternatives and considerations, including definition of objectives for physical (hardware) and logical (software) structure, information and system assurance, behavior, cost, performance and human integration based on the system concept at every level of system decomposition. System of System (SoS) architecture is examined, addressing composition of multiple systems and engineering new, emergent behavior in the SoS. Examples used will come from a variety of operational environments (e.g. communications systems, space systems, weapon systems, etc) Special consideration is given to the importance of effective construction and transitioning of the SysML models to software engineering for software intensive systems projects.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "SYS 650",
+  "offered": [
+    "Fall Semester",
+    "Winter Intersession"
+  ],
+  "distribution": [
+    "Systems Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/700/sys-750"
+}

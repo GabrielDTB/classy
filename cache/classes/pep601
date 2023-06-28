@@ -1,0 +1,13 @@
+{
+  "id": "PEP 601",
+  "name": "Fundamentals of Data Transmitting",
+  "description": "The course is the first part of the graduate certificate program \"Wireless Secure Network Design\" which includes also three other courses - PEP 602, 603 and 604. Program focuses on heterogeneous wireless systems used by first-responders - police, fire fighters, National Guard and other emergency forces - to protect the public during large scale crises, such as natural disasters and acts of terrorism. The program also includes analysis of homeland defense, financial and military operations using secure wireless systems. At the end of the program students will learn how protect existing wireless systems and how design highly secure systems for a future use. The course presents a comprehensive analysis of different parts of the electromagnetic spectrum, transmission and modulation technologies, hardware new artificially engineered materials, and MEMS with accent on security and robustness of communications. Fall Semester",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/600/pep-601"
+}

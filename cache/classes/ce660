@@ -1,0 +1,15 @@
+{
+  "id": "CE 660",
+  "name": "Advanced Steel Structures",
+  "description": "Ultimate Strength Design, deep beams, torsion, deflections, shrinkage, creep and temperature effects, biaxially loaded columns, slender columns, walls, two-way and plate slabs.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Civil Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/600/ce-660"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MGT 802",
+  "name": "Project Management Examination",
+  "description": "This will test the project management knowledge of students who have completed approved training programs in project management. Upon successful completion, (graded pass/fail) students will be awarded 12 credits toward the Master of Science in management with a Project Management concentration. The credits cannot be used toward the Project Management Graduate Certificate of Special Study and are not transferable to other institutions.",
+  "credits": "9",
+  "cross_listed": "",
+  "prerequisites": "Need Permission - Graduate DEAN 698",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/800/mgt-802"
+}

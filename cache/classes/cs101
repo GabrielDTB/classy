@@ -1,0 +1,13 @@
+{
+  "id": "CS 101",
+  "name": "Research and Entrepreneurship in Computing",
+  "description": "This seminar course will cover various areas of Computer Science, presented by different faculty members and guest speakers from industry. The seminars will present breakthrough research ideas in different areas of Computer Science and discuss how some of these changed or created new industries.",
+  "credits": "1",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/100/cs-101"
+}

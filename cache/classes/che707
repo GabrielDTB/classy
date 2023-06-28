@@ -1,0 +1,19 @@
+{
+  "id": "CHE 707",
+  "name": "Practicum in Chemical Engineering/Materials Engineering",
+  "description": "A faculty-directed research project involving work in industry or other enterprise external to Stevens. Originates with ongoing collaborations with which Stevens faculty are active engaged. Student must satisfy specific immigration policies to be eligible to participate.",
+  "credits": "1-3",
+  "cross_listed": "MT 707",
+  "prerequisites": "Need Permission - Graduate DEAN 698",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Chemical Engineering Program",
+    "Materials Science and Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/700/che-707"
+}

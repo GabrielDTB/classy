@@ -1,0 +1,15 @@
+{
+  "id": "OE 520",
+  "name": "Ocean Wave Mechanics",
+  "description": "This course is intended to provide a basic understanding of the ocean environment, hydrodynamic loads and the design of marine and coastal structures. Basic hydrodynamics and linear wave theory will be introduced. Essential elements of coastal structure design will be covered including: the determination of design parameters, hydraulic performance, and structural stability. Interaction between floating and fixed marine structures such as vessels and off-shore platform components will be introduced through the following topics: hydrodynamic loads based on linear wave theory; breaking wave loads; application of Morison’s equation in load predictions; fluid-induced vibration phenomena such as vortex-induced vibration and flutter; and motion response of floating structures to wave excitation. The discussion of these topics will emphasize application for engineering analysis.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Ocean Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-520"
+}

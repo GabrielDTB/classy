@@ -1,0 +1,15 @@
+{
+  "id": "BME 570",
+  "name": "Lab-on-a-Chip Technology in Biomedical Applications",
+  "description": "Advances in lab-on-a-chip (LOC) technology have led to the development of a wide variety of innovative miniaturized platforms for basic research and point-of-care applications by allowing integration of large-scale laboratory operations onto a fully integrated small-scale device. Compared with traditional benchtop operations, LOC-based assays offer a broader range of unique advantages. In particular, compact LOC devices can carry out cost-effective, rapid, and portable biochemical analyses with considerably high resolution and sensitivity through the use of small amounts of reagents and samples (typically, several micro-liters) in a tightly controlled user-defined environment. The overall goal of this course is to help students gain comprehensive understanding of the field of LOC, including device fabrication methods, recent technologic progress, current challenges and limitations to overcome, and future perspectives, with special focus on biomedical applications of different LOC devices. Notably, this course will highlight cutting-edge LOC technologies that enabled creation of devices for low-cost gene extraction and sequencing, accurate single-cell analysis, and high-throughput drug screening. Further, students will learn innovative LOC devices that are being used for high-fidelity in vitro disease modeling and therapeutic development. In particular, this course will review organ-on-a-chip (OOC) platforms that can recapitulate the complex structures, functions, as well as dynamic responses of living human organs.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "BME 342 or Graduate Students",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Biomedical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/500/bme-570"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "OE 530",
+  "name": "Yacht Design",
+  "description": "Calculation of hydrostatic curves to determine trim and sinkage of sailing yachts, static and dynamic stability, calculation of resistance and side force by expansion of tank test results, sail force coefficients, prediction of comparative performance based on tank test results, application of lifting surface theory to the design of keel and rudder, and consideration of structural strength and stiffness.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "OE 525 and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Ocean Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-530"
+}

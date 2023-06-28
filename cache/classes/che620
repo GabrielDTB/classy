@@ -1,0 +1,16 @@
+{
+  "id": "CHE 620",
+  "name": "Chemical Engineering Thermodynamics",
+  "description": "The principal areas of concentration include a review of thermodynamic laws applying to closed systems, chemical potentials and equilibria in heterogeneous systems, fugacity and activity functions, solution thermodynamics, multicomponent metallic solutions, the thermodynamics of phase diagrams and phase transformations.",
+  "credits": "3",
+  "cross_listed": "MT 603",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Chemical Engineering Program",
+    "Materials Science and Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/600/che-620"
+}

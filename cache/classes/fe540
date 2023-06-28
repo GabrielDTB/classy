@@ -1,0 +1,16 @@
+{
+  "id": "FE 540",
+  "name": "Probability Theory for Financial Engineering",
+  "description": "Topics include discrete and continuous distributions, multivariate probability, transformations, pattern appearance, moment generating functions, Laws of large numbers, Markov chains and diffusion processes, prices in markets as random variables and processes, filtrations and information. Applications target financial engineering examples.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-540"
+}

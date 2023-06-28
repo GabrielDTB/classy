@@ -1,0 +1,15 @@
+{
+  "id": "BME 520",
+  "name": "Cardiopulmonary Mechanics and Physiology",
+  "description": "The heart and lungs are mechanically dynamic organs. This course will survey mechanical aspects of cardiopulmonary physiology and pathophysiology. In the cardiovascular system, topics may include the Frank-Starling mechanism, the myogenic response, the end-systolic pressure-volume response, repair of congenital heart defects, cardiac oxygen consumption, ventricular-arterial coupling and shear stress effects on the vascular endothelium. In the lungs, topics may include pressure-volume curve analysis, surface tension effects, hypoxic pulmonary vasoconstriction and lung diseases such as neonatal respiratory distress, pulmonary edema, pulmonary hypertension, pulmonary fibrosis and emphysema. Course contents also include data and image analysis techniques and scientific writing and presentation skills.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "BIO 281 and MA 221 AND  PEP  211 or Biomedical PHD or Masters Student",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Biomedical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/500/bme-520"
+}

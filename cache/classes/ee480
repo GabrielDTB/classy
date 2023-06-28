@@ -1,0 +1,13 @@
+{
+  "id": "EE 480",
+  "name": "Optical Fiber Communication Systems",
+  "description": "Relevant characteristics of optical fibers, sources (LED and laser diodes), and photodetectors (PIN, APD) are introduced to provide the background for optical fiber communication system design. Subsystems design deals with optical transmitters, optical receivers, and optical components (switches, couplers, multiplexers, and demultiplexers). Optical fiber systems design and applications include long-haul optical transmission systems, local area networks, coherent optical communication, and future trends.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "EE 473",
+  "offered": [],
+  "distribution": [
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/400/ee-480"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "MGT 630",
+  "name": "Global Business and Markets",
+  "description": "This is a comprehensive course in global business and markets providing a broad, multidisciplinary understanding of global business. The theoretical context for engaging in international trade is established, with attention to the current economic and political environment. Then the business level rationale and techniques for initiating trade, as well as the functional area decisions that must be made, are discussed. Topics include: cultural differences; international trade; regional economic integration; international monetary system; entry strategies; strategic alliances; exporting and importing; global production and logistics; global marketing.",
+  "credits": "3",
+  "cross_listed": "EMT 630",
+  "prerequisites": "MGT 699",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/600/mgt-630"
+}

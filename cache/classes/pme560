@@ -1,0 +1,18 @@
+{
+  "id": "PME 560",
+  "name": "Quality in Life Sciences Manufacturing",
+  "description": "This course provides a detailed exploration of quality programs with specific application to the particular requirements of the life sciences industry. Students will develop an understanding of the quality philosophy which drives the industry from discovery through manufacturing, and of the systems and tools that are employed to implement and maintain a sustainable and successful quality system. Application of quality strategies in research and development, commercial production, computer systems, post-marketing, and other areas will be included. Where appropriate, case studies will be used to illustrate the challenges and issues associated with quality system deployment.",
+  "credits": "3",
+  "cross_listed": "ME 560",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Mechanical Engineering Program",
+    "Pharmaceutical Manufacturing Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pme-pharmaceutical-manufacturing/500/pme-560"
+}

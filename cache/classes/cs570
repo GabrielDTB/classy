@@ -1,0 +1,17 @@
+{
+  "id": "CS 570",
+  "name": "Introduction to Programming, Data Structures, and Algorithms",
+  "description": "Introduction to programming, data structures, and algorithm design, using one or more modern imperative language9s), as chosen by the instructor. Students will learn: basic programming constructs, data types, advanced and/or balanced search trees; hashing; asymptotic complexity analysis; standard algorithm design techniques; graph algorithms; sort algorithms; and other \"classic’ algorithms that serve as examples of design techniques. Students will be given regular programming assignments. Pre-req: Undergraduate object oriented programming or CS 501.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CS 501 and (Grad Student or (Junior or Senior))",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-570"
+}

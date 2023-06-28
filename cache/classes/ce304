@@ -1,0 +1,15 @@
+{
+  "id": "CE 304",
+  "name": "Water Resources Engineering",
+  "description": "Principles of engineering hydrology, the hydrologic cycle, rainfall-runoff relationships, hydrographs, hydrologic and hydraulic routing; groundwater resources; planning and management of water resources; probabilistic methods in water resources, reservoir design, water distribution systems.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CE 342 and ( EM 365 or ENGR 241 or ENGR 243 or MA 222 )",
+  "offered": [
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Civil Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/300/ce-304"
+}

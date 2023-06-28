@@ -1,0 +1,17 @@
+{
+  "id": "ME 604",
+  "name": "Advanced Heat Transfer",
+  "description": "Fundamental modes of heat transfer; conduction, thermal resistance, extended surface with variable cross-section area, application of analytical, numerical and analog methods to the steady and unsteady state; convection, fluid flow and elementary boundary layer theory, dimensional analysis, forced convection for internal and external flows, natural convection, laminar and turbulent flow correlation formulas, condensation and boiling; radiation, physical foundations, radiative properties of surfaces, enclosure radiation, view factors, electrical analogy, gas radiation.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-604"
+}

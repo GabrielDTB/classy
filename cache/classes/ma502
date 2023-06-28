@@ -1,0 +1,17 @@
+{
+  "id": "MA 502",
+  "name": "Mathematical Foundations of Computer Science",
+  "description": "This course provides the necessary mathematical prerequisites for the computer science master’s program and also serves as a foundation for further study in mathematics. The topics covered include prepositional calculus: predicates and quantifiers; elementary number theory and methods of proof; mathematical induction; elementary set theory; combinatorics; functions and relations; countability; recursion and O-notation. Applications to computer science are stressed.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-502"
+}

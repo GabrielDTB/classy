@@ -1,0 +1,11 @@
+{
+  "id": "TM 610",
+  "name": "Business Information Networks",
+  "description": "This comprehensive course examines LANs (both Ethernet and Wireless LANs), TCP/IP, routing protocols, congestion control techniques, internetwork operation, and Internet applications (including VoIP). Emphasis is placed on protocol and network architecture, protocol operation, advantages and disadvantages of each approach, and applications. Specific topics include LAN architecture and protocols, IP protocol architecture and addressing, TCP protocol operation, Internet routing, flow and congestion control, multicasting, Mobile IP, DHCP, and an introduction to SDN. Internet applications (email, DNS, http) and VoIP are also studied.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "TM 601",
+  "offered": [],
+  "distribution": [],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/tm-telecommunications-management/600/tm-610"
+}

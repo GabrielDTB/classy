@@ -1,0 +1,14 @@
+{
+  "id": "CPE 560",
+  "name": "Introduction to Networked Information Systems",
+  "description": "An overview of the technical and application topics encountered in contemporary networked information systems including the overall architecture of such systems, data network architectures, secure transmission of information, data representations including visual representations, information coding/compression for storage and transmission, management of complex heterogeneous networks and integration of next-generation systems with legacy systems.",
+  "credits": "3",
+  "cross_listed": "NIS 560",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [],
+  "distribution": [
+    "Computer Engineering Program",
+    "Information and Data Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/500/cpe-560"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "PEP 801",
+  "name": "Special Topics in Physics (PHD)",
+  "description": "One to six credits. Limit of six credits for the degree of Doctor of Philosophy.",
+  "credits": "1-6",
+  "cross_listed": "",
+  "prerequisites": "Doctoral Students Only and Permission Required",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/800/pep-801"
+}

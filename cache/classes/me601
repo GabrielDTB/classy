@@ -1,0 +1,16 @@
+{
+  "id": "ME 601",
+  "name": "Engineering Thermodynamics",
+  "description": "Fundamental laws of the thermodynamics of mechanical, thermal and chemical equilibrium systems; thermodynamic properties of materials including multiphase, multicomponent systems with gaseous chemical reactions; analysis of thermodynamic systems (open and closed) based primarily on the first and second laws.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Mechanical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-601"
+}

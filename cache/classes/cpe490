@@ -1,0 +1,16 @@
+{
+  "id": "CPE 490",
+  "name": "Information Systems Engineering I",
+  "description": "The focus of the course is on data networks and end-user software environments for information systems. Topics include the TCP/IP protocols, organization of large-scale data networks, end-to-end operation over heterogeneous networks and the software foundation of client-server application programs. The students complete a project using TCP/IP protocols to create a basic client-server application.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "MA 134",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/400/cpe-490"
+}

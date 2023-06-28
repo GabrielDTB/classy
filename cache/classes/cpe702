@@ -1,0 +1,13 @@
+{
+  "id": "CPE 702",
+  "name": "Selected Topics in Imaging and Pattern Recognition",
+  "description": "Current topics in image processing and pattern recognition. Topics may include Bayes decision theory, parameter estimation, feature selection, non-parametric techniques, linear discriminate functions, unsupervised learning, clustering, applications of pattern recognition, and biomedical problems.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Computer Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/700/cpe-702"
+}

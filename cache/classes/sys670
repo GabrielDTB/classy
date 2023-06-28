@@ -1,0 +1,16 @@
+{
+  "id": "SYS 670",
+  "name": "Forecasting and Demand Modeling Systems",
+  "description": "This course covers the theory and application of modeling aggregate demand, fragmented demand and consumer behavior using statistical methods for analysis and forecasting for facilities, services and products. It also aims to provide students with both the conceptual basis and tools necessary to conduct market segmentation studies, defining and identifying criteria for effective segmentation, along with techniques for simultaneous profiling of segments and models for dynamic segmentation. All of this provides a window on the external environment, thereby contributing input and context to product, process and systems design decisions and their ongoing management.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Systems Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-670"
+}

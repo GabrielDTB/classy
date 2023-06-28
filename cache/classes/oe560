@@ -1,0 +1,19 @@
+{
+  "id": "OE 560",
+  "name": "Fundamentals of Remote Sensing",
+  "description": "This course exposes the student to the physical principles underlying remote sensing of ocean, atmosphere, and land by electromagnetic and acoustic passive and active sensors: radars, lidars, infrared and microwaves thermal sensors, sonars, sodars, infrasound/seismic detectors. Topics include fundamental concepts of electromagnetic and acoustic wave interactions with oceanic, atmospheric, and land environment, as well as with natural and man-made objects. Examples from selected sensors will be used to illustrate the information extraction process, and applications of the data for environmental monitoring, oceanography, meteorology, and security/military objectives.",
+  "credits": "3",
+  "cross_listed": "EE 560, ME 524, CE 560, PEP 560",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Civil Engineering Program",
+    "Department of Physics",
+    "Electrical Engineering Program",
+    "Mechanical Engineering Program",
+    "Ocean Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-560"
+}

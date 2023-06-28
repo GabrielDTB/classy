@@ -1,0 +1,13 @@
+{
+  "id": "MA 505",
+  "name": "Introduction to Mathematical Methods",
+  "description": "Elementary mathematical techniques important to applied mathematics. Topics covered include review of functions and continuity; ordinary and partial derivatives; integration; ordinary and partial differential equations; infinite series and numerical techniques for solving differential equations; and multiple integration and surface integrals. Applications to problems of applied mathematics are given where feasible.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-505"
+}

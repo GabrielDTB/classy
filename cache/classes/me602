@@ -1,0 +1,17 @@
+{
+  "id": "ME 602",
+  "name": "Statistical Methods in Life Sciences Industries",
+  "description": "This course is focused on the application of statistics and statistical reasoning in pharmaceutical manufacturing, particularly in production, quality assurance, quality control, validation and analytical laboratories. Basic statistical definitions and concepts are described. Students will learn various measures of central tendency and spread of data, how to present data graphically and be introduced to the probability distributions most commonly encountered in pharmaceutical manufacturing. Approaches to choosing samples for analysis, statistical inference, sample size and power will be discussed. The course also covers regression and correlation, analysis of variance, gage repeatability and reproducibility, statistical process control, process capability analysis and design of experiments as applied to pharmaceutical manufacturing. Students will learn to apply statistical software to analyze common problems that arise in pharmaceutical manufacturing operations, including evaluation of dosage form weight and content uniformity, potency, dissolution, bio-equivalency and other product quality attributes.",
+  "credits": "3",
+  "cross_listed": "PME 602",
+  "prerequisites": "",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Mechanical Engineering Program",
+    "Pharmaceutical Manufacturing Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-602"
+}

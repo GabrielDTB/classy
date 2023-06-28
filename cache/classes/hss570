@@ -1,0 +1,14 @@
+{
+  "id": "HSS 570",
+  "name": "Data Storytelling",
+  "description": "This course teaches students to facilitate decision making by telling stories with data. While data, in general, has become increasingly abundant, raw data and statistical inferences are often insufficient in of themselves to support decision making. Addressing complicated societal problems such as climate change, economic inequality, and cybersecurity requires successful communication of the inferences and findings drawn from the analysis of data. One way to communicate inferences is through storytelling. In this course, students will learn how to tell stories with data through case studies, examples, and hands-on experimentation. While basic methods for research, cleaning, and analysis of datasets will be covered, the focus will be on creative methods of data presentation and storytelling. Students will consider the emotional, aesthetic, and practical effects of different presentation methods as well as how to develop metrics for assessing impact.",
+  "credits": "3",
+  "cross_listed": "EM 570",
+  "prerequisites": "Grad Student or (Junior or Senior) and Permission Required",
+  "offered": [],
+  "distribution": [
+    "Engineering Management Program",
+    "Humanities and Social Sciences Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/500/hss-570"
+}

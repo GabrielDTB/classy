@@ -1,0 +1,13 @@
+{
+  "id": "PEP 104",
+  "name": "Elementary Physics II-b",
+  "description": "PEP 102 followed by this course is equivalent to PEP 112. R-C transient circuits; magnetic fields; induction and inductance; AC circuits; electromagentic oscillations; Maxwell's equations; electromagnetic waves.",
+  "credits": "2",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/100/pep-104"
+}

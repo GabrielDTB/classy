@@ -1,0 +1,15 @@
+{
+  "id": "PEP 209",
+  "name": "Fundamentals of Optics",
+  "description": "Concepts of geometrical optics for reflecting and refracting surfaces, thin and thick lens formulations, optical instruments in modern practice, interference, polarization and diffraction effects, resolving power of lenses and instruments, X-ray diffraction, introduction to lasers and coherent optics, principles of holography, concepts of optical fibers, optical signal processing.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "PEP 112 CoReq",
+  "offered": [
+    "Fall Semester"
+  ],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/200/pep-209"
+}

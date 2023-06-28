@@ -1,0 +1,13 @@
+{
+  "id": "PEP 202",
+  "name": "Modern Physics for Engineers II",
+  "description": "Modern Physics for Engineers II",
+  "credits": "2",
+  "cross_listed": "",
+  "prerequisites": "MA 221 and CoReq PEP 212",
+  "offered": [],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/200/pep-202"
+}

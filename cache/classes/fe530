@@ -1,0 +1,17 @@
+{
+  "id": "FE 530",
+  "name": "Introduction to Financial Engineering",
+  "description": "This course introduces a range of topics that the current scope of financial engineering encompasses. Topics include basic terminology and definitions, markets, instruments, positions, conventions, cash flow engineering, simple derivatives, mechanics of options, derivatives engineering, arbitrage-free theorem, efficient market hypothesis, introductory pricing tools, and volatility engineering.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-530"
+}

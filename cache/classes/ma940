@@ -1,0 +1,16 @@
+{
+  "id": "MA 940",
+  "name": "Proposal Defense",
+  "description": "Within one year from the date of successfully passing the qualifying exam, the Ph.D. candidate will prepare and defend a research proposal. The research proposal should address (i) problem motivation and literature review, (ii) problem formulation, (iii) approaches and methods to be used and (iv) expected results and potential impact. A few days prior to the defense, the candidate will deliver to the advisory committee a brief (two-page) summary of the proposal.",
+  "credits": "0",
+  "cross_listed": "",
+  "prerequisites": "MA 930",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/900/ma-940"
+}

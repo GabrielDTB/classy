@@ -1,0 +1,18 @@
+{
+  "id": "MIS 730",
+  "name": "Integrating Information System Technologies",
+  "description": "This course focuses on the issues surrounding the design of an overall information technology architecture. The traditional approach in organizations is to segment the problem into four areas - network, hardware, data and applications. This course will focus on the interdependencies among these architectures. In addition, this course will utilize management research on organizational integration and coordination science. The student will learn how to design in the large, make appropriate choices about architecture in relationship to overall organization goals, understand the different mechanisms available for coordination and create a process for establishing and maintaining an enterprise architecture.",
+  "credits": "3",
+  "cross_listed": "NIS 633",
+  "prerequisites": "MIS 620 or MIS 630 or MIS 640",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Information and Data Engineering Program",
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mis-information-systems/700/mis-730"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "EE 390",
+  "name": "Microprocessor Systems",
+  "description": "A study of the implementation of digital systems using microprocessors. The architecture and operation of microprocessors is examined in detail along with I/O interfacing, interrupts, DMA and software design techniques. Specialized controller chips for interrupts, DMA, arithmetic processing, graphics and communications are discussed. The laboratory component introduces hardware and software design of digital systems using microprocessors. Design experiments include topics such as bus interfacing, memory decoding, serial communications and programmable ports.",
+  "credits": "4",
+  "cross_listed": "",
+  "prerequisites": "ENGR 115 or ENGR 116",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Computer Engineering Program",
+    "Electrical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/300/ee-390"
+}

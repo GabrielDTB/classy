@@ -1,0 +1,14 @@
+{
+  "id": "NIS 770",
+  "name": "Economics of Networks",
+  "description": "This course analyzes the economics of networks and communications services. Theoretical and practical aspects of the subject will be covered based on three pillars: Technologies, Economics/Pricing, and Special Topics (auctions, trading bandwidth, and regulation). Communications technologies are reviewed, e.g., Internet, ATM, Wireless. The course then provides in depth analysis of the economics of monopoly, oligopoly and perfectly competitive markets, as applied to the telecom markets. Pricing alternatives are formalized using simple mathematical models. Students learn how network control and performance of networks relate to the costs of service delivery and the economic analysis of consumer decision making. Special topics related to game theory, risk management of telecom operations, trading of bandwidth as well as auctions of bandwidth and spectrum are covered towards the end of the course.",
+  "credits": "3",
+  "cross_listed": "TM 770",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Information and Data Engineering Program",
+    "School of Business"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/700/nis-770"
+}

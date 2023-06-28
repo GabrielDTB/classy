@@ -1,0 +1,13 @@
+{
+  "id": "CE 601",
+  "name": "Theory of Elasticity",
+  "description": "Review of matrix algebra; the strain tensor, including higher order terms; the stress tensor; derivation of the linear form of Hooke’s law and the higher order form of Hooke’s law; equilibrium equations, boundary conditions and compatibility conditions; applications to the bending and torsion problems; variational and approximate methods of solving the Dirichlet type boundary value problems with particular application to the torsion problem. Fall semester.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Civil Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/600/ce-601"
+}

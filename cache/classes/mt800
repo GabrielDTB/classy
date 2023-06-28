@@ -1,0 +1,18 @@
+{
+  "id": "MT 800",
+  "name": "Special Problems in Materials (MS)",
+  "description": "One to six credits. Limit of six credits for the degree of Master of Engineering.",
+  "credits": "1-6",
+  "cross_listed": "",
+  "prerequisites": "Need Permission - Graduate DEAN 698",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Materials Science and Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/800/mt-800"
+}

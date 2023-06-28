@@ -1,0 +1,16 @@
+{
+  "id": "PEP 930",
+  "name": "Physics Qualifying Exam - Written",
+  "description": "Part 2 of the Physics Qualifying Exam (Topical Exam), which should be taken no later than 3 months after passing part 1, consists of a 30 min research presentation by the student followed by an oral exam of at least 45 min covering topics that are closely related to the subject matter of the research presentation. Typically, 3 research papers, which are given to the student no later than 1 month prior to the date of the exam, form the basis for the topic of the research presentation. If the student fails this part of the exam, it must be retaken within 3 months. No more than 2 attempts at passing this part of the Qualifying Exam are allowed.",
+  "credits": "0",
+  "cross_listed": "",
+  "prerequisites": "Need Permission - Graduate DEAN 698",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/900/pep-930"
+}

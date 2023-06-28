@@ -1,0 +1,15 @@
+{
+  "id": "CE 640",
+  "name": "Prestressed Concrete",
+  "description": "Basic concepts of prestressing, partial loss of prestress, flexural design, shear, torsion, camber, deflection, indeterminate prestressed structures, connections, and prestressed circular tanks.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CE 484",
+  "offered": [
+    "Summer Session 1"
+  ],
+  "distribution": [
+    "Civil Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/600/ce-640"
+}

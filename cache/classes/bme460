@@ -1,0 +1,16 @@
+{
+  "id": "BME 460",
+  "name": "Biomedical Digital Signal Processing Laboratory",
+  "description": "Biomedical Digital Signal Processing is an introductory course into the fascinating world of Digital Signal Processing as it applies to the clinic. Since modern medical systems employ DSP concepts to analyze biomedical signals, such as the ECG, there is a need for Biomedical Engineers to gain a more in-depth understanding of the subject. This class is designed to break the complex subject down into three fundamental areas, hardware systems, mathematical concepts, and software algorithms. Essential Signal Processing concepts are introduced and then reinforced with multiple biomedical examples and MatLab simulations, all serving to clarify the subject. Topics include: The Hardware building blocks, Signals and Systems, Euler’s Equation, Nyquist’s Sampling Theorem as Applied to Biomedical Applications, Convolution, Filters, Adaptive Filters, the Power Spectrum, and Discrete Fourier Transformations.",
+  "credits": "2",
+  "cross_listed": "",
+  "prerequisites": "ENGR 245 and ( ENGR 232 or ENGR 212 )",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Biomedical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/400/bme-460"
+}

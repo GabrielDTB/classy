@@ -1,0 +1,13 @@
+{
+  "id": "PEP 630",
+  "name": "Nonlinear Dynamics for Physicists",
+  "description": "Definition of dynamical systems; phase space and equilibrium states and their classification; nonlinear oscillator with and without dissipation; Van der Pol generator; Poincare map; slow and fast motion; forced nonlinear oscillator: linear and nonlinear resonances; forced generators: synchronization; Poincaré indices and bifurcations; solitons; shock waves; weak turbulence; regular patterns in dissipative media; and chaos: fractal dimension, and Lyapunov exponents. Typical textbooks: H.D.I. Abarbanel, M.I. Rabinovich, and M.M. Sushchik, Introduction to Nonlinear Dynamics for Physicists; R.H. Abraham and C.D. Shaw, Dynamics: The Geometry of Behavior.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "",
+  "offered": [],
+  "distribution": [
+    "Department of Physics"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/600/pep-630"
+}

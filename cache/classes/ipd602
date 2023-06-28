@@ -1,0 +1,16 @@
+{
+  "id": "IPD 602",
+  "name": "Integrated Product Development II",
+  "description": "This course builds on the product definition and development processes. It focuses on the implementation of competitive product design and plans for its manufacture along with facilities layout simulation, testing, and service. Project deliverables are comprehensive product, process and testing specifications. Topics include: manufacturing process specifications and planning, process control and optimization, SPC and six sigma process, tolerance analysis, flexible manufacturing, product testing, and rapid prototyping.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "IPD 601",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Integrated Product Development Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ipd-integrated-product-development/600/ipd-602"
+}

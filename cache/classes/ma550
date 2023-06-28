@@ -1,0 +1,13 @@
+{
+  "id": "MA 550",
+  "name": "Introduction to Lie Theory",
+  "description": "This course introduces students to fundamentals of Lie theory by focusing on matrix groups. Topics include, but are not limited to, the orthogonal and unitary groups, tangent spaces for matrix groups, Lie algebras, matrix exponentiation, matrix logarithms, the Campbell-Baker-Hausdorff formula, Lie correspondence, basic theory of differentiable manifolds and Lie groups, roots and structure of compact classical Lie groups. Time permitting some applications to differential equations, physics or quantum computation will be considered based on students’ interests.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [],
+  "distribution": [
+    "Pure and Applied Mathematics Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-550"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "BME 640",
+  "name": "Introduction to Clinical Research",
+  "description": "This course will introduce students to various aspects of clinical research, i.e. research with human subjects, including clinical research methods, protocols, governance, study designs, as well as subject management and protection, bioethics, and biostatics. It is anticipated that students are familiar with biomedical design, biomaterials and biomechanics.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "BME 505 and BME 506 and BME 600",
+  "offered": [],
+  "distribution": [
+    "Biomedical Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/600/bme-640"
+}

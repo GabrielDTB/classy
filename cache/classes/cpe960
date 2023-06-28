@@ -1,0 +1,18 @@
+{
+  "id": "CPE 960",
+  "name": "Research in Computer Engineering (Ph.D.)",
+  "description": "Original research of a significant character undertaken under the guidance of a member of the departmental faculty that may serve as the basis for the dissertation required for the degree of Doctor of Philosophy. Hours and credits to be arranged.",
+  "credits": "1-60",
+  "cross_listed": "",
+  "prerequisites": "Need Permission - Graduate DEAN 698",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester",
+    "Summer Session 1",
+    "Summer Session 2"
+  ],
+  "distribution": [
+    "Computer Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/900/cpe-960"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "CS 940",
+  "name": "Proposal Defense",
+  "description": "CS PhD Students must write and present a thesis proposal, where they lay out an intended course of research for their dissertation. The proposal should contain an explanation of the problem and why it is important, a sketch of the proposed solution and background information that serves to indicate that the problem is unsolved and what prior or related approaches to this or similar problems have already been investigated. The written proposal must be distributed and read by a thesis advisory committee, comprising the persons that are expected to form the student’s dissertation defense committee. The presentation of the thesis proposal is open to the public and it is followed by open-door questions from the audience and committee and closed-door questions from the committee. The committee can pass, fail or request additional material from the student. The thesis proposal document must be submitted to the committee at least two weeks before the presentation date. The presentation of the thesis proposal must be announced by email (on the CS-faculty and CS-PHD-students lists) at least one week in advance.",
+  "credits": "0",
+  "cross_listed": "",
+  "prerequisites": "CS 931",
+  "offered": [
+    "Fall Semester",
+    "Spring Semester"
+  ],
+  "distribution": [
+    "Computer Science Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/900/cs-940"
+}

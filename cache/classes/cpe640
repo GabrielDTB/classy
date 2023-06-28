@@ -1,0 +1,13 @@
+{
+  "id": "CPE 640",
+  "name": "Software Engineering I",
+  "description": "This course covers the principles and theory of programming-in-the-large. The phases of software development, requirements development, software design software coding, and module testing, and software verification will be discussed in detail. Documents, rapid prototyping, top down, bottom up, successive refinement, functional and data abstraction will be discussed. Black and white box testing methods will be covered. Hierarchical and democratic term organization structures and the effects of personalizing and group dynamics will be discussed.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "CPE 600",
+  "offered": [],
+  "distribution": [
+    "Computer Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/600/cpe-640"
+}

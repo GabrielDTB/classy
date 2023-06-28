@@ -1,0 +1,13 @@
+{
+  "id": "SYS 501",
+  "name": "Probability and Statistics for Systems Engineering",
+  "description": "This course is designed for students with a background in engineering, technology, or science that have not taken a class in statistics or need a refresher class. In this class we will apply probability and statistics throughout a system’s life cycle. Topics include the roles of probability and statistics in Systems Engineering, the nature of uncertainty, axioms and properties of probability models and statistics, hypothesis testing, design of experiments, basic performance requirements, quality assurance specification, functional decomposition, technical performance measurements, statistical verification, and simulation.",
+  "credits": "3",
+  "cross_listed": "",
+  "prerequisites": "Graduate Student or At Least Junior",
+  "offered": [],
+  "distribution": [
+    "Systems Engineering Program"
+  ],
+  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/500/sys-501"
+}
