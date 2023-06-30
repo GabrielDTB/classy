@@ -1,7 +1,7 @@
-mod get_courses;
+mod get_classes;
 
 use anyhow::Result;
-use get_courses::*;
+use get_classes::*;
 use rand::Rng;
 use serde_json;
 use serenity::async_trait;
