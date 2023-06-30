@@ -50,6 +50,23 @@ impl Handler {
             .footer(|f| f.text("Database Years: 2022-2023"))
             .to_owned()
     }
+    fn prefixes_embed(&self) -> CreateEmbed {
+        let mut embed = CreateEmbed::default();
+        embed.title("Class Prefixes");
+        embed.description("Here are all the prefixes for classes that can be queried with classy random:");
+        embed.fields({
+            let mut fields = vec![];
+            for class in self.classes.iter() {
+                let prefix = class.id.chars().filter(|c| c.is_ascii_alphabetic()).collect::<String>().to_ascii_uppercase();
+                if !fields.iter().any(|(p, _, _)| p == &prefix) {
+                    fields.push((prefix, "", true));
+                }
+            }
+            fields.sort();
+            fields
+        });
+        embed
+    }
     fn query(&self, id: &str) -> Option<&Class> {
         for class in self.classes.iter() {
             if class
@@ -150,10 +167,19 @@ impl EventHandler for Handler {
                             *Examples*\n\t\t\
                                 classy random\n\t\t\
                                 classy random hli\n\t\t\
-                                classy random cs cpe ee\
+                                classy random cs cpe ee\n\
+                            **prefixes**\n\t\
+                            Lists all the class prefixes.
                         ",
                     )
                     .await,
+                ]
+            }
+            Some("prefixes") => { // list all the course prefixes as an embed with fields
+                vec![
+                    msg.channel_id
+                        .send_message(&context.http, |m| m.set_embed(self.prefixes_embed()))
+                        .await,
                 ]
             }
             _ => return,
