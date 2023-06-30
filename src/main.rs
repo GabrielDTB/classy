@@ -1,7 +1,7 @@
-mod get_courses;
+mod get_classes;
 
 use anyhow::Result;
-use get_courses::*;
+use get_classes::*;
 use rand::Rng;
 use serde_json;
 use serenity::async_trait;
@@ -85,35 +85,77 @@ impl EventHandler for Handler {
                 let embed = match class {
                     Some(class) => {
                         let mut embed = Handler::class_embed(class);
-                        embed
-                            .color(STEVENS_RED);
+                        embed.color(STEVENS_RED);
                         Some(embed)
                     }
                     None => None,
                 };
-                vec![ 
-                    if let Some(embed) = embed {
-                        msg.channel_id
-                            .send_message(&context.http, |m| m.set_embed(embed))
-                            .await
-                    } else {
-                        msg.reply(&context.http, format!(r#"Class "{id}" not found"#))
-                            .await
-                    }
-                ]
+                vec![if let Some(embed) = embed {
+                    msg.channel_id
+                        .send_message(&context.http, |m| m.set_embed(embed))
+                        .await
+                } else {
+                    msg.reply(&context.http, format!(r#"Class "{id}" not found"#))
+                        .await
+                }]
             }
             Some("random") => {
                 let filters = tokens.collect::<Vec<_>>();
-                let matches = self.classes.iter().filter(|c| filters.contains(&c.id.chars().filter(|c| c.is_ascii_alphabetic()).collect::<String>().to_lowercase())).collect::<Vec<_>>();
+                let matches = self
+                    .classes
+                    .iter()
+                    .filter(|c| {
+                        filters.contains(
+                            &c.id
+                                .chars()
+                                .filter(|c| c.is_ascii_alphabetic())
+                                .collect::<String>()
+                                .to_lowercase(),
+                        )
+                    })
+                    .collect::<Vec<_>>();
                 let matches = match matches.len() {
                     0 => self.classes.iter().collect::<Vec<_>>(),
                     _ => matches,
                 };
-                let class = matches.get(rand::thread_rng().gen_range(0..matches.len())).unwrap();
-                let embed =  Handler::class_embed(class).color(STEVENS_RED).to_owned();
-                vec![msg.channel_id.send_message(&context.http, |m| m.set_embed(embed)).await]
+                let class = matches
+                    .get(rand::thread_rng().gen_range(0..matches.len()))
+                    .unwrap();
+                let embed = Handler::class_embed(class).color(STEVENS_RED).to_owned();
+                vec![
+                    msg.channel_id
+                        .send_message(&context.http, |m| m.set_embed(embed))
+                        .await,
+                ]
             }
-            Some("help") => vec![msg.channel_id.say(&context.http, r#"Use the "query" command followed by the course id (eg. CS 115) to get details about a course."#).await],
+            Some("help") => {
+                vec![
+                    msg.reply(
+                        &context.http,
+                        // There's gotta be a better way to format this
+                        "\
+                        __**Commands**__\n\
+                        **help**\n\t\
+                            Gives this message.\n\
+                        **query** __class_id__\n\t\
+                            Gives details about a class.\n\t\
+                            *Examples*\n\t\t\
+                                classy query cs 115\n\t\t\
+                                classy query ma125\n\
+                        **random** __class_prefix__ __...__\n\t\
+                            Queries a random class from the given prefixes.\n\t\
+                            *Defaults*\n\t\t\
+                                If no class prefix is supplied, a random\n\t\t\
+                                class from all available classes is picked.\n\t\
+                            *Examples*\n\t\t\
+                                classy random\n\t\t\
+                                classy random hli\n\t\t\
+                                classy random cs cpe ee\
+                        ",
+                    )
+                    .await,
+                ]
+            }
             _ => return,
         };
 
@@ -150,7 +192,10 @@ async fn main() -> Result<()> {
 
     let mut classes = Vec::with_capacity(cached_class_names.len());
     if cached_class_names.len() >= cached_response_names.len() && cached_class_names.len() != 0 {
-        println!("Loading {} cached classes from ./cache/classes...", cached_class_names.len());
+        println!(
+            "Loading {} cached classes from ./cache/classes...",
+            cached_class_names.len()
+        );
         classes.extend(cached_class_names.iter().map(|name| {
             let file = std::fs::File::open(format!("./cache/classes/{name}")).unwrap();
             let reader = std::io::BufReader::new(file);
@@ -197,18 +242,34 @@ async fn main() -> Result<()> {
         for response in responses.iter() {
             let sanitized_link = response.link.replace("/", "%");
             if !cached_response_names.contains(&sanitized_link) {
-                std::fs::write(format!("./cache/responses/{sanitized_link}"), serde_json::to_string_pretty(&response).unwrap()).unwrap();
+                std::fs::write(
+                    format!("./cache/responses/{sanitized_link}"),
+                    serde_json::to_string_pretty(&response).unwrap(),
+                )
+                .unwrap();
             };
         }
 
         println!("Parsing responses into Class objects...");
         classes.extend(responses.into_iter().map(|r| parse_class(r)));
 
-        println!("Checking against {} cached classes...", cached_class_names.len());
+        println!(
+            "Checking against {} cached classes...",
+            cached_class_names.len()
+        );
         for class in classes.iter() {
-            let short_id = class.id.chars().filter(|c| *c != ' ').map(|c| c.to_lowercase().next().unwrap()).collect::<String>();
+            let short_id = class
+                .id
+                .chars()
+                .filter(|c| *c != ' ')
+                .map(|c| c.to_lowercase().next().unwrap())
+                .collect::<String>();
             if !cached_class_names.contains(&short_id) {
-                std::fs::write(format!("./cache/classes/{short_id}"), serde_json::to_string_pretty(class).unwrap()).unwrap();
+                std::fs::write(
+                    format!("./cache/classes/{short_id}"),
+                    serde_json::to_string_pretty(class).unwrap(),
+                )
+                .unwrap();
             }
         }
         println!("Wrote new classes to ./cache/classes...");
