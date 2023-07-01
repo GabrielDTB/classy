@@ -1,4 +1,7 @@
+mod catalog;
+mod class;
 mod get_classes;
+mod traits;
 
 use anyhow::Result;
 use get_classes::*;
@@ -53,11 +56,18 @@ impl Handler {
     fn prefixes_embed(&self) -> CreateEmbed {
         let mut embed = CreateEmbed::default();
         embed.title("Class Prefixes");
-        embed.description("Here are all the prefixes for classes that can be queried with classy random:");
+        embed.description(
+            "Here are all the prefixes for classes that can be queried with classy random:",
+        );
         embed.fields({
             let mut fields = vec![];
             for class in self.classes.iter() {
-                let prefix = class.id.chars().filter(|c| c.is_ascii_alphabetic()).collect::<String>().to_ascii_uppercase();
+                let prefix = class
+                    .id
+                    .chars()
+                    .filter(|c| c.is_ascii_alphabetic())
+                    .collect::<String>()
+                    .to_ascii_uppercase();
                 if !fields.iter().any(|(p, _, _)| p == &prefix) {
                     fields.push((prefix, "", true));
                 }
@@ -175,7 +185,8 @@ impl EventHandler for Handler {
                     .await,
                 ]
             }
-            Some("prefixes") => { // list all the course prefixes as an embed with fields
+            Some("prefixes") => {
+                // list all the course prefixes as an embed with fields
                 vec![
                     msg.channel_id
                         .send_message(&context.http, |m| m.set_embed(self.prefixes_embed()))
