@@ -1,10 +1,14 @@
 pub trait Catalog<C: Class> {
+    /// Searches the catalog for a course given an ID and returns
+    /// a Some reference to it if found, otherwise None.
     fn query_by_id(&self, id: &str) -> Option<&C>;
+    /// Searches the catalog for all courses that belong to the given department
+    /// and returns a Vec of references for all matches.
     fn query_by_department(&self, code: &str) -> Vec<&C>;
 }
 
 pub trait Class {
-    /// Returns the full id of the class.  
+    /// Returns the full id of the class **as uppercase**.  
     /// CS 115, MA 121, ACC 200, etc.
     fn id(&self) -> String;
     /// Returns the department code for the class **as uppercase**.  
@@ -18,6 +22,7 @@ pub trait Class {
     /// Returns the title of the class, **excluding the ID**.
     fn title(&self) -> String;
     /// Returns the description of the class.
+    /// Intro to Programming, Differential Calculus, etc.
     fn description(&self) -> String;
     /// Returns the number of credits the class provides.
     fn credits(&self) -> u8;

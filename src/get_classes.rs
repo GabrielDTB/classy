@@ -1,6 +1,7 @@
 // use futures::stream::*;
 // use heck::ToTitleCase;
 // use indicatif::ProgressBar;
+use crate::class:Class;
 use reqwest::Client;
 use scraper::ElementRef;
 use scraper::{Html, Selector};
@@ -105,19 +106,6 @@ async fn query_class_links() -> Result<Vec<String>, ClassQueryError> {
         }
     }
     Ok(links)
-}
-
-#[derive(Serialize, Deserialize, Debug, Clone)]
-pub struct Class {
-    pub id: String,
-    pub name: String,
-    pub description: String,
-    pub credits: String,
-    pub cross_listed: String,
-    pub prerequisites: String,
-    pub offered: Vec<String>,
-    pub distribution: Vec<String>,
-    pub link: String,
 }
 
 pub fn parse_class(page: ClassPage) -> Class {

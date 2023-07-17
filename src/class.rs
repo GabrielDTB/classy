@@ -1,5 +1,7 @@
-use crate::traits;
+pub use crate::traits::Class as ClassTrait;
+use serde::{Deserialize, Serialize};
 
+#[derive(Serialize, Deserialize)]
 pub struct Class {
     department: String,
     department_name: String,
@@ -10,7 +12,7 @@ pub struct Class {
     prerequisites: String,
     offered: Vec<String>,
     cross_listings: Vec<String>,
-    distributions: String,
+    distributions: Vec<String>,
     url: String,
 }
 
@@ -44,7 +46,7 @@ impl Class {
     }
 }
 
-impl traits::Class for Class {
+impl ClassTrait for Class {
     fn id(&self) -> String {
         format!("{} {}", self.department, self.discriminator)
     }

@@ -4,9 +4,9 @@ mod get_classes;
 mod traits;
 
 use anyhow::Result;
-use get_classes::*;
+use catalog::Catalog;
+use class::*;
 use rand::Rng;
-use serde_json;
 use serenity::async_trait;
 use serenity::builder::CreateEmbed;
 use serenity::model::channel::*;
@@ -19,34 +19,36 @@ const PREFIX: &str = "classy";
 const STEVENS_RED: serenity::utils::Color = serenity::utils::Color::from_rgb(163, 35, 56);
 
 struct Handler {
-    classes: Vec<Class>,
+    catalog: Catalog,
 }
+
 impl Handler {
     fn class_embed(class: &Class) -> CreateEmbed {
-        let offered = class.offered.join("\n");
-        let distribution = class.distribution.join("\n");
+        let offered = class.offered().join("\n");
+        let distributions = class.distributions().join("\n");
         CreateEmbed::default()
-            .title(format!("{} {}", class.id, class.name))
-            .url(format!("{}", class.link))
-            .description(format!("{}", class.description))
+            .title(class.id())
+            .url(class.url())
+            .description(class.description())
             .fields({
                 let mut fields = vec![];
-                if !class.credits.is_empty() {
-                    fields.push(("Credits", &*class.credits, false));
+                fields.push(("Credits", class.credits().to_string(), false));
+                let cross_listings = class.cross_listings().join("\n").trim().to_owned();
+                if !cross_listings.is_empty() {
+                    fields.push(("Cross Listed Classes", cross_listings, false));
                 }
-                if !class.cross_listed.is_empty() {
-                    fields.push(("Cross Listed Classes", &*class.cross_listed, false));
-                }
-                if !class.prerequisites.is_empty() {
-                    fields.push(("Prerequisites", &*class.prerequisites, false));
+                if !class.prerequisites().is_empty() {
+                    fields.push(("Prerequisites", class.prerequisites(), false));
                 } else {
-                    fields.push(("Prerequisites", "None", false));
+                    fields.push(("Prerequisites", String::from("None"), false));
                 }
+                let offered = class.offered().join("\n").trim().to_owned();
                 if !offered.is_empty() {
-                    fields.push(("Offered", &*offered, false));
+                    fields.push(("Offered", offered, false));
                 }
-                if !distribution.is_empty() {
-                    fields.push(("Distribution", &*distribution, false));
+                let distributions = class.distributions().join("\n").trim().to_owned();
+                if !distributions.is_empty() {
+                    fields.push(("Distribution", distributions, false));
                 }
                 fields
             })
@@ -210,115 +212,14 @@ impl EventHandler for Handler {
 
 #[tokio::main]
 async fn main() -> Result<()> {
-    println!("Checking cache paths and creating if absent...");
-    for path in ["./cache/responses", "./cache/classes"] {
-        tokio::fs::create_dir_all(path).await?;
-    }
-
-    println!("Listing entries in ./cache/responses...");
-    let cached_response_names = std::fs::read_dir("./cache/responses")
-        .unwrap()
-        .map(|d| d.unwrap().file_name().to_str().unwrap().to_owned())
-        .collect::<Vec<_>>();
-
-    println!("Listing entries in ./cache/classes...");
-    let cached_class_names = std::fs::read_dir("./cache/classes")
-        .unwrap()
-        .map(|d| d.unwrap().file_name().to_str().unwrap().to_owned())
-        .collect::<Vec<_>>();
-
-    let mut classes = Vec::with_capacity(cached_class_names.len());
-    if cached_class_names.len() >= cached_response_names.len() && cached_class_names.len() != 0 {
-        println!(
-            "Loading {} cached classes from ./cache/classes...",
-            cached_class_names.len()
-        );
-        classes.extend(cached_class_names.iter().map(|name| {
-            let file = std::fs::File::open(format!("./cache/classes/{name}")).unwrap();
-            let reader = std::io::BufReader::new(file);
-            serde_json::from_reader(reader).unwrap()
-        }));
-    } else {
-        println!(
-            "Loading {} cached responses from ./cache/responses...",
-            cached_response_names.len()
-        );
-        let mut responses = cached_response_names
-            .iter()
-            .map(|name| {
-                let file = std::fs::File::open(format!("./cache/responses/{name}")).unwrap();
-                let reader = std::io::BufReader::new(file);
-                serde_json::from_reader(reader).unwrap()
-            })
-            .collect::<Vec<_>>();
-
-        println!("Checking for missing links in cached responses...");
-        'outer: loop {
-            let query = query_classes(&responses).await;
-            for response in query {
-                let response = match response {
-                    Ok(response) => response,
-                    Err(_) => continue 'outer,
-                };
-                if responses
-                    .iter()
-                    .filter(|r| (**r).link == response.link)
-                    .count()
-                    == 0
-                {
-                    responses.push(response);
-                }
-            }
-            break;
-        }
-
-        println!(
-            "Writing {} new responses to ./cache/responses...",
-            responses.len() - cached_response_names.len()
-        );
-        for response in responses.iter() {
-            let sanitized_link = response.link.replace("/", "%");
-            if !cached_response_names.contains(&sanitized_link) {
-                std::fs::write(
-                    format!("./cache/responses/{sanitized_link}"),
-                    serde_json::to_string_pretty(&response).unwrap(),
-                )
-                .unwrap();
-            };
-        }
-
-        println!("Parsing responses into Class objects...");
-        classes.extend(responses.into_iter().map(|r| parse_class(r)));
-
-        println!(
-            "Checking against {} cached classes...",
-            cached_class_names.len()
-        );
-        for class in classes.iter() {
-            let short_id = class
-                .id
-                .chars()
-                .filter(|c| *c != ' ')
-                .map(|c| c.to_lowercase().next().unwrap())
-                .collect::<String>();
-            if !cached_class_names.contains(&short_id) {
-                std::fs::write(
-                    format!("./cache/classes/{short_id}"),
-                    serde_json::to_string_pretty(class).unwrap(),
-                )
-                .unwrap();
-            }
-        }
-        println!("Wrote new classes to ./cache/classes...");
-    }
-
+    let catalog = Catalog::new_filled().await?;
     println!("Starting bot...");
     let token = env::var("DISCORD_TOKEN").expect("Expected a token in the environment");
     let intents = GatewayIntents::GUILD_MESSAGES
         | GatewayIntents::DIRECT_MESSAGES
         | GatewayIntents::MESSAGE_CONTENT;
     let mut client = Client::builder(&token, intents)
-        .event_handler(Handler { classes })
+        .event_handler(Handler { catalog })
         .await
         .expect("Err creating client");
 
