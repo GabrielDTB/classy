@@ -4,7 +4,7 @@ mod get_classes;
 mod traits;
 
 use anyhow::Result;
-use catalog::Catalog;
+use catalog::*;
 use class::*;
 use rand::Rng;
 use serenity::async_trait;
@@ -62,36 +62,16 @@ impl Handler {
             "Here are all the prefixes for classes that can be queried with classy random:",
         );
         embed.fields({
-            let mut fields = vec![];
-            for class in self.classes.iter() {
-                let prefix = class
-                    .id
-                    .chars()
-                    .filter(|c| c.is_ascii_alphabetic())
-                    .collect::<String>()
-                    .to_ascii_uppercase();
-                if !fields.iter().any(|(p, _, _)| p == &prefix) {
-                    fields.push((prefix, "", true));
-                }
-            }
-            fields.sort();
-            fields
+            let mut departments = self
+                .catalog
+                .departments()
+                .iter()
+                .map(|d| (d, "", true))
+                .collect::<Vec<(&String, &str, bool)>>();
+            departments.sort();
+            departments
         });
         embed
-    }
-    fn query(&self, id: &str) -> Option<&Class> {
-        for class in self.classes.iter() {
-            if class
-                .id
-                .chars()
-                .filter(|c| *c != ' ') // TODO this is a hack
-                .collect::<String>()
-                .eq_ignore_ascii_case(id)
-            {
-                return Some(class);
-            }
-        }
-        None
     }
 }
 
@@ -102,7 +82,7 @@ impl EventHandler for Handler {
             .content
             .split(" ")
             .filter(|s| !s.is_empty())
-            .map(|s| s.to_lowercase());
+            .map(|s| s.to_uppercase());
         match tokens.next().as_deref() {
             Some(PREFIX) => {}
             _ => return,
@@ -110,7 +90,7 @@ impl EventHandler for Handler {
         let statuses = match tokens.next().as_deref() {
             Some("query") => {
                 let id = tokens.collect::<String>();
-                let class = self.query(&id);
+                let class = self.catalog.query_by_id(&id);
                 let embed = match class {
                     Some(class) => {
                         let mut embed = Handler::class_embed(class);
@@ -129,33 +109,45 @@ impl EventHandler for Handler {
                 }]
             }
             Some("random") => {
-                let filters = tokens.collect::<Vec<_>>();
-                let matches = self
-                    .classes
+                let mut departments = tokens.collect::<Vec<String>>();
+                if departments.is_empty() {
+                    departments.push(String::from("*"));
+                }
+                let matches = departments
                     .iter()
-                    .filter(|c| {
-                        filters.contains(
-                            &c.id
-                                .chars()
-                                .filter(|c| c.is_ascii_alphabetic())
-                                .collect::<String>()
-                                .to_lowercase(),
-                        )
-                    })
-                    .collect::<Vec<_>>();
-                let matches = match matches.len() {
-                    0 => self.classes.iter().collect::<Vec<_>>(),
-                    _ => matches,
-                };
-                let class = matches
-                    .get(rand::thread_rng().gen_range(0..matches.len()))
-                    .unwrap();
-                let embed = Handler::class_embed(class).color(STEVENS_RED).to_owned();
-                vec![
-                    msg.channel_id
-                        .send_message(&context.http, |m| m.set_embed(embed))
-                        .await,
-                ]
+                    .flat_map(|d| self.catalog.query_by_department(d))
+                    .collect::<Vec<&Class>>();
+                let matches = departments
+                    .iter()
+                    .fold(Vec::new(), |mut matches, department| {
+                        matches.extend(self.catalog.query_by_department(department));
+                        matches.sort_unstable_by_key(|c| c.id());
+                        matches.dedup_by_key(|c| c.id());
+                        matches
+                    });
+                if matches.is_empty() {
+                    vec![
+                        msg.channel_id
+                            .say(
+                                &context.http,
+                                format!(
+                                    "No classes exist within departments: {}",
+                                    departments.join(", ")
+                                ),
+                            )
+                            .await,
+                    ]
+                } else {
+                    let class = matches
+                        .get(rand::thread_rng().gen_range(0..matches.len()))
+                        .unwrap();
+                    let embed = Handler::class_embed(class).color(STEVENS_RED).to_owned();
+                    vec![
+                        msg.channel_id
+                            .send_message(&context.http, |m| m.set_embed(embed))
+                            .await,
+                    ]
+                }
             }
             Some("help") => {
                 vec![

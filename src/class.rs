@@ -17,7 +17,7 @@ pub struct Class {
 }
 
 impl Class {
-    fn new(
+    pub fn new(
         department: String,
         department_name: String,
         discriminator: u8,
@@ -27,7 +27,7 @@ impl Class {
         prerequisites: String,
         offered: Vec<String>,
         cross_listings: Vec<String>,
-        distributions: String,
+        distributions: Vec<String>,
         url: String,
     ) -> Self {
         Self {

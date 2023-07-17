@@ -1,7 +1,7 @@
 // use futures::stream::*;
 // use heck::ToTitleCase;
 // use indicatif::ProgressBar;
-use crate::class:Class;
+use crate::class::*;
 use reqwest::Client;
 use scraper::ElementRef;
 use scraper::{Html, Selector};

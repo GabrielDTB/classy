@@ -1,6 +1,6 @@
 use crate::class::*;
 use crate::get_classes::*;
-use crate::traits;
+pub use crate::traits::Catalog as CatalogTrait;
 use serde_json;
 
 pub struct Catalog {
@@ -9,7 +9,7 @@ pub struct Catalog {
     //classes_by_department: HashMap<String, Vec<&'a Class>>,
 }
 
-impl traits::Catalog<Class> for Catalog {
+impl CatalogTrait<Class> for Catalog {
     fn query_by_id(&self, id: &str) -> Option<&Class> {
         let quarry = clean(id);
         for class in self.classes {
@@ -21,6 +21,9 @@ impl traits::Catalog<Class> for Catalog {
     }
     fn query_by_department(&self, department: &str) -> Vec<&Class> {
         let quarry = clean(department);
+        if quarry == "*" {
+            return self.classes.iter().map(|c| c).collect::<Vec<&Class>>();
+        }
         self.classes
             .iter()
             .filter(|c| clean(&c.department()) == quarry)
@@ -133,6 +136,17 @@ impl Catalog {
             println!("Wrote new classes to ./cache/classes...");
         }
         Ok(Catalog { classes })
+    }
+    pub fn departments(&self) -> Vec<String> {
+        self.classes.iter().map(|c| c.department()).fold(
+            Vec::new(),
+            |mut departments, department| {
+                if !departments.contains(&department) {
+                    departments.push(department);
+                }
+                departments
+            },
+        )
     }
 }
 
