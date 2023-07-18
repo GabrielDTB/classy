@@ -1,14 +1,18 @@
 {
-  "id": "OE 684",
-  "name": "Mixing Processes in Inland and Coastal Waters",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "684",
+  "title": "Mixing Processes in Inland and Coastal Waters",
   "description": "Development of advective-diffusion equations for conservative and non-conservative substances. Fickian diffusion, turbulent diffusion, and shear flow dispersion. Description and specification of mixing processes in rivers, reservoirs, and estuaries. Methods and analyses of conservative dye tracer studies. Monte Carlo simulations of diffusion processes and numerical models for simulation of advection diffusion processes in rivers and estuaries.",
   "credits": "3",
-  "cross_listed": "CE 684",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    "CE 684"
+  ],
+  "distributions": [
     "Civil Engineering Program",
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-684"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-684"
 }

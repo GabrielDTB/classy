@@ -1,17 +1,21 @@
 {
-  "id": "CPE 360",
-  "name": "Computational Data Structures and Algorithms",
+  "department": "CPE",
+  "department_name": "",
+  "discriminator": "360",
+  "title": "Computational Data Structures and Algorithms",
   "description": "The role of data structures and algorithms in the real world; principles of programming including the topics of control flow, recursion and I/O; principles of computational intelligence; topics from elementary data structures including arrays, lists, stacks, queues, pointers, strings; searching and sorting; data structures for concurrent execution; topics from elementary algorithms including analysis of algorithms and efficiency, computational complexity, empirical measurements of computational complexity of algorithms, proof techniques including induction; selected topics from advanced algorithms including distributed algorithms; programming laboratory exercises and projects.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "ENGR 115 or ENGR 116",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/300/cpe-360"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/300/cpe-360"
 }

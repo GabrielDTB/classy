@@ -1,16 +1,20 @@
 {
-  "id": "SYS 710",
-  "name": "Research Methodologies",
+  "department": "SYS",
+  "department_name": "",
+  "discriminator": "710",
+  "title": "Research Methodologies",
   "description": "Research philosophy, ethics, and methodology will be discussed. Each student will, under the guidance of the instructor, formulate a problem, search the literature, and develop a research design. In addition, the student will examine and criticize research reports with special emphasis on the statement of the problem, the sampling and measuring techniques that are used, and the analyses and interpretation of the data. Emphasis is on applying research methodology to real-world organizational problems.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Systems Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/700/sys-710"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/700/sys-710"
 }

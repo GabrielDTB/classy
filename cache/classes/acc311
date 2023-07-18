@@ -1,13 +1,17 @@
 {
-  "id": "ACC 311",
-  "name": "Intermediate Accounting I",
+  "department": "ACC",
+  "department_name": "",
+  "discriminator": "311",
+  "title": "Intermediate Accounting I",
   "description": "The course is the first of a two-semester course of intensive study of accounting theory and its application. The course will focus on the accounting principles that shape the financial reporting practices followed by entities that prepare financial statements in accordance with generally accepted accounting principles (GAAP). After taking this course, students should be able to: - demonstrate an understanding of the conceptual framework of financial reporting; - apply steps in the financial reporting process (record transactions and prepare a trial balance) and prepare financial statements; - explain and apply time value of money concepts using present value and future value tables; and - demonstrate an in-depth understanding of specific assets and liabilities such as cash, receivables, inventories, property and equipment, intangibles, current liabilities, contingencies, and long-term liabilities.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "BT 200 or ACC 200",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/acc-accounting/300/acc-311"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/acc-accounting/300/acc-311"
 }

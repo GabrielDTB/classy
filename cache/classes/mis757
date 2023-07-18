@@ -1,13 +1,17 @@
 {
-  "id": "MIS 757",
-  "name": "Practicum-Effective Communication for Managers",
+  "department": "MIS",
+  "department_name": "",
+  "discriminator": "757",
+  "title": "Practicum-Effective Communication for Managers",
   "description": "In this workshop lab, students will learn several skills to help them present and write more effectively. Specific topics include components of effective writing, ten steps for effective presentations, using advanced computer technologies in oral presentations, and portraying the correct image.",
   "credits": "0.7",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mis-information-systems/700/mis-757"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mis-information-systems/700/mis-757"
 }

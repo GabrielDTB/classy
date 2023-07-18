@@ -1,16 +1,20 @@
 {
-  "id": "OE 642",
-  "name": "Motion of Vessels in Waves",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "642",
+  "title": "Motion of Vessels in Waves",
   "description": "Dynamic response of a ship in regular and irregular seas, the equation of motion with six degrees of freedom, added mass and damping coefficient of an oscillating ship on the free surface, coupled equation of motion of a ship in waves, and description of ship motion in the irregular sea with the discussion leading to nonlinear equations of motion.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "OE 641",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-642"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-642"
 }

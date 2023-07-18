@@ -1,15 +1,19 @@
 {
-  "id": "BIO 484",
-  "name": "Molecular Genetics",
+  "department": "BIO",
+  "department_name": "",
+  "discriminator": "484",
+  "title": "Molecular Genetics",
   "description": "Introduction to the study of molecular basis of inheritance. Starts with classical Mendelian genetics and proceeds to the study and function of DNA, gene expression and regulation in prokaryotes and eukaryotes, genome dynamics and the role of genes in development, and cancer. All topics include discussions of current research advances. Accompanied by laboratory section that explores the lecture topics in standard wet laboratory experiments and in computer simulations.",
   "credits": "4",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biological Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/400/bio-484"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/400/bio-484"
 }

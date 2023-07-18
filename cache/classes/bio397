@@ -1,15 +1,19 @@
 {
-  "id": "BIO 397",
-  "name": "Fundamentals in Plant Biology",
+  "department": "BIO",
+  "department_name": "",
+  "discriminator": "397",
+  "title": "Fundamentals in Plant Biology",
   "description": "Fundamentals in Plant Biology focuses on the cell biology and physiology of plants. The students will learn the chemical and biological strategies plants use to make nutrients, complex biological molecules many of which are important to human health. Plant assimilation of carbon and nitrogen, important to the earth ecosystem, will also be discussed. Plant structures are emphasized to appreciate their biological functions. Key concepts and relationships include the importance of water, nutrient transport, solar energy and photoassimilates, plant growth and development, time, plant movement and phytochemicals. At the end of the course students will gain a broad knowledge in plant biology at a molecular level.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "BIO 381",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biological Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/300/bio-397"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/300/bio-397"
 }

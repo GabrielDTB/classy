@@ -1,18 +1,22 @@
 {
-  "id": "EE 583",
-  "name": "Wireless Communications",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "583",
+  "title": "Wireless Communications",
   "description": "This courses serves as a broad introduction to the several technologies and applications of wireless communications systems. The emphasis is on providing a reasonable mixture of information leading to a broad understanding of the technical issues involved, with modest depth in each of the topics. As an integrating course, the topics range from the physics of wave generation/propagation/reception through the circuit/component issues, to the signal processing concepts, to the techniques used to impress the information (voice or data) on a wireless channel, to overviews of representative applications including current generation systems and next generation systems. Upon completion of this course, the student shall understand the manner in which the more detailed information in the other three courses is integrated to create a complete system. Cross- listed with: EE 583",
   "credits": "3",
-  "cross_listed": "NIS 583",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    "NIS 583"
+  ],
+  "distributions": [
     "Electrical Engineering Program",
     "Information and Data Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/500/ee-583"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/500/ee-583"
 }

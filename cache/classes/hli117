@@ -1,15 +1,19 @@
 {
-  "id": "HLI 117",
-  "name": "Colonial and Romantic American Literature",
+  "department": "HLI",
+  "department_name": "",
+  "discriminator": "117",
+  "title": "Colonial and Romantic American Literature",
   "description": "A survey of European culture as the foundation of American culture. Course emphasizes literary developments and also provides a brief introduction to major developments in western architecture, music, and art.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/100/hli-117"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/100/hli-117"
 }

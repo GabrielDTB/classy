@@ -1,16 +1,20 @@
 {
-  "id": "BME 306",
-  "name": "Introduction to Biomedical Engineering",
+  "department": "BME",
+  "department_name": "",
+  "discriminator": "306",
+  "title": "Introduction to Biomedical Engineering",
   "description": "Overview of the biomedical engineering field with applications relevant to the healthcare industry such as medical instrumentation and devices. Introduction to the nervous system, propagation of the action potential, muscle contraction and introduction to the cardiovascular system. Discussion of ethical issues in biomedicine.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "ENGR 116 , ENGR 111 and ENGR 122",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biomedical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/300/bme-306"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/300/bme-306"
 }

@@ -1,13 +1,17 @@
 {
-  "id": "ISE 422",
-  "name": "Data Analysis and Visual Techniques",
+  "department": "ISE",
+  "department_name": "",
+  "discriminator": "422",
+  "title": "Data Analysis and Visual Techniques",
   "description": "Data has the potential to inform decision ¬making and influence public and policies. When situated with appropriate context, visualized data has the power to change the world. This course provides the essential and practical skills necessary to communicate information about data clearly and effectively through graphical means. In this hands-¬on introduction to data visualization, student will learn basic types of plots such scatterplot, bar chart, heatmap, parallel coordinate, geographic map, and word clouds. Advanced and interesting topics such as interactive web application and Chernoff faces will also be introduced. Additionally, this course covers basic data manipulation techniques and machine learning skills. An individual does not necessarily have to be a programmer.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "EM 365",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Engineering Management Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ise-industrial-and-systems-engineering/400/ise-422"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ise-industrial-and-systems-engineering/400/ise-422"
 }

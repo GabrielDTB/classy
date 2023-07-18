@@ -1,13 +1,17 @@
 {
-  "id": "CHE 226",
-  "name": "Chemical Engineering Thermodynamics",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "226",
+  "title": "Chemical Engineering Thermodynamics",
   "description": "The thermodynamic laws and functions with emphasis on systems of variable composition and chemically reacting systems. Joule-Thomsen effect, temperature scales, chemical potential, fugacity and activity, excess function properties, standard states, phase and reaction equilibria, reaction coordinate, chemical-to-electrical energy conversion.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/200/che-226"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/200/che-226"
 }

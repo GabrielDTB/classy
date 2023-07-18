@@ -1,17 +1,21 @@
 {
-  "id": "MGT 897",
-  "name": "Writing Tutorial",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "897",
+  "title": "Writing Tutorial",
   "description": "Students who fail the MGT 898 writing assessment are automatically enrolled in and required to complete this online tutorial. MGT 897 carries zero credit and will not appear on the students official transcript.",
   "credits": "0",
-  "cross_listed": "",
   "prerequisites": "MGT 898",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/800/mgt-897"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/800/mgt-897"
 }

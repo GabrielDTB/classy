@@ -1,17 +1,21 @@
 {
-  "id": "EE 462",
-  "name": "Introduction to Image Processing and Coding",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "462",
+  "title": "Introduction to Image Processing and Coding",
   "description": "Image acquisition, storage, image formation, sampling, basic relationship between pixels, imaging geometry, segmentation: edge detection, edge linking and boundary detection, Hough transform, region growing, thresholding, split and merge, histogram matching, representation: chain code, polygonal approximation and skeletonization, thinning algorithms, texture, image compression: elementary discussion of motion vectors for compression, discussion of industry standards such as JEPG and MPEG.",
   "credits": "3",
-  "cross_listed": "CPE 462",
   "prerequisites": "ENGR 245",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "CPE 462"
+  ],
+  "distributions": [
     "Computer Engineering Program",
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/400/ee-462"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/400/ee-462"
 }

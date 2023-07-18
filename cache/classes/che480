@@ -1,15 +1,19 @@
 {
-  "id": "CHE 480",
-  "name": "Biochemical Engineering",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "480",
+  "title": "Biochemical Engineering",
   "description": "Integration of the principles of biochemistry and microbiology into chemical engineering processes; microbial kinetic models; transport in bioprocess systems; single & mixed culture fermentation technology; enzyme synthesis, purification & kinetics; bioreactor analysis, design and control; product recovery and downstream processing.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CHE 351",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/400/che-480"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/400/che-480"
 }

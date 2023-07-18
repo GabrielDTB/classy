@@ -1,17 +1,21 @@
 {
-  "id": "EE 250",
-  "name": "Mathematics for Electrical Engineers",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "250",
+  "title": "Mathematics for Electrical Engineers",
   "description": "Introduction to logic, methods of proof, proof by induction and the pigeonhole principle with applications to logic design. Analytic functions of a complex variable, Cauchy-Riemann equations, Taylor series. Integration in the complex plane, Cauchy Integral formula, Liouville’s theorem, maximum modulus theorem. Laurent series, residues, the residue theorem. Applications to system theory, Laplace transforms, and transmission lines.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 221",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/200/ee-250"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/200/ee-250"
 }

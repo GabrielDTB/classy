@@ -1,9 +1,10 @@
 {
-  "id": "MGT 800",
-  "name": "Special Problems in Management (MS)",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "800",
+  "title": "Special Problems in Management (MS)",
   "description": "With permission of the instructor. Limit of six credits for the degree of Master of Science.",
   "credits": "1-6",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/800/mgt-800"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/800/mgt-800"
 }

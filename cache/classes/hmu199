@@ -1,15 +1,19 @@
 {
-  "id": "HMU 199",
-  "name": "Creative Collaboration I",
+  "department": "HMU",
+  "department_name": "",
+  "discriminator": "199",
+  "title": "Creative Collaboration I",
   "description": "In this first course of the Creative Collaboration sequence, students will learn to collaborate with others in musical creation. Through readings, audio recordings, and video documentation, they will be exposed to different models and traditions of collaboration. Students will be grouped into bands and ensembles and charged with creating their own original music. They will develop the ability to engage in consistent and intentional group-performance practice. Collaborative endeavors may include: composition and songwriting; performance practice and aesthetic; physical presence and theater. The course will culminate in a live performance.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Music and Technology Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/100/hmu-199"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/100/hmu-199"
 }

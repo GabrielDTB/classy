@@ -1,13 +1,17 @@
 {
-  "id": "CE 606",
-  "name": "Limit Analysis of Frames, Plates and Shells",
+  "department": "CE",
+  "department_name": "",
+  "discriminator": "606",
+  "title": "Limit Analysis of Frames, Plates and Shells",
   "description": "Limit Analysis of Frames, Plates and Shells",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Civil Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/600/ce-606"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/600/ce-606"
 }

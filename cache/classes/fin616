@@ -1,15 +1,19 @@
 {
-  "id": "FIN 616",
-  "name": "Managerial Economics",
+  "department": "FIN",
+  "department_name": "",
+  "discriminator": "616",
+  "title": "Managerial Economics",
   "description": "This course introduces students to the essence of economics – the theories, concepts and ideas that form the economist’s tool kit encompassing both the microeconomic and macroeconomic environments. Microeconomic topics include demand and supply, elasticity, consumer choice, production, cost, profit maximization, market structure, and game theory while the Macroeconomic topics will be GDP, inflation, unemployment, aggregate demand, aggregate supply, fiscal and monetary policies, and exchange rates. In addition, basic concepts in international trade and finance will be discussed. It is critical for finance students to have a solid understanding of the economic climate within which their business operates along with an understanding of the economic factors involved in internal decision making.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/600/fin-616"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/600/fin-616"
 }

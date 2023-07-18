@@ -1,16 +1,20 @@
 {
-  "id": "ME 581",
-  "name": "Introduction to Bio Micro Electro Mechanical Systems (BioMEMS)",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "581",
+  "title": "Introduction to Bio Micro Electro Mechanical Systems (BioMEMS)",
   "description": "Bringing together the creative talents of electrical, mechanical, optical and chemical engineers, materials specialists, clinical- laboratory scientists, and physicians, the science of biomedical microelectromechanical systems (Bio MEMS) promises to deliver sensitive, selective, fast, low cost, less invasive, and more robust methods for diagnostics, individualized treatment, and novel drug delivery. The goals of this course are to introduce microfabrication, microfluidics, sensors, actuators, drug delivery systems, micro total analysis systems and lab-on-a-chip devices, detection and measurement systems. The main focus is on the fundamental challenges and limitations involved in designing and demonstrating BioMEMS devices.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-581"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-581"
 }

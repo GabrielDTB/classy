@@ -1,15 +1,19 @@
 {
-  "id": "ME 663",
-  "name": "Finite-Element Methods",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "663",
+  "title": "Finite-Element Methods",
   "description": "Development of the fundamental equations of finite-element theory, using the matrix displacement approach. Detailed case studies of one-dimensional (truss and beam), two-dimensional (plane stress/strain and axisymmetric solid), k and plate-bending elements are explained. Applications include interactive model building and solutions.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-663"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-663"
 }

@@ -1,13 +1,17 @@
 {
-  "id": "EE 740",
-  "name": "Selected Topics in Communication Theory",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "740",
+  "title": "Selected Topics in Communication Theory",
   "description": "A participating seminar in the area of modern communications. Typical topics include high-resolution spectral estimation, nonparametric and robust signal processing, CFAR radars, diversity techniques for fading multipath channels, and adaptive nonlinear equalizers of optical communications.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/700/ee-740"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/700/ee-740"
 }

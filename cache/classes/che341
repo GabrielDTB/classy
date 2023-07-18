@@ -1,13 +1,17 @@
 {
-  "id": "CHE 341",
-  "name": "Equilibrium Stages in Process Design",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "341",
+  "title": "Equilibrium Stages in Process Design",
   "description": "Equilibrium Stages in Process Design",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/300/che-341"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/300/che-341"
 }

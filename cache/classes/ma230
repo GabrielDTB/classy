@@ -1,15 +1,19 @@
 {
-  "id": "MA 230",
-  "name": "Multivariate Calculus and Optimization",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "230",
+  "title": "Multivariate Calculus and Optimization",
   "description": "This course starts with some fundamental notions in multivariate analysis and geometry as well as basic notions and results of convex analysis: (gradient, Jacobian and Hessian, closed and open sets, convex sets, convex hulls, convex cones, polyhedral sets, convex functions, and convexity criteria). These notions are used to present the theory and methods of nonlinear optimization: necessary and sufficient conditions of optimality for nonlinear optimization problems with and without constraints, and duality theory. Numerical methods for unconstrained and constrained problems with differentiable functions include, gradient methods, Newton method, conjugate gradients, gradient projection, reduced gradient, simplex method, penalty methods, dual methods. Optimization problems from statistics, engineering, and business will serve as examples.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 124 or MA 126",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/200/ma-230"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/200/ma-230"
 }

@@ -1,13 +1,17 @@
 {
-  "id": "EN 416",
-  "name": "Environmental Design",
+  "department": "EN",
+  "department_name": "",
+  "discriminator": "416",
+  "title": "Environmental Design",
   "description": "Additional experience in design, analysis and synthesis of engineering systems including structures, foundations, and environmental systems; term projects are selected from one of the above systems; an intern project-oriented option is available in which the educational objectives are met with the assistance of outside professional sponsors.",
   "credits": "6",
-  "cross_listed": "",
   "prerequisites": "EN 415",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Environmental Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/400/en-416"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/400/en-416"
 }

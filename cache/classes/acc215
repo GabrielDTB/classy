@@ -1,15 +1,19 @@
 {
-  "id": "ACC 215",
-  "name": "Managerial Accounting",
+  "department": "ACC",
+  "department_name": "",
+  "discriminator": "215",
+  "title": "Managerial Accounting",
   "description": "This course deals with the methods and principles of managerial accounting. It is concerned with the use of accounting data by individuals within a business in order to enhance managerial decision-making and control. Topics include costs estimation, cash flow statements and financial statement analysis.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "BT 200 or ACC 200",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/acc-accounting/200/acc-215"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/acc-accounting/200/acc-215"
 }

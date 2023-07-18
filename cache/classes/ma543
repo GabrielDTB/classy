@@ -1,13 +1,17 @@
 {
-  "id": "MA 543",
-  "name": "Actuarial Finance II",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "543",
+  "title": "Actuarial Finance II",
   "description": "This course is an introduction to investment and financial market with applications of mathematics to pricing and hedging options, efficient market hypothesis, evaluation of investment risk and stock analysis, capital structures, and derivative instruments in risk management.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 542 and (Grad Student (or Junior or Senior))",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-543"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-543"
 }

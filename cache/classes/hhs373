@@ -1,15 +1,19 @@
 {
-  "id": "HHS 373",
-  "name": "US Constitutional Law II: Civil Liberties and Civil Rights",
+  "department": "HHS",
+  "department_name": "",
+  "discriminator": "373",
+  "title": "US Constitutional Law II: Civil Liberties and Civil Rights",
   "description": "An historical and political analysis of the US Constitution as it relates to civil liberties and civil rights. The decision-making and policymaking roles of the US Supreme Court through case law in these areas are closely examined.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/300/hhs-373"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/300/hhs-373"
 }

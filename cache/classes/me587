@@ -1,15 +1,19 @@
 {
-  "id": "ME 587",
-  "name": "Human Factors Engineering",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "587",
+  "title": "Human Factors Engineering",
   "description": "This course is a graduate-level introduction to Human Factors Engineering, the discipline that examines the interactions between humans and other elements of a system. The course will present theory, principles, data and methods to design for humans ranging from infants to the aged with special attention to their biological and physical needs. Achieving optimal person- environment interaction requires knowledge about the broad range of human functional capacity, including but not limited to anthropometry, biomechanics, sensory processes and others. The course involves a project that applies the obtained knowledge to real world problems with innovative product designs.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-587"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-587"
 }

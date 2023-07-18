@@ -1,15 +1,19 @@
 {
-  "id": "OE 522",
-  "name": "Design of Living Shorelines",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "522",
+  "title": "Design of Living Shorelines",
   "description": "\"Living Shorelines\" refers to an innovative approach to stabilizing eroding shorelines that integrates traditional coastal engineering concepts, with elements of bioengineering and coastal ecology. The goal is to create a stable, resilient shoreline that enhances the natural ecosystem. This course is designed to fit an industry need for engineers that are familiar with traditional coastal engineering concepts as well as ecology and/or bioengineering. This will be accomplished through lectures focused on the characteristics of natural organisms (flora and fauna) that contribute to the stability and ecological enhancement of traditional coastal structures. Some of the topics to be presented in this class include evaluating site conditions, integrating ecological considerations with engineering requirements, determining representative costs and understanding project regulations. A significant portion of the class will be dedicated to developing designs for living shorelines projects in New York and New Jersey. Special topics will be addressed through guest lectures and field trips.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-522"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-522"
 }

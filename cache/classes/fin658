@@ -1,15 +1,19 @@
 {
-  "id": "FIN 658",
-  "name": "Wealth Management Principles and Practices",
+  "department": "FIN",
+  "department_name": "",
+  "discriminator": "658",
+  "title": "Wealth Management Principles and Practices",
   "description": "This is a course on the theory and practice of wealth management. It covers the building blocks and fundamental theoretical and practical aspects of investment management and financial planning for individual investors as well as applications that put the former to use by practitioners in the industry. Students will be exposed to some of the information, tools, and analysis available to investment management professionals today.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "FIN 526 or FIN 627 or FE 630 or FIN 628 or FE 620 or FIN 629 or Instructor's permission",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/600/fin-658"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/600/fin-658"
 }

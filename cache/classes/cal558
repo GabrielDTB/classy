@@ -1,13 +1,17 @@
 {
-  "id": "CAL 558",
-  "name": "Sociology of Science and Technology",
+  "department": "CAL",
+  "department_name": "",
+  "discriminator": "558",
+  "title": "Sociology of Science and Technology",
   "description": "This course addresses various theories, approaches, and methodologies used in the sociology of scientific knowledge, including the strong programme, relativism, actor-network theory, gendered accounts of science, and laboratory studies. In addition, it discusses the relationships between science, technology, and society, such as how science and technology influence society and how society influences science and technology. Furthermore, the course explores the issues related to science and technology workforces and policies. The issues discussed in the course occur in both the U.S. and other countries, and the readings discussed in the course crosscut sociology and other disciplines.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "College of Arts and Letters"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cal-college-of-arts-letters/500/cal-558"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cal-college-of-arts-letters/500/cal-558"
 }

@@ -1,13 +1,17 @@
 {
-  "id": "OE 646",
-  "name": "Behavior of Ocean Platforms",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "646",
+  "title": "Behavior of Ocean Platforms",
   "description": "Behavior of Ocean Platforms",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-646"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-646"
 }

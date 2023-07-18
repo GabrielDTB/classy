@@ -1,16 +1,20 @@
 {
-  "id": "ME 510",
-  "name": "Power Plant Engineering",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "510",
+  "title": "Power Plant Engineering",
   "description": "Analysis of thermodynamics, hydraulic, environmental, and economic considerations that affect the design and performance of modern power plants; overview of power generation system and its components, including boilers, turbines, circulating water systems, and condensate-feedwater systems; fuels and combustion; auxiliary pumping and cleanup systems; gas turbine and combined cycles; and introduction to nuclear power plants and alternate energy systems based on geothermal, solar, wind, and ocean energy.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-510"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-510"
 }

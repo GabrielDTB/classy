@@ -1,13 +1,17 @@
 {
-  "id": "CPE 680",
-  "name": "Ad Hoc Networks",
+  "department": "CPE",
+  "department_name": "",
+  "discriminator": "680",
+  "title": "Ad Hoc Networks",
   "description": "Ad hoc networking relates to a collection of network components that can self-organize and manage communications in a manner largely transparent to the user. Such networks have grown in importance as wireless network technologies have advanced, leading to dynamically changing network topologies. Representative topics, presented from the perspective of ad hoc networks, include routing protocols, performance metrics, implementations, applications such as sensor and peer-to- peer networks, and security are presented from the perspective of ad hoc networks.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/600/cpe-680"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/600/cpe-680"
 }

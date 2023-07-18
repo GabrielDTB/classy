@@ -1,13 +1,17 @@
 {
-  "id": "HSS 517",
-  "name": "Quantitative Social Science",
+  "department": "HSS",
+  "department_name": "",
+  "discriminator": "517",
+  "title": "Quantitative Social Science",
   "description": "The emerging field of computational social science has the potential to transform how what we know about society. However, as experts have noted, computational social science is its own distinct field, and distinct from the application of computer science principles to social data. Computational social science requires deep understanding of relevant social theories combined with computational skills to ensure responsible and ethical outcomes. By providing a foundational knowledge of research design, data collection and management, and introductions to computational and statistical approaches, students will engage and develop critical thinking and research skills necessary for computational social science. Through hands-on problem sets and projects, students will develop and enhance their statistical, computational, and programming skills in order to examine major societal issues",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/500/hss-517"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/500/hss-517"
 }

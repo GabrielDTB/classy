@@ -1,16 +1,20 @@
 {
-  "id": "FA 555",
-  "name": "2D Data Visualization Programming for Financial Applications",
+  "department": "FA",
+  "department_name": "",
+  "discriminator": "555",
+  "title": "2D Data Visualization Programming for Financial Applications",
   "description": "Building effective and efficient tools for next generation integration of data analysis into strategic decision-making requires knowledge of existing software packages as well as the ability to build or extend software when needed. This course will address strategies for representing complex data through coverage of responsive web technologies, programming methods, libraries, and current techniques for transforming local and distributed data sets into meaningful visualizations using data acquisition and machine learning techniques.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Grad Student or (Junior or Senior with cGPA => 3.0)",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fa-financial-analytics/500/fa-555"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fa-financial-analytics/500/fa-555"
 }

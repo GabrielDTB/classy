@@ -1,15 +1,19 @@
 {
-  "id": "CHE 351",
-  "name": "Reactor Design",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "351",
+  "title": "Reactor Design",
   "description": "Chemical equilibria and kinetics of single and multiple reactions are analyzed in isothermal and nonisothermal batch systems. Conversion, yield, selectivity, and temperature and concentration history are studied in ideal plug flow, laminar flow, continuous stirred tank and heterogeneous reactors. The bases of reactor selection are developed. Consideration is given to stability and optimization concepts, and the interaction of the reactor with the overall processing system.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CHE 336 and CoReq CHE 342",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/300/che-351"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/300/che-351"
 }

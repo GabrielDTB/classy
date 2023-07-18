@@ -1,13 +1,17 @@
 {
-  "id": "EE 775",
-  "name": "Selected Topics in Information Theory and Coding",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "775",
+  "title": "Selected Topics in Information Theory and Coding",
   "description": "Current topics in information theory and coding. Typical topics include: basic theorems of information theory, entropy, channel capacity, and error bounds. Rate distortion theory: discrete source with a fidelity criterion, minimum distortion quantization, bounds on rate-distortion functions, error control codes: review of prerequisite linear algebra and field theory, linear block codes, cyclic algebraic codes, convolutional codes, and sequential decoding.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/700/ee-775"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/700/ee-775"
 }

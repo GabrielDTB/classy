@@ -1,17 +1,21 @@
 {
-  "id": "FE 680",
-  "name": "Advanced Derivatives",
+  "department": "FE",
+  "department_name": "",
+  "discriminator": "680",
+  "title": "Advanced Derivatives",
   "description": "This course deals with fixed-income securities and interest-rate sensitive instruments. Topics include term structure of interest rates, treasury securities, strips, swaps, swaptions, one-factor, two-factor interest rate models, Heath-Jarrow-Merton (HJM) models and credit derivatives: credit default swaps (CDS), collateralized debt obligations (CDOs), and Mortgage- backed securities (MGS).",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "FE 620",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/600/fe-680"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/600/fe-680"
 }

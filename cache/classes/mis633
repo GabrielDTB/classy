@@ -1,15 +1,19 @@
 {
-  "id": "MIS 633",
-  "name": "Business Intelligence & Data Integration",
+  "department": "MIS",
+  "department_name": "",
+  "discriminator": "633",
+  "title": "Business Intelligence & Data Integration",
   "description": "This 2-credit course focuses on the design and management of data warehouse (DW) and business intelligence (BI) systems. The course is organized around the following general themes: business value of data, planning and business requirements, architecture, data design, implementation, business intelligence, deployment, data integration and emerging issues. Practical examples and case studies are presented throughout the course. Students in MIS 633 must also enroll in the associated 1-credit lab course MIS 634 Business Intelligence & Data Integration Lab.",
   "credits": "2",
-  "cross_listed": "",
   "prerequisites": "MIS 634 CoReq",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mis-information-systems/600/mis-633"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mis-information-systems/600/mis-633"
 }

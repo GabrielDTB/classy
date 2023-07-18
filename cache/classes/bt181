@@ -1,16 +1,20 @@
 {
-  "id": "BT 181",
-  "name": "Seminar in Business",
+  "department": "BT",
+  "department_name": "",
+  "discriminator": "181",
+  "title": "Seminar in Business",
   "description": "This course will broadly address the issue of how management decisions are made in a corporate business environment. The focus will be on understanding the tools, people and processes that are used in large public companies to make major decisions. We will explore this in the context of the major decisions made by senior management, as opposed to day-to-day decision-making. As a survey course we will only highlight the theory and detailed mechanics of complex decision-making. Our focus will be to discuss the issues faced by executives in solving complex problems that require their attention and review the methods used by business executives to handle uncertainty, mitigate risk and create outcomes that address the needs of the business. Throughout the course we will examine the decision-making process from the perspective of different departments; marketing, sales, corporate planning, production, financing, etc. While many of the planning, financial and analytical tools are common, their application within different departments can and will vary. The course will consist of two components: 1. Lectures and reading on decision-making tools, methods and procedures. 2. Business case discussion on the application of decision-making tools to timely issues faced by leading corporations.",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "Pinnacle Scholars",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/100/bt-181"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/100/bt-181"
 }

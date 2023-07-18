@@ -1,15 +1,19 @@
 {
-  "id": "EM 303",
-  "name": "Engineering Cost Estimation Lab",
+  "department": "EM",
+  "department_name": "",
+  "discriminator": "303",
+  "title": "Engineering Cost Estimation Lab",
   "description": "Engineering Cost Estimation Lab",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "Instructor Permission Required - Undergraduate",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Engineering Management Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/300/em-303"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/300/em-303"
 }

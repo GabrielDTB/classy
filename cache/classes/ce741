@@ -1,13 +1,17 @@
 {
-  "id": "CE 741",
-  "name": "Hydraulic Structures",
+  "department": "CE",
+  "department_name": "",
+  "discriminator": "741",
+  "title": "Hydraulic Structures",
   "description": "This course will focus on the design of hydraulic structures including small dams, spillways, weirs and culverts. These are complex structures, the design of which must account for the water forces, which act upon them as well as their impacts upstream and downstream. Structural topics will be covered along with backwater curves and downstream effects. Models such as the US Army HEC II and HEC RAS will be used to model the associated hydraulic impacts of these structures. Structural models will also be used were appropriate to assist in the design of the structures. Environmental and economic implications of hydraulic structures will also be addressed.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CE 525 and CE 685",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Civil Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/700/ce-741"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/700/ce-741"
 }

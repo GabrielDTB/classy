@@ -1,16 +1,20 @@
 {
-  "id": "SSW 695",
-  "name": "Software Engineering Capstone Studio",
+  "department": "SSW",
+  "department_name": "",
+  "discriminator": "695",
+  "title": "Software Engineering Capstone Studio",
   "description": "Software Engineering Capstone Studio",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Software Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/600/ssw-695"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/600/ssw-695"
 }

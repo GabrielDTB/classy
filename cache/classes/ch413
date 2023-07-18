@@ -1,13 +1,17 @@
 {
-  "id": "CH 413",
-  "name": "Inorganic Chemistry II",
+  "department": "CH",
+  "department_name": "",
+  "discriminator": "413",
+  "title": "Inorganic Chemistry II",
   "description": "Inorganic Chemistry II",
   "credits": "4",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/400/ch-413"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/400/ch-413"
 }

@@ -1,15 +1,19 @@
 {
-  "id": "FIN 540",
-  "name": "Sustainable Finance",
+  "department": "FIN",
+  "department_name": "",
+  "discriminator": "540",
+  "title": "Sustainable Finance",
   "description": "This course introduces students to sustainable finance. In this course, sustainable finance is understood as the process of ensuring the inclusion of environmental, social, and governance (ESG) considerations into corporate decisions. A sustainable corporation will make their investment decisions that consider not only financial returns but also its social impact. Our textbook provides a clear and masterful discussion of the principles of sustainable business based on \"growing the pie\" principle. By focusing on \"growing the pie\" as a corporate objective, the sustainable businesses are able to create shareholder values as well as stakeholder value. This course will provide the graduate and undergraduate students a solid foundation and introduction to this most important topic. Students taking this course will not only have the knowledge about sustainable finance they need, but the understanding to put that knowledge to practical use. This course will answer many fundamental questions about sustainable finance including the following: (1) What is sustainability and the social impact of corporations? (2) What are the challenges to corporations in dealing with climate change? (3) How do companies finance green projects?",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "(BT 321) or (Grad Student)",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/500/fin-540"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/500/fin-540"
 }

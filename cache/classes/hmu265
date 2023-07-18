@@ -1,15 +1,19 @@
 {
-  "id": "HMU 265",
-  "name": "Programming in Max",
+  "department": "HMU",
+  "department_name": "",
+  "discriminator": "265",
+  "title": "Programming in Max",
   "description": "This course serves as an introduction to the visual programming environment Max. Fundamental theoretical elements, such as program logic and behavior, visual display and control, interactivity, and efficient structuring of patches will be introduced through the construction of creative projects, in the form of semi-weekly assignments. Applied topics explored include live performance patches, step sequencers, generative musical elements, sound synthesis, signal processing, and multimedia. The course will culminate in a final project of the student’s design.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "HMU 211",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Music and Technology Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/200/hmu-265"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/200/hmu-265"
 }

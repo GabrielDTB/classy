@@ -1,15 +1,19 @@
 {
-  "id": "CH 421",
-  "name": "Chemical Dynamics",
+  "department": "CH",
+  "department_name": "",
+  "discriminator": "421",
+  "title": "Chemical Dynamics",
   "description": "Chemical kinetics, solution theories with applications to separation processes, electrolytes, polyelectrolytes, regular solutions and phase equilibria, and laboratory practice in the measurements of physical properties and rate processes.",
   "credits": "4",
-  "cross_listed": "",
   "prerequisites": "( CH 321 or ENGR 234 ) and ( MA 221 or MA 281 )",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/400/ch-421"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/400/ch-421"
 }

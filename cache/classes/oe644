@@ -1,13 +1,17 @@
 {
-  "id": "OE 644",
-  "name": "Design of Ship Propellers",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "644",
+  "title": "Design of Ship Propellers",
   "description": "Fundamentals of two-dimensional flow about hydrofoils, including design of camber lines for specified pressure distributions and the inverse problem, characteristics of thickness distribution, predictions of cavitation inception as a function of thickness, camber, and departure from ideal angle of attack. Three-dimensional flows about lifting signs of large and small aspect ratios. Momentum theory applied to propellers to determine ideal efficiency, lifting line, and lifting surface models of propellers. The use of openwater design charts for the determination of optimum pitch, diameter, and revolutions. Exercise of computer program for preliminary design. Introduction to concepts leading to assessment of vibratory forces and hull forces.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "OE 525 and OE 630",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-644"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-644"
 }

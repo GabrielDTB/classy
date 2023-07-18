@@ -1,18 +1,22 @@
 {
-  "id": "NIS 691",
-  "name": "Information Systems Security",
+  "department": "NIS",
+  "department_name": "",
+  "discriminator": "691",
+  "title": "Information Systems Security",
   "description": "History of network security; classical infosec; cryptosecurity; Kerberos for IP networks; private and public keys; nature of network security; fundamental framework for network security; security on demand in ATM networks; analysis and performance impact of ATM network topology; security in IVCC; vulnerabilities and security attack models in ATM, IP and mobile wireless networks; intrusion detection techniques - centralized and distributed; emulation of attack models and performance assessment through behavior modeling and asynchronous distributed simulation; principles of secure network design in the future; projects in network security and invited guest lecturers.",
   "credits": "3",
-  "cross_listed": "CPE 691",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    "CPE 691"
+  ],
+  "distributions": [
     "Computer Engineering Program",
     "Information and Data Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/600/nis-691"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/600/nis-691"
 }

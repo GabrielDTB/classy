@@ -1,13 +1,17 @@
 {
-  "id": "OE 629",
-  "name": "Advanced Maritime Security",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "629",
+  "title": "Advanced Maritime Security",
   "description": "This course provides broad knowledge of security systems and protocols applied in the Maritime Transportation System (MTS), consistent with international and national laws and regulations. Security policies, processes and procedures are presented and illustrated by case studies. All requirements for certification for those who may be designated to perform the duties and responsibilities of a Company Security Officer (CSO) or a Vessel Security Officer (VSO), as defined in the International Ship and Port Security Code (ISPS) and the Maritime Transportation Security Act of 2002 as part of their vessel or port responsibilities, are covered.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "OE 529",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-629"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-629"
 }

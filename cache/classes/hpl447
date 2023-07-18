@@ -1,15 +1,19 @@
 {
-  "id": "HPL 447",
-  "name": "Marx, Nietzsche, Freud: The Modern Individual and Society",
+  "department": "HPL",
+  "department_name": "",
+  "discriminator": "447",
+  "title": "Marx, Nietzsche, Freud: The Modern Individual and Society",
   "description": "A study of major thinkers and movements in the nineteenth century including Kant, Hegel, Marx, Kierkegaard, Nietzsche, Mill, James, and Freud. Issues discussed will include the nature of scientific knowledge, political and moral right, and the emergence of psychological theory.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hpl-humanitiesphilosophy/400/hpl-447"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hpl-humanitiesphilosophy/400/hpl-447"
 }

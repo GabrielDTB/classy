@@ -1,13 +1,17 @@
 {
-  "id": "EM 744",
-  "name": "Advanced Data Analysis and Forecasting",
+  "department": "EM",
+  "department_name": "",
+  "discriminator": "744",
+  "title": "Advanced Data Analysis and Forecasting",
   "description": "Emphasis is on the practical aspects of the Box-Jenkins methodology for fitting and forecasting linear stochastic models of industrial time series; model identification, model estimation, model diagnostic checking and model forecasting of seasonal and nonseasonal series; contrasts with exponential smoothing; laboratory analysis of selected time series.",
   "credits": "3",
-  "cross_listed": "SYS 744, EM 691, ES 691",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    "SYS 744, EM 691, ES 691"
+  ],
+  "distributions": [
     "Engineering Management Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/700/em-744"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/700/em-744"
 }

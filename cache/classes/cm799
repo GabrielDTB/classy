@@ -1,15 +1,19 @@
 {
-  "id": "CM 799",
-  "name": "Built Environment Research Colloquium",
+  "department": "CM",
+  "department_name": "",
+  "discriminator": "799",
+  "title": "Built Environment Research Colloquium",
   "description": "This is a course for PhD-level students in the Built Environment program. It is a series of classes designed for the PhD student to support the journey from discovery, through research design. Students are required to take this class in the Fall and Spring of their first year. The Fall offering is a structured research writing class with in-class and out of class activities and projects intended to explore scholarly writings about Built Environment Theory. The spring class focuses on scientific discovery and the interpretation of research findings taught in a seminar format.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Construction Management Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cm-construction-management/700/cm-799"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cm-construction-management/700/cm-799"
 }

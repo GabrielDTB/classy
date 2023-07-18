@@ -1,16 +1,20 @@
 {
-  "id": "HHS 479",
-  "name": "Studies in the History of Technology",
+  "department": "HHS",
+  "department_name": "",
+  "discriminator": "479",
+  "title": "Studies in the History of Technology",
   "description": "This course takes a thematic approach to the history of technology in the modern era. Topics may include the study of invention, innovation, and standardization; industrial research and development; technological systems; transnational exchanges: histories of gender, labor, and race: and the emergence of a global ‘Network Society.’",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/400/hhs-479"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/400/hhs-479"
 }

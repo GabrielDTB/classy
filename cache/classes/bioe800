@@ -1,13 +1,17 @@
 {
-  "id": "BIOE 800",
-  "name": "Special Problems in Bioengineering (ME)",
+  "department": "BIOE",
+  "department_name": "",
+  "discriminator": "800",
+  "title": "Special Problems in Bioengineering (ME)",
   "description": "Special Problems in Bioengineering (ME)",
   "credits": "1-6",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biomedical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bioe-bioengineering/800/bioe-800"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bioe-bioengineering/800/bioe-800"
 }

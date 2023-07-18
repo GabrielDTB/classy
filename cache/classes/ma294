@@ -1,17 +1,21 @@
 {
-  "id": "MA 294",
-  "name": "Supplementary Topics of Calculus IV",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "294",
+  "title": "Supplementary Topics of Calculus IV",
   "description": "This course is used for the completion of transferring credits for MA 227, Multivariable Calculus. The transfer student has an opportunity to learn MA 227 topics that were not included in the outside course, as determined by the transfer credit advisor. Requirements for passing the course are determined by the MA 227 course coordinator. Note that MA-227 credit is not official as long as the MA-294 requirement is pending. Pass/Fail.",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/200/ma-294"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/200/ma-294"
 }

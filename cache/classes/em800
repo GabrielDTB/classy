@@ -1,9 +1,10 @@
 {
-  "id": "EM 800",
-  "name": "Special Problems in Engineering Management (ME)",
+  "department": "EM",
+  "department_name": "",
+  "discriminator": "800",
+  "title": "Special Problems in Engineering Management (ME)",
   "description": "Three credits for the degree of Master of Engineering (Engineering Management). This course is typically conducted as a one-on-one course between a faculty member and a student. A student may take up to two special problems course in a master’s degree program. A department technical report is required as the final product for this course.",
   "credits": "1-6",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Engineering Management Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/800/em-800"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/800/em-800"
 }

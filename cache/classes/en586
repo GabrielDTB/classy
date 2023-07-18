@@ -1,15 +1,19 @@
 {
-  "id": "EN 586",
-  "name": "Hazardous Waste Treatment and Management",
+  "department": "EN",
+  "department_name": "",
+  "discriminator": "586",
+  "title": "Hazardous Waste Treatment and Management",
   "description": "A comprehensive introduction to hazardous waste treatment and management. Study of the source, generation rates and characteristics of hazardous wastes. Federal regulations, public participation processes and innovative management practices are studied. Special emphasis is placed on process design of waste handling, treatment, disposal systems, waste minimization and raw materials substitution. Situations dealing with real world setting are covered through case studies.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Environmental Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-586"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-586"
 }

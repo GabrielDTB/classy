@@ -1,17 +1,21 @@
 {
-  "id": "BIO 281",
-  "name": "Biology and Biotechnology",
+  "department": "BIO",
+  "department_name": "",
+  "discriminator": "281",
+  "title": "Biology and Biotechnology",
   "description": "Biological principles and their physical and chemical aspects are explored at the cellular and molecular level. Major emphasis is placed on cell structure, the process of energy conversion by plant and animal cells, genetics and evolution, and applications to biotechnology.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biological Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/200/bio-281"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/200/bio-281"
 }

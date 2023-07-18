@@ -1,17 +1,21 @@
 {
-  "id": "CS 600",
-  "name": "Advanced Algorithm Design and Implementation",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "600",
+  "title": "Advanced Algorithm Design and Implementation",
   "description": "Design, implementation, and asymptotic time and space analysis of advanced algorithms, as well as analyzing worst-case and average-case complexity of algorithms. Students will be expected to run experiments to test the actual performance of the algorithms on sample inputs. Introduction to NP-complete problems and approximation algorithms.",
   "credits": "3",
-  "cross_listed": "CPE 600",
   "prerequisites": "( CS 590 and MA 502 ) or CS 385",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "CPE 600"
+  ],
+  "distributions": [
     "Computer Engineering Program",
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/600/cs-600"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/600/cs-600"
 }

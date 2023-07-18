@@ -1,16 +1,20 @@
 {
-  "id": "MT 930",
-  "name": "Materials Science & Engineering Qualifying Exam- Written",
+  "department": "MT",
+  "department_name": "",
+  "discriminator": "930",
+  "title": "Materials Science & Engineering Qualifying Exam- Written",
   "description": "MT930 will test Master's level fundamentals from the required core courses in the graduate programs. MT students will be provided the questions to all four core subjects at the beginning of the exam period and are required to answer three of the four questions of their choosing in a 3-hour exam period. The written qualifying exam will be offered in May and December each year. The department reserves the right not to offer the exam in case of low enrollment. Two chances are given for a student to pass the written exam.",
   "credits": "0",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Materials Science and Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/900/mt-930"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/900/mt-930"
 }

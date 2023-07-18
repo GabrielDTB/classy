@@ -1,13 +1,17 @@
 {
-  "id": "CPE 358",
-  "name": "Switching Theory and Logical Design",
+  "department": "CPE",
+  "department_name": "",
+  "discriminator": "358",
+  "title": "Switching Theory and Logical Design",
   "description": "Digital systems; number systems and codes; Boolean algebra; application of Boolean algebra to switching circuits; minimization Boolean functions using algebraic, Karnaugh map, and tabular methods; design of combinational circuits; programmable logic devices; sequential circuit components; design and analysis of synchronous and asynchronous sequential circuits.",
   "credits": "3",
-  "cross_listed": "CS 381",
   "prerequisites": "CS 115 or CS 181 or ENGR 115",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    "CS 381"
+  ],
+  "distributions": [
     "Computer Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/300/cpe-358"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/300/cpe-358"
 }

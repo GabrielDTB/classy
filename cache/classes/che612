@@ -1,15 +1,19 @@
 {
-  "id": "CHE 612",
-  "name": "Stagewise Operations",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "612",
+  "title": "Stagewise Operations",
   "description": "The ultimate goal of this course is to prepare students to undertake the analysis of the most difficult problems in equilibrium stage operations. The problems typically involve one or more process columns with components exhibiting highly non-ideal behavior. This class of problems includes azeotropic distillation, extractive distillation, columns with more than one liquid phase, and a variety of other anomalies. Lack of complete equilibrium data is not uncommon. Extensive use is made of commercial software in the solution of problems. The course concludes with the assignment of an industrial problem as a substantial project requiring that the students exercise virtually all techniques studied.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/600/che-612"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/600/che-612"
 }

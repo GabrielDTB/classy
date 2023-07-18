@@ -1,13 +1,17 @@
 {
-  "id": "PAE 802",
-  "name": "Mathematics in Design",
+  "department": "PAE",
+  "department_name": "",
+  "discriminator": "802",
+  "title": "Mathematics in Design",
   "description": "Mathematics in Design",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Product Architecture and Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pae-product-architecture-and-engineering/800/pae-802"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pae-product-architecture-and-engineering/800/pae-802"
 }

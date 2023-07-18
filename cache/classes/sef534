@@ -1,11 +1,15 @@
 {
-  "id": "SEF 534",
-  "name": "Engineering Solutions to the Challenges of Energy and Global Change",
+  "department": "SEF",
+  "department_name": "",
+  "discriminator": "534",
+  "title": "Engineering Solutions to the Challenges of Energy and Global Change",
   "description": "The capstone course will examine both the issues of energy production and global change from an engineering and systems point of view. As difficult as some of the challenges presented by these problems are, they will also be the driver of much of technological innovation in the 21st Century. Using a case study approach we will discuss from a systems perspective examples of approaches being investigated to move to a more sustainable world including the development of grid-scale solar power and wind power as well as engineering solutions to reduce the effects of global change. Content knowledge will be linked with pedagogical content knowledge and discussion of how the teachers will be able to locate, implement, and design age-appropriate materials based on these concepts for use in their own classrooms.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Grad Student or (Junior or Senior with cGPA => 3.0) and Permission Required",
   "offered": [],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sef-science-engineering-found-for-edu/500/sef-534"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sef-science-engineering-found-for-edu/500/sef-534"
 }

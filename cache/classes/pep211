@@ -1,13 +1,17 @@
 {
-  "id": "PEP 211",
-  "name": "Physics Lab for Engineers",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "211",
+  "title": "Physics Lab for Engineers",
   "description": "An introduction to experimental physics. Students learn to use a variety of techniques and instrumentation, including computer controlled experimentation and analysis, error analysis and statistical treatment of data. Experiments include basic physical and electrical measurements, mechanical, acoustical, and electromagnetic oscillation and waves, and basic quantum physics phenomena.",
   "credits": "0.5",
-  "cross_listed": "",
   "prerequisites": "PEP 201 CoReq",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/200/pep-211"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/200/pep-211"
 }

@@ -1,18 +1,22 @@
 {
-  "id": "EN 566",
-  "name": "Numerical Methods for Fluid Flow in Subsurface Energy Systems",
+  "department": "EN",
+  "department_name": "",
+  "discriminator": "566",
+  "title": "Numerical Methods for Fluid Flow in Subsurface Energy Systems",
   "description": "Introduction to fundamental processes of flow and transport in porous media, and the applications to subsurface energy systems; basic Darcy-scale fluid mechanics in porous media; numerical solution of partial differential equations on the basis of finite difference methods; one-dimensional, two-dimensional, and three-dimensional single- and two-phase flow simulations; capillary pressure, relative permeability, and applications to immiscible displacement and removal of non-aqueous contaminants; numerical solutions of transient and boundary-value problems; global challenges associated with energy and water; and the applications to water flooding and hydrocarbon production in petroleum reservoirs.",
   "credits": "3",
-  "cross_listed": "CE 566",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "CE 566"
+  ],
+  "distributions": [
     "Civil Engineering Program",
     "Environmental Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-566"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-566"
 }

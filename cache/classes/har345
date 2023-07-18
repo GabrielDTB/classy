@@ -1,15 +1,19 @@
 {
-  "id": "HAR 345",
-  "name": "Typography",
+  "department": "HAR",
+  "department_name": "",
+  "discriminator": "345",
+  "title": "Typography",
   "description": "Typography is the closer study of letterform design and the ways in which verbal language is visualized. In this class, students will learn and practice principles of clear typographic communication. They will connect contemporary forms of digital type design to analog precedents, engage in different forms of typographic manipulation, and connect typographic practices to cultural and political issues. From the micro to macro scales, print to digital and interactive contexts, students will develop an understanding and practice of typography in the 21st century.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/300/har-345"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/300/har-345"
 }

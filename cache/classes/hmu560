@@ -1,13 +1,17 @@
 {
-  "id": "HMU 560",
-  "name": "Broadcast Studio Design",
+  "department": "HMU",
+  "department_name": "",
+  "discriminator": "560",
+  "title": "Broadcast Studio Design",
   "description": "This course will focus on the design of broadcast environments in the studio and control areas for audio and video. Typical camera systems, media storage devices, monitoring systems for on-set and control rooms, component video infrastructure, set, lighting, intercom and cooling systems are explored through site visits and vendor literature. Complex signal flow is detailed by specifying component interconnects, gear racks, A/V patch-bay and wiring documentation. The student will observe working teams in professional broadcast facilities.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "HMU 506 and (Grad Student (or Junior or Senior))",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Music and Technology Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/500/hmu-560"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/500/hmu-560"
 }

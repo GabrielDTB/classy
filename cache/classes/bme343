@@ -1,16 +1,20 @@
 {
-  "id": "BME 343",
-  "name": "Biotransport",
+  "department": "BME",
+  "department_name": "",
+  "discriminator": "343",
+  "title": "Biotransport",
   "description": "Transport principles with biological applications. Course covers hydrostatics and consequent blood pressure variation throughout the circulatory system; Starling resistors, as a model of vascular flow; surface tension and its effect on lung mechanics; the Reynold’s transport theorem; conservation of mass and equations of motion for fluids, such as vascular blood and air in the lungs; and diffusive transport, responsible for solute movement across the endothelium.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "( class='sc-courselink' href='/en/2022-2023/Academic-Catalog/Courses/MA-Mathematics/200/MA-226'>MA 226 or MA 227) and BME 306",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biomedical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/300/bme-343"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/300/bme-343"
 }

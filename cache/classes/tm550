@@ -1,13 +1,17 @@
 {
-  "id": "TM 550",
-  "name": "Introduction to Telecommunications Concepts",
+  "department": "TM",
+  "department_name": "",
+  "discriminator": "550",
+  "title": "Introduction to Telecommunications Concepts",
   "description": "This course sets the foundation for courses that are to follow, covering concepts and major technologies of the telecommunications industry. Telecommunications regulations, end-to-end service, and historical events are stressed. This course is open to Telecommunications majors only and is intended for students with a minimal telecommunications background.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/tm-telecommunications-management/500/tm-550"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/tm-telecommunications-management/500/tm-550"
 }

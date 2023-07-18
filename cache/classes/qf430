@@ -1,15 +1,19 @@
 {
-  "id": "QF 430",
-  "name": "Introduction to Derivatives",
+  "department": "QF",
+  "department_name": "",
+  "discriminator": "430",
+  "title": "Introduction to Derivatives",
   "description": "This is a course on the fundamentals of financial derivatives, covering the basic properties and the pricing fundamentals of futures, options and swaps. It also explores trading and hedging strategies involving financial derivatives. Finally, time permitting special topics such as exotic options and credit derivatives are explored. The course provides the foundation of financial derivatives and lays the ground for a rigorous risk management course and other advanced quantitative courses, such as stochastic finance. It also provides students with some of the knowledge required for the CME competition and the CFA examination.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "BT 321",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/400/qf-430"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/400/qf-430"
 }

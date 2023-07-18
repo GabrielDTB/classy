@@ -1,17 +1,21 @@
 {
-  "id": "TM 582",
-  "name": "Wireless Networking: Architectures, Protocols and Standards",
+  "department": "TM",
+  "department_name": "",
+  "discriminator": "582",
+  "title": "Wireless Networking: Architectures, Protocols and Standards",
   "description": "This course addresses the fundamentals of wireless networking, including archictures, protocols and standards. It describes concepts, technology and applications of wireless ntetworking as used in current and next-generation wireless networks. It explains the engineering aspects of network functions and designs. Issues such as mobility management, wireless enterprise networks, GSM, network signaling, WAP, mobile IP and 3G systems are covered.",
   "credits": "3",
-  "cross_listed": "EE 582, NIS 582",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "EE 582, NIS 582"
+  ],
+  "distributions": [
     "Electrical Engineering Program",
     "Information and Data Engineering Program",
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/tm-telecommunications-management/500/tm-582"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/tm-telecommunications-management/500/tm-582"
 }

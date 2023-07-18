@@ -1,17 +1,21 @@
 {
-  "id": "FE 706",
-  "name": "Co-Op Engagement in Financial Engineering",
+  "department": "FE",
+  "department_name": "",
+  "discriminator": "706",
+  "title": "Co-Op Engagement in Financial Engineering",
   "description": "Financial Engineering Co-Op Education Project",
   "credits": "0",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/700/fe-706"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/700/fe-706"
 }

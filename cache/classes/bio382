@@ -1,15 +1,19 @@
 {
-  "id": "BIO 382",
-  "name": "Biological Systems",
+  "department": "BIO",
+  "department_name": "",
+  "discriminator": "382",
+  "title": "Biological Systems",
   "description": "Physiochemical principles underlying the coordinated function in multicellular organisms are studied. Electrical properties of biological membranes, characteristics of tissues, nerve-muscle electrophysiology, circulatory, respiratory, endocrine, digestive, and excretory systems are covered. Computer simulation experiments and data acquisition methods to evaluate and monitor human physiological systems are conducted in the laboratory.",
   "credits": "4",
-  "cross_listed": "",
   "prerequisites": "BIO 281",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biological Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/300/bio-382"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/300/bio-382"
 }

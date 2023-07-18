@@ -1,17 +1,21 @@
 {
-  "id": "NIS 612",
-  "name": "Principles of Multimedia Compression",
+  "department": "NIS",
+  "department_name": "",
+  "discriminator": "612",
+  "title": "Principles of Multimedia Compression",
   "description": "Brief introduction to information theory; entropy and rate; Kraft-McMillan inequality; entropy codes - Huffman and arithmetic codes; scalar quantization- quantizer design issues, the Lloyd quantizer and the Lloyd-Max quantizer; vector quantization - LBG algorithm, other quantizer design algorithms; structured VQs; entropy constrained quantization; bit allocation techniques: generalized BFOS algorithm; brief overview of linear Algebra; transform coding: KLT, DCT, LOT; subband coding; wavelets; wavelet based compression algorithms (third generation image compression schemes)- EZW algorithm, the SPIHT algorithm and the EBCOT algorithm; video compression: motion estimation and compensation; image and video coding standards: JPEG/ JPEG 2000, MPEG, H.263, H.263+; Source coding and error resilience.",
   "credits": "3",
-  "cross_listed": "EE 612",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    "EE 612"
+  ],
+  "distributions": [
     "Electrical Engineering Program",
     "Information and Data Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/600/nis-612"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/600/nis-612"
 }

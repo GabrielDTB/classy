@@ -1,16 +1,20 @@
 {
-  "id": "MT 520",
-  "name": "Analysis and Design of Composites",
+  "department": "MT",
+  "department_name": "",
+  "discriminator": "520",
+  "title": "Analysis and Design of Composites",
   "description": "Composite material characterization; composite mechanics of plates, panels, beams, columns, and rods integrated with design procedures; analysis and design of composite structures; joining methods and procedures; introduction to manufacturing processes of filament winding, braiding, injection, compression and resin transfer molding, machining and drilling; and industrial applications.",
   "credits": "3",
-  "cross_listed": "ME 520",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "ME 520"
+  ],
+  "distributions": [
     "Materials Science and Engineering Program",
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/500/mt-520"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/500/mt-520"
 }

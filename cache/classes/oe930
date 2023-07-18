@@ -1,16 +1,20 @@
 {
-  "id": "OE 930",
-  "name": "Ocean Engineering Qualifying Exam - Written",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "930",
+  "title": "Ocean Engineering Qualifying Exam - Written",
   "description": "The OE qualifying exam is administered by the Doctoral Advisor in collaboration with an Examination Committee convened by the Advisor in consultation with the student. The examination committee consists of at least four qualified faculty members from Stevens, with at least three members from within the CEOE department. The advisor will inform the student about the particular details of the exam.The qualifying examination consists of a written part and an oral part. It covers broad topics related to the student’s academic interests and topics that are relevant to the research area of the student. Students must take this exam no later than the end of the third semester after their first enrollment at a CEOE doctoral program. A full-time Ph.D. student needs to have completed at least 18 credit hours before he/she can take the Ph.D. qualifying exam. The exam is given on or about the 1st week of October for students first enrolled in the Fall semester of the previous year and on or about the 1st week of March for students first enrolled in the Spring semester of the previous year. A part-time Ph.D. student has one more year to take the qualifying exam (i.e., in the beginning of the 5th semester). For a Ph.D. student coming to CEOE without a MS degree, He/she will need to finish 30 credit hours to meet the MS requirement first and then can plan for the Ph.D. qualifying exam. n",
   "credits": "0",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/900/oe-930"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/900/oe-930"
 }

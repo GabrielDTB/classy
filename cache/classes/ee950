@@ -1,9 +1,10 @@
 {
-  "id": "EE 950",
-  "name": "Electrical Engineering Design Project (Deg EE)",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "950",
+  "title": "Electrical Engineering Design Project (Deg EE)",
   "description": "An investigation of a current engineering topic or design. A written report is required.",
   "credits": "1-15",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/900/ee-950"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/900/ee-950"
 }

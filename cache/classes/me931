@@ -1,16 +1,20 @@
 {
-  "id": "ME 931",
-  "name": "Mechanical Engineering Qualifying Exam – Oral",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "931",
+  "title": "Mechanical Engineering Qualifying Exam – Oral",
   "description": "The ME PhD Quailfying Exam consist of two individual parts: a written Core Competency Test (CCT) and an oral Research Competency Test (RCT). The qualifying exam is to be taken at the end of the third semester (if student enters with a Bachelor degree) or the second semester (ifstudent enters with a Master degree) of arriving at Stevens. ME930 Core Competency Test: The CCT is a written exam to establish the student’s proficiency within basic engineering fields relevant for their research area. The student shall pick two topics related to their research field prior to the exam. The exam will be graded by faculty in respective fields and the final determination of pass or fail will be made by the graduate committee on the basis of their score. ME 931 Research Competency Test: The RCT consists of a written research report (4-page written report in the ASME paper format on the student’s PhD research topic) and a 30-minute oral exam on their report.The oral exam consists of a 15-minute presentation followed by a 15-minute Q&A by the examiners. The RCT is designed to assess the students’ general research skills in such areas as (a) identifying the relevant research literature representing the state of the art in the student’s proposedresearch field, (b) structuring, summarizing and critiquing this body of literature, (c) drawing conclusions from and evaluating the significance and impact of this body of literature, and (d) proposing follow-on research directions with an outlook for one’s future PhD project.",
   "credits": "0",
-  "cross_listed": "",
   "prerequisites": "ME 930",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/900/me-931"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/900/me-931"
 }

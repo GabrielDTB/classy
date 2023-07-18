@@ -1,9 +1,10 @@
 {
-  "id": "SYS 660",
-  "name": "Decision and Risk Analysis",
+  "department": "SYS",
+  "department_name": "",
+  "discriminator": "660",
+  "title": "Decision and Risk Analysis",
   "description": "This course is a study of analytic techniques for rational decision-making that addresses uncertainty, conflicting objectives, and risk attitudes. This course covers modeling uncertainty; rational decision-making principles; representing decision problems with value trees, decision trees and influence diagrams; solving value hierarchies; defining and calculating the value of information; incorporating risk attitudes into the analysis; and conducting sensitivity analyses.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Winter Intersession"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Systems Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-660"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-660"
 }

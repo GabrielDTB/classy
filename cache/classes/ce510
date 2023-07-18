@@ -1,15 +1,19 @@
 {
-  "id": "CE 510",
-  "name": "Structural Health Monitoring",
+  "department": "CE",
+  "department_name": "",
+  "discriminator": "510",
+  "title": "Structural Health Monitoring",
   "description": "The course provides a broad overview of structure health monitoring technologies, sensing and data acquisition, life-cycle analysis, structure rating and risk assessment as well as signal processing. A strong emphasis is given to Smart Materials for use as sensors and actuators. The students taking this course will learn about the strength and importance of structure health monitoring which is expected to significantly change structures into smart structures with built-in autonomous diagnostics and prognosis.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CE 373 and (Grad Student or (Junior or Senior))",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Civil Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/500/ce-510"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/500/ce-510"
 }

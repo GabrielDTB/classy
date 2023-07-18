@@ -1,13 +1,17 @@
 {
-  "id": "PEP 541",
-  "name": "Physics of Gas Discharges",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "541",
+  "title": "Physics of Gas Discharges",
   "description": "Charged particle motion in electric and magnetic fields; electron and ion emission; ion-surface interaction; electrical breakdown in gases; dark discharges and DC glow discharges; confined discharge; AC, RF, and microwave discharges; arc discharges, sparks, and corona discharges; non-thermal gas discharges at atmospheric pressure; and discharge and low- temperature plasma generation. Typical texts: J.R. Roth, Industrial Plasma Engineering: Principles, Vol. 1, and Y.P. Raizer, Gas Discharge Physics.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-541"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-541"
 }

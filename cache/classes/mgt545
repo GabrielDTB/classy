@@ -1,11 +1,15 @@
 {
-  "id": "MGT 545",
-  "name": "Consumer Behavior",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "545",
+  "title": "Consumer Behavior",
   "description": "Marketing begins and ends with the consumer. The purpose of this course is to introduce students to the study of consumer behavior. This is an interdisciplinary course that integrates perspetives from marketing, psychology, sociology, anthroplogy, and economics in order to examine the elements of the consumer decision-making process and to enable formulation of marketing strategies. Students will take the perspective of a marketing manager who needs knowledge of consumer behavior in order to develop, evaluate and implement effective marketing strategies. The course integrates lectures, case analysis, and discussions to focus on the implications of social science concepts for marketing strategy.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/500/mgt-545"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/500/mgt-545"
 }

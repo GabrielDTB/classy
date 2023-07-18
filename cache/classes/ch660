@@ -1,15 +1,19 @@
 {
-  "id": "CH 660",
-  "name": "Advanced Instrumental Analysis",
+  "department": "CH",
+  "department_name": "",
+  "discriminator": "660",
+  "title": "Advanced Instrumental Analysis",
   "description": "Advanced treatment of the theory and practice of spectrometric methods (mass spectrometry, nuclear magnetic resonance, etc.) and electroanalytical methods with emphasis on Fourier Transform techniques (FTIR, FTNMR, etc.) and hyphenated methods (gc-ms, etc.), the instrument-sample interaction, and signal sampling. A survey of computational methods, such as factor analysis and other chemometric methods is also included.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CH 362 and CH 561",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/600/ch-660"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/600/ch-660"
 }

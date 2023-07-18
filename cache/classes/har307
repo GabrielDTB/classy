@@ -1,15 +1,19 @@
 {
-  "id": "HAR 307",
-  "name": "Afrofuturism",
+  "department": "HAR",
+  "department_name": "",
+  "discriminator": "307",
+  "title": "Afrofuturism",
   "description": "This interdisciplinary course explores how artists working in diverse media have engaged Afrofuturism, an alternative vision of the future as presented through a Black cultural lens. Students will be exposed to engagements of Afrofuturism in fiction, cinema, art, and music. Students will also consider how Afrofuturism offers an alternative vision of technoculture than the one provided by more traditional - and often hegemonic - narratives and practices.",
   "credits": "3",
-  "cross_listed": "HLI 307",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "HLI 307"
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/300/har-307"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/300/har-307"
 }

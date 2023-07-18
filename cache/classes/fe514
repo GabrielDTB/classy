@@ -1,16 +1,20 @@
 {
-  "id": "FE 514",
-  "name": "Financial Lab: VBA in Finance",
+  "department": "FE",
+  "department_name": "",
+  "discriminator": "514",
+  "title": "Financial Lab: VBA in Finance",
   "description": "This course is an introduction to programming with VBA - the Visual Basic for Applications language. In particular, we will be using VBA within MS Excel, and time permitting, MS Access as well. Excel is used everywhere in finance, and VBA allows practitioners to go beyond standard spreadsheet calculation and modeling. Programming with VBA (and using macros) enhances the versatility and power of Excel. The goal of this course is to teach our students Excel usage at a high level using VBA, for front office applications in financial institutions. Financial and mathematical applications will be presented and studied throughout the course.",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-514"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-514"
 }

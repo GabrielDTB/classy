@@ -1,17 +1,21 @@
 {
-  "id": "PEP 578",
-  "name": "Laser Applications and Advanced Optics",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "578",
+  "title": "Laser Applications and Advanced Optics",
   "description": "This course covers provides a survey of advanced areas of optics including integrated optics, fiber optics, propagation of light through birefringent crystals, liquid crystals, acousto-optics, electro-optics, nonlinear optics, and ultrafast optics. Particular emphasis is placed on nonlinear optics and wave mixing including harmonic generation, parametric devices, four wave mixing and phase conjugate mirrors, self-phase modulation, solitons, and phase matching.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "(( PEP 209 OR PEP 509 ) and Junior Standing) ) or ( PEP 509 and Graduate Students)",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-578"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-578"
 }

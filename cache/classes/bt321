@@ -1,16 +1,20 @@
 {
-  "id": "BT 321",
-  "name": "Corporate Finance",
+  "department": "BT",
+  "department_name": "",
+  "discriminator": "321",
+  "title": "Corporate Finance",
   "description": "This course will focus on the appropriate capital structure for a corporation. Topics covered include financial statement analysis, time value of money, valuation of financial instruments, risk and reward, capital structures, the capital asset pricing model and cash management.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "( BT 200 or ACC 200 ) and ( MA 119 or MA 124 )",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/300/bt-321"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/300/bt-321"
 }

@@ -1,15 +1,19 @@
 {
-  "id": "EM 489",
-  "name": "Data-Mining & Risk Assessment",
+  "department": "EM",
+  "department_name": "",
+  "discriminator": "489",
+  "title": "Data-Mining & Risk Assessment",
   "description": "This course will use tools and techniques which have proven to be of value in recognizing patterns, making predictions, and evaluation risk from both large data sets (using data-mining techniques), and small data sets (using networks constructed from problem definition and discovery). Both approaches are critical to today’s engineers and managers, because they span a range of possible data availability and reliability. Using these tools and techniques, the student will survey applications, and have hands-on experimentation with both data mining and network construction, using real-world examples and situations.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "EM 224 AND EM 365",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Engineering Management Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/400/em-489"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/400/em-489"
 }

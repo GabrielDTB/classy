@@ -1,13 +1,17 @@
 {
-  "id": "SYS 674",
-  "name": "Sustainment of CPS: Managing Evolution",
+  "department": "SYS",
+  "department_name": "",
+  "discriminator": "674",
+  "title": "Sustainment of CPS: Managing Evolution",
   "description": "This course focuses on managing the evolution of a cyber-physical system after its initial release to the market until its retirement. The course approaches this topic on three levels. The foundation is to put in place policies, processes and infrastructure to support, maintain and respond to quality issues for released instances of the system. The second level is to drive the evolution of the system’s capabilities and characteristics based on evolving needs and enabling technologies. The third level is to proactively \"disrupt\" the market by reframing the opportunity and reinventing they system based on internal innovation, or responding to external disruptions in the marketplace or the technology space.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Systems Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-674"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-674"
 }

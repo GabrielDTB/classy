@@ -1,17 +1,21 @@
 {
-  "id": "HTH 305",
-  "name": "Director as Auteur",
+  "department": "HTH",
+  "department_name": "",
+  "discriminator": "305",
+  "title": "Director as Auteur",
   "description": "This course will examine the role of the director and consider the director’s impact on all aspects of film production from narrative construction to technological innovation to post-production supervision. Students will investigate how the director is both artist and technologist and must negotiate between the two disciplines.",
   "credits": "3",
-  "cross_listed": "HLI 305",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "HLI 305"
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hth-humanitiestheater/300/hth-305"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hth-humanitiestheater/300/hth-305"
 }

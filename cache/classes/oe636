@@ -1,13 +1,17 @@
 {
-  "id": "OE 636",
-  "name": "Topics in the Application of Stochastic Process Theory in Ocean Engineering",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "636",
+  "title": "Topics in the Application of Stochastic Process Theory in Ocean Engineering",
   "description": "An expansion upon three important topics introduced in OE 205. The first topic is random data reduction and interpretation in ocean engineering; and basic methods of auto- and cross-spectral analysis, statistical errors, design of experiments, and directional-wave spectra estimation. The second deals with the application of probabilistic design methods in ocean engineering; and the third is a survey of the state-of-the-art marine applications of nonlinear random process theory.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "OE 635",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-636"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-636"
 }

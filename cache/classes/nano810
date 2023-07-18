@@ -1,14 +1,18 @@
 {
-  "id": "NANO 810",
-  "name": "Special Topics in Nanotechnology",
+  "department": "NANO",
+  "department_name": "",
+  "discriminator": "810",
+  "title": "Special Topics in Nanotechnology",
   "description": "A participating seminar on topics of current interest and importance in Nanotechnology.",
   "credits": "3-1",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Materials Science and Engineering Program",
     "School of Engineering and Science"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nano-nanotechnology/800/nano-810"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nano-nanotechnology/800/nano-810"
 }

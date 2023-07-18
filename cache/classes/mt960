@@ -1,9 +1,10 @@
 {
-  "id": "MT 960",
-  "name": "Research in Materials (PHD)",
+  "department": "MT",
+  "department_name": "",
+  "discriminator": "960",
+  "title": "Research in Materials (PHD)",
   "description": "Original research leading to the doctoral dissertation. Hours and credits to be arranged.",
   "credits": "1-60",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Materials Science and Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/900/mt-960"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/900/mt-960"
 }

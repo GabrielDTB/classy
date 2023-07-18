@@ -1,17 +1,21 @@
 {
-  "id": "CS 810",
-  "name": "Selected Topics in Computer Science",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "810",
+  "title": "Selected Topics in Computer Science",
   "description": "A participating seminar on topics of current interest and importance in computer science. Open to both undergraduates and graduate students.",
   "credits": "3-1",
-  "cross_listed": "",
   "prerequisites": "No Freshmen or Sophomores Cohort",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/800/cs-810"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/800/cs-810"
 }

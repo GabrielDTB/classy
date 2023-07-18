@@ -1,16 +1,20 @@
 {
-  "id": "HTH 202",
-  "name": "Introduction to Theater Design",
+  "department": "HTH",
+  "department_name": "",
+  "discriminator": "202",
+  "title": "Introduction to Theater Design",
   "description": "This course introduces students to theatrical design. The course will examine the collaborative nature of theater and the interrelationship between art and technology in the design fields. An emphasis will be placed on the historic contributions of such key theater artists as Richard Wagner, Edward Gordon Craig, and Bertolt Brecht in the area of design and how their influence is still felt today. In the classroom, students will create a design element for the hypothetical production of a play or musical. Studio Course: Not for General Humanities credit.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hth-humanitiestheater/200/hth-202"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hth-humanitiestheater/200/hth-202"
 }

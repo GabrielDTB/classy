@@ -1,15 +1,19 @@
 {
-  "id": "EM 423",
-  "name": "Engineering Design VII",
+  "department": "EM",
+  "department_name": "",
+  "discriminator": "423",
+  "title": "Engineering Design VII",
   "description": "This year long two-course sequence involves the students in a small-team Engineering Management project. The problem for the project is taken from industry, business, government or a not-for-profit organization. Each student team works with a client and is expected to collect data, analyze it and develop a design by the end of the first semester. In the second semester the design solution of the problem is completed and a written report is submitted. During the year, oral and written progress reports are presented to peers and clients.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Seniors only and EM 322 and (Pre-/Co-Req IDE 401)",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Engineering Management Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/400/em-423"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/400/em-423"
 }

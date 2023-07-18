@@ -1,17 +1,21 @@
 {
-  "id": "EN 545",
-  "name": "Environmental Impact Analysis and Planning",
+  "department": "EN",
+  "department_name": "",
+  "discriminator": "545",
+  "title": "Environmental Impact Analysis and Planning",
   "description": "The impact of engineering projects on the physical, cultural, and socioeconomic environment, preparation of environmental impact statements, regulatory framework, and compliance procedures will be discussed. Topics include: major federal and state environmental regulations, environmental impact analysis and assessment, risk assessment and risk management, and regulatory compliance.",
   "credits": "3",
-  "cross_listed": "CM 545",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    "CM 545"
+  ],
+  "distributions": [
     "Construction Management Program",
     "Environmental Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-545"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-545"
 }

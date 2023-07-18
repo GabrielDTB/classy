@@ -1,13 +1,17 @@
 {
-  "id": "MA 545",
-  "name": "Short-Term Actuarial Mathematics",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "545",
+  "title": "Short-Term Actuarial Mathematics",
   "description": "This course is tailored for the validation of Short-Term Actuarial Mathematics (STAM) exam by Society of Actuaries (SOA). The main materials include (i) probability models commonly used for severity, frequency, risk aggregations, coverage modifications, and (ii) risk indications commonly used in credibility theory and reinsurance. The aim is to build up probability and statistical foundation for graduate students with concentration in actuarial science, and the focus is put on calculations concerned with coverage modifications and risk measures, construction and estimation of parametric models. Also, the attention is paid to the basics of insurance and reinsurance, the calculation of premiums and reserve for the short term insurance as well.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 540 and MA 541 and (Grad Student (or Junior or Senior))",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-545"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-545"
 }

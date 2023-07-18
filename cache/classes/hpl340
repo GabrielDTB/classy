@@ -1,16 +1,20 @@
 {
-  "id": "HPL 340",
-  "name": "Social and Political Philosophy",
+  "department": "HPL",
+  "department_name": "",
+  "discriminator": "340",
+  "title": "Social and Political Philosophy",
   "description": "A study of the relation of the individual to society and the state. Major issues to be examined include the nature of freedom, justice and equality, alienation, and political authority. Also includes an analysis of political models such as liberalism, socialism, conservatism, and anarchism, as well as alternative conceptions of democracy.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hpl-humanitiesphilosophy/300/hpl-340"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hpl-humanitiesphilosophy/300/hpl-340"
 }

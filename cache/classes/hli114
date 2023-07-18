@@ -1,16 +1,20 @@
 {
-  "id": "HLI 114",
-  "name": "Western Literature: Middle Ages to the Present",
+  "department": "HLI",
+  "department_name": "",
+  "discriminator": "114",
+  "title": "Western Literature: Middle Ages to the Present",
   "description": "Readings in core texts of western literature from medieval times to the present. Representative authors include Chretien, Dante, Racine, Shakespeare, de Lafayette, and Kafka. Instruction in basic elements of rhetoric and composition is also emphasized. Group A, 100-level course.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/100/hli-114"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/100/hli-114"
 }

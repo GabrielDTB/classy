@@ -1,13 +1,17 @@
 {
-  "id": "OE 614",
-  "name": "Economic Issues in Maritime Systems",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "614",
+  "title": "Economic Issues in Maritime Systems",
   "description": "This course introduces students to the unique economic issues facing today’s port developers and operators. The economic considerations essential to the efficient movement of cargo from vessels to inland transportation systems are discussed. Students are introduced to concepts related to the optimization of port manpower, energy, and infrastructure as a means of assuring competitiveness in the global marketplace. Students are also introduced to the principles of port financial strategies, with examples given from port authorities in the United States and abroad.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-614"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-614"
 }

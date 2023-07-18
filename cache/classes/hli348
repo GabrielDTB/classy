@@ -1,13 +1,17 @@
 {
-  "id": "HLI 348",
-  "name": "James Baldwin",
+  "department": "HLI",
+  "department_name": "",
+  "discriminator": "348",
+  "title": "James Baldwin",
   "description": "Novelist, playwright, poet, essayist, critics, and activist, James Baldwin was one of the most significant and prolific contributors to American letters in the late twentieth century. In this class, students will thoroughly explore his canon and consider his work within the frame of race, class, and gender-orientation. The class will also introduce students to Baldwin's methodology in analyzing and evaluating works of American culture; students will learn how to utilize his critical tools in their own writing.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/300/hli-348"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/300/hli-348"
 }

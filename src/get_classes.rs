@@ -1,6 +1,7 @@
 // use futures::stream::*;
 // use heck::ToTitleCase;
 // use indicatif::ProgressBar;
+use crate::class::*;
 use reqwest::Client;
 use scraper::ElementRef;
 use scraper::{Html, Selector};
@@ -107,19 +108,6 @@ async fn query_class_links() -> Result<Vec<String>, ClassQueryError> {
     Ok(links)
 }
 
-#[derive(Serialize, Deserialize, Debug, Clone)]
-pub struct Class {
-    pub id: String,
-    pub name: String,
-    pub description: String,
-    pub credits: String,
-    pub cross_listed: String,
-    pub prerequisites: String,
-    pub offered: Vec<String>,
-    pub distribution: Vec<String>,
-    pub link: String,
-}
-
 pub fn parse_class(page: ClassPage) -> Class {
     let html = Html::parse_document(page.text.as_str());
     let main = match html
@@ -129,17 +117,32 @@ pub fn parse_class(page: ClassPage) -> Class {
         Some(value) => value,
         None => todo!(),
     };
-    Class {
-        id: parse_id(&main),
-        name: parse_name(&main),
-        description: parse_description(&main),
-        credits: parse_credits(&main),
-        cross_listed: parse_cross_listed(&main),
-        prerequisites: parse_prerequisites(&main),
-        offered: parse_offered(&main),
-        distribution: parse_distribution(&main),
-        link: page.link,
-    }
+
+    let id = parse_id(&main);
+    let name = parse_name(&main);
+    let description = parse_description(&main);
+    let credits = parse_credits(&main);
+    let cross_listed = parse_cross_listed(&main);
+    let prerequisites = parse_prerequisites(&main);
+    let offered = parse_offered(&main);
+    let distribution = parse_distribution(&main);
+    let link = page.link;
+
+    Class::new(
+        id.chars().filter(|c| c.is_alphabetic()).collect::<String>(),
+        "".into(), // TODO
+        id.chars()
+            .filter(|c| c.is_ascii_digit())
+            .collect::<String>(),
+        name,
+        description,
+        credits,
+        prerequisites,
+        offered,
+        vec![cross_listed],
+        distribution,
+        link,
+    )
 }
 
 fn parse_id(main: &ElementRef) -> String {

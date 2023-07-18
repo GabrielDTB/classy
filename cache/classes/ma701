@@ -1,13 +1,17 @@
 {
-  "id": "MA 701",
-  "name": "Statistical Inference",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "701",
+  "title": "Statistical Inference",
   "description": "This course aims to systematically introduce all important aspects of statistical theory, including statistical models, sampling distributions, point estimations, confidential intervals, hypothesis testing, analysis of variance, and linear regression etc. This course is designed to prepare the theoretical support for various statistical applications in practice. Also it enables graduate students to handle statistical methods and related computations in the area of management and business. Students should have taken courses in Calculus, Elementary probability and statistics.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/700/ma-701"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/700/ma-701"
 }

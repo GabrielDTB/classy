@@ -1,16 +1,20 @@
 {
-  "id": "SOC 594",
-  "name": "Enterprise and Cloud Security",
+  "department": "SOC",
+  "department_name": "",
+  "discriminator": "594",
+  "title": "Enterprise and Cloud Security",
   "description": "This course considers security and privacy from the perspective of enterprise and cloud applications. An underlying theme of the course is risk analysis for managing information security. The OCTAVE Allegro approach is considered as an example risk management process. Identity management, e.g., OpenID and SAML. Access control, e.g., RBAC, OAuth and XACML. Private and public key cryptography, and their use in secure Web services. WS-Security vs REST security. Multilevel and multilateral security: Bell-Lapadula, Biba, Clark-Wilson, Chinese Wall, BMA, information flow control (IFC). Network security: Firewalls, intrusion detection and honeynets, denial of service, worms and botnets. Cyber forensics: evidentiary requirements of forensics analysis after attacks have been detected. Finally, security and privacy aspects of cloud computing are considered. All security concepts are covered from first principles. Assignments involve building secure enterprise applications, including secure Web services and PKI.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "(( CS 526 or CS 548 or CS 549 ) and Graduate Student or at Least Junior) or permission of instructor",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/soc-service-oriented-computing/500/soc-594"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/soc-service-oriented-computing/500/soc-594"
 }

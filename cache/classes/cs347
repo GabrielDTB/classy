@@ -1,15 +1,19 @@
 {
-  "id": "CS 347",
-  "name": "Software Development Process",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "347",
+  "title": "Software Development Process",
   "description": "This course provides a general introduction to the essentials of the software development process, that series of activities that facilitate developing better software in less time. The course introduces software development and deployment life cycles, requirements acquisition and analysis, software architecture and design, and resource management and scheduling in the implementation phase. Students gain experience with tools and methodologies for configuration management and project management. Security engineering is considered as an essential part of the software development process, particularly from the standpoint of applied risk management.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CS 135 and ( CS 181 or CS 284 )",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/300/cs-347"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/300/cs-347"
 }

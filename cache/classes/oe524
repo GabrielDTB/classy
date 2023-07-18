@@ -1,15 +1,19 @@
 {
-  "id": "OE 524",
-  "name": "Introduction to Ship Design and Ship Building",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "524",
+  "title": "Introduction to Ship Design and Ship Building",
   "description": "Overview of maritime industry; types and purposes of commercial and naval ships; introduction to various disciplines of naval engineering; concepts of hydrostatics, resistance, and propulsion; overview of ship systems and general arrangements; introduction to towing tanks and model testing methodology; overview of preliminary ship design with brief group design project; and basics of ship building, operation, repair, and maintenance.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-524"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-524"
 }

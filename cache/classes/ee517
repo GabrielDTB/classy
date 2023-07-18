@@ -1,17 +1,21 @@
 {
-  "id": "EE 517",
-  "name": "Digital and Computer Systems Architecture",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "517",
+  "title": "Digital and Computer Systems Architecture",
   "description": "This course covers the design and architecture of computer and digital systems in the system design region starting from the transistor/logic gate level to below the device driver level/system monitor level. The systems considered in the course will go beyond the computer chips or CPUs discussed in a typical computer architecture course, but will include complex logic devices such as application specific integrated circuits (ASICs), the core-designs for field programmable gate arrays (FPGAs), system-on-a-chip (SoC) designs, ARM, and other application-specific architectures. Printed circuit board-level architectural considerations for multiple complex digital circuits will also be discussed.",
   "credits": "3",
-  "cross_listed": "CPE 517",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "CPE 517"
+  ],
+  "distributions": [
     "Computer Engineering Program",
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/500/ee-517"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/500/ee-517"
 }

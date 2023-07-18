@@ -1,17 +1,21 @@
 {
-  "id": "HHS 387",
-  "name": "The History of American Films",
+  "department": "HHS",
+  "department_name": "",
+  "discriminator": "387",
+  "title": "The History of American Films",
   "description": "This course examines American fiction films in terms of their historical development through the studio system and in terms of current narrative theory. The course is concerned with ways in which narratives are constructed and ways in which they provide the appearance of \"meaning\". Particular attention is given to film noir. Various European films that strongly influenced, or parallel, American works, are also examined.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/300/hhs-387"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/300/hhs-387"
 }

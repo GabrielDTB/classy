@@ -1,13 +1,17 @@
 {
-  "id": "SSW 625",
-  "name": "Artificial Intelligence for Software Engineering",
+  "department": "SSW",
+  "department_name": "",
+  "discriminator": "625",
+  "title": "Artificial Intelligence for Software Engineering",
   "description": "This course focuses on the advances in the field of artificial intelligence (AI) and software engineering (SE) that offer new opportunities in software engineering to build scalable and high-quality data science and software engineering projects. This includes analyzing feature requests, managing bugs, and detecting technical debt. This course aims to develop the next generation of data scientists and software engineers for AI-Enabled software systems by introducing advances in machine learning (ML), natural language processing (NLP), statistical test to solve a variety of software engineering problems. At the end of this course, students will have hands on experience to help guide their decisions in applying AI to SE problems.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Software Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/600/ssw-625"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/600/ssw-625"
 }

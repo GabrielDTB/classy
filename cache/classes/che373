@@ -1,13 +1,17 @@
 {
-  "id": "CHE 373",
-  "name": "Polymer Characterization Lab",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "373",
+  "title": "Polymer Characterization Lab",
   "description": "Polymer Characterization Lab",
   "credits": "2",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/300/che-373"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/300/che-373"
 }

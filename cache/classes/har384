@@ -1,15 +1,19 @@
 {
-  "id": "HAR 384",
-  "name": "Modern Utopias in Art, Design, and Architecture",
+  "department": "HAR",
+  "department_name": "",
+  "discriminator": "384",
+  "title": "Modern Utopias in Art, Design, and Architecture",
   "description": "This course surveys the diverse projects (visual arts, design, and architecture) of three important avant-garde movements: Constructivism in the newly-formed Soviet Union, de Stijl and \"neo-plasticism\" in the Netherlands, and the German Bauhaus from its founding to its demise in 1933. The artists and designers of these movements responded to contemporary political and social upheavals with utopian projects intended to inform lived social existence. The course investigates whether it is possible to found imagined societies with advanced design, visual arts, and architecture. Topics include: the notion of utopian societies, the relation between social change and design and urban planning, and the idea of the artist as engineer and founder of progressive societies.",
   "credits": "3",
-  "cross_listed": "HHS 384",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "HHS 384"
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/300/har-384"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/300/har-384"
 }

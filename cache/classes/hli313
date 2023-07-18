@@ -1,13 +1,17 @@
 {
-  "id": "HLI 313",
-  "name": "Wordsworth and English Romanticism",
+  "department": "HLI",
+  "department_name": "",
+  "discriminator": "313",
+  "title": "Wordsworth and English Romanticism",
   "description": "Community, set, group, garden, orchard, parish, vale, poetry, ecology, friendship, food, nature, walking, talking, writing describe the life of the Wordsworth circle. Creating a community of writers who help bring about the Romantic revolution in literature, the Wordsworth circle also addresses perennial concerns about the politics and morality of environmental sustainability, about the health and well-being of people and of their ecological environment. In this context, we study poems such as William Wordsworth’s Prelude, Samuel Taylor Coleridge’s Rime of the Ancient Mariner, and prose such as Dorothy Wordsworth’s Grasmere and Alfoxden journals and Thomas De Quincey’s Confessions of an English Opium-Eater.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/300/hli-313"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/300/hli-313"
 }

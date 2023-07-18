@@ -1,16 +1,20 @@
 {
-  "id": "BME 700",
-  "name": "Seminar in Biomedical Engineering",
+  "department": "BME",
+  "department_name": "",
+  "discriminator": "700",
+  "title": "Seminar in Biomedical Engineering",
   "description": "Lectures by department faculty, guest speakers, and doctoral students on recent research.",
   "credits": "0",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biomedical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/700/bme-700"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/700/bme-700"
 }

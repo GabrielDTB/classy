@@ -1,13 +1,17 @@
 {
-  "id": "QF 435",
-  "name": "Risk Management for Capital Markets",
+  "department": "QF",
+  "department_name": "",
+  "discriminator": "435",
+  "title": "Risk Management for Capital Markets",
   "description": "Risk Control and derivative pricing are major concerns for financial institutions. Yet, as recent events have shown us there is a real need for adequate statistical tools to measure and anticipate the amplitude of the potential moves of the financial market. Many of the standard models seen on Wall Street however are based on simplified assumptions and can lead to systematic (and sometimes dramatic) underestimation of real risks. Starting from a detailed analysis of market data, one can take into account more faithfully the real behavior of financial markets (in particular the rare events) for asset allocation, derivative pricing and hedging, and risk control. This course will introduce some concepts to better address these issues. There will also be a few sessions in the Hanlon lab learning to use a Bloomberg terminal. Various financial instruments will be presented in a form familiar to Wall Street traders (i.e. Bloomberg screens). The purpose of Risk Management is to provide a valuation of these financial contracts (\"pricing\") and to provide various measures of risk and methods to hedge these risks as best as possible (\"hedging\"). These tasks are not just performed by Risk Managers but by \"Traders\" who price and hedge their respective trading books on a daily basis. Successful trading (over extended periods of time) comes down to successful risk management. Successful risk management comes down to robust valuation which is the main prerogative of Financial Engineering. Valuation of financial instruments begins with an analysis of possible future events (i.e. stock price moves, interest rate moves, defaults, etc.). Dealing with the future involves the mathematics of statistics and probability. The first step is to find a probability distribution that is suitable for the financial instrument at hand. The next step is to calibrate this distribution. The third step is to generate future events using this calibrated distribution and based on this, provide the necessary valuation and risk measures for the financial contract at hand. The failure of any of these steps can lead to incorrect valuation and therefore an incorrect assessment of the risks of the financial instrument under consideration.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "BT 321 and QF 212",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/400/qf-435"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/400/qf-435"
 }

@@ -1,17 +1,21 @@
 {
-  "id": "HPL 444",
-  "name": "Philosophy of Mind",
+  "department": "HPL",
+  "department_name": "",
+  "discriminator": "444",
+  "title": "Philosophy of Mind",
   "description": "A philosophical examination of the mind and mental functioning. Some questions addressed include the following: Can we know what it is like to be a bat? Could it be that everyone (other than oneself) is a robot? What is the relationship between mind and brain? Can computers think? Readings include the work of Nagel, Wittgenstein, and Freud, among others.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hpl-humanitiesphilosophy/400/hpl-444"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hpl-humanitiesphilosophy/400/hpl-444"
 }

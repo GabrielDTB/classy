@@ -1,15 +1,19 @@
 {
-  "id": "HMU 351",
-  "name": "Musical Acoustics",
+  "department": "HMU",
+  "department_name": "",
+  "discriminator": "351",
+  "title": "Musical Acoustics",
   "description": "This course deals with the basic principals of physics as it relates to sound. Sound wave transmission, musical instrument sound vibration, transducer theory, room acoustic design and isolation design are discussed and explored. Recording Studio design will be explored and the mysteries of the room \"appearance\" will be explained. The more informed an individual is about the topic of acoustics; the art of music production becomes more efficiently achieved. The student will complete the course with a thorough understanding of acoustical design techniques. This knowledge will not only prepare the student for professional studio design and construction (music, audio/video for post production), it is also applicable in understanding the environments in which they might create productions.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 115 or MA 117",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Music and Technology Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/300/hmu-351"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/300/hmu-351"
 }

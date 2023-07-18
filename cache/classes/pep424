@@ -1,15 +1,19 @@
 {
-  "id": "PEP 424",
-  "name": "Engineering Design VIII",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "424",
+  "title": "Engineering Design VIII",
   "description": "Senior design course. This is a continuation of PEP 423. In this course the design is implemented and demonstrated. This includes the completion of a prototype, testing and demonstrating performance, and evaluating the results. To be taken during the student’s last spring semester as an undergraduate student.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "IDE 402 Coreq and (Engineering Design VII))",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/400/pep-424"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/400/pep-424"
 }

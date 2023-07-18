@@ -1,13 +1,17 @@
 {
-  "id": "HAR 111",
-  "name": "Foundation of 3D: Form and Space",
+  "department": "HAR",
+  "department_name": "",
+  "discriminator": "111",
+  "title": "Foundation of 3D: Form and Space",
   "description": "This studio course explores the concepts of form and space, focusing on hands-on experiences using different types of materials to create three-dimensional sculptural works. Students are encouraged to be experimental with their combination and use of materials. This course will address formal elements of design and construction in relation to contemporary art works through video documentation, slides and books. Readings that accompany class discussions and a visit to Manhattan will be assigned throughout the semester.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/100/har-111"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/100/har-111"
 }

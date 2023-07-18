@@ -1,15 +1,19 @@
 {
-  "id": "CS 306",
-  "name": "Introduction to IT Security",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "306",
+  "title": "Introduction to IT Security",
   "description": "This course provides a basic introduction to the key concepts in security. It covers basic concepts such as authentication, confidentiality, integrity, and nonrepudiation as well as important techniques and applications. Topics include access control, security economics, ethics, privacy, software/operating system security, and security policies.",
   "credits": "4",
-  "cross_listed": "",
   "prerequisites": "CS 135 OR MA 134",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/300/cs-306"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/300/cs-306"
 }

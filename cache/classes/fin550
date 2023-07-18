@@ -1,13 +1,17 @@
 {
-  "id": "FIN 550",
-  "name": "Financial Planning and Risk Management",
+  "department": "FIN",
+  "department_name": "",
+  "discriminator": "550",
+  "title": "Financial Planning and Risk Management",
   "description": "This course will review the fundamental principles of financial planning, professional conduct, education planning, risk management and regulation. The course is aligned with the principle knowledge topics evaluated on the CFP Certification Examination. The course introduces you to the financial planning process and teaches you how to work with clients to set goals and assess risk tolerance. Learn how to process and analyze information, construct personal financial statements, develop debt management plans, recommend financing strategies, and understand the basic components of a written comprehensive financial plan. The course also covers the regulatory environment, time value of money, and economic concepts.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/500/fin-550"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/500/fin-550"
 }

@@ -1,16 +1,20 @@
 {
-  "id": "PME 542",
-  "name": "Global Regulation and Compliance in Life Science Industries",
+  "department": "PME",
+  "department_name": "",
+  "discriminator": "542",
+  "title": "Global Regulation and Compliance in Life Science Industries",
   "description": "This course explores the economic theory of regulation in general, and the US and international regulatory environments that govern the pharmaceutical and biotechnology industries with particular focus on the US Food and Drug Administration, the European Agency for the Evaluation of Medical Products and the Japanese Ministry of Health, Labor and Welfare. The essential components of Good Laboratory Practices, Good Clinical Practices, and Good Manufacturing Practices regulations will be covered. Students will develop an understanding of the formulation and execution of regulatory strategy and key ethical issues in medical research and production. Where appropriate, case studies will be used to illustrate the challenges and issues associated with compliance as well as the consequences of noncompliance. Ethical issues and the potential consequences of ethical lapses will also be explored. Current events will be used to illustrate key ethical principles and serve as a basis for discussion.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pharmaceutical Manufacturing Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pme-pharmaceutical-manufacturing/500/pme-542"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pme-pharmaceutical-manufacturing/500/pme-542"
 }

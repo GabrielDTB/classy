@@ -1,15 +1,19 @@
 {
-  "id": "MGT 808",
-  "name": "Fundamentals of Consulting",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "808",
+  "title": "Fundamentals of Consulting",
   "description": "This course introduces students to fundamental soft skills, work techniques, and technologies employed by management consultants. Topics covered in this course include project scoping, creating statements of work, meeting facilitation, project planning, design of presentations and written reports, management briefs, and delivery of status reports. The course will improve students’ ability to present analyses of issues and organizational problems in a concise, accurate, clear and interesting manner from the perspective of a consultant. This course is designed to be taken prior to the experiential graduate courses in the School of Business, including MGT 809: Industry Capstone Project.",
   "credits": "0",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/800/mgt-808"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/800/mgt-808"
 }

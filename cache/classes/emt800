@@ -1,9 +1,10 @@
 {
-  "id": "EMT 800",
-  "name": "Special Problems in Master's of Technology Management (EMTM)",
+  "department": "EMT",
+  "department_name": "",
+  "discriminator": "800",
+  "title": "Special Problems in Master's of Technology Management (EMTM)",
   "description": "One to six credits. Limit of 6 credits for the degree of Master of Technology Management (EMTM).",
   "credits": "1-6",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/emt-executive-management-of-technology/800/emt-800"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/emt-executive-management-of-technology/800/emt-800"
 }

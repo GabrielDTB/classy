@@ -1,13 +1,17 @@
 {
-  "id": "SYS 725",
-  "name": "Advances in System of Systems Engineering",
+  "department": "SYS",
+  "department_name": "",
+  "discriminator": "725",
+  "title": "Advances in System of Systems Engineering",
   "description": "The discipline of Systems Engineering (SE) provides us with necessary engineering and management guidance to successfully design and develop a system rather than focus on its separate individual components. However, due to the rapidly increasing complexity of today’s dynamic environment, we are faced with the need to engineer multiple integrated complex systems. In response to this emerging paradigm shift, a new discipline of System of Systems Engineering (SoSE) has evolved. This course serves as an overview of the advances in SoSE and provides the students the capability to apply this knowledge in the synthesis, analysis, and evaluation of activities during the lifecycle of a System of Systems (SoS) through case study analysis.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "SYS 625",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Systems Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/700/sys-725"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/700/sys-725"
 }

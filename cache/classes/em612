@@ -1,19 +1,23 @@
 {
-  "id": "EM 612",
-  "name": "Project Management of Complex Systems",
+  "department": "EM",
+  "department_name": "",
+  "discriminator": "612",
+  "title": "Project Management of Complex Systems",
   "description": "This project-based course exposes students to tools and methodologies useful for forming and managing an effective engineering design team in a business environment. Topics covered will include: personality profiles for creating teams with balanced diversity; computational tools for project coordination and management; real time electronic documentation as a critical design process variable; and methods for refining project requirements to ensure that the team addresses the right problem with the right solution.",
   "credits": "3",
-  "cross_listed": "IPD 612, ME 636",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    "IPD 612, ME 636"
+  ],
+  "distributions": [
     "Engineering Management Program",
     "Integrated Product Development Program",
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/600/em-612"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/600/em-612"
 }

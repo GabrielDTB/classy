@@ -1,15 +1,19 @@
 {
-  "id": "ME 502",
-  "name": "Introduction to Engineering Analysis",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "502",
+  "title": "Introduction to Engineering Analysis",
   "description": "Basic concepts and introduction to engineering analysis techniques in mechanical and manufacturing engineering. Topics include: applications of ordinary and partial differential equations, linear algebra and numerical analysis to mechanical and manufacturing engineering system.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "ME 501 and (Grad Student or (Junior or Senior))",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-502"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-502"
 }

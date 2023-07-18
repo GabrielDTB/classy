@@ -1,16 +1,20 @@
 {
-  "id": "CE 373",
-  "name": "Structural Analysis",
+  "department": "CE",
+  "department_name": "",
+  "discriminator": "373",
+  "title": "Structural Analysis",
   "description": "Shear and bending moment diagrams for beams and frames. Statically determinate trusses influence lines and moving loads, deflection of beams using moment-area and conjugate-beam methods, introduction to energy methods, deflection of beams and frames using unit-load method, introduction to statically indeterminate structures, approximal methods, moment- distribution and slope-deflection methods.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "ENGR 126 or CE 261",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Civil Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/300/ce-373"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/300/ce-373"
 }

@@ -1,17 +1,21 @@
 {
-  "id": "CS 550",
-  "name": "Computer Organization and Programming",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "550",
+  "title": "Computer Organization and Programming",
   "description": "This course provides an intensive introduction to material on computer organization and assembly language programming required for entrance into the graduate program in Computer Science or Computer Engineering. The topics covered are: structure of stored program computers; linking and loading; assembly language programming, with an emphasis on translation of high-level language constructs; data representation and arithmetic algorithms; basics of logic design; processor design: data path, hardwired control and microprogrammed control. Students will be given assembly language programming assignments on a regular basis. No graduate credit for students in Computer Science or Computer Engineering. Not for credit for Computer Science department undergraduate majors.",
   "credits": "3",
-  "cross_listed": "CPE 550",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "CPE 550"
+  ],
+  "distributions": [
     "Computer Engineering Program",
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-550"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-550"
 }

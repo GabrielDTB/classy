@@ -1,17 +1,21 @@
 {
-  "id": "EE 516",
-  "name": "Photonics II",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "516",
+  "title": "Photonics II",
   "description": "This course will cover topics encompassing the fundamental subject matter for the design of optical systems. Topics will include optical system analysis, optical instrument analysis, applications of thin-film coatings and opto-mechanical system design in the first term. The second term will cover the subjects of photometry and radiometry, spectrographic and spectrophotometric systems, infrared radiation measurement and instrumentation, lasers in optical systems and photon- electron conversion.",
   "credits": "3",
-  "cross_listed": "MT 516, PEP 516",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "MT 516, PEP 516"
+  ],
+  "distributions": [
     "Department of Physics",
     "Electrical Engineering Program",
     "Materials Science and Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/500/ee-516"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/500/ee-516"
 }

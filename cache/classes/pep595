@@ -1,17 +1,21 @@
 {
-  "id": "PEP 595",
-  "name": "Reliability and Failure of Solid State Devices",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "595",
+  "title": "Reliability and Failure of Solid State Devices",
   "description": "This course deals with the electrical, chemical, environmental and mechanical driving forces that compromise the integrity and lead to the failure of electronic materials and devices. Both chip and packaging level failures will be modeled physically and quantified statistically in terms of standard reliability mathematics. On the packaging level, thermal stresses, solder creep, fatigue and fracture, contact relaxation, corrosion and environmental degradation will be treated.",
   "credits": "3",
-  "cross_listed": "EE 595, MT 595",
   "prerequisites": "EE 507 / MT 507 / PEP 507 and (Grad Student or (Junior or Senior))",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "EE 595, MT 595"
+  ],
+  "distributions": [
     "Department of Physics",
     "Electrical Engineering Program",
     "Materials Science and Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-595"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-595"
 }

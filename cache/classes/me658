@@ -1,17 +1,21 @@
 {
-  "id": "ME 658",
-  "name": "Advanced Mechanics of Solids",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "658",
+  "title": "Advanced Mechanics of Solids",
   "description": "Torsion, bending and shear of beams with solid or thin-walled sections; curved beams; shrink fits, pressure vessels, spinning discs; experimental techniques, strain rosettes; buckling of bars, beams, rings, boiler tubes; thermal stress problems; introduction to theory of elasticity.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-658"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-658"
 }

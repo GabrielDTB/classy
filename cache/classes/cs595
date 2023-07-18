@@ -1,15 +1,19 @@
 {
-  "id": "CS 595",
-  "name": "Information Security and the Law",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "595",
+  "title": "Information Security and the Law",
   "description": "This course provides an in-depth coverage of the state and federal laws that concern information security and various areas of application. Topics include the American legal system; federal privacy regulations; information security in education, healthcare, and corporate environments; breach notification laws; intellectual property law; security governance; legal aspects of risk analysis, incident response, and contingency planning; as well as regulations in the global context. Prerequisite: CS 526 or CS 548 or CS 549 or permission of instructor.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "( CS 306 or CS 506 or CS 579 or CS 594 ) and (Grad Student or (Junior or Senior))",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-595"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-595"
 }

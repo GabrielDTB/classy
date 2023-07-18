@@ -1,11 +1,15 @@
 {
-  "id": "FE 541",
-  "name": "Applied Statistics with Applications in Finance",
+  "department": "FE",
+  "department_name": "",
+  "discriminator": "541",
+  "title": "Applied Statistics with Applications in Finance",
   "description": "The course prepares students to employ essential ideas and reasoning of applied statistics. Topics include data analysis, data production, maximum likelihood, method of moments, Bayesian estimators, hypothesis testing, tests of population, multivariate analysis, categorical data analysis, multiple regression, analysis of variance, nonlinear regression, risk measures, bootstrap methods and permutation tests. The course is designed to familiarize students with statistical software needed for analysis of the data. Financial applications are emphasized but the course serves areas of science and engineering where statistical concepts are needed. This course is a graduate course and is covering topics for a deeper understanding than undergraduate courses such as MA331 and BT221. Furthermore, the course will cover fundamental statistical topics which are the basis of any advanced course applying statistical notions such as MGT718, BT652 as well as courses on machine learning, knowledge discovery, big data, time series, etc.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-541"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-541"
 }

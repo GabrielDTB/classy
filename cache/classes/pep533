@@ -1,13 +1,17 @@
 {
-  "id": "PEP 533",
-  "name": "Understanding Global Climate Change",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "533",
+  "title": "Understanding Global Climate Change",
   "description": "Exploration of the physical basis of global climate change and the impact on the Earths large scale climate systems of human activity will be studied. Topics include the analysis of the flow of energy and the energy transformations in the Earth system, the role of the carbon cycle and the greenhouse effect and the scientific data that has been used to establish the current viewpoint and predict future climates. We will also discuss socio-political and technological strategies for mitigating climate change.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Grad Student or (Junior or Senior) and Permission Required",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-533"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-533"
 }

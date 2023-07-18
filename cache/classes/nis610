@@ -1,14 +1,18 @@
 {
-  "id": "NIS 610",
-  "name": "Error Control Coding for Networks",
+  "department": "NIS",
+  "department_name": "",
+  "discriminator": "610",
+  "title": "Error Control Coding for Networks",
   "description": "Error-control mechanisms; elements of algebra; linear block codes; linear cyclic codes; fundamentals of convolutional codes; Viterbi decoding codes in mobile communications; Trellis-coded modulation; concatenated coding systems and turbo codes; BCH codes; Reed-Solomon codes; implementation architectures and applications of RS codes; and ARQ and interleaving techniques.",
   "credits": "3",
-  "cross_listed": "EE 610",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    "EE 610"
+  ],
+  "distributions": [
     "Electrical Engineering Program",
     "Information and Data Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/600/nis-610"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/600/nis-610"
 }

@@ -1,13 +1,17 @@
 {
-  "id": "CS 584",
-  "name": "Natural Language Processing",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "584",
+  "title": "Natural Language Processing",
   "description": "Natural language processing (NLP) is one of the most important technologies in the era of information. Comprehending human language is also a crucial and challenging part of artificial intelligence. People communicate almost everything in language: conferences, emails, customer service, language translation, web searches, reports, etc. There are a large variety of underlying tasks and machine learning models behind NLP applications. Recently, deep learning approaches have achieved high performance in many different NLP tasks. Instead of traditional and task-specific feature engineering, deep learning can solve tasks with single end-to-end models. The course provides an introduction to machine learning research applied to NLP. We will cover topics including word vector representations, neural networks, recurrent neural networks, convolutional neural networks, semi-supervised models, reinforcement learning for NLP, as well as some attention-based models. Pre-req for Grads: CS 556 OR undergrad linear algebra and probability.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 232 or CS 556 and (Grad Student or (Junior or Senior))",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-584"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-584"
 }

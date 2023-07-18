@@ -1,15 +1,19 @@
 {
-  "id": "HAR 396",
-  "name": "Creative Studio 2",
+  "department": "HAR",
+  "department_name": "",
+  "discriminator": "396",
+  "title": "Creative Studio 2",
   "description": "Whether it be a particular technology, a social issue, a material or format, Creative Studio 2 is concentrated time to build capacity to identify interests and questions, and learn through acts of making. This studio will prepare students for academic and professional work in their chosen major area, while also serving as a preparatory experience for the senior year Capstone project and beyond graduation. As part of their creative research, students will connect to experts and other creative practitioners, and adjacent communities of practice that will seed a professional network beyond Stevens. Students will also gain necessary professional practice in project production schedules and time management",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Visual Art and Technology major only and Junior Standing",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/300/har-396"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/300/har-396"
 }

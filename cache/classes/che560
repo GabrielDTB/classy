@@ -1,15 +1,19 @@
 {
-  "id": "CHE 560",
-  "name": "Fundamentals of Polymer Science",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "560",
+  "title": "Fundamentals of Polymer Science",
   "description": "This course will be an introductory level graduate course in polymers. Methods in polymer formation and structural characterization of polymers will be introduced as they determine their applications in bio and nanotechnology. Polymer blends, block copolymers, networks and gelation and scattering techniques will be also covered. Examples on nanotechnology applications of self-assembled polymers and nanocomposites will be emphasized.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/500/che-560"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/500/che-560"
 }

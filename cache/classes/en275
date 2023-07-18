@@ -1,15 +1,19 @@
 {
-  "id": "EN 275",
-  "name": "Environmental Biology",
+  "department": "EN",
+  "department_name": "",
+  "discriminator": "275",
+  "title": "Environmental Biology",
   "description": "A survey of biological topics for environmental engineers as well as others interested in the science of the environment. The course covers three broad areas: microbiology, ecology and toxicology. Specific topics include microbial taxonomy, pathogens, microbial pollution control processes, energy and material flow in ecosystems, population dynamics, pollution microbiology, aquatic biology, bioconcentration, and toxicological mechanisms and health effects. Introductory topics in biology are also covered.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CH 116",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Environmental Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/200/en-275"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/200/en-275"
 }

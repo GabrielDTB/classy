@@ -1,15 +1,19 @@
 {
-  "id": "EM 533",
-  "name": "Human Factors in Engineering",
+  "department": "EM",
+  "department_name": "",
+  "discriminator": "533",
+  "title": "Human Factors in Engineering",
   "description": "This course provides introduction to human factors concepts including physical, cognitive and macro ergonomics and their applications. The students will learn how to design for people-machine interaction, including an introduction to the relevant underlying human sciences, theory, data, and measurement problems in human information processing, anthropometry, training and industrial safety.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Engineering Management Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/500/em-533"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/500/em-533"
 }

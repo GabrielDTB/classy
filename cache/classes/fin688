@@ -1,13 +1,17 @@
 {
-  "id": "FIN 688",
-  "name": "Mergers Acquisitions and Other Corporate Restructuring",
+  "department": "FIN",
+  "department_name": "",
+  "discriminator": "688",
+  "title": "Mergers Acquisitions and Other Corporate Restructuring",
   "description": "Finance is the bedrock of the profit-making organization \" This course develops the \"architecture and science\" of optimal strategic decision-making by building upon the basic corporate financial theory to cases of financial policies like initial public offering, debt issuance, seasoned equity offers. This course analyzes investments decisions like merger and acquisition, and divestitures decisions like spinoffs and carve-outs. corporate bankruptcy and restructuring, and other advanced models of corporate valuation. The classes are structured to maximize the synergy between advanced topics in corporate finance theory and case-based practical applications, durable and marketable tools for their careers. This class is suitable for students looking to make executive strategic financial decisions, including investment bankers, consultants, CFOs and corporate treasurers, portfolio and investment managers, and students seeking careers in private equity.\"",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "FIN 638 and ( FIN 510 or FIN 616 or FIN 628 ) or Instructor Permission",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/600/fin-688"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/600/fin-688"
 }

@@ -1,16 +1,20 @@
 {
-  "id": "CS 521",
-  "name": "TCP/IP Networking",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "521",
+  "title": "TCP/IP Networking",
   "description": "Introduction to IP networking. Examination of all layers of the OSI stack. Detailed examination of the IP, ICMP, UDP, and TCP protocols. Basic concepts of network design: end-to-end principle, routing, encapsulation, flow control, congestion control, and security. Detailed coverage of TCP. Some treatment of important Internet applications and services. Emphasis on network layer and above. Assignments focus on protocols and software.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "( CS 492 or CS 520 ) and (Grad Student or (Junior or Senior))",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-521"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-521"
 }

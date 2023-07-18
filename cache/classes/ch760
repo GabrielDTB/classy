@@ -1,11 +1,15 @@
 {
-  "id": "CH 760",
-  "name": "Chemoinformatics",
+  "department": "CH",
+  "department_name": "",
+  "discriminator": "760",
+  "title": "Chemoinformatics",
   "description": "This advanced course in computational chemistry builds on the methods developed in CH 664. Students will analyze and design combinatorial libraries, develop SAR models, and generate calculated molecular properties. The hands-on course will use both PC and Silicon Graphics computers. Software, such as that from Oxford Molecular, Tripos, and Oracle will be used, as will MSI software, such as INSIGHT/DISCOVER, Catalyst, and Cerius 2.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CH 664",
   "offered": [],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/700/ch-760"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/700/ch-760"
 }

@@ -1,15 +1,19 @@
 {
-  "id": "LCH 101",
-  "name": "Beginning Chinese I",
+  "department": "LCH",
+  "department_name": "",
+  "discriminator": "101",
+  "title": "Beginning Chinese I",
   "description": "An introduction to the fundamentals of the Chinese language; this course is for true beginners. Students will learn basic aspects of the language, including pronunciation (Pinyin), tones, writings systems, radicals, and stroke order. Students will learn speaking and comprehension with a secondary focus on reading and writing. Students will complete the course with the ability to make small talk and navigate simple real-world scenarios. The course will be conducted almost entirely in Chinese. No prerequisites. NOTE: Does not count for Humanities credit.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/lch-language-chinese/100/lch-101"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/lch-language-chinese/100/lch-101"
 }

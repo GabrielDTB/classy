@@ -1,15 +1,19 @@
 {
-  "id": "PEP 644",
-  "name": "Electricity and Magnetism II",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "644",
+  "title": "Electricity and Magnetism II",
   "description": "Interaction of electromagnetic waves with matter, dispersion, waveguides and resonant cavities, radiating systems, scattering and diffraction, covariant electromagnetic theory, motion of relativistic particles in electromagnetic fields, relativistic radiation theory, radiation damping, and self-fields. Spring semester. Typical texts: Jackson, Classical Electrodynamics and Landau and Lifshitz, The Classical Theory of Fields, Electrodynamics in Continuous Media.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "PEP 643",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/600/pep-644"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/600/pep-644"
 }

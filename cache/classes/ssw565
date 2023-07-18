@@ -1,9 +1,10 @@
 {
-  "id": "SSW 565",
-  "name": "Software Architecture and Component-Based Design",
+  "department": "SSW",
+  "department_name": "",
+  "discriminator": "565",
+  "title": "Software Architecture and Component-Based Design",
   "description": "This course introduces students to the software design process and it’s models; representations of design/architecture; software architectures and design plans; design methods; design state assessment; design quality assurance; and design verification.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "SSW 540 and (Grad Student or (Junior or Senior))",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Software Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/500/ssw-565"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/500/ssw-565"
 }

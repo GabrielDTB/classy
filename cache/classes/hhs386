@@ -1,13 +1,17 @@
 {
-  "id": "HHS 386",
-  "name": "Ancient Civilizations: The Roman Empire",
+  "department": "HHS",
+  "department_name": "",
+  "discriminator": "386",
+  "title": "Ancient Civilizations: The Roman Empire",
   "description": "Analyses of the foundation, expansion, and decline of the Roman Empire with an evaluation of its place in history.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/300/hhs-386"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/300/hhs-386"
 }

@@ -1,13 +1,17 @@
 {
-  "id": "HST 325",
-  "name": "Visualizing Society",
+  "department": "HST",
+  "department_name": "",
+  "discriminator": "325",
+  "title": "Visualizing Society",
   "description": "This course examines the creation and reception of visual representations of socially-relevant data. Students analyze existing data visualization methods from the fields of science, health, economics, demography, geography, and science and technology studies. At the same time, students make their own interactive data visualizations for web browsers using data of relevance to social and scientific issues such as crime, medicine, environment, war, and race. While not a course in data visualization, students will be required to do some basic coding, web design, and graphic design in developing their own projects.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hst-humanities-science-and-technology-studies/300/hst-325"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hst-humanities-science-and-technology-studies/300/hst-325"
 }

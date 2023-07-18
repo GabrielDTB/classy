@@ -1,15 +1,19 @@
 {
-  "id": "CH 582",
-  "name": "Biophysical Chemistry",
+  "department": "CH",
+  "department_name": "",
+  "discriminator": "582",
+  "title": "Biophysical Chemistry",
   "description": "The structure/function of proteins and nucleic acids are explored and the interactions that stabilize the structures as well as ligand/drug binding are explained in terms of stabilizing energetics such as hydrogen bonds and Van der Waals interactions. The theory behind ligand binding and analysis to characterize binding affinity and the thermodynamics of binding are studied. Techniques include: UV/Vis absorbance & fluorescence spectroscopy, Linear and circular dichroism, thermodynamic measurements using isothermal titration calorimetry and differential scanning calorimetry, surface plasmon resonance, atomic force microscopy, NMR and x-ray crystallography.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CH 421 and (Grad Student or (Junior or Senior))",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/500/ch-582"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/500/ch-582"
 }

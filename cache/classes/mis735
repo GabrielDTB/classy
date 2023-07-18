@@ -1,17 +1,21 @@
 {
-  "id": "MIS 735",
-  "name": "Survey of Socio-Technical Theories for Organization Studies",
+  "department": "MIS",
+  "department_name": "",
+  "discriminator": "735",
+  "title": "Survey of Socio-Technical Theories for Organization Studies",
   "description": "The purpose of this course is to provide an overview of major theoretical perspectives on the interactions between technology, people, organizations, markets, and society. As such it draws on fundamental ideas from philosophy, sociology, economics, information systems, and organization studies",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mis-information-systems/700/mis-735"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mis-information-systems/700/mis-735"
 }

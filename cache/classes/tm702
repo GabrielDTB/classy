@@ -1,9 +1,10 @@
 {
-  "id": "TM 702",
-  "name": "Practicum in Telecommunications Management",
+  "department": "TM",
+  "department_name": "",
+  "discriminator": "702",
+  "title": "Practicum in Telecommunications Management",
   "description": "This course involves an educationally relevant, practical assignment that augments the academic content of the student’s program. Students engage in a project in a company project related to the focus of their academic program. The project is conducted under the supervision of a faculty advisor and an industry mentor. During the semester, the student must submit written progress reports and at the end of the semester, a detailed written report that describes his/her activities and knowledge gained during that semester. This is a one-credit course that may be repeated up to a total of three credits. With approval of the Program Director and faculty supervisor, students may also take this course for three credits in one semester.",
   "credits": "1-3",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/tm-telecommunications-management/700/tm-702"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/tm-telecommunications-management/700/tm-702"
 }

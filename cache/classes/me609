@@ -1,15 +1,19 @@
 {
-  "id": "ME 609",
-  "name": "Convective Heat Transfer",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "609",
+  "title": "Convective Heat Transfer",
   "description": "Place of convective heat transfer among engineering sciences, concepts related to thermodynamics, mechanics and deformable moving media. General principles: conservation of mass, balance of linear momentum, conservation of total energy, increase of entropy; formulation of parallel flows, buoyancy driven flows, thermal boundary layers, fully developed heat transfer in pipes and channels, heat transfer correlations for turbulent flows.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-609"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-609"
 }

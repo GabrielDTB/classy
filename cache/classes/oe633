@@ -1,13 +1,17 @@
 {
-  "id": "OE 633",
-  "name": "Dynamic Oceanography",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "633",
+  "title": "Dynamic Oceanography",
   "description": "Gravity and rotation of earth, continuity considerations, dynamic equations of motion, gradient currents, stationary accelerated currents, turbulence, analysis of temperature-salinity diagrams, internal friction and modification of geostrophic currents, wind-driven currents, and horizontal circulation of wind-driven current.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-633"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-633"
 }

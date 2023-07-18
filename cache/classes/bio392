@@ -1,15 +1,19 @@
 {
-  "id": "BIO 392",
-  "name": "Microbiology",
+  "department": "BIO",
+  "department_name": "",
+  "discriminator": "392",
+  "title": "Microbiology",
   "description": "Microbes are important classes of organisms that are both necessary for life on earth and causative agents of some of the deadliest diseases known to man. The course focuses on the eubacteria domain of life and will cover the topics related to the biochemistry and cell biology of eubacteria, their important metabolic pathways, the molecular biology and genetics of eubacteria, their pathogenicity as well as the recent development in the benefits of the human gut microbiome. The contribution of microbes to the environment and to the biotechnology sectors will also be discussed.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "BIO 281 and BIO 381",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biological Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/300/bio-392"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/300/bio-392"
 }

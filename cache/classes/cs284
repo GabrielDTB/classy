@@ -1,16 +1,20 @@
 {
-  "id": "CS 284",
-  "name": "Data Structures",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "284",
+  "title": "Data Structures",
   "description": "This is a course on standard data structures, including sorting and searching and using the Java language. The topics include: stages of software development; testing; UML diagrams; elementary data structures (lists, stacks, queues, and maps); use of elementary data structures in application frameworks; searching; sorting; and introduction to asymptotic complexity analysis.",
   "credits": "4",
-  "cross_listed": "",
   "prerequisites": "CS 115 and CoReq CS 135",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/200/cs-284"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/200/cs-284"
 }

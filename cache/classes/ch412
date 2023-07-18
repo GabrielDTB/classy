@@ -1,15 +1,19 @@
 {
-  "id": "CH 412",
-  "name": "Inorganic Chemistry I",
+  "department": "CH",
+  "department_name": "",
+  "discriminator": "412",
+  "title": "Inorganic Chemistry I",
   "description": "Lecture and laboratory; ionic solids, lattice energy, and factors determining solubility; thermodynamics in inorganic synthesis and analysis; acid-base equilibria; and systematic chemistry of the halogens and other non-metals.",
   "credits": "4",
-  "cross_listed": "",
   "prerequisites": "CH 362",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/400/ch-412"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/400/ch-412"
 }

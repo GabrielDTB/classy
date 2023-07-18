@@ -1,15 +1,19 @@
 {
-  "id": "EN 377",
-  "name": "Introduction to Environmental Engineering Systems",
+  "department": "EN",
+  "department_name": "",
+  "discriminator": "377",
+  "title": "Introduction to Environmental Engineering Systems",
   "description": "An introduction to environmental engineering, including: environmental legislation; water chemistry including pH and alkalinity relationships, solubility and phase equilibria; environmental biology; fate and transport of contaminants in lakes, streams and groundwater; design and analysis of mechanical, physicochemical and biochemical treatment processes.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CH 116",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Environmental Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/300/en-377"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/300/en-377"
 }

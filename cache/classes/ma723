@@ -1,13 +1,17 @@
 {
-  "id": "MA 723",
-  "name": "Advanced Partial Differential Equations",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "723",
+  "title": "Advanced Partial Differential Equations",
   "description": "Characteristics and classification of equations; Cauchy-Kowalewski theorem; linear and quasilinear systems; elliptic equations and potential theory; Green’s function; mean value theorems; a priori estimates; functions space methods; hyperbolic equations; Riemann’s solution of the Cauchy problem; discontinuities and shocks; Huyghen’s principle; method of spherical means; parabolic equations.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 650",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/700/ma-723"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/700/ma-723"
 }

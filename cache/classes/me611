@@ -1,13 +1,17 @@
 {
-  "id": "ME 611",
-  "name": "Engineering Acoustics",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "611",
+  "title": "Engineering Acoustics",
   "description": "Fundamentals of wave motion, acoustical plane waves, spherical waves, transmission of sound through media, radiation of sound, acoustical source mechanisms, absorption of sound, principles of underwater acoustics, ultrasonics.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-611"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-611"
 }

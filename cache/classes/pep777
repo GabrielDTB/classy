@@ -1,16 +1,20 @@
 {
-  "id": "PEP 777",
-  "name": "Methods of Quantum Control",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "777",
+  "title": "Methods of Quantum Control",
   "description": "of Quantum Control is developed for students interested in understanding of the light-matter interactions and learning about advanced methods of control of ultrafast dynamics in atomic and molecular systems using femtosecond laser pulses that allow one to achieve a desired quantum yield. Topics include: Photoexcitation of a molecule with a pulse of light. Photodissociation. Energy-resolved quantities. Weak-field coherent control. Photodissociation from a Superposition State. One- vs. Three-Photon Interference. Pump-dump control, Tannor-Rice scheme. Wave packet motion Since its emergence over 75 years ago, quantum mechanics brings each generation new challenging investigations and discoveries of quantum phenomena. In this course we introduce the results of research on quantum properties of light and matter that afford the possibility of unprecedented control over dynamics of atoms and molecules. The course Methods on a potential energy surface. Pump-dump excitation with many levels. Silberberg’s model using the phase step. Applications for selective excitation. Strong-field control. Femtosecond pulses. Time-dependent problems. Two-level systems. Rotating-wave approximation. State-interaction representation. Field-interaction representation. Dressed-state analysis. Rabi Oscillations. Strong-field control by pulse area, pi-pulses. Stimulated Raman Spectroscopy. Maxwell-Bloch equations. Control by femtosecond pulse amplitude modulation. Strong-field control using chirped pulses. Characteristics of chirped laser pulses. Adiabatic dressed states. Adiabatic passage. Dark states, Stimulated Raman adiabatic passage. Non-impulsive Raman scattering. Chirped pulse adiabatic passage control. Optimal Control theory. Adaptive learning technique. Applications: selective excitation of vibrational modes in molecular gas CO2 and liquid methanol. Coherent control in equilibrated condensed phases. Density matrix representation. Liouville von Neumann equations with relaxation terms in the field-interaction representation. Dressed states in the density matrix representation in the presence of dephasing.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "PEP 527 and PEP 554",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/700/pep-777"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/700/pep-777"
 }

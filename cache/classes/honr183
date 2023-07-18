@@ -1,11 +1,15 @@
 {
-  "id": "HONR 183",
-  "name": "Research Seminar I",
+  "department": "HONR",
+  "department_name": "",
+  "discriminator": "183",
+  "title": "Research Seminar I",
   "description": "Research Seminar I",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "Pinnacle Scholars",
   "offered": [],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/honr-honor-program/100/honr-183"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/honr-honor-program/100/honr-183"
 }

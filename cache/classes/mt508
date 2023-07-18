@@ -1,18 +1,22 @@
 {
-  "id": "MT 508",
-  "name": "Biomedical-Device-Associated Infection",
+  "department": "MT",
+  "department_name": "",
+  "discriminator": "508",
+  "title": "Biomedical-Device-Associated Infection",
   "description": "This course provides a comprehensive overview of infection associated with tissue-contacting biomedical devices. Such infection occurs when microbes colonize the surface of a tissue-contacting biomedical device, such as a joint prosthesis or a pacemaker, and lead to chronic infection of the surrounding tissue with substantial consequences to the patient and the health-care system. This course will address the clinical problem, the basic microbiology associated with bacterial biofilms, and the materials science associated with the design and development of new infection-resisting biomedical devices.",
   "credits": "3",
-  "cross_listed": "BME 508",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "BME 508"
+  ],
+  "distributions": [
     "Biomedical Engineering Program",
     "Materials Science and Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/500/mt-508"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/500/mt-508"
 }

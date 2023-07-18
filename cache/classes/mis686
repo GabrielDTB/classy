@@ -1,15 +1,19 @@
 {
-  "id": "MIS 686",
-  "name": "Administrative Systems in Healthcare",
+  "department": "MIS",
+  "department_name": "",
+  "discriminator": "686",
+  "title": "Administrative Systems in Healthcare",
   "description": "The course begins with an overview of systems acquisition, implementation and support issues, including project management tools and vendor management practices. We then discuss business to business (B2B) applications, including those pertaining to group purchasing, electronic data interchange (EDI); enterprise portals and regional health information organizations (RHIOs); systems pertaining to financial management including supply chain management (SCM) and revenue cycle management (RCM); and the discipline of evidence-based medicine (EBM), including analytical tools to support operational decision-making such as data mining and predictive modeling",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MIS 685 or MIS 689",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mis-information-systems/600/mis-686"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mis-information-systems/600/mis-686"
 }

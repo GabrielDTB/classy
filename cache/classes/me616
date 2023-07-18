@@ -1,15 +1,19 @@
 {
-  "id": "ME 616",
-  "name": "Thermal-Hydraulics Design of Nuclear Power Reactors",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "616",
+  "title": "Thermal-Hydraulics Design of Nuclear Power Reactors",
   "description": "This course covers the application of fundamental thermal and hydraulic principles and their application to nuclear power reactor design and analysis. It assumes that the student has a basic knowledge of fundamental principles in fluid mechanics, thermodynamics and heat transfer. Topics include: principal characteristics of nuclear power reactors; thermal design principles and application; transport equations for single-phase and two-phase flow; thermodynamics of nuclear power plant systems (steady and unsteady flow); thermal analysis of fuel elements; single-phase and two-phase flow and heat transfer; pool and flow boiling; single heated channel steady-state analysis. Major industry software including PCTRAN and TRNSYS are utilized in case studies and design projects.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-616"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-616"
 }

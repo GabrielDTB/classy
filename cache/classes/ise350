@@ -1,15 +1,19 @@
 {
-  "id": "ISE 350",
-  "name": "Logistics and Supply Chain Management",
+  "department": "ISE",
+  "department_name": "",
+  "discriminator": "350",
+  "title": "Logistics and Supply Chain Management",
   "description": "Supply chain management is integral to increasing an organization’s efficiency, capacity, and cash flow. This course will provide an introduction to supply chains, logistics & supply chain management and provides mainly mathematically based techniques used to analyze various aspects of logistics systems. Topics covered include supply chain performance and metrics related to demand forecasting, facilities location, inventory management, transportation, sourcing, pricing and information. Design of distribution networks, forecasting, and planning of demand & supply would be covered. The course has a strong emphasis on providing analytical skills, critical thinking and managerial insight. Co-requisite: EM 365 Statistics for Engineering Managers",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CoReq ( EM 365 or ENGR 241 or BT 221 )",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Engineering Management Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ise-industrial-and-systems-engineering/300/ise-350"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ise-industrial-and-systems-engineering/300/ise-350"
 }

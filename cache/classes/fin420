@@ -1,15 +1,19 @@
 {
-  "id": "FIN 420",
-  "name": "A Survey of Topics in Financial Technology",
+  "department": "FIN",
+  "department_name": "",
+  "discriminator": "420",
+  "title": "A Survey of Topics in Financial Technology",
   "description": "FIN 420 will survey emerging topics in the area of financial technology. The financial servicesindustry is undergoing rapid change due to technological innovations in the areas of financialadvisement and wealth management, digital lending, payments, and digital currency utilization,and blockchain applications. During this course, students will have the opportunity to develop anunderstanding of each of these topics as well as develop their own software in the Pythonprogramming language related to these areas. For example, when discussing peer-to-peerlending, we will examine how binary classification models may be utilized to developprobability of default models for peer-to-peer loans and build associated loan recommendationsystems.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "(CS 115 or ENGR 115 or ENGR 116 or MIS 110 or QF 104) AND (BT 221 or ENGR 241 or ENGR 243 or MA 222 or QF 112) AND ((MA 117 and MA 119) or (MA 121 and MA 122) and (MA 125 or MA 232))",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/400/fin-420"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/400/fin-420"
 }

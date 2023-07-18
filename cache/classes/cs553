@@ -1,16 +1,20 @@
 {
-  "id": "CS 553",
-  "name": "Introduction to Text Mining and Statistical Natural Language Processing",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "553",
+  "title": "Introduction to Text Mining and Statistical Natural Language Processing",
   "description": "This course will introduce statistical processing of natural language texts, particularly counting words and phrases in and of themselves as well as associations between them using correlations and other measures. Goals of text mining include document classification, information retrieval, source authentication, and stylistic categorization. Typical document sources are newspaper stories, email captures, and Internet pages, as well as collections of non-fiction and fiction such as Federalist Papers and Edgar Allan Poe short stories.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-553"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-553"
 }

@@ -1,15 +1,19 @@
 {
-  "id": "CS 520",
-  "name": "Introduction to Operating Systems",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "520",
+  "title": "Introduction to Operating Systems",
   "description": "This course outlines the problems that the operating systems need to solve (e.g., multiprogramming, device- and memory management, file management, etc.) with a sharp focus on security. The course then demonstrates the solutions to these problems in the context of the ever-evolving hardware. The course also introduces the rudimentary concepts of queuing theory and the technique of writing discrete-event simulations as the tool in both the operating systems and complex application design.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "( CS 550 and ( CS 570 or CS 590 )) and (Grad Student or (Junior or Senior))",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-520"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-520"
 }

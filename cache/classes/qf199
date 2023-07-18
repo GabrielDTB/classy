@@ -1,16 +1,20 @@
 {
-  "id": "QF 199",
-  "name": "Ethics Quiz",
+  "department": "QF",
+  "department_name": "",
+  "discriminator": "199",
+  "title": "Ethics Quiz",
   "description": "The ethics requirement is incorporated into the course work for a required course in the BS in Business program. Students are automatically enrolled into QF199 – Ethics Workshop at no cost. This workshop carries zero credit and will not appear on the student’s official transcript. Completion of all exercises and the survey associated with the Ethics Workshop is sufficient to satisfy the ethics requirement.",
   "credits": "0",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/100/qf-199"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/100/qf-199"
 }

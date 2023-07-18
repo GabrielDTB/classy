@@ -1,16 +1,20 @@
 {
-  "id": "CE 679",
-  "name": "Regression and Stochastic Methods",
+  "department": "CE",
+  "department_name": "",
+  "discriminator": "679",
+  "title": "Regression and Stochastic Methods",
   "description": "An introduction to the applied nonlinear regression, multiple regression and time-series methods for modeling civil and environmental engineering processes. Topics include: coefficient estimation of linear and nonlinear models; construction of multivariate transfer function models; modeling of linear and nonlinear systems; forecast and prediction using multiple regression and time series models; statistical quality control techniques; ANOVA tables and analysis of model residuals. Applications include monitoring and control of wastewater treatment plants, hydrologic-climatic histories of watercourses, and curve-fitting of experimental and field data.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Civil Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/600/ce-679"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/600/ce-679"
 }

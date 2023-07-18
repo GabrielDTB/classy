@@ -1,13 +1,17 @@
 {
-  "id": "QF 112",
-  "name": "Statistics Quantitative Finance",
+  "department": "QF",
+  "department_name": "",
+  "discriminator": "112",
+  "title": "Statistics Quantitative Finance",
   "description": "Statistics Quantitative Finance",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "QF 106",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/100/qf-112"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/100/qf-112"
 }

@@ -1,15 +1,19 @@
 {
-  "id": "EN 555",
-  "name": "Catalysis and Characterization of Nanoparticles",
+  "department": "EN",
+  "department_name": "",
+  "discriminator": "555",
+  "title": "Catalysis and Characterization of Nanoparticles",
   "description": "Most processes in petroleum and chemical industries utilize catalytic reactions. Moreover, many emerging technologies in the energy sector and in green chemistry for sustainability rely on catalysis. This course provides the fundamentals of synthesis, characterization and testing of catalytic materials with an emphasis on metal and metal oxide nanoparticles, the most widely used class of catalysts. Methodologies for development of molecular-level reaction mechanisms, material structure-activity relations and kinetic models are described. The course is essential for anyone planning a career in the chemical industry. It is recommended for all professionals working with nanoparticles and also with diverse applications where the solid-gas interface is important.",
   "credits": "3",
-  "cross_listed": "CHE 555, MT 555, NANO 555",
   "prerequisites": "CH 116 and CHE 246 and (Grad Student or (Junior or Senior))",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    "CHE 555, MT 555, NANO 555"
+  ],
+  "distributions": [
     "Chemical Engineering Program",
     "Environmental Engineering Program",
     "Materials Science and Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-555"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-555"
 }

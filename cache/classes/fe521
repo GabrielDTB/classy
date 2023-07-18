@@ -1,16 +1,20 @@
 {
-  "id": "FE 521",
-  "name": "Web Design",
+  "department": "FE",
+  "department_name": "",
+  "discriminator": "521",
+  "title": "Web Design",
   "description": "This course is designed to teach students how to configure and code using PHP Hypertext Processor. Students will also learn how to create dynamically generated web pages using PHP and how to connect to databases.",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-521"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-521"
 }

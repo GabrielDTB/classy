@@ -1,16 +1,20 @@
 {
-  "id": "EMT 740",
-  "name": "Team Leadership Development in Technical Organizations",
+  "department": "EMT",
+  "department_name": "",
+  "discriminator": "740",
+  "title": "Team Leadership Development in Technical Organizations",
   "description": "This course focuses on understanding the interplay of group, inter-group, and organizational factors on the performance of multifunctional teams in technology-based organizations. The course integrates theory and research on multifunctional teams with the skills necessary for effectively managing them. Topics covered include managing decision-making and conflict in multifunctional teams, managing the team’s boundary and inter-group relations, organizational designs that support working cross-functionally, and measuring and rewarding team performance. Cases are used to illustrate the problems of working cross-functionally. Individuals are given feedback on their team management skills.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MS/TM and EMBA Only",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/emt-executive-management-of-technology/700/emt-740"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/emt-executive-management-of-technology/700/emt-740"
 }

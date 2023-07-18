@@ -1,15 +1,19 @@
 {
-  "id": "IDE 314",
-  "name": "Entrepreneurship Experience Part I",
+  "department": "IDE",
+  "department_name": "",
+  "discriminator": "314",
+  "title": "Entrepreneurship Experience Part I",
   "description": "This is the first part of a two-part course that actively educates and incubates investment viable start-ups with technology at their core, and service-to-mankind as their purpose. IDE 314’s educational goals are to teach the pedagogical principles behind the lean launchpad (LLP) movement, along with its toolkits such as the business model canvas (BMC), customer discovery, customer interviews, customer development, agile programming, rapid prototyping, and the formulation of a minimum viable product (MVP). IDE 314’s incubation goals are to actively nurture an early stage experiment in successful startup building. This includes creation of real prototypes/products that lead towards a value proposition that is significantly better than the competition. This is the first step in creating a Sequioa style investment thesis. In its current offering, our domain of technology will be limited to computer hardware, software, and/or allied technologies.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "ENGR 115",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Engineering and Science"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ide-innovation-design-and-entrepreneurship/300/ide-314"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ide-innovation-design-and-entrepreneurship/300/ide-314"
 }

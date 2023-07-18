@@ -1,15 +1,19 @@
 {
-  "id": "NANO 675",
-  "name": "Nanomedicine",
+  "department": "NANO",
+  "department_name": "",
+  "discriminator": "675",
+  "title": "Nanomedicine",
   "description": "This course will provide a comprehensive introduction to the rapidly developing field of nanomedicine and discuss the application of nanoscience and nanotechnology in medicine such as, in diagnosis, imaging and therapy, surgery, and drug delivery.",
   "credits": "3",
-  "cross_listed": "BME 675, BME 685, NANO 685",
   "prerequisites": "NANO 600",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "BME 675, BME 685, NANO 685"
+  ],
+  "distributions": [
     "Biomedical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nano-nanotechnology/600/nano-675"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nano-nanotechnology/600/nano-675"
 }

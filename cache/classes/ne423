@@ -1,15 +1,19 @@
 {
-  "id": "NE 423",
-  "name": "Engineering Design VII",
+  "department": "NE",
+  "department_name": "",
+  "discriminator": "423",
+  "title": "Engineering Design VII",
   "description": "Senior design courses. Complete design sequence with a required capstone project spanning two semesters. The capstone design project will use the entire range of knowledge and skills acquired in earlier courses. The project will include exposure to engineering standards, professional ethics, environmental impacts, and economics. These aims will be accomplished by providing students with realistic ship design performance requirements, and instruction and advice from practicing ship design professionals.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Seniors only and NE 322 and (Pre-/Co-Req IDE 401)",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ne-naval-engineering/400/ne-423"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ne-naval-engineering/400/ne-423"
 }

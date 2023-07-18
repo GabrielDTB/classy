@@ -1,14 +1,18 @@
 {
-  "id": "HAR 320",
-  "name": "Video II",
+  "department": "HAR",
+  "department_name": "",
+  "discriminator": "320",
+  "title": "Video II",
   "description": "This course will serve as an introduction to video production using current video technologies. Students will learn basic production skills and they will be introduced to the history of experimental film and video. There will also be a discussion of visual structure. In this course students will develop and shoot footage that may be used for Video II.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "HAR 220",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/300/har-320"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/300/har-320"
 }

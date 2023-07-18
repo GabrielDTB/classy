@@ -1,11 +1,15 @@
 {
-  "id": "CH 720",
-  "name": "Selected Topics Chemical Physics I",
+  "department": "CH",
+  "department_name": "",
+  "discriminator": "720",
+  "title": "Selected Topics Chemical Physics I",
   "description": "Topics of current interest selected by you are to be investigated from an advanced point of view.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/700/ch-720"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/700/ch-720"
 }

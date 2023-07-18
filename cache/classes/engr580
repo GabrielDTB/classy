@@ -1,11 +1,15 @@
 {
-  "id": "ENGR 580",
-  "name": "Sustainable Energy",
+  "department": "ENGR",
+  "department_name": "",
+  "discriminator": "580",
+  "title": "Sustainable Energy",
   "description": "This course assesses the current and potential future energy systems, covers resources, extraction, conversion, and end-use, and emphasizes meeting regional and global energy needs in the 21st century in a sustainable manner. Topics relevant to renewable and conventional energy technologies will be presented including fossil fuels, combustion, environmental effects, carbon sequestration, nuclear power, wind power, solar energy, hydrogen and fuel cells. Key attributes will be described within a framework that aids in evaluation and analysis of energy technology systems in the context of political, social, economic, and environmental goals.",
   "credits": "3",
-  "cross_listed": "ENGR 580/ ME 514 - Sustainable Energy",
   "prerequisites": "",
   "offered": [],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/500/engr-580"
+  "cross_listings": [
+    "ENGR 580/ ME 514 - Sustainable Energy"
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/500/engr-580"
 }

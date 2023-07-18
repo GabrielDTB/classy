@@ -1,15 +1,19 @@
 {
-  "id": "CHE 342",
-  "name": "Heat and Mass Transfer",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "342",
+  "title": "Heat and Mass Transfer",
   "description": "Heat conduction, convection and radiation. General differential equations for heat transfer. Conductive and convective heat transfer. Convective heat transfer correlations. Heat exchanger design. Molecular, convective and interface mass transfer. The differential equation for mass transfer. Steady state molecular diffusion and film theory. Convective mass transfer correlations. Mass transfer equipment.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CHE 210 and (CHE 233 or CHE 234 )",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/300/che-342"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/300/che-342"
 }

@@ -1,16 +1,20 @@
 {
-  "id": "SYS 930",
-  "name": "Systems Engineering Qualifying Exam - Written",
+  "department": "SYS",
+  "department_name": "",
+  "discriminator": "930",
+  "title": "Systems Engineering Qualifying Exam - Written",
   "description": "A student must take the Qualifying Examination within two years of enrolling in a Ph.D. program, after completing their two Core, two Area, and one Domain specific core courses (total of 5 courses). The Qualifying Examination assesses the student’s ability to conduct independent research, communicate effectively, develop original ideas in the chosen area of research interest, and demonstrate knowledge of relevant fundamental topics in the areas of Systems Engineering and Engineering Management. For the written part of the Qualifying Exam, students must prepare an original research paper demonstrating their ability to conduct research on a problem relevant to systems engineering, software engineering, socio-technical systems, or engineering management. An oral exam will then be scheduled with the student’s Doctoral Advisory Committee, during which the student will deliver a 20-minute oral presentation of the research work. Students will receive questions and feedback on the paper itself as well as questions on the fundamental topics in the areas of Systems Engineering and Engineering Management.",
   "credits": "0",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Systems and Enterprises"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/900/sys-930"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/900/sys-930"
 }

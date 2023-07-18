@@ -1,13 +1,17 @@
 {
-  "id": "CHE 471",
-  "name": "Polymer Processing",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "471",
+  "title": "Polymer Processing",
   "description": "Polymer Processing",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/400/che-471"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/400/che-471"
 }

@@ -1,15 +1,19 @@
 {
-  "id": "HHS 371",
-  "name": "Modern US Presidency and the Legislative Process",
+  "department": "HHS",
+  "department_name": "",
+  "discriminator": "371",
+  "title": "Modern US Presidency and the Legislative Process",
   "description": "An exploration of the modern American political experience from the turn of the twentieth century to the present. This course examines the historical significance of the American policymaking process. Discussions center on presidential administrations, Congress and political parties addressing domestic agendas and policies. Highlighted eras promoting government activism include Progressivism, New Dealism, Great Society measures and recent political proposals.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/300/hhs-371"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/300/hhs-371"
 }

@@ -1,16 +1,20 @@
 {
-  "id": "CPE 442",
-  "name": "Database Management Systems",
+  "department": "CPE",
+  "department_name": "",
+  "discriminator": "442",
+  "title": "Database Management Systems",
   "description": "Introduction to the design and querying of relational databases. Topics include: relational schemas; keys and foreign key references; relational algebra (as an introduction to SQL); SQL in depth; Entity-Relationship (ER) database design; translating from ER models to relational schemas and from relational schemas to ER models; functional dependencies; and normalization.",
   "credits": "3",
-  "cross_listed": "CS 442",
   "prerequisites": "CS 385",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "CS 442"
+  ],
+  "distributions": [
     "Computer Engineering Program",
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/400/cpe-442"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/400/cpe-442"
 }

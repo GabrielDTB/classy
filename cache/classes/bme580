@@ -1,13 +1,17 @@
 {
-  "id": "BME 580",
-  "name": "Biomedical Instrumentation and Measurements",
+  "department": "BME",
+  "department_name": "",
+  "discriminator": "580",
+  "title": "Biomedical Instrumentation and Measurements",
   "description": "This course introduces biomedical engineering principles, techniques, design & application of medical instrumentation. This course deals with the sensors, electrodes and analog integrated circuits to process physiological signals in a way that it can be used further for various diagnostic, therapeutic and surgical applications. It also introduces matrix laboratory and LabVIEW software to measure, record and monitor physiological signals. The course includes a bioinstrumentation lab where students gain hands on experience with the use of sensors, electrodes, filters, microcontrollers and circuits to acquire, modify and display various physiological signals. Students are graded based on the performance in homework assignments, lab assignments and midterm & final exams.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "BME 423 and BME 460 and (Grad Student or (Junior or Senior))",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biomedical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/500/bme-580"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/500/bme-580"
 }

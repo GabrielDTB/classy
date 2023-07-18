@@ -1,9 +1,10 @@
 {
-  "id": "CE 960",
-  "name": "Research in Civil Engineering (PHD)",
+  "department": "CE",
+  "department_name": "",
+  "discriminator": "960",
+  "title": "Research in Civil Engineering (PHD)",
   "description": "Original research of advanced level in Civil Engineering, which may serve as the topics for the dissertations for the degree of Doctor of Philosophy. Hours and credits to be arranged.",
   "credits": "1-60",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Civil Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/900/ce-960"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/900/ce-960"
 }

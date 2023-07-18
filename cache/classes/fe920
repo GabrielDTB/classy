@@ -1,16 +1,20 @@
 {
-  "id": "FE 920",
-  "name": "Financial Engineering Qualifying Exam – Written",
+  "department": "FE",
+  "department_name": "",
+  "discriminator": "920",
+  "title": "Financial Engineering Qualifying Exam – Written",
   "description": "The preliminary exam takes the form of a comprehensive exam organized by an area sub-committee nominated by the FE Ph.D. Program Committee each academic year. This committee would consist of 3 members of the FE faculty and chaired by an appointed chair. The comprehensive examination committee is responsible for administering the comprehensive exam twice each academic year and should be formed by the following dates: January of the second semester for students who start the program in the fall; and August of the second semester for students who start the program in the spring. The faculty, who is provide examination questions, can be either a member of the committee or a recommended faculty by the committee. The FE Comprehensive Exam Committee will be responsible for: a) pool of exam questions; and b) grading of the exam (pass or fail). This part of the exam will take place one week prior to the beginning of the fall and spring semesters. The specific dates will be announced by the FE Ph.D. Program Committee at the beginning of the academic calendar year. The committee’s composition and completion of the preliminary exam evaluation process should be submitted to the Ph.D. Program Director for approval no later than the end of the third semester from the date of first enrollment. Students have two chances to pass the exam and the second date has to be within 90 days from the publication of the first exam result. The Ph.D. committee has some discretionary power regarding the timings.",
   "credits": "0",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/900/fe-920"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/900/fe-920"
 }

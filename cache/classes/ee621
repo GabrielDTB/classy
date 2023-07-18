@@ -1,15 +1,19 @@
 {
-  "id": "EE 621",
-  "name": "Nonlinear Control",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "621",
+  "title": "Nonlinear Control",
   "description": "Methods for analysis and design of nonlinear control systems emphasizing Lyapunov theory. Second order systems, phase plane descriptions of nonliner phenomena, limit cycles, stability, direct and indirect method of Lyapunov, linearization, feedback linearization, Lyapunov-based design, and backstepping.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-621"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-621"
 }

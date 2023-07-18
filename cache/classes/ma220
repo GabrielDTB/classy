@@ -1,13 +1,17 @@
 {
-  "id": "MA 220",
-  "name": "Differential Equations and Multivariate Calculus",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "220",
+  "title": "Differential Equations and Multivariate Calculus",
   "description": "Double and triple integrals; polar, cylindrical and spherical coordinates; first order D.E.'s, linear D.E.'s, methods of undetermined coefficients and variation of parameters; series solutions; numerical methods for D.E.'s, Laplace Transforms.",
   "credits": "4",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/200/ma-220"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/200/ma-220"
 }

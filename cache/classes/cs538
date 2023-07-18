@@ -1,13 +1,17 @@
 {
-  "id": "CS 538",
-  "name": "Visual Analytics",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "538",
+  "title": "Visual Analytics",
   "description": "Visual analytics is the combination of data filtering, statistical algorithms, and visual presentation in an interactive visual interface. This course provides an introduction to both information and scientific visualization. Topics include: perception (color, space/order, and depth/occlusion), interaction (navigation, zooming, focus, and context), design studies and evaluation, and data representation (graphs, trees, volumes, and time series). Applications include: software, scientific, financial, and cartographic visualization. Junior, senior, or graduate standing is required.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "( CS 385 or CS 570 or CPE590/ CS 590 ) and (Grad Student or (Junior or Senior))",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-538"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-538"
 }

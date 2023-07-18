@@ -1,15 +1,19 @@
 {
-  "id": "PEP 555",
-  "name": "Statistical Physics and Kinetic Theory",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "555",
+  "title": "Statistical Physics and Kinetic Theory",
   "description": "Kinetic theory: ideal gases, distribution functions, Maxwell-Boltzmann distribution, Boltzmann equation, H-theorem and entropy, and simple transport theory. Thermodynamics: review of first and second laws, thermodynamic potentials, Legendre transformation, and phase transitions. Elementary statistical mechanics: introduction to microcanonical, canonical, and grand canonical distributions, partition functions, simple applications, including ideal Maxwell-Boltzmann, Einstein-Bose, and Fermi-Dirac gases, paramagnetic systems, and blackbody radiation.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "PEP 330 or (Grad Student)",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-555"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-555"
 }

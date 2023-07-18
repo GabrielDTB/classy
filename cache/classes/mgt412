@@ -1,17 +1,21 @@
 {
-  "id": "MGT 412",
-  "name": "Senior Design II",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "412",
+  "title": "Senior Design II",
   "description": "The SD 401and SD 402 represents the \"senior design\" capstone experience in which students will work on one team project that challenges them to apply the knowledge and competencies they have acquired during their time at Stevens to a real-world scenario. To begin this experience, they will select from three different types of projects: 1. Consulting Project – helping a real organization with a pressing business challenge 2. Entrepreneurship Project - developing a real start-up business. 3. Research Project – conducting a real data-driven study to address an important research question in a discipline of your choosing",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/400/mgt-412"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/400/mgt-412"
 }

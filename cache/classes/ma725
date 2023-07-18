@@ -1,13 +1,17 @@
 {
-  "id": "MA 725",
-  "name": "Advanced Numerical Analysis",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "725",
+  "title": "Advanced Numerical Analysis",
   "description": "Selected topics in numerical analysis not treated in MA615-616; topics may include: numerical solution of partial differential equations, boundary value problems, approximation theory; Monte Carlo methods, power spectral methods as they apply to numerical analysis, optimal search problems.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/700/ma-725"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/700/ma-725"
 }

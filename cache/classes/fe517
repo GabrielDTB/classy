@@ -1,16 +1,20 @@
 {
-  "id": "FE 517",
-  "name": "SAS for Finance",
+  "department": "FE",
+  "department_name": "",
+  "discriminator": "517",
+  "title": "SAS for Finance",
   "description": "In this course the students will learn the basics of SAS programming using financial data and applications. The course provides an introduction to programming, graphics, and data analysis using SAS Software. The course concentrates on fundamental components of SAS Software: data processing, managing SAS libraries, graphical and statistical procedures, creating, formatting and exporting reports. In addition, several advanced topics will be introduced: SAS SQL procedures and SAS Macro Language. The supporting applications illustrate financial data analysis with special emphasis on large data sets.",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-517"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-517"
 }

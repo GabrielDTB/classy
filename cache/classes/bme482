@@ -1,15 +1,19 @@
 {
-  "id": "BME 482",
-  "name": "Engineering Physiology",
+  "department": "BME",
+  "department_name": "",
+  "discriminator": "482",
+  "title": "Engineering Physiology",
   "description": "Introduction to mammalian physiology from an engineering point of view. The quantitative aspects of normal cellular and organ functions and the regulatory processes required maintaining organ viability and homeostasis. Laboratory exercises using exercise physiology as an integration of function at the cellular, organ and systems level will be conducted at the same time. Measurements of heart activity (EKG), cardiac output (partial CO2 rebreathing), blood pressure, oxygen consumption, carbon dioxide production, muscle strength (EMG), fluid shifts and respiratory function in response to exercise stress will be measured and analyzed from an engineering point of view.",
   "credits": "4",
-  "cross_listed": "",
   "prerequisites": "( BME 342 or BME 343 ) and BME 344 and BIO 381",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biomedical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/400/bme-482"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/400/bme-482"
 }

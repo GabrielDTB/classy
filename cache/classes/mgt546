@@ -1,11 +1,15 @@
 {
-  "id": "MGT 546",
-  "name": "Marketing Strategy",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "546",
+  "title": "Marketing Strategy",
   "description": "Every firm needs to devise and execute marketing strategies for their offerings to translate into customer value and profits based on an understanding of the consumer and the marketplace. This course is designed to give students an intensive and application-oriented look at how marketing strategy works in the real world. It will include examples and exercises of the role quantitative analysis plays in marketing strategy decisions. The emphasis of this course will be on cases, analysis, real life examples, and presentations.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/500/mgt-546"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/500/mgt-546"
 }

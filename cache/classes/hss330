@@ -1,16 +1,20 @@
 {
-  "id": "HSS 330",
-  "name": "Developmental Psychology",
+  "department": "HSS",
+  "department_name": "",
+  "discriminator": "330",
+  "title": "Developmental Psychology",
   "description": "This course presents an overview of the theoretical backgrounds as well as the historical and very current research in the field of life span developmental psychology. Special emphasis will be placed on infancy and childhood, adolescent and young adult development. All aspects of development, i.e. physical, cognitive, emotional and social will be addressed. Ongoing issues such as: critical vs. sensitive periods, brain plasticity and malleability, the nature/nurture controversy will be addressed throughout the semester.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/300/hss-330"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/300/hss-330"
 }

@@ -1,15 +1,19 @@
 {
-  "id": "EN 570",
-  "name": "Environmental Chemistry",
+  "department": "EN",
+  "department_name": "",
+  "discriminator": "570",
+  "title": "Environmental Chemistry",
   "description": "Principles of environmental reactions with emphasis on aquatic chemistry; reaction and phase equilibria; acid-base and carbonate systems; oxidation-reduction; colloids; organic contaminants classes, sources, and fates; groundwater chemistry; and atmospheric chemistry.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "EN 377 and (Grad Student or (Junior or Senior))",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Environmental Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-570"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-570"
 }

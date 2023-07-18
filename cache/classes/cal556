@@ -1,16 +1,20 @@
 {
-  "id": "CAL 556",
-  "name": "Ethics of Business & Technology",
+  "department": "CAL",
+  "department_name": "",
+  "discriminator": "556",
+  "title": "Ethics of Business & Technology",
   "description": "This course offers an in-depth introduction to the applied ethics of technology-driven business. Beginning with an overview of the principles of business ethics, including Kantian Business Ethics, Virtue Based Ethics, and Stakeholder theories, we will move on to more specific topics including: the proper goals of business in society, the role of the public good in business, intellectual property, globalization, the ethics of advertising, and the status of the corporation as a moral agent. The course will end with a critical examination of more ethical dilemmas arising from technology-driven business and industry. Particular attention will be given to recent corporate scandals as cases of ethical failure.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "College of Arts and Letters"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cal-college-of-arts-letters/500/cal-556"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cal-college-of-arts-letters/500/cal-556"
 }

@@ -1,13 +1,17 @@
 {
-  "id": "BIO 900",
-  "name": "Master’s Thesis in Chemical Biology",
+  "department": "BIO",
+  "department_name": "",
+  "discriminator": "900",
+  "title": "Master’s Thesis in Chemical Biology",
   "description": "Masters Thesis in Biology",
   "credits": "1-10",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biological Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/900/bio-900"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/900/bio-900"
 }

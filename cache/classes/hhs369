@@ -1,15 +1,19 @@
 {
-  "id": "HHS 369",
-  "name": "Studies in the Scientific Revolution",
+  "department": "HHS",
+  "department_name": "",
+  "discriminator": "369",
+  "title": "Studies in the Scientific Revolution",
   "description": "An analysis of the intellectual and methodological transformations of sixteenth- and seventeenth-century science and the development of the modern world view. This course focuses on the major scientific figures of the age (Galileo, Descartes, Newton), with particular attention to the study of original texts. The social and institutional transformations of science in this period are also considered.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/300/hhs-369"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/300/hhs-369"
 }

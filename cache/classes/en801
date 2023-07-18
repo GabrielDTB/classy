@@ -1,9 +1,10 @@
 {
-  "id": "EN 801",
-  "name": "Special Problems in Environmental Engineering (PhD)",
+  "department": "EN",
+  "department_name": "",
+  "discriminator": "801",
+  "title": "Special Problems in Environmental Engineering (PhD)",
   "description": "A thorough investigation of an advanced research topic under the direction of a faculty member. The course is open to students who are or plan to be doctoral candidates. One to six credits for the degree of Doctor of Philosophy.",
   "credits": "1-6",
-  "cross_listed": "",
   "prerequisites": "Doctoral Students Only and Permission Required",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Environmental Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/800/en-801"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/800/en-801"
 }

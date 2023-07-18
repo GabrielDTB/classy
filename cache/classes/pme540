@@ -1,19 +1,23 @@
 {
-  "id": "PME 540",
-  "name": "Validation in Life Sciences Manufacturing",
+  "department": "PME",
+  "department_name": "",
+  "discriminator": "540",
+  "title": "Validation in Life Sciences Manufacturing",
   "description": "Validation of a pharmaceutical manufacturing process is an essential requirement with respect to compliance with Good Manufacturing Practices (GMP). Course covers: validation concepts for process, equipment, facility, cleaning, sterilization, filtration, analytical methods and computer systems; validation Master Plans, IQ, OQ, and PPQ protocols; and validation for medical devices.",
   "credits": "3",
-  "cross_listed": "CHE 540, ME 540",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    "CHE 540, ME 540"
+  ],
+  "distributions": [
     "Chemical Engineering Program",
     "Mechanical Engineering Program",
     "Pharmaceutical Manufacturing Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pme-pharmaceutical-manufacturing/500/pme-540"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pme-pharmaceutical-manufacturing/500/pme-540"
 }

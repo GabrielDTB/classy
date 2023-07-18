@@ -1,17 +1,21 @@
 {
-  "id": "CPE 400",
-  "name": "Research in Electrical and Computer Engineering",
+  "department": "CPE",
+  "department_name": "",
+  "discriminator": "400",
+  "title": "Research in Electrical and Computer Engineering",
   "description": "Individual research investigation under the guidance of a faculty advisor. Hours to be arranged with the faculty advisor. Students are required to develop a new model, algorithm, design, or protocol to solve a challenging research problem. A final report and a formal presentation in a seminar is required.",
   "credits": "3",
-  "cross_listed": "EE 400",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "EE 400"
+  ],
+  "distributions": [
     "Computer Engineering Program",
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/400/cpe-400"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/400/cpe-400"
 }

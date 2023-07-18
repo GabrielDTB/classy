@@ -1,15 +1,19 @@
 {
-  "id": "HMU 510",
-  "name": "Audio Programming",
+  "department": "HMU",
+  "department_name": "",
+  "discriminator": "510",
+  "title": "Audio Programming",
   "description": "This course provides a comprehensive grounding in the design of modules for prominent computer music software environments. Topics include modulation synthesis objects, sample-accurate sequencers, and spectral processing modules, as well as an overview of how these digital audio applications can be applied in musical practice.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "HMU 260 and (Grad Student or (Junior or Senior))",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Music and Technology Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/500/hmu-510"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/500/hmu-510"
 }

@@ -1,14 +1,18 @@
 {
-  "id": "HST 320",
-  "name": "Science and Media",
+  "department": "HST",
+  "department_name": "",
+  "discriminator": "320",
+  "title": "Science and Media",
   "description": "Course Description: This course will examine how the various media shape public perceptions of science, with special attention given to engineering and medicine. Our primary focus will be topics with a social and/or political dimension, including brain science, genetic engineering, psychiatric drugs, artificial intelligence, national security, economics as well as the clash between science and religion. Students will learn how to read influential publications with a critical eye, enabling them to distinguish between bias and hype on the one hand, and fairness and accuracy on the other.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hst-humanities-science-and-technology-studies/300/hst-320"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hst-humanities-science-and-technology-studies/300/hst-320"
 }

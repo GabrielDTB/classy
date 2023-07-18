@@ -1,14 +1,18 @@
 {
-  "id": "MA 529",
-  "name": "Applied Mathematics for Engineers & Scientists I",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "529",
+  "title": "Applied Mathematics for Engineers & Scientists I",
   "description": "Review of limits, continuity, partial differentiation, Leibnitz’s rule; implicit functions and Jacobians; gradients, divergence, curl, line and surface integrals; theorems of Stokes, Gauss and Green; complex numbers, elementary functions, analytic functions, complex integration, power series, residue theorem, evaluation of real definite integrals; systems of linear equations, rank, eigenvalues and eigenvectors.",
   "credits": "3",
-  "cross_listed": "PEP 529",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    "PEP 529"
+  ],
+  "distributions": [
     "Department of Physics",
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-529"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-529"
 }

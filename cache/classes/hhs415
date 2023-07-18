@@ -1,15 +1,19 @@
 {
-  "id": "HHS 415",
-  "name": "Religion in America",
+  "department": "HHS",
+  "department_name": "",
+  "discriminator": "415",
+  "title": "Religion in America",
   "description": "\"Religion in America\" maps various routes pursued by religious groups in the United States—a culture in which there has been no \"established\" religion and in which symbiotic relations between the secular world and religious practices/beliefs continually evolve. The course will look principally at religion as a business, religion as a force in politics, and religion in conflict with science and technology.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/400/hhs-415"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/400/hhs-415"
 }

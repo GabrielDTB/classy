@@ -1,16 +1,20 @@
 {
-  "id": "EE 542",
-  "name": "Electromagnetism",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "542",
+  "title": "Electromagnetism",
   "description": "Electrostatics; Coulomb-Gauss law; Poisson-Laplace equations; boundary value problems; image techniques, and dielectric media; magnetostatics; multipole expansion, electromagnetic energy, electromagnetic induction, Maxwell’s equations, electromagnetic waves, waves in bounded regions, wave equations and retarded solutions, simple dipole antenna radiation theory, and transformation law of electromagnetic fields. Spring semester. Typical text: Reitz, Milford and Christy, Foundation of Electromagnetic Theory.",
   "credits": "3",
-  "cross_listed": "PEP 542",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "PEP 542"
+  ],
+  "distributions": [
     "Department of Physics",
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/500/ee-542"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/500/ee-542"
 }

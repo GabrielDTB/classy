@@ -1,15 +1,19 @@
 {
-  "id": "OE 527",
-  "name": "Laboratory in Naval Architecture",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "527",
+  "title": "Laboratory in Naval Architecture",
   "description": "Solution of problems in naval architecture through model testing, actually conducting a wide variety of model tests at Davidson Laboratory, and prediction of prototype performance.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-527"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-527"
 }

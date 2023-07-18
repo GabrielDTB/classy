@@ -1,13 +1,17 @@
 {
-  "id": "FIN 684",
-  "name": "Financial Services Industry Marketing and Sales",
+  "department": "FIN",
+  "department_name": "",
+  "discriminator": "684",
+  "title": "Financial Services Industry Marketing and Sales",
   "description": "This course concentrates on effective selling and marketing IT strategies in the financial services industry. Due to the diversity of this industry (banking, brokerage, and insurance), along with the multiplicity of customer characteristic (retail vs. institutional), we will modularize the lectures by industry and customer partitions. This segregation will provide for a better understanding of this ever-changing industry. Upon successful completion of this program, students will identify client constituent’s product needs and the ability for financial services companies to deliver this product (service) in a timely, cost-effective fashion. Corporate branding and marketing strategies will be reviewed and challenged by the student. Topics include the \"sell-side\", the \"buy-side\", the selling distribution process, e-business selling strategies, marketing strategies and corporate bonding, the role of data warehousing and sales data mining, and partnership with the client.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/600/fin-684"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/600/fin-684"
 }

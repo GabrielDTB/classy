@@ -1,15 +1,19 @@
 {
-  "id": "FIN 628",
-  "name": "Derivatives",
+  "department": "FIN",
+  "department_name": "",
+  "discriminator": "628",
+  "title": "Derivatives",
   "description": "This course covers the fundamentals of financial derivatives, including the basic properties and the pricing of futures, options and swaps. It also explores trading and hedging strategies involving financial derivatives. Special topics, such as exotic options and credit derivatives, are explored. The course provides the foundation of financial derivatives and lays the ground for a rigorous risk management course and other advanced quantitative courses, such as stochastic finance.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/600/fin-628"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/600/fin-628"
 }

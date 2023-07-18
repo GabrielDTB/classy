@@ -1,13 +1,17 @@
 {
-  "id": "ME 607",
-  "name": "Radiation Heat Transfer",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "607",
+  "title": "Radiation Heat Transfer",
   "description": "An introduction to the theoretical and empirical foundation of thermoradiation; Plank’s Law and Wien’s Law; Stefan-Boltzmann law; radiative properties of surfaces; conductors and dielectrics; energy balances on radiating surfaces; radiative properties of gases; energy transitions of molecules; interactions between molecules and radiation; band absorption; equation of radiative transfer in an absorbing, emitting and scattering medium; radiation in a gas filled enclosure; radiation combined with conduction and convection.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-607"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-607"
 }

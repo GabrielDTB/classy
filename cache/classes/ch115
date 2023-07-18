@@ -1,17 +1,21 @@
 {
-  "id": "CH 115",
-  "name": "General Chemistry I",
+  "department": "CH",
+  "department_name": "",
+  "discriminator": "115",
+  "title": "General Chemistry I",
   "description": "This course is an introduction to important concepts and principles of chemistry with a focus on the following topics: atomic structure and periodic properties, stoichiometry, properties of gases, thermochemistry, chemical bond types, intermolecular forces, liquids and solids and a brief introduction to chemical kinetics, organic chemistry and materials chemistry. Corequisite: CH 117",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/100/ch-115"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/100/ch-115"
 }

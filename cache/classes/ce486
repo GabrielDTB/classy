@@ -1,16 +1,20 @@
 {
-  "id": "CE 486",
-  "name": "Structural Steel Design",
+  "department": "CE",
+  "department_name": "",
+  "discriminator": "486",
+  "title": "Structural Steel Design",
   "description": "Design of steel structures according to the latest specifications; tension and compression members; beams; beam-columns; connections; composite beams; design examples; bridges; building frames; footings.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CE 373",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Civil Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/400/ce-486"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/400/ce-486"
 }

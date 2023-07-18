@@ -1,15 +1,19 @@
 {
-  "id": "CHE 671",
-  "name": "Polymer Rheology",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "671",
+  "title": "Polymer Rheology",
   "description": "Molecular and continuum mechanical constitutive equations for viscoelastic fluids; analysis of viscometric experiments to evaluate the viscosity and normal stress functions: dependence of these functions on the macromolecular structure of polymer melts: solution of isothermal and nonisothermal flow problems with non-Newtonian fluids which are encountered in polymer processing; development of design equations for extruder dies and molds.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CHE 630",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/600/che-671"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/600/che-671"
 }

@@ -1,13 +1,17 @@
 {
-  "id": "HSS 373",
-  "name": "Social Choice Theory",
+  "department": "HSS",
+  "department_name": "",
+  "discriminator": "373",
+  "title": "Social Choice Theory",
   "description": "An introduction to the history of and theoretical principles associated with using voting techniques to resolve conflicts. Emphasis is placed on the analysis of operational rules. Student projects constitute a major part of the course.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/300/hss-373"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/300/hss-373"
 }

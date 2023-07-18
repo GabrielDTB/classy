@@ -1,15 +1,19 @@
 {
-  "id": "QF 106",
-  "name": "Fundamentals of Probability for Finance",
+  "department": "QF",
+  "department_name": "",
+  "discriminator": "106",
+  "title": "Fundamentals of Probability for Finance",
   "description": "This course is designed for undergraduate students in Quantitative Finance, but would be potentially useful to any student in the School of Business. This course is designed to provide students with a strong foundation of the underlying concepts, so that they will be prepared when they encounter them in later courses. To further this focus, this course will provide examples from within the Quantitative Finance discipline to provide perspective on many of these topics. The focus of this course is on developing the correct mindset to approach problems in probability and in ways to think about problems.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 122",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/100/qf-106"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/100/qf-106"
 }

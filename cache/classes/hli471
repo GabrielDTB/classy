@@ -1,17 +1,21 @@
 {
-  "id": "HLI 471",
-  "name": "Literature and the Arts",
+  "department": "HLI",
+  "department_name": "",
+  "discriminator": "471",
+  "title": "Literature and the Arts",
   "description": "This course offers consideration of literary texts and their relationships to other art forms. Students will study works of literature and attend related cultural events in New York City. A typical semester may include attendance of \"Hamlet\" at the Metropolitan Opera, \"Hard Times\" at the Pearl Theater Company, or an exhibit on El Greco, Iconography, and the \"Book of John\" at the Alexander S. Onassis Public Benefit Foundation.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester",
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/400/hli-471"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/400/hli-471"
 }

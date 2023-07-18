@@ -1,15 +1,19 @@
 {
-  "id": "HMU 406",
-  "name": "Audio Post Production",
+  "department": "HMU",
+  "department_name": "",
+  "discriminator": "406",
+  "title": "Audio Post Production",
   "description": "HMU 406 explores the integration of audio production for such visual mediums as television, film and interactive games. Through an analysis of various commercial visual media The course introduces 1) the techniques and terminology representing the technical parameters common to both audio and visual producers 2) the psychological impact of sound association 3) the implementation of audio tools in the creation of . ADR (automatic dialog replacement), Music Editing, Sound effects and/ or Foley. 4) An understanding of the commercial marketing impact of sound.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "HMU 232",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Music and Technology Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/400/hmu-406"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/400/hmu-406"
 }

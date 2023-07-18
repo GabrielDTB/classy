@@ -1,17 +1,21 @@
 {
-  "id": "SYS 684",
-  "name": "Systems Thinking",
+  "department": "SYS",
+  "department_name": "",
+  "discriminator": "684",
+  "title": "Systems Thinking",
   "description": "It takes something special for the term system to have such ubiquity. The downside is that it is overused, improperly so, detracting from its power. This class builds upon a solid conceptual foundation to ensure that the system/enterprise is properly defined, conceived, and realized. Uniquely, the class shows how it is possible to use systems in order to think more deeply and to act more decisively. This approach is made possible by emphasizing the simultaneity of perspectives, the role of paradox, and the centrality of soft issues in resolving complexity. The SystemitoolTM is used to structure and conduct analysis of decisions. This class is aimed at policy and decision-makers at all levels in an organization.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "SYS 625",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Winter Intersession"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Systems Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-684"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-684"
 }

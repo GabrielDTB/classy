@@ -1,9 +1,10 @@
 {
-  "id": "CE 900",
-  "name": "Thesis in Civil Engineering (ME)",
+  "department": "CE",
+  "department_name": "",
+  "discriminator": "900",
+  "title": "Thesis in Civil Engineering (ME)",
   "description": "For the degree of Master of Engineering (Civil). Credits to be arranged.",
   "credits": "1-10",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Civil Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/900/ce-900"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/900/ce-900"
 }

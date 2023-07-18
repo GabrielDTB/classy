@@ -1,13 +1,17 @@
 {
-  "id": "CE 503",
-  "name": "Engineering Hydraulics",
+  "department": "CE",
+  "department_name": "",
+  "discriminator": "503",
+  "title": "Engineering Hydraulics",
   "description": "Properties of fluids, fluid statics, mass, energy and momentum conservation principles, flow in pipes, major and minor energy losses, water pumps. Principles of flow in open channels, uniform flow computations, gradually varied flows, design of hydraulic structures, dimensional analyses and similitude principles.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Civil Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/500/ce-503"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/500/ce-503"
 }

@@ -1,15 +1,19 @@
 {
-  "id": "CE 621",
-  "name": "Bridge Design for Structural Engineers",
+  "department": "CE",
+  "department_name": "",
+  "discriminator": "621",
+  "title": "Bridge Design for Structural Engineers",
   "description": "This course will concentrate on the typical highway bridge design and analysis. The design will be based on the current AASHTO specifications and other applicable codes. Major topics will include detailing and seismic design considerations. In addition, emphasis will be placed on inspection procedures and the development of contract plans, specifications and construction cost estimating. Grading for the course will be based on a midterm exam and a comprehensive design project. Included in the scope of the project will be the design of the superstructure and substructure, the development of influence lines and a construction cost estimate.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CE 519",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Civil Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/600/ce-621"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/600/ce-621"
 }

@@ -1,16 +1,20 @@
 {
-  "id": "BT 353",
-  "name": "Project Management",
+  "department": "BT",
+  "department_name": "",
+  "discriminator": "353",
+  "title": "Project Management",
   "description": "This course will describe the problems of managing a project within a permanent organization for the purpose of achieving a specific objective. It will broadly cover the operational and conceptual issues faced by modern project managers. At the end of this course, students should be able to develop, execute, and control a basic project plan capable of supporting business objectives linked to measures of success for a single project.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/300/bt-353"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/300/bt-353"
 }

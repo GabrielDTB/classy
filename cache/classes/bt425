@@ -1,15 +1,19 @@
 {
-  "id": "BT 425",
-  "name": "Portfolio Management",
+  "department": "BT",
+  "department_name": "",
+  "discriminator": "425",
+  "title": "Portfolio Management",
   "description": "An introduction to the investment management process emphasizing measuring and managing investment risk and return. Topics will include investment objectives and constraints, modern portfolio theory, CAPM, efficient markets, stock and bond valuation models, performance evaluation, futures and options.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "BT 321",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/400/bt-425"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/400/bt-425"
 }

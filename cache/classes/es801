@@ -1,13 +1,17 @@
 {
-  "id": "ES 801",
-  "name": "Special Problems in Enterprise Systems (Ph.D.)",
+  "department": "ES",
+  "department_name": "",
+  "discriminator": "801",
+  "title": "Special Problems in Enterprise Systems (Ph.D.)",
   "description": "This course is typically conducted as a one-on-one one investigation of a topic of particular interest between a faculty member and a student and is often used to explore topical areas that can serve as a dissertation. A student may take up to two special problems courses in a Ph.D. degree program. A department technical report is required as the final product for this course.",
   "credits": "1-6",
-  "cross_listed": "",
   "prerequisites": "Doctoral Students Only and Permission Required",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Systems Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/es-enterprise-systems/800/es-801"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/es-enterprise-systems/800/es-801"
 }

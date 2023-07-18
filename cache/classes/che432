@@ -1,16 +1,20 @@
 {
-  "id": "CHE 432",
-  "name": "Chemical Engineering Laboratory",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "432",
+  "title": "Chemical Engineering Laboratory",
   "description": "A laboratory course designed to illustrate and apply chemical engineering fundamentals. The course covers a range of experiments involving mass, momentum, and energy transport processes and basic unit operations such as distillation, stripping and multi-phase catalytic reactions.",
   "credits": "2",
-  "cross_listed": "",
   "prerequisites": "CHE 332 and CHE 351",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/400/che-432"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/400/che-432"
 }

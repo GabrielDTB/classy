@@ -1,15 +1,19 @@
 {
-  "id": "BIO 487",
-  "name": "Nutritional Science",
+  "department": "BIO",
+  "department_name": "",
+  "discriminator": "487",
+  "title": "Nutritional Science",
   "description": "This course presents an overview of the science of human nutrition, including the basics of protein, carbohydrate, lipid, vitamin, mineral and water pharmacodynamics along with an in-depth understanding of nutrient metabolism as it relate to the microbiome. An analysis of the relationship of diet to various health issues, including but not limited to metabolic, auto-immune, neurological diseases and cancer will be covered. Students will learn the elements of nutritional analysis by evaluating their personal diets.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "BIO 281 and BIO 381",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biological Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/400/bio-487"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/400/bio-487"
 }

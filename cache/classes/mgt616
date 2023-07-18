@@ -1,17 +1,21 @@
 {
-  "id": "MGT 616",
-  "name": "Healthcare Leadership and Management",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "616",
+  "title": "Healthcare Leadership and Management",
   "description": "This course provides an overview of critical leadership and management applications and strategies unique to the healthcare industry, such as customer/patient analysis, criterion-based performance evaluation and TimeLine mapping. Current field dynamics of healthcare organizations are explored and instruction in essential management accountabilities directly relevant to the industry is presented comprehensively in both theory and practical application.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/600/mgt-616"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/600/mgt-616"
 }

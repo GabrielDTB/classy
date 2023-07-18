@@ -1,14 +1,18 @@
 {
-  "id": "PEP 619",
-  "name": "Solid State Devices",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "619",
+  "title": "Solid State Devices",
   "description": "Operating principle, modeling, and fabrication of solid state devices for modern optical and electronic system implementation; recent developments in solid state devices and integrated circuits; devices covered include bipolar and MOS diodes and transistors, MESFET, MOSFET transistors, tunnel, IMPATT and BARITT diodes, transferred electron devices, light emitting diodes, semiconductor injection and quantum-well lasers, PIN, and avalanche photodetectors.",
   "credits": "3",
-  "cross_listed": "EE 619",
   "prerequisites": "EE 503 or MT 503 or PEP 503",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    "EE 619"
+  ],
+  "distributions": [
     "Department of Physics",
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/600/pep-619"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/600/pep-619"
 }

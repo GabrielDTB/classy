@@ -1,16 +1,20 @@
 {
-  "id": "CM 592",
-  "name": "Advanced Project Controls in the Built Environment",
+  "department": "CM",
+  "department_name": "",
+  "discriminator": "592",
+  "title": "Advanced Project Controls in the Built Environment",
   "description": "This class introduces students to procedures for balancing key project constraints in the face of adversarial contractual arrangements, multiple prime, and single source contracting as well as externalities.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Construction Management Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cm-construction-management/500/cm-592"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cm-construction-management/500/cm-592"
 }

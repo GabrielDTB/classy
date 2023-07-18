@@ -1,17 +1,21 @@
 {
-  "id": "CPE 602",
-  "name": "Applied Discrete Mathematics",
+  "department": "CPE",
+  "department_name": "",
+  "discriminator": "602",
+  "title": "Applied Discrete Mathematics",
   "description": "This is an introductory course for engineers. Topics that will be covered include principles of counting, set theory, mathematical induction, analysis of algorithms and complexity, relations, recurrent relations, graph algorithms, combinatorial design, software tools, applications to coding theory, network optimization, data compression, security, etc.",
   "credits": "3",
-  "cross_listed": "NIS 602",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "NIS 602"
+  ],
+  "distributions": [
     "Computer Engineering Program",
     "Information and Data Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/600/cpe-602"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/600/cpe-602"
 }

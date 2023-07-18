@@ -1,16 +1,20 @@
 {
-  "id": "HMU 496",
-  "name": "Music Performance: Private Lessons",
+  "department": "HMU",
+  "department_name": "",
+  "discriminator": "496",
+  "title": "Music Performance: Private Lessons",
   "description": "All Music and Technology majors are required to take four semesters of musical instrument instruction. After choosing an instrument (subject to availability), the student will be assigned an instructor with whom weekly lessons are arranged. Lessons are 1 hour/week with grade evaluations based on a combination of homework and in-class performance. The first two semesters of lessons are taken under HMU 496, while the second two are under HMU 497 and require a recital/ performance.",
   "credits": "0.5 - 3",
-  "cross_listed": "",
   "prerequisites": "Mus & Tech Ugrad Only",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Music and Technology Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/400/hmu-496"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/400/hmu-496"
 }

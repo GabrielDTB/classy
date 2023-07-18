@@ -1,14 +1,18 @@
 {
-  "id": "NIS 656",
-  "name": "Queuing Systems with Computer Applications II",
+  "department": "NIS",
+  "department_name": "",
+  "discriminator": "656",
+  "title": "Queuing Systems with Computer Applications II",
   "description": "This course is a continuation of NIS 655.",
   "credits": "3",
-  "cross_listed": "CPE 656",
   "prerequisites": "CPE 655 or CS 655 or NIS 655",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    "CPE 656"
+  ],
+  "distributions": [
     "Computer Engineering Program",
     "Information and Data Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/600/nis-656"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/600/nis-656"
 }

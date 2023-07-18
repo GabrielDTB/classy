@@ -1,13 +1,17 @@
 {
-  "id": "OE 533",
-  "name": "Nuclear Terrorism and Security",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "533",
+  "title": "Nuclear Terrorism and Security",
   "description": "Study of the underlying physical realities of a possible terrorist attack consisting of an explosion and release of radioactive materials comparable to that experienced at Hiroshima; other catastrophic nuclear events including radiological weapons and destruction of a nuclear power plant are considered; the basic science and technology needed to understand these threats; an historical perspective is taken. Given that the most likely delivery, by terrorists, of a nuclear device would be waterborne, and given that many nuclear reactors are positioned on the coast or on the banks of large rivers, the course has a maritime security orientation. While focused on helping prepare students to work in fields that would prevent these events, attention is also devoted to the responses to and recovery from such events, with particular attention to analysis of radioactivity dispersal and strategies for limiting the impact of radiation and fallout.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-533"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-533"
 }

@@ -1,15 +1,19 @@
 {
-  "id": "BT 360",
-  "name": "International Business",
+  "department": "BT",
+  "department_name": "",
+  "discriminator": "360",
+  "title": "International Business",
   "description": "The International Business course focuses on the impact of variation in the economic, political, legal, social, and cultural contexts of nations on the competitive business strategies of local and multinational firms.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/300/bt-360"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/300/bt-360"
 }

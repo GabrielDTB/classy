@@ -1,16 +1,20 @@
 {
-  "id": "CS 573",
-  "name": "Fundamentals of CyberSecurity",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "573",
+  "title": "Fundamentals of CyberSecurity",
   "description": "This course studies the mathematical models for computer security (Bell- LaPadula, Clark-Wilson, Biba, and Gligor models). It analyzes and compares, with respect to formal and pragmatic criteria, the properties of various models for hardware, software, and database security. Topics also include: formal specification and verification of security properties, operating system security, trust management, multi-level security, security labeling, security auditing and intrusion detection, security policy, safeguards and countermeasures, risk mitigation, covert channels, identification and authentication, password schemes, access control lists, and data fusion techniques. The course includes a project.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "( CS 182 or CS 385 or CS 570 or CS 590 ) and (Grad Student or (Junior or Senior))",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-573"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-573"
 }

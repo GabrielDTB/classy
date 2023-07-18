@@ -1,15 +1,19 @@
 {
-  "id": "MA 119",
-  "name": "Multivariate Calculus and Finite Mathematics",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "119",
+  "title": "Multivariate Calculus and Finite Mathematics",
   "description": "The first third of this course introduces students to calculus for functions of several variables and requires that students are familiar with the main results and techniques from one-variable calculus. The applied problems emphasize optimization problems for functions of two and three variables. The second part of the course reviews the use of matrices in representing systems of linear equations and then returns to the theme of optimization with an introduction to Linear Programming. The final third of the course teaches set notation and theory, basic counting principles, and an introduction to discrete probability. Throughout the course, motivating examples are drawn from applications in business, engineering, and the social sciences.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 117 or MA 122",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/100/ma-119"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/100/ma-119"
 }

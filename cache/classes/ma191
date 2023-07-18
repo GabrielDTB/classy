@@ -1,13 +1,17 @@
 {
-  "id": "MA 191",
-  "name": "Supplemental Topics in Math Analysis I",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "191",
+  "title": "Supplemental Topics in Math Analysis I",
   "description": "Additional work for transfer students to cover topics omitted from mathematics courses taken elsewhere. This additional work will usually be specified as completion of particular PSI modules.",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/100/ma-191"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/100/ma-191"
 }

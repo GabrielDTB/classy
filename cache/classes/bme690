@@ -1,16 +1,20 @@
 {
-  "id": "BME 690",
-  "name": "Cellular Signal Transduction",
+  "department": "BME",
+  "department_name": "",
+  "discriminator": "690",
+  "title": "Cellular Signal Transduction",
   "description": "This advanced course covers the role of key biological signal transduction pathways that regulate the function of mammalian cells. Importantly, this course also covers the cause and mechanism of action for cellular signal pathways that become dysregulated and cause a variety of diseases including cancer, allergy/inflammation, hypertension, and metabolic disease like diabetes. Concordant with learning about the causes of diseases will be discussions of drug development, and state-of-the-art enzyme/cell-based assays for monitoring the inhibition/activation of protein targets. Pathways explored include: GPCR, Protein Kinases, lipid mediators such as leukotrienes a mediator of asthma, secondary messengers such as calcium and cAMP, nuclear receptors, transcription factors, apoptosis and selected immune responses.",
   "credits": "3",
-  "cross_listed": "BIO 690",
   "prerequisites": "( BIO 381 and BIO 484 ) or Graduate Students",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "BIO 690"
+  ],
+  "distributions": [
     "Biological Sciences Program",
     "Biomedical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/600/bme-690"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/600/bme-690"
 }

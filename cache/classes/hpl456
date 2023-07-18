@@ -1,15 +1,19 @@
 {
-  "id": "HPL 456",
-  "name": "Ethics of Business and Technology",
+  "department": "HPL",
+  "department_name": "",
+  "discriminator": "456",
+  "title": "Ethics of Business and Technology",
   "description": "This course offers an in-depth introduction to the applied ethics of technology-driven business. Beginning with an overview of the principles of business ethics, including Kantian Business Ethics, Virtue Based Ethics, and Stakeholder theories, we will move on to more specific topics including: the proper goals of business in society, the role of the public good in business, intellectual property, globalization, the ethics of advertising, and the status of the corporation as a moral agent.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hpl-humanitiesphilosophy/400/hpl-456"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hpl-humanitiesphilosophy/400/hpl-456"
 }

@@ -1,14 +1,18 @@
 {
-  "id": "EN 554",
-  "name": "Water Resources Sustainability",
+  "department": "EN",
+  "department_name": "",
+  "discriminator": "554",
+  "title": "Water Resources Sustainability",
   "description": "This course addresses issues of sustainability of water resources at the local, regional and global level. Topics include water distribution on the earths surface and water budgets, freshwater resources and their use, water consumption, sustainable management practices in surface and ground water systems, threats to water quality and quantity, water security, water conflicts and social and economic impacts.",
   "credits": "3",
-  "cross_listed": "CE 554, SM 554",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    "CE 554, SM 554"
+  ],
+  "distributions": [
     "Civil Engineering Program",
     "Environmental Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-554"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-554"
 }

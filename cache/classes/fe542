@@ -1,11 +1,15 @@
 {
-  "id": "FE 542",
-  "name": "Time Series with Applications to Finance",
+  "department": "FE",
+  "department_name": "",
+  "discriminator": "542",
+  "title": "Time Series with Applications to Finance",
   "description": "In this course the students will learn how to estimate financial data model and predict using time series models. The course will cover linear time series (ARIMA) models, conditional heteroskedastic models (ARCH type models), non-linear models (TAR, STAR, MSA), non-parametric models (kernel regression, local regression, neural networks), non-parametric methods of evaluating fit such as bootstrap, parametric bootstrap and cross-validation. The course will also introduce multivariate time series models such as VAR.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-542"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-542"
 }

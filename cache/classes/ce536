@@ -1,16 +1,20 @@
 {
-  "id": "CE 536",
-  "name": "Cyber-Physical Security in Critical Infrastructure and the Built Environment",
+  "department": "CE",
+  "department_name": "",
+  "discriminator": "536",
+  "title": "Cyber-Physical Security in Critical Infrastructure and the Built Environment",
   "description": "The need for a working knowledge of cyber and physical security basics among engineers and industry professionals is rapidly growing. This is driven by the trends toward Smart Buildings, Unmanned Vehicles, and the confluence of Information Technology and Operations Technology in critical infrastructure (such as transportation and manufacturing). In this course, we will study the cyber and physical vulnerabilities of these diverse areas, attack types, mitigating technologies, and industry initiatives to develop comprehensive security plans to manage the risks. The intended audience for this course is engineering students and industry professionals that are not computer science experts, but who need a working knowledge of cyber and physical security",
   "credits": "3",
-  "cross_listed": "CM 535, OE 536",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "CM 535, OE 536"
+  ],
+  "distributions": [
     "Construction Management Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/500/ce-536"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/500/ce-536"
 }

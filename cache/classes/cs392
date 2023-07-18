@@ -1,16 +1,20 @@
 {
-  "id": "CS 392",
-  "name": "Systems Programming",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "392",
+  "title": "Systems Programming",
   "description": "Introduction to systems programming in C on UNIX. Students will be introduced to tools for compilation, dynamic linking, debugging, editing, automatic rebuilding, and version control. Some aspects of the UNIX system call interface will be studied, drawn from this list: process creation, signals, terminal I/O, file I/O, inter-process communication, threads, network protocol stacks, programming with sockets, and introduction to RPC. Style issues to be covered include: naming, layout, commenting, portability, design for robustness and debugability, and language pitfalls. X programming and GUI design will be covered, if time allows.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "(CS 382 OR CS 383) AND CS 385",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/300/cs-392"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/300/cs-392"
 }

@@ -1,13 +1,17 @@
 {
-  "id": "ES 677",
-  "name": "Governing Development",
+  "department": "ES",
+  "department_name": "",
+  "discriminator": "677",
+  "title": "Governing Development",
   "description": "For a variety of business reasons, today’s business and government organizations are demonstrating a heightened interest in governance. Development programs and organizations have unique governance concerns due to inherent uncertainty of development efforts. Moving beyond platitudes, this course introduces modern concepts of organizational governance and their application to organizations that develop systems and products. Course topics include the business climate forcing an emphasis on governance; a general governance framework, including definitions of governance elements; governance as a process; governance solutions for the development teams; development governance styles; and advanced topics.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Systems Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/es-enterprise-systems/600/es-677"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/es-enterprise-systems/600/es-677"
 }

@@ -1,13 +1,17 @@
 {
-  "id": "HAR 360",
-  "name": "Game Design II",
+  "department": "HAR",
+  "department_name": "",
+  "discriminator": "360",
+  "title": "Game Design II",
   "description": "Building upon game design foundations in the introductory prerequisite, this class delves deeper into designing, building, and critically thinking about games. With a focus on 3D, collaborative design team building, and alternative practices, this class will give students the tools to building unique game experiences.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "HAR 260",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/300/har-360"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/300/har-360"
 }

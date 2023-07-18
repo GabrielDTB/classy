@@ -1,15 +1,19 @@
 {
-  "id": "EN 580",
-  "name": "Modeling of Environmental Systems",
+  "department": "EN",
+  "department_name": "",
+  "discriminator": "580",
+  "title": "Modeling of Environmental Systems",
   "description": "Incorporation of fundamental reaction and transport phenomena into mass balances to describe the fate and transport of contaminants in lakes, rivers, estuaries, groundwater, the atmosphere, and in pollution-control processes. Several computer projects involving numerical solutions of models are required.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Environmental Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-580"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-580"
 }

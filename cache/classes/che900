@@ -1,9 +1,10 @@
 {
-  "id": "CHE 900",
-  "name": "Thesis in Chemical Engineering",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "900",
+  "title": "Thesis in Chemical Engineering",
   "description": "For the degree of Master of Engineering (Chemical). Credits to be arranged.",
   "credits": "1-10",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/900/che-900"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/900/che-900"
 }

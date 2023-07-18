@@ -1,16 +1,20 @@
 {
-  "id": "PEP 538",
-  "name": "Introduction to Mechanics",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "538",
+  "title": "Introduction to Mechanics",
   "description": "Particle motion in one dimension. Simple harmonic oscillators. Motion in two and three dimensions, kinematics, work and energy, conservative forces, central forces, and scattering. Systems of particles, linear and angular momentum theorems, collisions, linear spring systems, and normal modes. Lagrange’s equations and applications to simple systems. Introduction to moment of inertia tensor and to Hamilton’s equations.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-538"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-538"
 }

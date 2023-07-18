@@ -1,17 +1,21 @@
 {
-  "id": "OE 585",
-  "name": "Littoral Processes",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "585",
+  "title": "Littoral Processes",
   "description": "This course focuses on the physical processes impacting engineered systems in the coastal environment and the resulting impact of these built systems on the coast. The importance of characteristics such as beach composition, shoreline configuration, and both present and past hydrodynamic conditions will be emphasized. Modern approaches for predicting large scale or bulk coastal change based on observed and/or modeled environmental conditions will be presented. The course complements and will feature examples extracted from current research projects being conducted at the Stevens Coastal Engineering Research Laboratory (CERL). Topics covered in this course will include: coastal geomorphology, hydrodynamics, coastal sediment transport, inlet processes, and shore protection methods.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-585"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-585"
 }

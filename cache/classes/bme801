@@ -1,9 +1,10 @@
 {
-  "id": "BME 801",
-  "name": "Special Problems in Biomedical Engineering (PHD)",
+  "department": "BME",
+  "department_name": "",
+  "discriminator": "801",
+  "title": "Special Problems in Biomedical Engineering (PHD)",
   "description": "One to six credits. Limit of six credits for the doctoral degree in Biomedical Engineering.",
   "credits": "1-6",
-  "cross_listed": "",
   "prerequisites": "Doctoral Students Only and Permission Required",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biomedical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/800/bme-801"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/800/bme-801"
 }

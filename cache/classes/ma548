@@ -1,15 +1,19 @@
 {
-  "id": "MA 548",
-  "name": "Advanced Calculus II",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "548",
+  "title": "Advanced Calculus II",
   "description": "A continuation of MA 547, but with greater emphasis on mathematical rigor. Topics covered may include convergence of series, Riemann-Stieltjes integration, functions of bounded variation, metric spaces, introduction to measure theory, and functional analysis.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 547 and (Grad Student or (Junior or Senior))",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-548"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-548"
 }

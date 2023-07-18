@@ -1,13 +1,17 @@
 {
-  "id": "HSS 131",
-  "name": "Introduction to Anthropology",
+  "department": "HSS",
+  "department_name": "",
+  "discriminator": "131",
+  "title": "Introduction to Anthropology",
   "description": "Anthropology, in the broadest sense, is the study of mankind. It is the empirical study of human cultures, societies, and the everyday practices, rituals, representations, beliefs, symbols, relationships, and values involved in navigating in our increasingly interconnected world. This course will introduce students to the concepts, terms, methods, and history of anthropology. Throughout the term, we will focus on how cultures change and shift through time, in relationship to space, and through individual and group action.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/100/hss-131"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/100/hss-131"
 }

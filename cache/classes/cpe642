@@ -1,15 +1,19 @@
 {
-  "id": "CPE 642",
-  "name": "Software Engineering II",
+  "department": "CPE",
+  "department_name": "",
+  "discriminator": "642",
+  "title": "Software Engineering II",
   "description": "Types of multimedia information: voice, data video facsimile, graphics and their characterization; modeling techniques to represent multimedia information; analysis and comparative performances of different models; detection techniques for multimedia signals; specification of multimedia representation based on service requirements; evaluation of different multimedia representations to satisfy user applications and for generating test scenarios for standardization.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/600/cpe-642"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/600/cpe-642"
 }

@@ -1,15 +1,19 @@
 {
-  "id": "CS 182",
-  "name": "Introduction to Computer Science Honors II",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "182",
+  "title": "Introduction to Computer Science Honors II",
   "description": "An overview of the C++ language. Algorithm design and computational complexity. Abstract data types. Review of fundamental data structures: vectors, lists, stacks, and queues. Trees and binary trees. Heaps and priority queues with applications. Dictionaries with applications. Implementation of dictionaries using binary search trees, AVL trees, and red-black trees. Sorting algorithms. Graphs and networks with applications. Graph implementations and depth-first and breadth-first searching with applications. Other graph algorithms. Students who complete this class are exempt from CS 385.",
   "credits": "4",
-  "cross_listed": "",
   "prerequisites": "CS 181",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/100/cs-182"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/100/cs-182"
 }

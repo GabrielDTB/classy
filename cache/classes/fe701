@@ -1,11 +1,15 @@
 {
-  "id": "FE 701",
-  "name": "Financial Engineering Co-Op Education Project",
+  "department": "FE",
+  "department_name": "",
+  "discriminator": "701",
+  "title": "Financial Engineering Co-Op Education Project",
   "description": "Financial Engineering Co-Op Education Project",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/700/fe-701"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/700/fe-701"
 }

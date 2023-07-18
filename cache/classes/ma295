@@ -1,13 +1,17 @@
 {
-  "id": "MA 295",
-  "name": "Supplemental Topics in Math Analysis V",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "295",
+  "title": "Supplemental Topics in Math Analysis V",
   "description": "See description for Ma 191.",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/200/ma-295"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/200/ma-295"
 }

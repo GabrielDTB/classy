@@ -1,9 +1,10 @@
 {
-  "id": "EM 703",
-  "name": "Practicum in Engineering Management",
+  "department": "EM",
+  "department_name": "",
+  "discriminator": "703",
+  "title": "Practicum in Engineering Management",
   "description": "Curricular Practical Training",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Engineering Management Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/700/em-703"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/700/em-703"
 }

@@ -1,17 +1,21 @@
 {
-  "id": "MA 124",
-  "name": "Calculus of Two Variables",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "124",
+  "title": "Calculus of Two Variables",
   "description": "Partial derivatives, the tangent plane and linear approximation, the gradient and directional derivatives, the chain rule, implicit differentiation, extreme values, application to optimization, double integrals in rectangular coordinates. This is a seven week course.",
   "credits": "2",
-  "cross_listed": "",
   "prerequisites": "MA 123",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/100/ma-124"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/100/ma-124"
 }

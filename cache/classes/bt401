@@ -1,15 +1,19 @@
 {
-  "id": "BT 401",
-  "name": "Advanced Strategy",
+  "department": "BT",
+  "department_name": "",
+  "discriminator": "401",
+  "title": "Advanced Strategy",
   "description": "Students learn how to use their business plan, deal with problems encountered, update, and get funding. They are exposed to the issues of law, ethics, and negotiation as applied to business implementation. Students are required to make their first full-plan presentation to peers and faculty. Topics include type of capital and alternative sources, venture capital, and building the organizational infrastructure for plan support.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "BT 301",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/400/bt-401"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/400/bt-401"
 }

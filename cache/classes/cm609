@@ -1,15 +1,19 @@
 {
-  "id": "CM 609",
-  "name": "Large-Scale Project Cost Analysis",
+  "department": "CM",
+  "department_name": "",
+  "discriminator": "609",
+  "title": "Large-Scale Project Cost Analysis",
   "description": "This course provides the construction-orientated professional with the analysis tools and methodology to organize and prepare an accurate construction estimate. Topics include development of productivity data, analysis, and applications of historical data, break-even and cost-to-complete analysis and the study and analysis of job cost reporting systems as they relate to the construction estimate. Estimating methods and systems will be discussed, along with field trips and practical case studies.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Construction Management Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cm-construction-management/600/cm-609"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cm-construction-management/600/cm-609"
 }

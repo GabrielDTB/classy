@@ -1,18 +1,22 @@
 {
-  "id": "SYS 564",
-  "name": "Optimization Principles in Mechanical Engineering",
+  "department": "SYS",
+  "department_name": "",
+  "discriminator": "564",
+  "title": "Optimization Principles in Mechanical Engineering",
   "description": "Application of mathematical optimization techniques, including linear and nonlinear methods, to design and manufacture of devices and systems of interest to mechanical engineers; optimization techniques include: constrained and unconstrained optimization in several variables, problems for structured multi-stage decision, and linear programming; formulation of design and manufacturing problems using computer- based methods; optimum design of parts and assemblies to minimize the cost of manufacture.",
   "credits": "3",
-  "cross_listed": "ME 564",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    "ME 564"
+  ],
+  "distributions": [
     "Mechanical Engineering Program",
     "Systems Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/500/sys-564"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/500/sys-564"
 }

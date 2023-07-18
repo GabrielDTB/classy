@@ -1,15 +1,19 @@
 {
-  "id": "BT 403",
-  "name": "Marketing Strategy in a Digital World",
+  "department": "BT",
+  "department_name": "",
+  "discriminator": "403",
+  "title": "Marketing Strategy in a Digital World",
   "description": "Marketing Strategy in a Digital World is a course designed to give Marketing students an intensive and application-oriented look at how marketing strategy works in the real world. The emphasis of the case is going to be on cases, analysis, real life examples, and presentations.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "BT 350",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/400/bt-403"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/400/bt-403"
 }

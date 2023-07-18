@@ -1,13 +1,17 @@
 {
-  "id": "CS 556",
-  "name": "Mathematical Foundations of Machine Learning",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "556",
+  "title": "Mathematical Foundations of Machine Learning",
   "description": "This course will give students a rigorous introduction to the foundations of machine learning, including but not limited to frequently used tools in linear algebra, calculus, probability, and widely applied methods such as linear regression and support vector machines. In addition, this course provides hands-on training on implementing these algorithms via python from scratch. Students will be trained to use poplar python libraries such as numpy, scipy and matplotlib. Not for CS undergrad majors.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-556"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-556"
 }

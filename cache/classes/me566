@@ -1,17 +1,21 @@
 {
-  "id": "ME 566",
-  "name": "Design for Manufacturability",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "566",
+  "title": "Design for Manufacturability",
   "description": "This course is involved in the design and development of parts and assemblies for manufacturability and functionality; characteristics and capabilities of significant manufacturing processes; principles of design for manufacturability; product planning; conceptual design; embodiment design; dimensional tolerances; optimum design of products to minimize cost of manufacture; materials specifications for ease of manufacturability and good functional results; design for ease of assembly; integrated product development; concurrent engineering practice.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-566"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-566"
 }

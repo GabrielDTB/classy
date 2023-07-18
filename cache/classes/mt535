@@ -1,13 +1,17 @@
 {
-  "id": "MT 535",
-  "name": "Selection of Engineering Materials",
+  "department": "MT",
+  "department_name": "",
+  "discriminator": "535",
+  "title": "Selection of Engineering Materials",
   "description": "This course provides a rational approach to the selection of engineering materials as part of the design process. The emphasis is on the use of Materials Selection charts that embody the properties of materials plotted against various quantitative design criteria. Such criteria can be determined for a particular application in terms of mechanical indices or indices relating to shape and/or processing considerations. In this manner, materials are chosen with limited subjectivity and in a manner that lends itself to computer-based design. Case studies are extensively used to provide illustration.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Materials Science and Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/500/mt-535"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/500/mt-535"
 }

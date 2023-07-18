@@ -1,15 +1,19 @@
 {
-  "id": "BT 416",
-  "name": "Business Process Management",
+  "department": "BT",
+  "department_name": "",
+  "discriminator": "416",
+  "title": "Business Process Management",
   "description": "The course addresses the methods and techniques required to analyze, design, implement, automate, and evaluate business processes. Structured along the phases of the Business Process Management (BPM) life cycle, students learn to analyze organizational performance from a process perspective, redesign processes using value-focused techniques, design workflows and implement them in BPM systems, simulate new process designs, and create process analytics applications using dashboards. The course leads students from process discovery through conceptual and technical process design through the implementation and management of workflows to the structure of process-aware information systems. Upon completion of this course students will be able to assess the efficiency and effectiveness of an organization from a process perspective, conduct process improvement projects, and determine the role of technology in supporting corporate processes.",
   "credits": "4",
-  "cross_listed": "",
   "prerequisites": "MIS 201",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/400/bt-416"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/400/bt-416"
 }

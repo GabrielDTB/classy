@@ -1,13 +1,17 @@
 {
-  "id": "MA 707",
-  "name": "Integral Transforms",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "707",
+  "title": "Integral Transforms",
   "description": "Study of the classical transforms, the Laplace, Fourier, Hilbert, and other transforms; inversion and application to solution of differential, difference, and integral equations; and Abelian and Tauberian theorems, including Wiener’s theory.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 636 and MA 682",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/700/ma-707"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/700/ma-707"
 }

@@ -1,13 +1,17 @@
 {
-  "id": "MA 541",
-  "name": "Statistical Methods",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "541",
+  "title": "Statistical Methods",
   "description": "This course offers an introduction to exploratory data analysis and the use of basic statistical tools. Topics will include: data collection; descriptive statistics, and graphical and tabular treatment of quantitative, qualitative, and count data; detecting relations between variables; confidence intervals and hypothesis testing for one and two samples; simple and multiple linear regression; analysis of variance; design of experiments; and nonparametric methods. Selected topics, such as quality control and time series analysis, may also be included. Statistical software will be used throughout the course and statistical inference will be based on examples using real data. Students will participate in group projects of data analysis. They will be trained in the different phases of the professional statistician’s work, namely: data collection, description, analysis, testing, and presentation of the conclusions.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 540 and (Grad Student or (Junior or Senior))",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-541"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-541"
 }

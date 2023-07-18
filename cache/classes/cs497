@@ -1,9 +1,10 @@
 {
-  "id": "CS 497",
-  "name": "Independent Study",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "497",
+  "title": "Independent Study",
   "description": "Independent study under the guidance of a full time computer science faculty member, whose prior approval is required. Independent study allows the student to participate in research, explore a topic not covered by existing courses, or continue to study in greater depth a topic introduced by a course. Scope and details of the participation must be agreed upon between student and professor before the beginning of the project. One to three credits for any BS degree offered by the computer science department. May be repeated for credit.",
   "credits": "1-3",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Undergraduate DEAN 498",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/400/cs-497"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/400/cs-497"
 }

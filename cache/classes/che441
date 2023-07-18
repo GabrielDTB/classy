@@ -1,13 +1,17 @@
 {
-  "id": "CHE 441",
-  "name": "Advanced Process Operations",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "441",
+  "title": "Advanced Process Operations",
   "description": "Advanced Process Operations",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/400/che-441"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/400/che-441"
 }

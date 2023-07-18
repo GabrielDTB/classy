@@ -1,16 +1,20 @@
 {
-  "id": "EN 541",
-  "name": "Fate and Transport of Environmental Contaminants",
+  "department": "EN",
+  "department_name": "",
+  "discriminator": "541",
+  "title": "Fate and Transport of Environmental Contaminants",
   "description": "Description of fundamental processes in natural and engineered systems, including intermedia transport of contaminants between environmental compartments (air, water, soil, and biota) and chemical and biochemical transformations within these compartments.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "EN 377 and (Grad Student or (Junior or Senior))",
   "offered": [
     "Fall Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Environmental Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-541"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-541"
 }

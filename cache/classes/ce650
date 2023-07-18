@@ -1,15 +1,19 @@
 {
-  "id": "CE 650",
-  "name": "Water Distribution Systems Analysis",
+  "department": "CE",
+  "department_name": "",
+  "discriminator": "650",
+  "title": "Water Distribution Systems Analysis",
   "description": "The design of an effective and proper system for the distribution of potable water for domestic, institutional, commercial, and industrial use, requires an understanding of the principles of planning, design and construction of pipe networks. This course will focus on the critical elements of planning, design, and modeling of a water distribution systems.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Civil Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/600/ce-650"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/600/ce-650"
 }

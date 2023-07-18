@@ -1,15 +1,19 @@
 {
-  "id": "HMU 101",
-  "name": "Music History I",
+  "department": "HMU",
+  "department_name": "",
+  "discriminator": "101",
+  "title": "Music History I",
   "description": "During this course, we will review Western Medieval and Renaissance art music from the 2nd century B.C. to 1600 A.D. from several perspectives: as individual masterworks, as representatives of various composers, as examples of particular styles and forms, as analytic \"problems,\" and as artworks derived from changing social circumstances. We will emphasize the development of skills in talking and writing \"about\" monophonic, liturgical and polyphonic music. The course will include lectures and class discussions, assigned readings, written assignments, and periodic examinations.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Music and Technology Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/100/hmu-101"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/100/hmu-101"
 }

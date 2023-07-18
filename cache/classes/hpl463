@@ -1,15 +1,19 @@
 {
-  "id": "HPL 463",
-  "name": "Existentialism",
+  "department": "HPL",
+  "department_name": "",
+  "discriminator": "463",
+  "title": "Existentialism",
   "description": "This course examines the popular philosophical movement known as \"Existentialism.\" In addition to reading such seminar thinkers as Kierkegaard, Nietzsche, Heidegger, Sartre, and Camus, attention will be given to works outside the rubric of philosophy proper, including literature and cinema.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hpl-humanitiesphilosophy/400/hpl-463"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hpl-humanitiesphilosophy/400/hpl-463"
 }

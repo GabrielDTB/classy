@@ -1,13 +1,17 @@
 {
-  "id": "BIO 800",
-  "name": "Special Research Problems in Chemical Biology",
+  "department": "BIO",
+  "department_name": "",
+  "discriminator": "800",
+  "title": "Special Research Problems in Chemical Biology",
   "description": "Special Research Problem in Biology",
   "credits": "1-6",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biological Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/800/bio-800"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/800/bio-800"
 }

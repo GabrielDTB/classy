@@ -1,15 +1,19 @@
 {
-  "id": "HLI 415",
-  "name": "The Bible as Literature",
+  "department": "HLI",
+  "department_name": "",
+  "discriminator": "415",
+  "title": "The Bible as Literature",
   "description": "Analysis of selections from the Hebrew and Christian Bibles as literary texts.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/400/hli-415"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/400/hli-415"
 }

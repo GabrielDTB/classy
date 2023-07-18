@@ -1,15 +1,19 @@
 {
-  "id": "MT 580",
-  "name": "Biofuels Engineering Technology",
+  "department": "MT",
+  "department_name": "",
+  "discriminator": "580",
+  "title": "Biofuels Engineering Technology",
   "description": "This course is designed for both science and engineering students who want to contribute to the development and implementation of processes for production of important renewable energy sources. In this course, students will learn the fundamental concepts of important biofuels and the current state-of -the-art technology for their production along with economics, environmental impact, and policy issues. Benefiting from this course, students would be able to evaluate ways for converting feedstocks to biofuels by both biochemical and thermochemical methods and integrate conceptual design of a biofuel process. As a fundamental cross-discipline course, topics are comprehensive yet introductory and require the minimal prerequisite learning in chemistry and thermodynamics.",
   "credits": "3",
-  "cross_listed": "CHE 580",
   "prerequisites": "( CH 321 or CHE 233 or CHE 234 ) and (Grad Student or (Junior or Senior))",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "CHE 580"
+  ],
+  "distributions": [
     "Chemical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/500/mt-580"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/500/mt-580"
 }

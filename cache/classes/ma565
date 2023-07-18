@@ -1,13 +1,17 @@
 {
-  "id": "MA 565",
-  "name": "Quantum Algorithms",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "565",
+  "title": "Quantum Algorithms",
   "description": "The course provides an introduction to the theory and practice of quantum computation. It starts with a brief and abstract introduction to quantum mechanics, introduces quantum gates and quantum circuits. Then it concentrates on different quantum algorithms (Deutsch-Jozsa algorithm, Simons algorithm, quantum Fourier transforms, Shors integer factorization and discrete logarithm algorithms, Grovers search algorithm) and demonstrates their advantage over classic counterparts. Finally, it gives a short introduction to quantum information theory, quantum communication complexity, and quantum cryptography.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-565"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-565"
 }

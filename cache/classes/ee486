@@ -1,15 +1,19 @@
 {
-  "id": "EE 486",
-  "name": "Thesis in Electrical Engineering II",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "486",
+  "title": "Thesis in Electrical Engineering II",
   "description": "Individual investigation of a substantive character taken at the undergraduate level under the guidance of a faculty advisor leading to a thesis with a public defense. The student’s thesis committee consists of the faculty advisor and one or more readers. Prior approval from the faculty advisor and the Department Director is required. Hours to be arranged with the faculty advisor. For information regarding a Degree with Thesis, see the \"Academic Procedures, Requirements, and Advanced Degrees\" section of this catalog.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Undergraduate DEAN 498",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/400/ee-486"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/400/ee-486"
 }

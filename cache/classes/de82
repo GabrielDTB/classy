@@ -1,11 +1,15 @@
 {
-  "id": "DE 82",
-  "name": "Developmental English (Advanced Level)",
+  "department": "DE",
+  "department_name": "",
+  "discriminator": "82",
+  "title": "Developmental English (Advanced Level)",
   "description": "This course will provide non-native English speaking students with improved reading comprehension and writing skills. Emphasis will be given to paraphrasing, summarizing, outlining, and studying from a text of technical readings. Learn to develop a thesis, research and document an essay, as well as write argumentative-explanatory essays.",
   "credits": "4",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/de-developmental-english/80/de-82"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/de-developmental-english/80/de-82"
 }

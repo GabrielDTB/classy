@@ -1,17 +1,21 @@
 {
-  "id": "NIS 514",
-  "name": "Computer Architecture",
+  "department": "NIS",
+  "department_name": "",
+  "discriminator": "514",
+  "title": "Computer Architecture",
   "description": "Measures of cost, performance, and speedup; instruction set design; processor design; hard-wired and microprogrammed control; memory hierarchies; pipelining; input/output systems; and additional topics as time permits. The emphasis in this course is on quantitative analysis of design alternatives. Undergraduate courses in Computer Organization and Data Structures and Algorithms, OR (CS 550 and CS 570).",
   "credits": "3",
-  "cross_listed": "CPE 514, CS 514",
   "prerequisites": "(CS 550 and CS 570) or Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "CPE 514, CS 514"
+  ],
+  "distributions": [
     "Computer Engineering Program",
     "Computer Science Program",
     "Information and Data Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/500/nis-514"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/500/nis-514"
 }

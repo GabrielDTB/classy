@@ -1,15 +1,19 @@
 {
-  "id": "ME 691",
-  "name": "Additive Manufacturing for Biological Systems",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "691",
+  "title": "Additive Manufacturing for Biological Systems",
   "description": "Computer-Aided Tissue Engineering is designed for engineering students interested in acquiring the knowledge and skills necessary to implement enabling computer-aided tools for medical implant design, manufacturing and tissue engineering applications. The students will be introduced to topics on how engineering and biology intersect in biomedical implant design and manufacturing. The 3D modeling, image-based reconstruction and analysis exercises will prepare the student with hands-on sessions on state-of-the-art software and hardware technologies used by leading medical device companies and by the tissue engineering research community. No knowledge in biology is required for this course.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-691"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-691"
 }

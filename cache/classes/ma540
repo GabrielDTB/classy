@@ -1,13 +1,17 @@
 {
-  "id": "MA 540",
-  "name": "Introduction to Probability Theory",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "540",
+  "title": "Introduction to Probability Theory",
   "description": "Sample space, events, and probability; basic counting techniques and combinatorial probability; random variables, discrete and continuous; probability mass, probability density, and cumulative distribution functions; expectation and moments; some common distributions; jointly distributed random variables, conditional distributions and independence, bivariate normal, and transformations of variables; and Central Limit Theorem. Some additional topics may include an introduction to confidence intervals and hypothesis testing.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-540"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-540"
 }

@@ -1,15 +1,19 @@
 {
-  "id": "CE 410",
-  "name": "Transportation Engineering Design",
+  "department": "CE",
+  "department_name": "",
+  "discriminator": "410",
+  "title": "Transportation Engineering Design",
   "description": "Description of design elements of system components of transportation, including the driver, vehicle, and roadway. Traffic flow design elements including volume, density, and speed. Intersection design elements including delay, capacity and accident counter-measures. Terminal design elements.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Civil Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/400/ce-410"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/400/ce-410"
 }

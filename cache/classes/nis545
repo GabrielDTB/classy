@@ -1,17 +1,21 @@
 {
-  "id": "NIS 545",
-  "name": "Communication Software and Middleware",
+  "department": "NIS",
+  "department_name": "",
+  "discriminator": "545",
+  "title": "Communication Software and Middleware",
   "description": "Communications in computer networks are not only enabled by physical links and hardware, but are also enabled by software and middleware. This course provides an understanding of software techniques in communications. It explores development models that address a broad range of issues in the design of communication software, including hardware and software partitioning, layering, and protocol stacks. Other topics are configuration techniques, buffer and timer management, task and table managements, and multi-board communications software design. Communication middleware and agent technologies as enabling technology in networking will also be covered.",
   "credits": "3",
-  "cross_listed": "CPE 545",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "CPE 545"
+  ],
+  "distributions": [
     "Computer Engineering Program",
     "Information and Data Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/500/nis-545"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/500/nis-545"
 }

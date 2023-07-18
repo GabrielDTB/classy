@@ -1,16 +1,20 @@
 {
-  "id": "MGT 736",
-  "name": "Seminars: Advanced Topics in Information, Technology and Telecommunications Management",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "736",
+  "title": "Seminars: Advanced Topics in Information, Technology and Telecommunications Management",
   "description": "Specialized topics at the leading edges of research and theory in information management/technology management will be intensively explored. Each research seminar will focus on a different set of topics.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/700/mgt-736"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/700/mgt-736"
 }

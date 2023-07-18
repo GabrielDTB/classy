@@ -1,16 +1,20 @@
 {
-  "id": "HHS 280",
-  "name": "Modern Art History and Theory",
+  "department": "HHS",
+  "department_name": "",
+  "discriminator": "280",
+  "title": "Modern Art History and Theory",
   "description": "This course introduces students to key moments in the history of modern art in the newly industrial societies of America, Europe, and the Soviet Union. Painting, sculpture, and photography from the 1850s to the 1980s will be examined. Focusing on a wide range of methodological questions, this course will also consider the relationship between avant-garde culture and mass culture, the implications of emergent technologies for cultural production, and the development of radical avant- gardism in the context of authoritarian political formations and advancing global capitalism.",
   "credits": "3",
-  "cross_listed": "HAR 280",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "HAR 280"
+  ],
+  "distributions": [
     "Humanities and SocialSciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/200/hhs-280"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/200/hhs-280"
 }

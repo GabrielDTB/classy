@@ -1,16 +1,20 @@
 {
-  "id": "BME 498",
-  "name": "Research in Biomedical Engineering I",
+  "department": "BME",
+  "department_name": "",
+  "discriminator": "498",
+  "title": "Research in Biomedical Engineering I",
   "description": "Individual investigation of a substantive character undertaken at an undergraduate level under the guidance of a member of the departmental faculty. A written report is required. Hours to be arranged with the faculty advisor. Prior approval required. These courses can be used as general electives for degree requirements.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Undergraduate DEAN 498",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biomedical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/400/bme-498"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/400/bme-498"
 }

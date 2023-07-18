@@ -1,15 +1,19 @@
 {
-  "id": "FE 720",
-  "name": "Volatility Surface: Risk & Models",
+  "department": "FE",
+  "department_name": "",
+  "discriminator": "720",
+  "title": "Volatility Surface: Risk & Models",
   "description": "In this course students will understand the implied volatility, and the empirical static and dynamic behavior of the volatility surface formed using option prices for all strikes and expirations. The students will also examine the volatility risk, stochastic volatility and local volatility models, numerical methods for volatility surface calibration, Monte Carlo simulation of stochastic volatility models, and pricing options through fast Fourier transform. Topics include: the Black-Scholes implied volatility, empirical statics and dynamics of the volatility surface, volatility risk premium, stochastic volatility models (Heston, Hull- White, Stein-Stein, SABR, Bates, Scott, etc), Dupire’s local volatility model, Heston-Nandi GARCH model, arbitrage-free properties of the volatility surface, volatility surface parametrization and calibration, simulation of the Heston model, stochastic volatility model with jumps, option pricing based on fast Fourier transforms, and volatility derivatives (Variance swap, CBOE VIX futures and options, etc). Other advanced current research topics will be introduced as well. The students are required to have a solid working knowledge of stochastic calculus, and FE610 is a pre-requisite for this course. The course uses statistical softwares such as Matlab or R throughout. A companion one credit of a relevant lab course is recommended if this knowledge is not acquired before.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "FE 610",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/700/fe-720"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/700/fe-720"
 }

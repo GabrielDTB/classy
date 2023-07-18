@@ -1,13 +1,17 @@
 {
-  "id": "ME 642",
-  "name": "Engineering Analysis II",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "642",
+  "title": "Engineering Analysis II",
   "description": "Topics included are applications of complex variables, linear algebra, ordinary and partial differential equations, numerical analysis and other mathematical methods applied to mechanical engineering.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-642"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-642"
 }

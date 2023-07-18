@@ -1,13 +1,17 @@
 {
-  "id": "FIN 681",
-  "name": "Financial Services Industry Trends and Issues",
+  "department": "FIN",
+  "department_name": "",
+  "discriminator": "681",
+  "title": "Financial Services Industry Trends and Issues",
   "description": "This course concentrates on IT trends and issues in the financial services industry. Due to the diversity of this industry (banking, brokerage, and insurance), along with the assortment of customer characteristics (i.e. retail vs. institutional), we will modularize the lectures by industry and customer partitions. This segregation will provide for a better understanding of this ever-changing industry. Upon successful completion of this course, students will have a solid understanding of the industry, market dynamics, and how their roles in technology have an immense impact in the industry. This course will cover the structure and functioning of financial services, from the perspective of banking, insurance, capital markets, and brokerage. Topics include industry consolidation and globalization, investment banking, fixed-income markets, the equity markets, the regulatory environment, and financial analysis approaches. Trends in IT and its effect on each of these areas will be discussed.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/600/fin-681"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/600/fin-681"
 }

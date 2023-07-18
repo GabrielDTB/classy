@@ -1,15 +1,19 @@
 {
-  "id": "ME 614",
-  "name": "Nuclear Reactor Theory and Design",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "614",
+  "title": "Nuclear Reactor Theory and Design",
   "description": "This course covers the basic elements of nuclear reactor theory for reactor core design and operation. Emphasis is placed on thermal and hydraulic analyses of power reactors, neutronics, fuel cycles, economics, nuclear analysis, control and safety. Complete reactor systems are analyzed. Standard reactor design codes are utilized.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-614"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-614"
 }

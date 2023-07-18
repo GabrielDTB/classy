@@ -1,15 +1,19 @@
 {
-  "id": "CAL 539",
-  "name": "Foundations of Ethics",
+  "department": "CAL",
+  "department_name": "",
+  "discriminator": "539",
+  "title": "Foundations of Ethics",
   "description": "An in-depth study of the most important theories of ethics—virtue ethics; deontological ethics; Utilitarianism—and their 20th and 21st century development. The class covers milestones in the history of ethics, insofar as they still have an impact on current discussions. Virtue ethics is studied in its classical form in Aristotle, which also allows students to address the unresolved problem of the scientific status of ethical theories. The class covers deontological and utilitarian ethics in their canonical form in Kant and Mill. Various methods and approaches that either criticize or transform these ethical theories are discussed in order to explore the theoretical options open to a 21st century ethicist. In addition to the basic moral theories, the class covers some of the necessary elements of human agency, i.e. free will, responsibility, and motivation. Finally, it covers some work in social ethics that has particular relevance for questions of economic justice and injustice.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "College of Arts and Letters"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cal-college-of-arts-letters/500/cal-539"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cal-college-of-arts-letters/500/cal-539"
 }

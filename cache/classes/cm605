@@ -1,16 +1,20 @@
 {
-  "id": "CM 605",
-  "name": "Construction Safety Management",
+  "department": "CM",
+  "department_name": "",
+  "discriminator": "605",
+  "title": "Construction Safety Management",
   "description": "Various aspects of construction and safety techniques are discussed along with strategies for building a corporate culture of zero accidents, planning for high project safety performance, establishing accountability for safety, and maintaining a safety communication network.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Construction Management Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cm-construction-management/600/cm-605"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cm-construction-management/600/cm-605"
 }

@@ -1,16 +1,20 @@
 {
-  "id": "QF 198",
-  "name": "Writing Assessment",
+  "department": "QF",
+  "department_name": "",
+  "discriminator": "198",
+  "title": "Writing Assessment",
   "description": "Written and oral communications training andassessment are conduction in conjunction with a required course in the BS in Business program. Students in this course are automatically enrolled in QF198: Writing and Assessment Program. This online workshop carries zero credits and will not appear on the student’s official transcript.",
   "credits": "0",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/100/qf-198"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/100/qf-198"
 }

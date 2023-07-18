@@ -1,13 +1,17 @@
 {
-  "id": "PEP 603",
-  "name": "Physical and Logical Security",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "603",
+  "title": "Physical and Logical Security",
   "description": "The course presents an overview of different methods of authentication and authorization in secure wireless networks. The course focused on different methods of physical data and link protection, probability of detection and interception, anti-jam and covert capabilities, active and passive protection methods and equipment. The course is the third part of the graduate certificate program \"Wireless Secure Network Design\" which includes also three other courses - PEP 601, 602 and 604. Spring Semester",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/600/pep-603"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/600/pep-603"
 }

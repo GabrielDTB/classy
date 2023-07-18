@@ -1,15 +1,19 @@
 {
-  "id": "BT 450",
-  "name": "Global Management Seminar",
+  "department": "BT",
+  "department_name": "",
+  "discriminator": "450",
+  "title": "Global Management Seminar",
   "description": "This seminar will examine the processes of globalization for multi-national companies and why they seek markets in other countries. US and foreign countries cultural, labor and management issues will be compared. How management practices transfer across cultures will also be examined. Includes visits to overseas companies as part of a field study experience.",
   "credits": "3-9",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/400/bt-450"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/400/bt-450"
 }

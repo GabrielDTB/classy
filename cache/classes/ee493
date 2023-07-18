@@ -1,14 +1,18 @@
 {
-  "id": "EE 493",
-  "name": "Data and Computer Communications",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "493",
+  "title": "Data and Computer Communications",
   "description": "Introduction to information networks, data transmission and encoding; digital communication techniques, circuit switching and packet switching, OSI protocols, switched networks and LANs, introduction to ISDN and ATM/SONET networks, system architectures.",
   "credits": "3",
-  "cross_listed": "CPE 493",
   "prerequisites": "MA 134",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    "CPE 493"
+  ],
+  "distributions": [
     "Computer Engineering Program",
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/400/ee-493"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/400/ee-493"
 }

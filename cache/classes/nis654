@@ -1,18 +1,22 @@
 {
-  "id": "NIS 654",
-  "name": "Design and Analysis of Intelligent Network Systems",
+  "department": "NIS",
+  "department_name": "",
+  "discriminator": "654",
+  "title": "Design and Analysis of Intelligent Network Systems",
   "description": "Analysis of current networks, including classic telephone, ISDN, IP, and ATM. Attributes and characteristics of high-speed networks. Principles of network design, including user-network interface, traffic modeling, buffer architectures, buffer management techniques, call processing, routing algorithms, switching fabric, distributed resource management, computational intelligence, distributed network management, measures of network performance, quality of service, self-healing algorithms, and hardware and software issues in future network design.",
   "credits": "3",
-  "cross_listed": "CPE 654",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    "CPE 654"
+  ],
+  "distributions": [
     "Computer Engineering Program",
     "Information and Data Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/600/nis-654"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/600/nis-654"
 }
