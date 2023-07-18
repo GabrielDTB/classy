@@ -1,16 +1,20 @@
 {
-  "id": "CS 522",
-  "name": "Mobile Systems and Applications",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "522",
+  "title": "Mobile Systems and Applications",
   "description": "Personal computing is now mobile and cloud-based. Disconnected mobile computing challenges many of the assumptions underlying much of today's distributed systems. \"Cloud computing\" provides a powerful background computing facility for mobile devices, but also raises important issues of trust and privacy. Many of these issues arise in critical yet sensitive domains such as electronic healthcare delivery. Mobile computing applications are location-aware or context-aware; the privacy implications of these applications are profound. Mobile, and increasingly location aware, gaming systems are now one of the largest sectors of the world entertainment industry. The purpose of this course is to review the fundamentals of mobile systems and applications, and how they relate to services in the cloud. The course will review material from wireless communication, distributed systems, and security and privacy, as they pertain to the systems being studied. The course will involve programming mobile apps using a popular mobile computing platform, such as Android or iPhone, to get hands-on experience with the concepts being discussed in the class. Programming experience with Java or C# is required Pre-requisite: Graduate Students - Undergraduate data structures and algorithms and experience in Java or C# OR CS 590. Undergraduate Students - CS 385.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "( CS 590 or CS 385 ) and Graduate Student or At Least a Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-522"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-522"
 }

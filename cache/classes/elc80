@@ -1,16 +1,20 @@
 {
-  "id": "ELC 80",
-  "name": "English Communication II",
+  "department": "ELC",
+  "department_name": "",
+  "discriminator": "80",
+  "title": "English Communication II",
   "description": "This course will provide non-native English speaking students with improved reading comprehension and writing skills. Emphasis will be given to paraphrasing, summarizing, outlining, and studying from a text of technical readings. Learn to develop a thesis, research and document an essay, as well as write argumentative-explanatory essays.",
   "credits": "0",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Stevens Institute of Technology"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/elc-english-language-and-communication/80/elc-80"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/elc-english-language-and-communication/80/elc-80"
 }

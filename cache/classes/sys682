@@ -1,16 +1,20 @@
 {
-  "id": "SYS 682",
-  "name": "Multi-Agent Socio-Technical Systems",
+  "department": "SYS",
+  "department_name": "",
+  "discriminator": "682",
+  "title": "Multi-Agent Socio-Technical Systems",
   "description": "Many social-technical systems in healthcare, energy and urban systems can be considered as multi-agent systems where different agents –people, organizations or autonomous technologies- with heterogeneous, and often opposing objectives interact and shape the complex collective behavior and evolving nature of such systems. Analysis, design and governance and design of such systems can be very challenging and require rigorous agent-based thinking rooted in analytical models. This course teaches fundamentals of multi-agent systems, starting from models of single agent decision making and planning under uncertainty, and moves to basic frameworks for multi-agent system analysis tools, with a focus on game theory and complex network analysis . The course will take a combination of analytical and conceptual methods, and will use agent- based simulation techniques rooted in these methods. Students will apply the course material to a real-world project, close to their area of dissertation research.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Systems Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-682"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-682"
 }

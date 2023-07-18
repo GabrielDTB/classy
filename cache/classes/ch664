@@ -1,16 +1,20 @@
 {
-  "id": "CH 664",
-  "name": "Computer Methods in Chemistry",
+  "department": "CH",
+  "department_name": "",
+  "discriminator": "664",
+  "title": "Computer Methods in Chemistry",
   "description": "Discusses computational chemistry topics, including energy minimization, molecular dynamics, solvation mechanics, and electronic structure calculations. Applications in drug design and receptors will be discussed.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/600/ch-664"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/600/ch-664"
 }

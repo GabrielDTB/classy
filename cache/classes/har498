@@ -1,13 +1,17 @@
 {
-  "id": "HAR 498",
-  "name": "Capstone I",
+  "department": "HAR",
+  "department_name": "",
+  "discriminator": "498",
+  "title": "Capstone I",
   "description": "Art & Technology students are required to produce a significant body of work or major project in the last semester of their senior year in which the ideas, methods of investigation, and execution are determined by the student under the guidance and direction of a faculty advisor. HAR 498, in combination with the prerequisite (HUM 499) is the culmination of their undergraduate experience. Students are responsible for finding faculty advisors in their area of choice, which may be one person for both HUM 499 and HAR 498, or two faculty members working together during the yearlong process. During the seventh semester, students work in HUM 499 tutorial to begin their research and create a model for their senior projects. Their final semester at Stevens is spent in production. Plans and a schedule are developed with their advisor(s), and they meet every week or two to discuss and evaluate student progress. Group meetings with other seniors and advisors are encouraged. At the end of the semester, the project and substantial analytical paper situating the project are juried by a committee of three, and the project is publicly exhibited. The paper with accompanying visual documentation of the project is submitted to the library.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "HAR 301",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/400/har-498"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/400/har-498"
 }

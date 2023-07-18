@@ -1,16 +1,20 @@
 {
-  "id": "CPE 693",
-  "name": "Cryptographic Protocols",
+  "department": "CPE",
+  "department_name": "",
+  "discriminator": "693",
+  "title": "Cryptographic Protocols",
   "description": "This course covers the design and analysis of security protocols, and studies different attacks and defenses against them. Topics include: signature and authentication protocols, privacy, digital rights management, security protocols for wired, wireless and distributed networks, electronic voting, payment and micropayment protocols, anonymity, broadcast encryption and traitor training, quantum cryptography and visual cryptography. The course includes a project and some related lab experiments.",
   "credits": "3",
-  "cross_listed": "CS 693",
   "prerequisites": "CPE 668 or CS 579",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "CS 693"
+  ],
+  "distributions": [
     "Computer Engineering Program",
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/600/cpe-693"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/600/cpe-693"
 }

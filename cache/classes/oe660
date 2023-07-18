@@ -1,16 +1,20 @@
 {
-  "id": "OE 660",
-  "name": "Naval Ship Acquisition Process",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "660",
+  "title": "Naval Ship Acquisition Process",
   "description": "This course familiarizes the student with naval ship acquisition programs. Focusing on the current process in place by the U.S. Navy, but with a review of methods use in the past, projected to be used in the future, and in use by major world powers today. Topics include the system acquisition life cycle, requirements analysis, contract management, and program planning. Students must have basic naval architecture course work or experience, as determined by advisor.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-660"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-660"
 }

@@ -1,13 +1,17 @@
 {
-  "id": "TM 621",
-  "name": "Telecommunications Signaling and Switching",
+  "department": "TM",
+  "department_name": "",
+  "discriminator": "621",
+  "title": "Telecommunications Signaling and Switching",
   "description": "This course covers the technologies of switching systems for circuit, packet, and broadband-switched networks. The focus of this course is switching systems instead of transmission systems. Topics include: telephony switching, switching fabric architectures and analysis of their complexity, optical and photonic switching, Asynchronous Transfer Mode (ATM) for broadband networks. The various layers of ATM are investigated with switching fabric and architecture alternatives. Included in this course is the study of high-speed packet networks based on Label Switching (MPLS) and their applications (e.g., VPN, Traffic Engineering). Other related topics include IP telephony and its standards such as H.323, SIP, SGCP. This course also covers circuit-switched network signaling used in user-to-network and network-to-network call control. Major topics include Common Channel Signaling System 7 (CCS7), Signaling Transfer Point (STP), ISDN User Part (ISUP), Transaction Capabilities Part (TCAP), and routing techniques. The course will cover Inter-working of SS7 and IP Session Initiated Protocol (SIP), H.323 signaling protocol series. Included in the course are discussions on existing products in the industry such as Lucent Technologies' 5ESS, Ericsson's AXE10, Juniper's M160, Tellium's Aurora System.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/tm-telecommunications-management/600/tm-621"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/tm-telecommunications-management/600/tm-621"
 }

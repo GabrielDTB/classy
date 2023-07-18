@@ -1,15 +1,19 @@
 {
-  "id": "BT 436",
-  "name": "Game Theory",
+  "department": "BT",
+  "department_name": "",
+  "discriminator": "436",
+  "title": "Game Theory",
   "description": "Game Theory is an upper division undergraduate course in microeconomic theory. The goal is to give a rigorous introduction to the main concepts of game theory: strategy, solution concepts for games, strategic behavior, commitment, cooperation, and incentives. The course emphasizes the applications of the theory as much as the theory itself. Most of the applications will focus on economics and finance, for example: corporate finance, oligopoly theory, bargaining, strategy, and contract theory.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "BT 244 and BT 221 or QF 112",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/400/bt-436"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/400/bt-436"
 }

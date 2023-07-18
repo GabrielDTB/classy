@@ -1,16 +1,20 @@
 {
-  "id": "MGT 197",
-  "name": "Online Writing Tutorial",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "197",
+  "title": "Online Writing Tutorial",
   "description": "Students who do not pass the written assessment in MGT198 will be required to take MGT197: Online Writing Tutorial for no cost and zero credit. Completion of all the online quizzes in the tutorial is sufficient to obtain a passing grade.",
   "credits": "0",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/100/mgt-197"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/100/mgt-197"
 }

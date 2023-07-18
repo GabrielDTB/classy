@@ -1,17 +1,21 @@
 {
-  "id": "SSW 533",
-  "name": "Cost Estimation and Metrics",
+  "department": "SSW",
+  "department_name": "",
+  "discriminator": "533",
+  "title": "Cost Estimation and Metrics",
   "description": "The course deals with the management of software projects using objective metrics that help developers and managers to understand the scope of the work to be accomplished, the risks that will occur, the tasks to be performed, the resources and effort to be expended, and the schedule to be observed. It provides the student with a thorough introduction to facility with, and understanding of such industry-standard software sizing metrics as Function, Feature, and Object Points and their relationship to the lines-of-code metric. It provides the student with a thorough introduction to and understanding of such industry-standard software estimation tools such as COCOMO II used in cost estimation.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Software Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/500/ssw-533"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/500/ssw-533"
 }

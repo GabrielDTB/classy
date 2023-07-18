@@ -1,17 +1,21 @@
 {
-  "id": "HHS 465",
-  "name": "From Caves to Cathedrals: Engineering and Technology Until 1500",
+  "department": "HHS",
+  "department_name": "",
+  "discriminator": "465",
+  "title": "From Caves to Cathedrals: Engineering and Technology Until 1500",
   "description": "This course is a social and cultural history of engineering prehistoric times through the 14th century CE. It examines the nature and the role of the engineer and engineering in a global context in the pre-modern period. Through a series of case studies involving lecture, reading, discussion, and technical demonstrations, the course will examine the technical, economic, political, ideological, and cultural factors that can influence the contents, direction, location, and rhythm of engineering innovation. Particular attention will be paid to the variety of engineering approaches in the pre-modern world, and to non- western attitudes towards technology. This course complements HHS 466, from \"Water, Wind & Steam: Engineering from 1400 – 1700\" and \"Engineering Empire from 1700 to the Present,\" but none of these courses is a prerequisite for any of the others.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/400/hhs-465"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/400/hhs-465"
 }

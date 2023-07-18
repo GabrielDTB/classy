@@ -1,11 +1,15 @@
 {
-  "id": "HST 411",
-  "name": "Nuclear Energy and Society",
+  "department": "HST",
+  "department_name": "",
+  "discriminator": "411",
+  "title": "Nuclear Energy and Society",
   "description": "This course explores the technical, political, and social aspects of nuclear energy. In its approach to the topic it will look at the historical, present-day, and future policy dimensions, as well as the technical, political, and cultural dimensions. It will explore issues such as the history of nuclear power development, technological choices, nuclear waste, and nuclear accidents, and will also look at other forms of energy generation as a form of contrast.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hst-humanities-science-and-technology-studies/400/hst-411"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hst-humanities-science-and-technology-studies/400/hst-411"
 }

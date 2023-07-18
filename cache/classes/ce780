@@ -1,13 +1,17 @@
 {
-  "id": "CE 780",
-  "name": "Special Topics in Civil and Environmental Engineering I",
+  "department": "CE",
+  "department_name": "",
+  "discriminator": "780",
+  "title": "Special Topics in Civil and Environmental Engineering I",
   "description": "An advanced seminar course concerned with recent research developments in civil engineering. Areas of concentration can be in Structures, Geotechnical, Earthquake, or Environmental Engineering. The topics are subject to current faculty and student interests. The student must have completed certain prerequisite courses and can enroll only with the consent of the instructor.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Civil Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/700/ce-780"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/700/ce-780"
 }

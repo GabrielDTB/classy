@@ -1,17 +1,21 @@
 {
-  "id": "ME 345",
-  "name": "Modeling and Simulation",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "345",
+  "title": "Modeling and Simulation",
   "description": "Modeling and simulation methodologies including model-block building, logical and data modeling, validation, simulation and trade-off analysis, decision-making, and optimization. Product and assembly modeling; visual simulation; process modeling; production modeling; process plans and resource modeling, entity flow modeling including conveyors, transporters, and guided vehicles; Input and output statistical analysis. Several CAD/CAE simulation software are used.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "ME 225 and ME 234 and MA 221",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/300/me-345"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/300/me-345"
 }

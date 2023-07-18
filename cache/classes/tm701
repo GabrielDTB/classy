@@ -1,11 +1,15 @@
 {
-  "id": "TM 701",
-  "name": "TM Co-Op Education Project",
+  "department": "TM",
+  "department_name": "",
+  "discriminator": "701",
+  "title": "TM Co-Op Education Project",
   "description": "This course is for TM graduate students who are on Co-Op assignment.",
   "credits": "0",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/tm-telecommunications-management/700/tm-701"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/tm-telecommunications-management/700/tm-701"
 }

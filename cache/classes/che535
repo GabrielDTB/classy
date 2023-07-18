@@ -1,19 +1,23 @@
 {
-  "id": "CHE 535",
-  "name": "Good Manufacturing Practice in Pharmaceutical Facilities Design",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "535",
+  "title": "Good Manufacturing Practice in Pharmaceutical Facilities Design",
   "description": "Become familiar with current Good Manufacturing Practice (GMP) compliance in the design of pharmaceutical and biopharmaceutical facilities. Uncover issues related to process, material, and people flow. Learn about the special needs of the pharmaceutical industry for architecture and engineering, including mechanical, industrial, electrical and computer systems. Study specialized requirements for HVAC, automation, and bio-safety. Develop effective written procedures to document highly complex yet safe processes. Find out how to defend products against contamination.",
   "credits": "3",
-  "cross_listed": "ME 535, PME 535",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    "ME 535, PME 535"
+  ],
+  "distributions": [
     "Chemical Engineering Program",
     "Mechanical Engineering Program",
     "Pharmaceutical Manufacturing Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/500/che-535"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/500/che-535"
 }

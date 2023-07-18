@@ -1,15 +1,19 @@
 {
-  "id": "BT 413",
-  "name": "Business Law",
+  "department": "BT",
+  "department_name": "",
+  "discriminator": "413",
+  "title": "Business Law",
   "description": "The course introduces students to the fundamental concepts and legal principles that they can expect to encounter in various roles as managers/professionals in public and private companies, consultants and/or entrepreneurs, together with the ethical criteria, moral values and social norms in the environments they will face. The course will cover the American judicial system, international law in a global economy, ethics and business decision making, and different forms of business structure, contracts, business torts, products liability, insurance, employment law, criminal law and the recent Dodd-Frank Wall Street Reform & Consumer Protection Act.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/400/bt-413"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/400/bt-413"
 }

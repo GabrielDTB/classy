@@ -1,13 +1,17 @@
 {
-  "id": "MA 151",
-  "name": "Calculus and Differential Equations I",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "151",
+  "title": "Calculus and Differential Equations I",
   "description": "Calculus and Differential Equations I",
   "credits": "4",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/100/ma-151"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/100/ma-151"
 }

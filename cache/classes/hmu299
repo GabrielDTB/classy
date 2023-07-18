@@ -1,17 +1,21 @@
 {
-  "id": "HMU 299",
-  "name": "Creative Collaboration II",
+  "department": "HMU",
+  "department_name": "",
+  "discriminator": "299",
+  "title": "Creative Collaboration II",
   "description": "The second course in the Creative Collaboration sequence will offer students an intermediate level of independence in approaching collaborative music creation. Students will consider creative collaboration from both theoretical and practical angles and learn to develop their personal performance practice. Subtle dynamics and sophisticated music-making models will be presented and considered in readings, audio recordings, and video documentation. Students will explore improvisational modes of music making using different musical languages and systems. They will refine their performance practice as they are grouped into bands and ensembles and charged with creating their own original music. Collaborative endeavors may include: composition and songwriting; performance practice and aesthetic; physical presence and theater. The course will culminate in a live performance.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "HMU 199 and Music and Technology Major",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Music and Technology Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/200/hmu-299"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/200/hmu-299"
 }

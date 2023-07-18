@@ -1,17 +1,21 @@
 {
-  "id": "OE 643",
-  "name": "Stability & Control of Marine Craft",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "643",
+  "title": "Stability & Control of Marine Craft",
   "description": "Basic concepts of stability and automatic control, equations of motion of marine craft, representation of hydrodynamic forces and moments, equilibrium conditions and perturbation equations, stability criteria, Routh-Hurwitz method, directional stability and maneuvering control, effects of wind, waves and restricted waters, stability of towed bodies, anti-rolling and anti- pitching control systems, and dynamic simulations of marine systems.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-643"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-643"
 }

@@ -1,13 +1,17 @@
 {
-  "id": "CS 560",
-  "name": "Statistical Machine Learning",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "560",
+  "title": "Statistical Machine Learning",
   "description": "Machine learning aims to extract useful information from the data, and to build an accurate model on top of the extracted information for future prediction. There are two important aspects that have to be taken into account for a machine learning problem: how can we develop computationally efficient algorithms to learn useful information, and what is the prediction performance of the algorithm on unseen data. More importantly, is it possible to achieve the best of the two worlds, or there has to be some trade-off. This course will introduce students to concepts relating the computational efficiency and the statistical accuracy for a broad range of problems, including regression, classification, clustering, adaptive learning, to name a few. It will cover popular numerical methods that carry out state-of-the-art performance on the computational side, and it will also discuss possible improvement in the price of estimation accuracy and memory usage. The goal of the course is to help students understand these trade-offs from a theoretical perspective and guide them to design near-optimal algorithms for real-world problems.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CS 559 and (Grad Student or (Junior or Senior))",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-560"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-560"
 }

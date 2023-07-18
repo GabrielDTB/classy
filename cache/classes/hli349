@@ -1,16 +1,20 @@
 {
-  "id": "HLI 349",
-  "name": "American Poetry to 1900",
+  "department": "HLI",
+  "department_name": "",
+  "discriminator": "349",
+  "title": "American Poetry to 1900",
   "description": "Readings in authors such as Bradstreet, Bryant, Longfellow, Poe, Whitman, and Dickinson.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/300/hli-349"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/300/hli-349"
 }

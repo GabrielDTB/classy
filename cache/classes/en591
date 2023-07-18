@@ -1,13 +1,17 @@
 {
-  "id": "EN 591",
-  "name": "Sustainable Trans Systems",
+  "department": "EN",
+  "department_name": "",
+  "discriminator": "591",
+  "title": "Sustainable Trans Systems",
   "description": "Transportation infrastructure has a strong impact on urban land use patterns and congestion, both of which result in profound environmental economic and social impacts. Hence, the development of a sustainable transportation infrastructure requires the integration of social, environmental and economic considerations into transportation engineering design activities addressing macroscopic considerations, including transportation systems (from the subcomponents to the supporting infrastructure) and their interactions with other urban systems. This course introduces the students to the tools and methodologies to achieve such integration.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Environmental Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-591"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-591"
 }

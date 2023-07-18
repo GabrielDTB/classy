@@ -1,13 +1,17 @@
 {
-  "id": "HHS 323",
-  "name": "Women and Gender in American History",
+  "department": "HHS",
+  "department_name": "",
+  "discriminator": "323",
+  "title": "Women and Gender in American History",
   "description": "This course focuses on the history of the United States from the perspective of women’s experiences and the role gender plays in shaping and defining American history from the colonial era to the present. It examines women’s social, political, and economic lives; their roles in society, their familial roles, their struggle to achieve civil rights; changes in their legal status; and the rise of feminism.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/300/hhs-323"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/300/hhs-323"
 }

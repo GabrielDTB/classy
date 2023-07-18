@@ -1,13 +1,17 @@
 {
-  "id": "CPE 491",
-  "name": "Information Systems Engineering II",
+  "department": "CPE",
+  "department_name": "",
+  "discriminator": "491",
+  "title": "Information Systems Engineering II",
   "description": "This course emphasizes a major component of contemporary networked information systems, namely visually rich information, including multimedia, virtual reality, human-machine interactions and related topics. The students complete a project in which they demonstrate competency in creating and manipulating the information and the resources used to store, transfer and present the information.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/400/cpe-491"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/400/cpe-491"
 }

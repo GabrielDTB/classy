@@ -1,15 +1,19 @@
 {
-  "id": "MA 681",
-  "name": "Complex Analysis with Applications",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "681",
+  "title": "Complex Analysis with Applications",
   "description": "The aim of this course is two-fold: (i) introduce the students to the foundation of complex analysis at a rigorous mathematical level and (ii) demonstrate complex analysis techniques in application to a variety of topics in mathematics, physics, and engineering. The course consists of two parts. The first part covers the core subjects of complex analysis: analytic functions, meromorphic and entire functions, Cauchy theorem, Cauchy integral formula, Taylor series, Laurent series and singularities, residue theory, Laplace transform, etc. The second part discusses extensions of the core subjects of complex analysis such as conformal mappings and Riemann-Hilbert boundary-value problems for analytic functions and demonstrates complex analysis techniques in application to real analysis, number theory, ordinary differential equations (ODEs), harmonic equations, fluid mechanics, electrostatics, thermodynamics, queuing theory, control of engineering systems, etc. Prerequisite: MA 547 Advanced Calculus I or by instructor permission.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 547",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-681"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-681"
 }

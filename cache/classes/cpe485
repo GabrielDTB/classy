@@ -1,15 +1,19 @@
 {
-  "id": "CPE 485",
-  "name": "Thesis in Computer Engineering I",
+  "department": "CPE",
+  "department_name": "",
+  "discriminator": "485",
+  "title": "Thesis in Computer Engineering I",
   "description": "Individual investigation of a substantive character taken at the undergraduate level under the guidance of a faculty advisor leading to a thesis with a public defense. The student’s thesis committee consists of the faculty advisor and one or more readers. Prior approval from the faculty advisor, a faculty member who has agreed to supervise the research, and the Department Director is required. Hours to be arranged with the faculty advisor. For information regarding a Degree with Thesis, see the \"Academic Procedures, Requirements, and Advanced Degrees\" section of this catalog. The thesis option is a two-semester program requiring completion of CPE 485 and CPE 486. Continuation into CPE 486 is contingent on demonstrating adequate progress in CPE 485.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Undergraduate DEAN 498",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/400/cpe-485"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/400/cpe-485"
 }

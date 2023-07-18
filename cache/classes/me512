@@ -1,17 +1,21 @@
 {
-  "id": "ME 512",
-  "name": "Intermediate Fluid Dynamics",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "512",
+  "title": "Intermediate Fluid Dynamics",
   "description": "Differential equations of fluid flow, Navier-Stokes equations, introduction to fluid turbulence, inviscid incompressible flow, introduction to airfoil theory, compressible fluid flow and applications nozzles, ducts and airfoils.",
   "credits": "3",
-  "cross_listed": "OE 512",
   "prerequisites": "(MA 226 or MA 227 ) and ME 342",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "OE 512"
+  ],
+  "distributions": [
     "Mechanical Engineering Program",
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-512"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-512"
 }

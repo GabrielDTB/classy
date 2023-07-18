@@ -1,15 +1,19 @@
 {
-  "id": "ENGR 116",
-  "name": "Intro to Programming & Algorithmic Thinking",
+  "department": "ENGR",
+  "department_name": "",
+  "discriminator": "116",
+  "title": "Intro to Programming & Algorithmic Thinking",
   "description": "The objective of this course is to introduce students to computer programming and algorithmicthinking. This course is taken by incoming freshmen who typically have limited exposure tocomputer programming. The course provides: (i) a solid foundation in computer programming,(ii) an understanding of algorithmic thinking, and (iii) numerous tools, techniques andfoundations necessary for the student to continue to build these skills as they journey through avariety of engineering disciplines.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/100/engr-116"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/100/engr-116"
 }

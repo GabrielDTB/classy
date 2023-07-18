@@ -21,7 +21,7 @@ impl CatalogTrait<Class> for Catalog {
     }
     fn query_by_department(&self, department: &str) -> Vec<&Class> {
         let quarry = clean(department);
-        if quarry == "*" {
+        if quarry.is_empty() {
             return self.classes.iter().map(|c| c).collect::<Vec<&Class>>();
         }
         self.classes

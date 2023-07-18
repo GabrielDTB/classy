@@ -1,16 +1,20 @@
 {
-  "id": "ME 651",
-  "name": "Analytic Dynamics",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "651",
+  "title": "Analytic Dynamics",
   "description": "Fundamentals of Newtonian mechanics; principle of virtual work; d’Alembert’s Principle; Hamilton’s Principle; Lagrange’s equations; Hamilton’s equations; motion relative to moving reference frames; rigid-body dynamics; Hamilton-Jacobi equation; applications.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-651"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-651"
 }

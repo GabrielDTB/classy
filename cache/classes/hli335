@@ -1,15 +1,19 @@
 {
-  "id": "HLI 335",
-  "name": "Shakespeare in the City",
+  "department": "HLI",
+  "department_name": "",
+  "discriminator": "335",
+  "title": "Shakespeare in the City",
   "description": "During the summer, Shakespeare is presented in parks and parking lots throughout New York City. In this course, we read and discuss plays and then go to see them. We view both traditional and experimental productions. Sometimes we see more than one production of a play, if a number of companies decide to do it.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/300/hli-335"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/300/hli-335"
 }

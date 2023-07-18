@@ -1,16 +1,20 @@
 {
-  "id": "MA 641",
-  "name": "Time Series Analysis I",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "641",
+  "title": "Time Series Analysis I",
   "description": "Scope and applications of time series analysis: process control, financial data analysis and forecasting, and signal processing. Exploratory data analysis: graphical analysis, trend and seasonality detection and removal, and moving-average filtering. Review of basic statistical concepts related to the characterization of stationary processes. ARMA models and prediction of stationary processes. Estimation of ARMA models and model building and forecasting with ARMA models. Spectral analysis: periodogram testing for seasonality and periodicities and the maximum entropy and maximum-likelihood estimators. Asymptotic convergence. Selected topics, such as multivariate time series, nonlinear models, Kalman filtering, econometric forecasting, and long-memory processes. Selected applications, such as the unit-root problem in economics, forecasting and testing for market efficiency in financial time series, process control, and quality control.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 540",
   "offered": [
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-641"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-641"
 }

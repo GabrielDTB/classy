@@ -1,15 +1,19 @@
 {
-  "id": "OE 525",
-  "name": "Principles of Naval Architecture",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "525",
+  "title": "Principles of Naval Architecture",
   "description": "Basic principles and design calculations in naval architecture; terminology, delineation of hull form, loading and stability, trim, and effects of flooding; freeboard and tonnage regulations; introduction to design of hull structure; nature of resistance and its variation with hull form and proportions; and introduction to propellers and propulsion. Basic theories in maneuvering and sea-keeping characteristics, computer application in naval architecture, and ship design.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-525"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-525"
 }

@@ -1,15 +1,19 @@
 {
-  "id": "ME 505",
-  "name": "Theory and Performance of Propellants and Explosives I",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "505",
+  "title": "Theory and Performance of Propellants and Explosives I",
   "description": "The class covers the treatment of the physical and chemical theoretical principles which govern the characteristics and performance of propellants and explosives. This will include the theories to explain stability, sensitivity, combustion, detonation, initiation, power, thermochemical and thermodynamic calculations to enable performance to be predicted. Select topics in shock physics will be presented. Registration is restricted.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-505"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-505"
 }

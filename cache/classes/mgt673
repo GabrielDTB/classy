@@ -1,11 +1,15 @@
 {
-  "id": "MGT 673",
-  "name": "Global Innovation Management",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "673",
+  "title": "Global Innovation Management",
   "description": "This course is focused on the globalization paradigm and its effects on the management of innovation. It is an interdisciplinary course, which analyzes the different managerial areas of strategy, organization, technology, and market as integrated with the innovation process in a global context. The underlying theories and models are explored to understand how the innovation process is affected by local, national, and global influences; what cultural and organizational drivers are at work; and how to manage commercialization of new products on a life-cycle basis, in a diverse and ever-changing global market. Case studies will be used to support the theoretical constructs and reinforce learning.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MGT 671",
   "offered": [],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/600/mgt-673"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/600/mgt-673"
 }

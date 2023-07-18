@@ -1,15 +1,19 @@
 {
-  "id": "CHE 672",
-  "name": "Processing of Polymers for Biomedical Applications",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "672",
+  "title": "Processing of Polymers for Biomedical Applications",
   "description": "Descriptions of various polymer processing operations and processing requirements of biomedical products, principles of processing of polymers covering melting, pressurization, mixing, devolatilization, shaping using extrusion, spinning, blowing, coating, calendering and molding technologies, surface treatment and sterilization, applications in the areas of prostheses and artificial organs and packaging of various biomedical devices",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CHE 630",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/600/che-672"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/600/che-672"
 }

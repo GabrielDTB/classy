@@ -1,16 +1,20 @@
 {
-  "id": "FE 513",
-  "name": "Financial Lab: Practical Aspects of Database Design",
+  "department": "FE",
+  "department_name": "",
+  "discriminator": "513",
+  "title": "Financial Lab: Practical Aspects of Database Design",
   "description": "The course provides a practical introduction to SQL databases and Hadoop cluster systems as available in the Hanlon Financial Systems Lab. Students will receive hands on instruction about setting up and working with databases. Most of the software will be introduced using case studies or demonstrations, followed by a lecture of related fundamental knowledge. The course covers SQL, NoSQL, and database management systems. The course will cover accessing databases using API.",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-513"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-513"
 }

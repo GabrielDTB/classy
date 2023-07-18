@@ -1,16 +1,20 @@
 {
-  "id": "SYS 635",
-  "name": "Human Spaceflight",
+  "department": "SYS",
+  "department_name": "",
+  "discriminator": "635",
+  "title": "Human Spaceflight",
   "description": "This course provides the conceptual framework for developing space missions of human spacecraft starting from a blank sheet of paper. It describes and teaches the human space mission design and analysis process. The entire course is process oriented to equip each participant with practical tools to complete a conceptual design and analyze the impacts of evolving requirements. At the end of this course you will be better able to tie mission elements together and perform tradeoffs between system design and mission operations that must occur, during the early stages of planning, in order to deliver cost-effective results.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Systems Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-635"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-635"
 }

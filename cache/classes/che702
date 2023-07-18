@@ -1,15 +1,19 @@
 {
-  "id": "CHE 702",
-  "name": "Selected Topics in Chemical Engineering - II",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "702",
+  "title": "Selected Topics in Chemical Engineering - II",
   "description": "Selected topics of current interest in the field of chemical engineering will be treated from an advanced point of view.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/700/che-702"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/700/che-702"
 }

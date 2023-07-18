@@ -1,15 +1,19 @@
 {
-  "id": "MIS 631",
-  "name": "Data Management",
+  "department": "MIS",
+  "department_name": "",
+  "discriminator": "631",
+  "title": "Data Management",
   "description": "This 2-credit course focuses on data and database management, with an emphasis on modeling and design, and their application to business decision making. The course provides a conceptual understanding of both organizational and technical issues associated with data. The central theme concerns data modeling and databases. We examine organizational approaches to managing and integrating data. Among the topics included are normalization, entity-relationship modeling, relational database design, SQL, and data definition language (DDL). Discussed are specific applications such as strategic data management, master data management, and physical database design. The course concludes with a brief overview of Decision Support Systems, data warehousing and business intelligence, NoSQL databases (e.g., MongoDB) and cloud computing. The course includes a number of cases studies and modeling and design projects. Students in MIS 631 must also enroll in the associated 1-credit lab course MIS 632 Managing Data Lab.",
   "credits": "2",
-  "cross_listed": "",
   "prerequisites": "MIS 632 CoReq",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mis-information-systems/600/mis-631"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mis-information-systems/600/mis-631"
 }

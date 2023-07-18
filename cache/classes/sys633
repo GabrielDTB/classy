@@ -1,16 +1,20 @@
 {
-  "id": "SYS 633",
-  "name": "Mission and System Design Verification and Validation",
+  "department": "SYS",
+  "department_name": "",
+  "discriminator": "633",
+  "title": "Mission and System Design Verification and Validation",
   "description": "This unique course gives students a hands-on opportunity to apply key principles of space systems engineering. In part 1 of the course, students are given a set of customer expectations in the form of broad mission objectives. Using state-of- the-industry mission design and analysis tools (provided), the task is to apply systems engineering process to define top- level system requirements and design key elements of the system. The end result will be a system design review during which students present and defend their design decisions. In part 2 of the course, students experience system realization processes first-hand by integrating, verifying, validating and delivering the shoe box-sized EyasSAT educational satellite. Lecture is combined with hands-on experience. From the part-level to the system level, students will implement a rigorous assembly, integration, verification and validation plan on real hardware and software applying \"test like you fly, fly like you test\" principles.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "SYS 635",
   "offered": [
     "Fall Semester",
     "Summer Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Systems Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-633"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-633"
 }

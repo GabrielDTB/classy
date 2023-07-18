@@ -1,9 +1,10 @@
 {
-  "id": "SSW 810",
-  "name": "Special Topics in Systems Centric Software Engineering",
+  "department": "SSW",
+  "department_name": "",
+  "discriminator": "810",
+  "title": "Special Topics in Systems Centric Software Engineering",
   "description": "Selected topics from various areas within Software Engineering. This course is typically taught to more than one student and often takes the form of a visiting professor’s course.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Software Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/800/ssw-810"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/800/ssw-810"
 }

@@ -1,16 +1,20 @@
 {
-  "id": "EE 602",
-  "name": "Analytical Methods in Electrical Engineering",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "602",
+  "title": "Analytical Methods in Electrical Engineering",
   "description": "The theory of linear algebra with application to state space analysis. Topics include Cauchy-Binet and Laplace determinant theorems, system of linear equations; linear transformations, basis and rank; Gaussian elimination; LU and congruent transformations; Gramm-Schmidt; eigenvalues, eigenvectors and similarity transformations; canonical forms; functions of matrices; singular value decomposition; generalized inverses; norm of a matrix; polynomial matrices; matrix differential equations; state space; controllability and observability.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-602"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-602"
 }

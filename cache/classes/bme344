@@ -1,17 +1,21 @@
 {
-  "id": "BME 344",
-  "name": "Biotransport Laboratory",
+  "department": "BME",
+  "department_name": "",
+  "discriminator": "344",
+  "title": "Biotransport Laboratory",
   "description": "Biotransport Laboratory is an introductory course that is designed to provide students with hands-on experience in principles of fluid and mass transport relevant to different biomedical applications. Transport phenomena are central to the biological processes related to molecule, cell, and tissue functions; and to design and develop biomedical devices. Accordingly, this course consists of multiple modules, each of which contains a specific experiment focused to demonstrate basic principles and methods used widely to study transport phenomena in biological systems and to create advanced biomedical devices",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "BME 343 CoReq",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biomedical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/300/bme-344"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/300/bme-344"
 }

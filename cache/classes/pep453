@@ -1,13 +1,17 @@
 {
-  "id": "PEP 453",
-  "name": "Quantum Mechanics with Engineering Applications",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "453",
+  "title": "Quantum Mechanics with Engineering Applications",
   "description": "This course is meant to serve as an introduction to formal quantum mechanics as well as to apply the basic formalism to several generic and important applications. The course will introduce the concepts of operators, eigenvalues, commutators, and the other fundamental techniques to work with the Schrodinger and Heisenberg representations of quantum theory. The techniques will be applied to practical examples, such as laser oscillations, magnetic resonance phenomena, charge transport in semiconductors, and the semiconductor injection laser.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "PEP 242",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/400/pep-453"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/400/pep-453"
 }

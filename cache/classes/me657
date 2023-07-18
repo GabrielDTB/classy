@@ -1,15 +1,19 @@
 {
-  "id": "ME 657",
-  "name": "Advanced Mechanics of Materials",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "657",
+  "title": "Advanced Mechanics of Materials",
   "description": "This course provides scientific basis for students with different engineering backgrounds to understand engineering properties of materials including metals, ceramics, polymers, active and other functional materials. Such scientific basis consists of atom arrangements, defects, temperature effect on atom arrangements, entropy, and Gibbs free energy. Energy is used as a unifying theme throughout the course to explain engineering properties such as melting temperature, thermal expansion, diffusivity, fracture, and creep. Instead of addressing polymers, metals, and ceramics separately, this course uses an integrated approach to discussing engineering properties of these materials under the same scenarios. For example, fracture of metals, ceramics and polymers is discussed together to show the similarities and differences in behaviors and causes. Topics covered also include phase diagrams (e.g., SMA), mechanical properties, viscoelastic behavior, functional materials, composites, and fatigue. Materials selection and cost analysis discussed is useful for engineers to choose appropriate materials for their engineering designs.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-657"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-657"
 }

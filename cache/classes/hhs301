@@ -1,15 +1,19 @@
 {
-  "id": "HHS 301",
-  "name": "Introduction to Historical Methods",
+  "department": "HHS",
+  "department_name": "",
+  "discriminator": "301",
+  "title": "Introduction to Historical Methods",
   "description": "This is an intensive writing and research seminar designed to introduce students to the world of historical research and the historian’s craft. History majors are required to take this course during the spring semester of their junior year.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/300/hhs-301"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/300/hhs-301"
 }

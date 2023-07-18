@@ -1,13 +1,17 @@
 {
-  "id": "EN 550",
-  "name": "Environmental Chemistry of Atmospheric Processes",
+  "department": "EN",
+  "department_name": "",
+  "discriminator": "550",
+  "title": "Environmental Chemistry of Atmospheric Processes",
   "description": "An introduction to the science underlying the description of atmospheric processes and air pollution control, including: composition of atmosphere; sources, transport, and fate of pollutants; chemical and photochemical reactions; properties of aerosols and effects of air pollution on climate and water; and adsorption, absorption, filtration, and chemical destruction pollutants in air pollution control systems.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Environmental Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-550"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-550"
 }

@@ -1,15 +1,19 @@
 {
-  "id": "CH 362",
-  "name": "Instrumental Analysis I - Spectroscopy and Chromatography",
+  "department": "CH",
+  "department_name": "",
+  "discriminator": "362",
+  "title": "Instrumental Analysis I - Spectroscopy and Chromatography",
   "description": "Theoretical and experimental approach to spectroscopy and chromatography. Includes ultraviolet, visible and infrared absorption by molecules, emission spectroscopy, nuclear magnetic resonance, mass spectroscopy and gas-liquid and high- performance chromatography.",
   "credits": "4",
-  "cross_listed": "",
   "prerequisites": "CH 116 and CH 118",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/300/ch-362"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/300/ch-362"
 }

@@ -1,15 +1,19 @@
 {
-  "id": "HSS 121",
-  "name": "Introduction to Urban Studies",
+  "department": "HSS",
+  "department_name": "",
+  "discriminator": "121",
+  "title": "Introduction to Urban Studies",
   "description": "An examination of the origins, nature and progress of urban society. Selected readings focus on recurrent and persistent urban problems: overcrowding, traffic congestion, political corruption, faulty sanitation systems, etc.; a student may also engage in field analysis projects which relate either to home town areas or to the North Jersey region.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/100/hss-121"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/100/hss-121"
 }

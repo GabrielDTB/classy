@@ -1,13 +1,17 @@
 {
-  "id": "BIO 368",
-  "name": "Fundamentals of Computational Biology",
+  "department": "BIO",
+  "department_name": "",
+  "discriminator": "368",
+  "title": "Fundamentals of Computational Biology",
   "description": "A course focusing on bioinformatics and functional genomics. Students will be introduced to bioinformatics and discover the importance of computational methods to address problems in Biology. Various sequencing techniques including genome sequencing will be presented and discussed. Gene predictions, sequence based property prediction, homology modeling and protein structure prediction as well as expression analysis will be explored. Students will learn relevant topics of comparative genomics, whole genome analysis, functional genomics and genetically modified organisms.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "BIO 281",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biological Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/300/bio-368"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/300/bio-368"
 }

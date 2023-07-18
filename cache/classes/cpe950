@@ -1,9 +1,10 @@
 {
-  "id": "CPE 950",
-  "name": "Computer Engineer Design Project",
+  "department": "CPE",
+  "department_name": "",
+  "discriminator": "950",
+  "title": "Computer Engineer Design Project",
   "description": "An investigation of current engineering topic or design. A written report is required.",
   "credits": "1-15",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/900/cpe-950"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/900/cpe-950"
 }

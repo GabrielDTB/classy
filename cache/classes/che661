@@ -1,17 +1,21 @@
 {
-  "id": "CHE 661",
-  "name": "Design of Control Systems",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "661",
+  "title": "Design of Control Systems",
   "description": "This course focuses on the application of advanced process control techniques in pharmaceutical and petrochemical industries. Among the topics considered are bioreactor and polymerization reactor modeling, biosensors, state and parameter estimation techniques, optimization of reactor productivity for batch, fed-batch and continuous operations, and expert systems approaches to monitoring and control. An overview of a complete automation project of a pharmaceutical plant, from design to start-up, will be discussed, including process control issues and coordination of interdisciplinary requirements and regulations. Guest speakers from local industry will present current technological trends. A background in differential equations, biochemical engineering and basic process control is required.",
   "credits": "3",
-  "cross_listed": "ME 623",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "ME 623"
+  ],
+  "distributions": [
     "Chemical Engineering Program",
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/600/che-661"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/600/che-661"
 }

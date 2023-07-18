@@ -1,15 +1,19 @@
 {
-  "id": "CE 685",
-  "name": "Advanced Hydraulics",
+  "department": "CE",
+  "department_name": "",
+  "discriminator": "685",
+  "title": "Advanced Hydraulics",
   "description": "Fundamentals of open channel flows; types of open channels and their properties; velocity distribution in open channels. Specific energy, momentum and specific force principles; critical flows; principles of uniform flow and its computation. Gradually varied flow; channel transitions and controls. Rapidly varied flow; hydraulic jump and energy dissipaters. Unsteady flows; waves and wave propagation; flood routing. Applications of numerical methods in hydraulic engineering.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Civil Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/600/ce-685"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/600/ce-685"
 }

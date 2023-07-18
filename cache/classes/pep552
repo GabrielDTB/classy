@@ -1,15 +1,19 @@
 {
-  "id": "PEP 552",
-  "name": "Theory of Relativity",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "552",
+  "title": "Theory of Relativity",
   "description": "Geometrical foundations of space-time theories, geometrical objects, affine geometry, and metric geometry; structure of space-time theories, symmetry, and conservation laws; Newtonian mechanics; special relativity; foundations of general relativity, Mach’s principle, principle of equivalence, principle of general covariance, and Einstein’s equations; solution of Einstein’s equations; experimental tests of general relativity; conservation laws in general relativity, gravitational radiation, and motion of singularities; and cosmology.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 221 or (Grad Student)",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-552"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-552"
 }

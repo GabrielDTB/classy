@@ -1,15 +1,19 @@
 {
-  "id": "MGT 787",
-  "name": "Statistical Learning and Analytics Research Seminar",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "787",
+  "title": "Statistical Learning and Analytics Research Seminar",
   "description": "The significant amount of corporate information available requires a systematic and analytical approach to select the most important information and anticipate major events. Statistical learning algorithms facilitate this process understanding, modeling and forecasting the behavior of major corporate variables. This course introduces statistical and graphical models used in time series, machine learning and data mining for inference and prediction. The emphasis of the course is in the learning capability of the algorithms and their application to finance, direct marketing, and operations. Students should have a basic knowledge of probability theory, linear algebra, and multivariate analysis.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/700/mgt-787"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/700/mgt-787"
 }

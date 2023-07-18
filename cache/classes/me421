@@ -1,13 +1,17 @@
 {
-  "id": "ME 421",
-  "name": "Energy Conversion Systems",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "421",
+  "title": "Energy Conversion Systems",
   "description": "Technology and economics of energy sources, storage and utilization, overview of fundamental concepts of mechanical, thermal, chemical, nuclear, electrical energy conversion (practical and visionary), thermo chemical conversion, including combustion in power plants, propulsion systems, thermo mechanical conversion in nozzles and turbomachinery, \"direct\" energy conversion in fuel cells, etc., nuclear energy conversion.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "ME 335 and ME 342",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/400/me-421"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/400/me-421"
 }

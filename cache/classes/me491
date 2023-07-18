@@ -1,17 +1,21 @@
 {
-  "id": "ME 491",
-  "name": "Manufacturing Processes and Systems",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "491",
+  "title": "Manufacturing Processes and Systems",
   "description": "Analysis of both bulk-forming (forging, extrusion, rolling, etc.) and sheet-forming processes, metal cutting, and other related manufacturing processes; physics and stochastic nature of manufacturing processes and their effects on quality, rate, cost and flexibility; role of computer-aided manufacturing in manufacturing system automation; methodologies used to plan and control a manufacturing system, forecasting, production scheduling, facility layout, inventory control, and project planning.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "ME 225 : Dynamics and ME 261 : Mechanics of Materials",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/400/me-491"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/400/me-491"
 }

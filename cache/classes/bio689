@@ -1,13 +1,17 @@
 {
-  "id": "BIO 689",
-  "name": "Cell Biology Laboratory Techniques",
+  "department": "BIO",
+  "department_name": "",
+  "discriminator": "689",
+  "title": "Cell Biology Laboratory Techniques",
   "description": "Laboratory practice in modern biological research will be explored. Techniques involving gene and protein cellular probes, ELISA, mammalian cell culturing, cell cycle determination, differential centrifugation, electron microscopy, and fluorescent cellular markets will be addressed. Laboratory fee $60.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "BIO 381 or CH 381 or Graduate Chemical Biology Majors",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biological Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/600/bio-689"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/600/bio-689"
 }

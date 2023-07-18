@@ -1,15 +1,19 @@
 {
-  "id": "HPL 495",
-  "name": "Seminar in Philosophy",
+  "department": "HPL",
+  "department_name": "",
+  "discriminator": "495",
+  "title": "Seminar in Philosophy",
   "description": "The Seminar in Philosophy is intended to provide students with an in-depth examination of the work of either one specific philosopher (or pair of philosophers), or a particular work in the history of philosophy that has had a profound impact on the development of intellectual thought. Special attention will be given to how the philosopher or work in question influenced work outside philosophy.",
   "credits": "3-6",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hpl-humanitiesphilosophy/400/hpl-495"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hpl-humanitiesphilosophy/400/hpl-495"
 }

@@ -1,18 +1,22 @@
 {
-  "id": "PME 600",
-  "name": "Engineering Economics and Cost Analysis",
+  "department": "PME",
+  "department_name": "",
+  "discriminator": "600",
+  "title": "Engineering Economics and Cost Analysis",
   "description": "This course presents advanced techniques and analysis designed to permit managers to estimate and use cost information in decision making. Topics include: historical overview of the management accounting process, statistical cost estimation, cost allocation, and uses of cost information in evaluating decisions about pricing, quality, manufacturing processes (e.g., JIT, CIM), investments in new technologies, investment centers, the selection process for capital investments, both tangible and intangible, and how this process is structured and constrained by the time value of money, the source of funds, market demand, and competitive position.",
   "credits": "3",
-  "cross_listed": "EM 600",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    "EM 600"
+  ],
+  "distributions": [
     "Engineering Management Program",
     "Pharmaceutical Manufacturing Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pme-pharmaceutical-manufacturing/600/pme-600"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pme-pharmaceutical-manufacturing/600/pme-600"
 }

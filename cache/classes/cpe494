@@ -1,13 +1,17 @@
 {
-  "id": "CPE 494",
-  "name": "Networked Systems Design: Principles and Practices",
+  "department": "CPE",
+  "department_name": "",
+  "discriminator": "494",
+  "title": "Networked Systems Design: Principles and Practices",
   "description": "Basic elements in local and wide-area network infrastructures, architecture and protocols at all layers; client-server systems programming using sockets and remote procedure cells; concurrency and coordination issues and techniques; concepts and tools for fault tolerance, failure detection, checkpointing, disaster recovery and rejuvenation in networked applications; overview of network systems middleware facilities such as .NET and Weblogic to illustrate the above principles and techniques.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CS 105 , CS 115 , CS 181 , and ENGR 115",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/400/cpe-494"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/400/cpe-494"
 }

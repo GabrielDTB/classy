@@ -1,15 +1,19 @@
 {
-  "id": "PEP 810",
-  "name": "Special Topics in Physics and Engineering Physics",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "810",
+  "title": "Special Topics in Physics and Engineering Physics",
   "description": "A participating seminar on topics of current interest and importance in Physics and Engineering Physics.",
   "credits": "3-1",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/800/pep-810"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/800/pep-810"
 }

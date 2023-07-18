@@ -1,15 +1,19 @@
 {
-  "id": "HLI 345",
-  "name": "A Survey of Dramatic Literature",
+  "department": "HLI",
+  "department_name": "",
+  "discriminator": "345",
+  "title": "A Survey of Dramatic Literature",
   "description": "Readings of plays from the dramatic productions of Aeschylus to modern works of theatre. Students attend professional productions in New York City and often have an opportunity to interact with those involved in bringing them to the stage.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/300/hli-345"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/300/hli-345"
 }

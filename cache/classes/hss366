@@ -1,13 +1,17 @@
 {
-  "id": "HSS 366",
-  "name": "Political Theory",
+  "department": "HSS",
+  "department_name": "",
+  "discriminator": "366",
+  "title": "Political Theory",
   "description": "This course explores fundamental currents of political philosophy, including the history of political thought and normative theory. Topics include classical liberalism and its opponents, the foundations of socialism and Marxism, the nature and scope of political regimes, justice and equality in politics, and rational choice theory and its critics.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/300/hss-366"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/300/hss-366"
 }

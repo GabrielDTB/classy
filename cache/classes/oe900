@@ -1,9 +1,10 @@
 {
-  "id": "OE 900",
-  "name": "Thesis in Ocean Engineering (ME)",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "900",
+  "title": "Thesis in Ocean Engineering (ME)",
   "description": "For the degree of Master of Engineering (Ocean). Hours and credits to be arranged.",
   "credits": "1-10",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/900/oe-900"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/900/oe-900"
 }

@@ -1,16 +1,20 @@
 {
-  "id": "OE 535",
-  "name": "Ocean Measurements and Analysis",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "535",
+  "title": "Ocean Measurements and Analysis",
   "description": "Basic ocean measurements and instrumentation, sampling requirements, data processing, analysis, and presentation.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-535"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-535"
 }

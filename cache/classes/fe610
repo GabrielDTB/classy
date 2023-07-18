@@ -1,17 +1,21 @@
 {
-  "id": "FE 610",
-  "name": "Stochastic Calculus for Financial Engineers",
+  "department": "FE",
+  "department_name": "",
+  "discriminator": "610",
+  "title": "Stochastic Calculus for Financial Engineers",
   "description": "This course provides the mathematical foundation for understanding modern financial theory. It includes topics such as basic probability, random variables, discrete continuous distributions, random processes, Brownian motion, and an introduction to Ito’s calculus. Applications to financial instruments are discussed throughout the course.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/600/fe-610"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/600/fe-610"
 }

@@ -1,15 +1,19 @@
 {
-  "id": "ME 573",
-  "name": "Introduction to Microelectromechanical Systems",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "573",
+  "title": "Introduction to Microelectromechanical Systems",
   "description": "Introduction to microsystem design, modeling and fabrication. Course topics include material properties of Microelectromechanical systems (MEMS), microfabrication technologies, structural behavior, sensing and actuation principles and methods. Emphasis on microsystems design, modeling and simulation including lumped element modeling and finite element analysis. The emerging nano-materials, processes and devices will also be discussed. Student teams design microsystems (sensors, actuators and sensing/control systems) of a variety of types, (optical MEMS, bioMEMS, inertial sensors, etc.) to meet a set of performance specifications using a realistic microfabrication process.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Junior or Senior with cGPA => 3.0",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-573"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-573"
 }

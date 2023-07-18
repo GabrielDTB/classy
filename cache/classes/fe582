@@ -1,11 +1,15 @@
 {
-  "id": "FE 582",
-  "name": "Foundations of Financial Data Science",
+  "department": "FE",
+  "department_name": "",
+  "discriminator": "582",
+  "title": "Foundations of Financial Data Science",
   "description": "This course will provide an overview of issues and trends in data quality, data storage, data scrubbing, data flows, and data encryption. Topics will include data abstractions and integration, enterprise level data issues, data management issues with collection, warehousing, preprocessing and querying. Furthermore, the Hadoop based programming framework for big data issues will be introduced along with any governance and policy issues. These concepts will be applied to areas such as digital marketing and computational advertising, energy and healthcare analytics, social media and social networks, and capital markets financial data. A one credit Hanlon lab course, FE 513: Practical Aspects of Database Design will be attached to this course in order to facilitate learning of the practical side of data management.",
   "credits": "2",
-  "cross_listed": "",
   "prerequisites": "( FE 513 CoReq) and (Grad Student or (Junior or Senior))",
   "offered": [],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-582"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-582"
 }

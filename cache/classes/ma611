@@ -1,15 +1,19 @@
 {
-  "id": "MA 611",
-  "name": "Probability",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "611",
+  "title": "Probability",
   "description": "Foundations of probability, random variables and their distributions, discrete and continuous random variables, independence, expectation and conditioning, generating functions, multivariate distributions, convergence of random variables, and classical limit theorems.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 540 and MA 548",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-611"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-611"
 }

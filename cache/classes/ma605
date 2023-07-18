@@ -1,15 +1,19 @@
 {
-  "id": "MA 605",
-  "name": "Foundation of Algebra I",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "605",
+  "title": "Foundation of Algebra I",
   "description": "Topics covered in the sequence MA 605-606 include: elementary number theory, basic group theory, Lagrange’s theorem, isomorphism theorems, solvability, direct products, Jordan-Holder theorem, Sylow theorems, basic properties of rings, quotient rings, field of quotients of an integral domain, polynomial rings, factorization, elementary properties of fields, field extensions, and Galois theory.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-605"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-605"
 }

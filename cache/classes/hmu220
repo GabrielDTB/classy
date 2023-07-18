@@ -1,15 +1,19 @@
 {
-  "id": "HMU 220",
-  "name": "Keyboard Studies I",
+  "department": "HMU",
+  "department_name": "",
+  "discriminator": "220",
+  "title": "Keyboard Studies I",
   "description": "Keyboard Studies 1 develops basic keyboard skills based on five-finger exercises and the execution of major scales The course provides an understanding and application of basic music theory including the ability to read treble and bass clefs, the construction of triads and their inversions. In addition, students will play a basic solo repertoire piece by the end of the semester. Group practices and rehearsals are encouraged. Beginning students.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Music and Technology Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/200/hmu-220"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/200/hmu-220"
 }

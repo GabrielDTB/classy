@@ -1,13 +1,17 @@
 {
-  "id": "ENGR 256",
-  "name": "Dynamics",
+  "department": "ENGR",
+  "department_name": "",
+  "discriminator": "256",
+  "title": "Dynamics",
   "description": "Dynamics",
   "credits": "2",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Engineering and Science"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/200/engr-256"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/200/engr-256"
 }

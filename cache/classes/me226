@@ -1,13 +1,17 @@
 {
-  "id": "ME 226",
-  "name": "Thermodynamics",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "226",
+  "title": "Thermodynamics",
   "description": "Concepts of heat and work; First and Second Laws for closed and open systems, including steady and transient processes and cycles; thermodynamic properties of substances and interrelationships; phase change and chemical reaction; selected, representative applications.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CH 115 and (MA 115 or MA 122 ) and PEP 111",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/200/me-226"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/200/me-226"
 }

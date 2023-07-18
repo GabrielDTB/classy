@@ -1,17 +1,21 @@
 {
-  "id": "ENGR 126",
-  "name": "Mechanics of Solids",
+  "department": "ENGR",
+  "department_name": "",
+  "discriminator": "126",
+  "title": "Mechanics of Solids",
   "description": "Fundamental concepts of particle statics, equivalent force systems, equilibrium of rigid bodies, analysis of trusses and frames, forces in beam and machine parts, stress and strain, tension, shear and bending moment, flexure, combined loading, energy methods, statically indeterminate structures.",
   "credits": "4",
-  "cross_listed": "",
   "prerequisites": "(MA 115 or MA 122 ) and PEP 111",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Engineering and Science"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/100/engr-126"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/100/engr-126"
 }

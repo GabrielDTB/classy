@@ -1,15 +1,19 @@
 {
-  "id": "BT 333",
-  "name": "Database Management",
+  "department": "BT",
+  "department_name": "",
+  "discriminator": "333",
+  "title": "Database Management",
   "description": "The course addresses the application of relational databases to solve business problems. It focuses on relational database model, multi-table query languages, file and index organization and integrity. Advanced topics include calculations in creating professional and useful reports, pivot tables and charts for data mining, database maintenance and the customization of a database with programming languages. Upon completion of this course students will be able to design, implement and maintain a relational database.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MIS 201",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/300/bt-333"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/300/bt-333"
 }

@@ -1,17 +1,21 @@
 {
-  "id": "MGT 635",
-  "name": "Managerial Judgment and Decision-Making",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "635",
+  "title": "Managerial Judgment and Decision-Making",
   "description": "Executives make decisions every day in the face of uncertainty. The objective of this course is to help students understand how decisions are made, why they are often less than optimal, and how decision-making can be improved. This course will contrast how managers do make decisions with how they should make decisions, by thinking about how \"rational\" decision makers should act, by conducting in-class exercises and examining empirical evidence of how individuals do act (often erroneously) in managerial situations. The course will include statistical tools for decision-making, as well as treatment of the psychological factors involved in making decisions.",
   "credits": "3",
-  "cross_listed": "EMT 635",
   "prerequisites": "MGT 612 or MGT 689 or MGT 796",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    "EMT 635"
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/600/mgt-635"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/600/mgt-635"
 }

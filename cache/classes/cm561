@@ -1,17 +1,21 @@
 {
-  "id": "CM 561",
-  "name": "Green Construction",
+  "department": "CM",
+  "department_name": "",
+  "discriminator": "561",
+  "title": "Green Construction",
   "description": "A study of green construction principles and techniques. The course is designed to make the manager familiar with the procedures required to achieve green construction. Students will study the role of government regulations requiring contractors to produce green construction projects, green building commissioning and the economic and environmental impact of green construction.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Construction Management Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cm-construction-management/500/cm-561"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cm-construction-management/500/cm-561"
 }

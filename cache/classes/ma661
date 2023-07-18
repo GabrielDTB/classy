@@ -1,16 +1,20 @@
 {
-  "id": "MA 661",
-  "name": "Dynamic Programming and Reinforcement Learning",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "661",
+  "title": "Dynamic Programming and Reinforcement Learning",
   "description": "The main purpose of this course is to present an introduction to dynamic programming as the most popular methodology for learning and control of dynamic stochastic systems. We discuss basic models, some theoretical results and numerical methods for these problems. They will be developed starting from basic models of dynamical systems, through finite-horizon stochastic problems, to infinite-horizon stochastic models of fully or partially observable systems. Throughout the class special attention will be paid on the application of dynamic programming to statistical learning. The class will include introduction to approximate dynamic programming techniques, which are used in statistical learning, such as tree-based methods for classification, Bayesian learning, etc. The concepts and methods will be illustrated by various applications including learning in stochastic networks, engineering, business, and finance.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 540 or MA 611",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-661"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-661"
 }

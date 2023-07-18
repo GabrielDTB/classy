@@ -1,15 +1,19 @@
 {
-  "id": "PEP 332",
-  "name": "Mathematical Techniques for Engineering Physics",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "332",
+  "title": "Mathematical Techniques for Engineering Physics",
   "description": "This course is designed to build upon the core mathematics sequence in engineering and thus enable the student to fully utilize quantitative mathematical analysis in the junior and senior level courses in engineering physics. Topics covered will include complex numbers and functions, linear algebra, advanced vector analysis, Fourier series and integrals, special functions for mathematical physics, orthogonal functions solutions to differential equations and elements of tensor analysis. Review of previously covered material will be integrated with topics of greater depth as appropriate. Applications to problems in engineering physics will be stressed throughout.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 226 or MA 227",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/300/pep-332"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/300/pep-332"
 }

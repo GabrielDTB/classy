@@ -1,17 +1,21 @@
 {
-  "id": "HSS 231",
-  "name": "Cultural Anthropology",
+  "department": "HSS",
+  "department_name": "",
+  "discriminator": "231",
+  "title": "Cultural Anthropology",
   "description": "An examination of the varieties of organization of human societies in a comparative ethnographic context.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/200/hss-231"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/200/hss-231"
 }

@@ -1,15 +1,19 @@
 {
-  "id": "CS 511",
-  "name": "Concurrent Programming",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "511",
+  "title": "Concurrent Programming",
   "description": "The study of concurrency as it appears at all levels and in different types of computing systems. Topics include: models of concurrency; languages for expressing concurrency; formal systems for reasoning about concurrency; the challenges of concurrent programming; race conditions; deadlock; livelock and nondeterministic behavior; prototypical synchronization problems, such as readers-writers and dining philosophers; mechanisms for solution of these problems, such as semaphores, monitors, and conditional critical regions; important libraries for concurrent programming; message passing, both synchronous and asynchronous; and applications of multithreaded concurrent programming and parallel algorithms. Substantial programming required. Pre-requisite: Undergraduate courses in Systems Programming or Operating Systems or CS 520 or CS 392.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "( CS 392 or CS 520 ) and (Grad Student or (Junior or Senior))",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-511"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-511"
 }

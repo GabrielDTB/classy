@@ -1,18 +1,22 @@
 {
-  "id": "PME 555",
-  "name": "Lean Six Sigma",
+  "department": "PME",
+  "department_name": "",
+  "discriminator": "555",
+  "title": "Lean Six Sigma",
   "description": "Course explores the current application of Lean Six Sigma in Manufacturing. Topics covered include: Lean Six Sigma Concepts and Techniques, Project and Team Dynamics, Tools of Lean Six Sigma and their Application, and Designing Manufacturing Processes for Lean Six Sigma. Emphasis is on DMAIC, including Define, Measure, Analyze, Improve, and Control methodology, with the students’ skill set developed through case studies and project work on actual manufacturing processes using statistical software (Minitab). At the conclusion of this course, students will understand the concepts and principles of Lean Six Sigma, be competent with Minitab software and be able to apply these techniques to manufacturing processes.",
   "credits": "3",
-  "cross_listed": "ME 555",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    "ME 555"
+  ],
+  "distributions": [
     "Mechanical Engineering Program",
     "Pharmaceutical Manufacturing Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pme-pharmaceutical-manufacturing/500/pme-555"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pme-pharmaceutical-manufacturing/500/pme-555"
 }

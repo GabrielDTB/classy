@@ -1,9 +1,10 @@
 {
-  "id": "SSW 703",
-  "name": "Practicum in Software Engineering",
+  "department": "SSW",
+  "department_name": "",
+  "discriminator": "703",
+  "title": "Practicum in Software Engineering",
   "description": "Curricular Practical Training",
   "credits": "1-3",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Software Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/700/ssw-703"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/700/ssw-703"
 }

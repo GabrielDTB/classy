@@ -1,17 +1,21 @@
 {
-  "id": "MIS 900",
-  "name": "Thesis in MIS (MS)",
+  "department": "MIS",
+  "department_name": "",
+  "discriminator": "900",
+  "title": "Thesis in MIS (MS)",
   "description": "For the degree of Master of Science. Six to 12 credits with departmental approval.",
   "credits": "1-12",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mis-information-systems/900/mis-900"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mis-information-systems/900/mis-900"
 }

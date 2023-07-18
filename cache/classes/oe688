@@ -1,15 +1,19 @@
 {
-  "id": "OE 688",
-  "name": "Coastal Ocean Dynamics I",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "688",
+  "title": "Coastal Ocean Dynamics I",
   "description": "Mechanics of rotating flow; inviscid shallow-water theory: topographic Rossby Waves; effects of friction: the Ekman theory; and wind-driven ocean circulation: coastal ocean modeling, supercomputing applications, dispersion, and mixing in coastal waters.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 529 and OE 501",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-688"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-688"
 }

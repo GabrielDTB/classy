@@ -1,9 +1,10 @@
 {
-  "id": "MGT 689",
-  "name": "Organizational Behavior and Design",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "689",
+  "title": "Organizational Behavior and Design",
   "description": "This course exposes students to the macro and micro aspects of organizational behavior and theory that are essential to technology management. The macro aspects will focus on structural contingency theory as an approach to effective organizational design. The micro aspects will focus on leadership, teams, and individual behavior (e.g., motivation, job attitudes). Specific issues and problems which are covered include: the relationship of the organization with the external environment, the influence of the organization’s strategies, culture, size, and production technology on the organization’s design, and strategies for managing organizational processes such as teams, conflict, power/politics and organizational change. Current topics, that are key to technology management (e.g., virtual teams), will be stressed.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/600/mgt-689"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/600/mgt-689"
 }

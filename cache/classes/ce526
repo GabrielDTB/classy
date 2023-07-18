@@ -1,15 +1,19 @@
 {
-  "id": "CE 526",
-  "name": "Watershed Modeling",
+  "department": "CE",
+  "department_name": "",
+  "discriminator": "526",
+  "title": "Watershed Modeling",
   "description": "This course is intended to provide graduate students with the tools necessary to simulate the water quality of a complex watershed. The course will focus on the development of models for examining the water quality and water quantity issues that are associated with watershed management. Students will learn various modeling technologies from simplistic mass balance models to more complex dynamic models. The models required for fully understanding the effects of both point and nonpoint sources of pollution on a natural waterway will be examined. The students will also develop an understanding of how to design a monitoring program to collect the data that are appropriate for simulating a natural system. Current state and federal guidelines and regulations will be discussed including the development of a waste load allocation for a point source, a load allocation for a nonpoint source and a Total Maximum Daily Load (TMDL) for an impaired waterway. This course will not only provide the student with the tools necessary to simulate a watershed but also provide a keen insight into the watershed management process. The final project will require the students to work in teams to analyze a specific watershed.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Civil Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/500/ce-526"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/500/ce-526"
 }

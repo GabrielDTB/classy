@@ -1,16 +1,20 @@
 {
-  "id": "PEP 577",
-  "name": "Laser Theory and Design",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "577",
+  "title": "Laser Theory and Design",
   "description": "An introductory course to the theory of lasers; treatment of spontaneous and stimulated emission, atomic rate equations, laser oscillation conditions, power output and optimum output coupling; CW and pulsed operation, Q switching, mode selection, and frequency stabilization; excitation of lasers, inversion mechanisms, and typical efficiencies; detailed examination of principal types of lasers, gaseous, solid state, and liquid; chemical lasers, dye lasers, Raman lasers, high power lasers, TEA lasers, gas dynamic lasers. Design considerations for GaAlAs, argon ion, helium neon, carbon dioxide, neodymium YAG and pulsed ruby lasers.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "(( PEP 209 OR PEP 509 ) and Junior Standing) ) or ( PEP 509 and Graduate Students)",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-577"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-577"
 }

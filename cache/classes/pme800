@@ -1,9 +1,10 @@
 {
-  "id": "PME 800",
-  "name": "Special Problems in Pharmaceuticals Manufacturing and Engineering",
+  "department": "PME",
+  "department_name": "",
+  "discriminator": "800",
+  "title": "Special Problems in Pharmaceuticals Manufacturing and Engineering",
   "description": "A participating seminar on topics of current interest and importance in Pharmaceutical Manufacturing Practices",
   "credits": "1-6",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pharmaceutical Manufacturing Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pme-pharmaceutical-manufacturing/800/pme-800"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pme-pharmaceutical-manufacturing/800/pme-800"
 }

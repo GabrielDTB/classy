@@ -1,15 +1,19 @@
 {
-  "id": "SSW 315",
-  "name": "Object-Oriented Software Engineering",
+  "department": "SSW",
+  "department_name": "",
+  "discriminator": "315",
+  "title": "Object-Oriented Software Engineering",
   "description": "In this course students learn the fundamentals of object-oriented programming using Java. Standard design notations from UML are used to describe software designs. Students write Java programs that use simple data structures, such as lists, queues and stacks. Fundamentals time and space analyses of traditional computing problem are practiced. Students also learn how to develop software that avoids security vulnerabilities and work in small teams to construct a simple network application.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Software Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/300/ssw-315"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/300/ssw-315"
 }

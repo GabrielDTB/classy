@@ -1,13 +1,17 @@
 {
-  "id": "PEP 551",
-  "name": "Advanced Physics Laboratory I",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "551",
+  "title": "Advanced Physics Laboratory I",
   "description": "An experimental presentation of the evidence for atomic and nuclear theories; typical experiments are: excitation potentials; electronic charge; specific charge of the electron; the Balmer series; Zeeman splitting; spectroscopic isotope shifts; the photovoltaic effect; the Hall effect; gamma ray spectrometry; beta ray spectrometry; neutron activation of nuclides; statistics of counting processes; optical and X-ray diffraction; the Langmuir probe; and nuclear magnetic resonance. Fall semester, repeated second semester. By arrangement. Laboratory fee $5. Typical texts: Young, Statistical Treatment of Experimental Data; Melissinos, Experiments in Modern Physics.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-551"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-551"
 }

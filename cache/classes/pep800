@@ -1,17 +1,21 @@
 {
-  "id": "PEP 800",
-  "name": "Special Topics in Physics (MS)",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "800",
+  "title": "Special Topics in Physics (MS)",
   "description": "Topics include any one of the following: magnetohydrodynamics, quantum mechanics, general relativity, many-body problem, nuclear physics, quantum field theory, low temperature physics, diffraction theory, and particle physics. Limit of six credits for the master’s degree.",
   "credits": "1-6",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/800/pep-800"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/800/pep-800"
 }

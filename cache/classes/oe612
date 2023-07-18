@@ -1,13 +1,17 @@
 {
-  "id": "OE 612",
-  "name": "Environmental Issues in Maritime Systems",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "612",
+  "title": "Environmental Issues in Maritime Systems",
   "description": "An introductory course intended to familiarize students with the array of environmental issues related to inland, estuarine, and oceanfront port facilities. Particular attention is paid to water quality and bottom sediment contamination problems associated with the construction and operation of port facilities. Students are introduced to the various types of analysis tools, including field measurements and computer models, employed in the examination of port and harbor environmental problems. Practical examples of their use are provided from actual projects in the New York/New Jersey region. Students are also instructed in the use of emerging technologies in the prevention/remediation of identified pollution problems. Relevant state, federal, and international regulations are also discussed.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-612"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-612"
 }

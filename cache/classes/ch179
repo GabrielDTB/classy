@@ -1,15 +1,19 @@
 {
-  "id": "CH 179",
-  "name": "Career Pathways in Chemical and Biological Sciences",
+  "department": "CH",
+  "department_name": "",
+  "discriminator": "179",
+  "title": "Career Pathways in Chemical and Biological Sciences",
   "description": "This seminar will introduce undergraduate students to diverse career pathways available to Chemistry, Chemical Biology and Biology majors. Students will have the opportunity to engage with guest speakers from a wide range of professions and learn about interesting careers they may consider pursuing. By participating in classroom discussions and writing personal reflections every week, students will apply their knowledge to create a 10-year vision plan of their career pathway.",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/100/ch-179"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/100/ch-179"
 }

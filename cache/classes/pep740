@@ -1,13 +1,17 @@
 {
-  "id": "PEP 740",
-  "name": "The Physics of Nanostructures",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "740",
+  "title": "The Physics of Nanostructures",
   "description": "Progress in the technology of nanostructure growth; space and time scales; quantum confined systems; quantum wells, coupled wells, and superlattices; quantum wires and quantum dots; electronic states; magnetic field effects; electron-phonon interaction; and quantum transport in nanostructures: Kubo formalism and Butikker-Landau formalism; spectroscopy of quantum dots; Coulomb blockade, coupled dots, and artificial molecules; weal localization; universal conductance fluctuations; phase-breaking time; theory of open quantum systems: fluctuation-dissipation theorem; and applications to quantum transport in nanostructures.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "PEP 554",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/700/pep-740"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/700/pep-740"
 }

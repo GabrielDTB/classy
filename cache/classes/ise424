@@ -1,13 +1,17 @@
 {
-  "id": "ISE 424",
-  "name": "Engineering Design VIII",
+  "department": "ISE",
+  "department_name": "",
+  "discriminator": "424",
+  "title": "Engineering Design VIII",
   "description": "This year long, two-course sequence involves the students in a collaborative design experience in an area relevant to Industrial & Systems Engineering. The need for the project is taken from industry, business, government, not-for-profit organization, or a student-defined project approved by the course instructor. The teams will develop a set of alternative conceptual solutions based on deep analysis of clients’ and other stakeholder’s needs and expectations as well as gather data and knowledge from relevant sources and create a detailed preliminary design by the end of the fall semester. The second semester will focus on iterating detailed design, implementation and testing to refine the design to fulfill the intent of the design (depending on scope and complexity, this could be ranging from a \"proof of concept\" prototype, to a solution that the Client can put into production). Throughout the year, the teams will submit written reports at key milestones, and formally present it to clients, faculty, subject matter experts and peers.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "IDE 402 Coreq and (Engineering Design VII))",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Engineering Management Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ise-industrial-and-systems-engineering/400/ise-424"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ise-industrial-and-systems-engineering/400/ise-424"
 }

@@ -1,9 +1,10 @@
 {
-  "id": "EE 900",
-  "name": "Thesis in Electrical Engineering (ME)",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "900",
+  "title": "Thesis in Electrical Engineering (ME)",
   "description": "A thesis of significance to be filed in libraries, demonstrating competence in a research area of electrical engineering. For the degree of Master of Engineering (Electrical Engineering). Credits to be arranged.",
   "credits": "1-10",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/900/ee-900"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/900/ee-900"
 }

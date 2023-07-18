@@ -1,17 +1,21 @@
 {
-  "id": "MA 125",
-  "name": "Vectors and Matrices",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "125",
+  "title": "Vectors and Matrices",
   "description": "This is an introductory course in vector geometry and elementary linear algebra. The course will cover vector algebra, dot products, projections, cross products, matrices, determinants, matrix inversion, systems of linear equations, linear independence of vectors, eigenvalues, and eigenvectors. This is a seven (7) week course.",
   "credits": "2",
-  "cross_listed": "",
   "prerequisites": "MA 122",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/100/ma-125"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/100/ma-125"
 }

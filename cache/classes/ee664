@@ -1,18 +1,22 @@
 {
-  "id": "EE 664",
-  "name": "Advanced Digital Signal Processing",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "664",
+  "title": "Advanced Digital Signal Processing",
   "description": "Implementation of digital filters in high speed architectures; multirate signal processing: linear periodically time varying systems, decimators and expanders, filter banks, interfacing digital systems operating at multiple rates, elements of subband coding and wavelet transforms; signal recovery from partial data: from zero crossing, level crossing, phase only, magnitude only data; elements of spectral estimation: MA, AR and ARMA models. Lattice, Burg methods, MEM.",
   "credits": "3",
-  "cross_listed": "CPE 664",
   "prerequisites": "CS 505 / EE 605 / NIS 605",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    "CPE 664"
+  ],
+  "distributions": [
     "Computer Engineering Program",
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-664"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-664"
 }

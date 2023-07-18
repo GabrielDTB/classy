@@ -1,9 +1,10 @@
 {
-  "id": "MA 122",
-  "name": "Integral Calculus",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "122",
+  "title": "Integral Calculus",
   "description": "Definite integrals of functions of one variable, antiderivatives, the two versions of the Fundamental Theorem of Calculus, integration techniques including substitution, integration by parts, inverse trigonometric substitutions, and partial fraction decompositions; improper integrals, L'Hospital's Rule, applications to geometry and physics including calculation of areas, volumes, and work done by a variable force. This is a seven week course.",
   "credits": "2",
-  "cross_listed": "",
   "prerequisites": "MA 121",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Winter Intersession"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/100/ma-122"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/100/ma-122"
 }

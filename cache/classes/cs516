@@ -1,13 +1,17 @@
 {
-  "id": "CS 516",
-  "name": "Compiler Design and Implementation",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "516",
+  "title": "Compiler Design and Implementation",
   "description": "In the modern software industry, there is a proliferation of programming languages, especially domain-specific languages, such as Facebook Hack, Google Go, and Mozilla Rust. Therefore, the robustness and security of the software of the future depends on these languages (i) being built from classical compilers foundations and (ii) increasingly incorporating better analysis techniques. This course introduces students to the structure and design of compilers (lexical and syntax analysis, symbol table construction, code generation, etc.) as well as semantic analyses for correctness and security. The emphasis in this course is on the integration of the various parts of a compiler. Students will build a compiler for a small language. Pre-requisite: Graduate students - Required: Undergraduate Automata and Undergraduate Algorithms. Highly recommended: Undergraduate course in Principles of Programming Languages OR CS 510. Undergraduate students - Required: CS 334 and CS385. Highly recommended: CS496.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "( CS 510 or ( CS 334 and CS 385 )) and Graduate Student or At Least a Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-516"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-516"
 }

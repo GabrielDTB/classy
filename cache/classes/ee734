@@ -1,13 +1,17 @@
 {
-  "id": "EE 734",
-  "name": "Selected Topics in Modern Control Systems",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "734",
+  "title": "Selected Topics in Modern Control Systems",
   "description": "A participating seminar in which the student is expected to become involved in current research topics in the area of control theory; topics are subject to the current interest of the staff and students. Subjects may include: non-linear (adaptive) control, H-infinity control, robust control, discrete event asynchronous control, fuzzy control. Applications may include flight control, robot control, flow control of teletraffic or aviation traffic, or those arising from transportation problems.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/700/ee-734"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/700/ee-734"
 }

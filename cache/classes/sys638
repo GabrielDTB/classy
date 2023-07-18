@@ -1,15 +1,19 @@
 {
-  "id": "SYS 638",
-  "name": "Crew Exploration Vehicle Design",
+  "department": "SYS",
+  "department_name": "",
+  "discriminator": "638",
+  "title": "Crew Exploration Vehicle Design",
   "description": "This unique course gives participants a hands-on opportunity to apply key principles of space systems engineering. Participants are given a set of customer expectations in the form of broad mission objectives for a crew exploration vehicle with the task of applying systems engineering process to define top-level system requirements and design key elements of the system. The end result will be a system design review during which students present and defend their design decisions.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Complete SYS 632 OR SYS 635",
   "offered": [
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Systems Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-638"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-638"
 }

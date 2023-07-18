@@ -1,13 +1,17 @@
 {
-  "id": "MGT 678",
-  "name": "Technology Commercialization Practicum",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "678",
+  "title": "Technology Commercialization Practicum",
   "description": "Technology Commercialization Practicum",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/600/mgt-678"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/600/mgt-678"
 }

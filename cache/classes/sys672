@@ -1,15 +1,19 @@
 {
-  "id": "SYS 672",
-  "name": "Design of CPS: Ensuring Systems Work and Are Robust",
+  "department": "SYS",
+  "department_name": "",
+  "discriminator": "672",
+  "title": "Design of CPS: Ensuring Systems Work and Are Robust",
   "description": "Ensuring systems work and are robust educates students on the transition from cyber-physical system concept and preliminary requirements to detailed architecture and design based on prioritized, allocated and traceable architecturally significant requirements. Students will create models of system structure and activities, make appropriate technology selections, and perform analyses for reliability, performance, safety and security. Trade space analyses will be performed.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Summer Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Systems Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-672"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-672"
 }

@@ -1,13 +1,17 @@
 {
-  "id": "CAL 557",
-  "name": "Bioethics",
+  "department": "CAL",
+  "department_name": "",
+  "discriminator": "557",
+  "title": "Bioethics",
   "description": "The course gives an introduction to the key issues and methodologies of bioethics. It refers to the central problems in bioethics (autonomy of the patient, organ transplantation, stem cell debate, cloning, etc.), as much as to newer developments, such as genetic enhancement and the commercialization of the body. A main focus is to explore the field of bioethics in an interdisciplinary way and to bring not only ethical, legal, or scientific criteria into play, but also those from an existential, social, or cultural background. An introduction to the moral theories used in applied ethics is given. The course helps to develop a responsible and sensitive conduct in future studies or occupations.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "College of Arts and Letters"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cal-college-of-arts-letters/500/cal-557"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cal-college-of-arts-letters/500/cal-557"
 }

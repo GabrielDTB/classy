@@ -1,13 +1,17 @@
 {
-  "id": "MGT 790",
-  "name": "Innovation Management and Technogenesis",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "790",
+  "title": "Innovation Management and Technogenesis",
   "description": "This course will survey current research and theory in seven different areas related to the management of innovation. These areas include: Creativity,the Front-end of Innovation,Innovation Management, Leadership and Teamwork, Project Management, the Economics of Innovation, and CSCW & Groupware: Brainstorming & Creativity. Students will read leading-edge papers in each area and lead discussions with a faculty member who is expert in each area facilitating the discussion. Each student will write a research proposal on one of the topics covered in the course.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/700/mgt-790"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/700/mgt-790"
 }

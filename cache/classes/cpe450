@@ -1,13 +1,17 @@
 {
-  "id": "CPE 450",
-  "name": "Real-Time Embedded Systems",
+  "department": "CPE",
+  "department_name": "",
+  "discriminator": "450",
+  "title": "Real-Time Embedded Systems",
   "description": "Unlike typical software-based systems, real-time systems must complete their tasks within specified timeframes. Unlike general purpose computing platforms, embedded systems must perform their tasks while minimizing tight resource constraints. This course addresses the considerations in designing real-time embedded systems, both from a hardware and software perspective. The primary emphasis is on real-time processing for communications and signal processing systems, but applications to seismic and environmental monitoring, process control, and biomedical systems will be addressed. Programming projects in a high level language like C/C++ will be an essential component of the course, as well as hardware design with modern design tools.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "( ENGR 243 or MA 222 ) and ( CPE 358 or CS 381 ) and ( CPE 390 or CS 390)",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/400/cpe-450"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/400/cpe-450"
 }

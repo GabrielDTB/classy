@@ -1,18 +1,22 @@
 {
-  "id": "AAI 900",
-  "name": "Thesis in Applied Artificial Intelligence (Masters)",
+  "department": "AAI",
+  "department_name": "",
+  "discriminator": "900",
+  "title": "Thesis in Applied Artificial Intelligence (Masters)",
   "description": "A thesis of significance to be filed in libraries, demonstrating competence in a research area of Applied Artificial Intelligence.",
   "credits": "1-10",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Engineering Program",
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/aai-applied-artificial-intelligence/900/aai-900"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/aai-applied-artificial-intelligence/900/aai-900"
 }

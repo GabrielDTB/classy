@@ -1,18 +1,22 @@
 {
-  "id": "CPE 646",
-  "name": "Pattern Recognition and Classification",
+  "department": "CPE",
+  "department_name": "",
+  "discriminator": "646",
+  "title": "Pattern Recognition and Classification",
   "description": "Introduction and general pattern recognition concerns and statistical pattern recognition: introduction to statistical pattern recognition, supervised learning (training) using parametric and nonparametric approaches, parametric estimation and supervised learning, maximum likelihood (ML) estimation, the Bayesian parameter estimation approach, supervised learning using nonparametric approaches, Parzen windows, nonparametric estimation, unsupervised learning and clustering, and formulation of unsupervised learning problems; syntactic pattern recognition: quantifying structure in pattern description and recognition, grammar-based approach and applications, elements of formal grammars, syntactic recognition via parsing and other grammars, graphical approaches, and learning via grammatical inference; neural pattern recognition: the artificial neural network model, introduction to neural pattern associators and matrix approaches, multilayer, feed-forward network structure, and content addressable memory approaches. The Hopfield approach to pattern recognition, unsupervised learning, and self-organizing networks.",
   "credits": "3",
-  "cross_listed": "AAI 646",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    "AAI 646"
+  ],
+  "distributions": [
     "Computer Engineering Program",
     "Information and Data Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/600/cpe-646"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/600/cpe-646"
 }

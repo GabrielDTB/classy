@@ -1,16 +1,20 @@
 {
-  "id": "CH 497",
-  "name": "Chemistry Project II",
+  "department": "CH",
+  "department_name": "",
+  "discriminator": "497",
+  "title": "Chemistry Project II",
   "description": "Participation in a small group project, under the guidance of a faculty member, whose prior approval is required. Experimentation, application of chemical knowledge and developmental research leading to the implementation of a working chemical process. Individual or group written report required.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "No Freshmen or Sophomores Cohort",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/400/ch-497"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/400/ch-497"
 }

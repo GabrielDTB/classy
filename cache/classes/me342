@@ -1,17 +1,21 @@
 {
-  "id": "ME 342",
-  "name": "Fluid Mechanics",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "342",
+  "title": "Fluid Mechanics",
   "description": "Properties of a fluid, basic flow analysis techniques, fluid kinematics, hydrostatics, manometry, pressure distribution in rigid body motion of a fluid, control volume analysis, conservation of mass, linear and angular momentum, Bernoulli and energy equations, dimensional analysis, viscous flow in pipes, flow metering devices, external flows, estimation of lift and drag, turbo-machinery, open channel flow.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "( ENGR 126 or  ENGR 211) and ( MA 221 or MA 281 ) and ME 225 and PEP 112",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/300/me-342"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/300/me-342"
 }

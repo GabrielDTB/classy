@@ -1,15 +1,19 @@
 {
-  "id": "QF 202",
-  "name": "Financial Time Series",
+  "department": "QF",
+  "department_name": "",
+  "discriminator": "202",
+  "title": "Financial Time Series",
   "description": "Students will study the application of quantitative methods to the field of finance, including investment theory and risk management. Among topics covered will be regression analysis, building asset/business cash flow models of a business, sensitivity analysis, value at risk (VAR) models, probability transition matrices and stochastic difference equations (SDE’s).",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "QF 200",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/200/qf-202"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/200/qf-202"
 }

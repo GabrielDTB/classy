@@ -1,9 +1,10 @@
 {
-  "id": "CS 562",
-  "name": "Database Management Systems II",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "562",
+  "title": "Database Management Systems II",
   "description": "Continuation of CS 561. Topics include UML modeling of relational databases; indexing, both static and dynamic; B-trees and B+-trees; query optimization; concurrency control; and recovery control.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "( CS 442 or CS 561 ) and (Grad Student or (Junior or Senior))",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-562"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-562"
 }

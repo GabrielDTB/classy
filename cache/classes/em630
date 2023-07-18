@@ -1,13 +1,17 @@
 {
-  "id": "EM 630",
-  "name": "Introduction to Complexity and Dynamic Systems",
+  "department": "EM",
+  "department_name": "",
+  "discriminator": "630",
+  "title": "Introduction to Complexity and Dynamic Systems",
   "description": "This course will introduce and explore complexity and chaos, and investigate a broad range of examples from both natural (biological) and man-made systems. Complex systems, distinct from, but related to, complicated systems, display a range of behaviors. One of the most distinguishing of these behaviors is emergence - behavior that is not predictable from knowledge of specific, individual agent capabilities. In addition, systems are said to be complex when emergent behavior is not resulting from a central control, when they display chaotic characteristics, and when the systems have more frequent occurrences of rare events, especially when initial conditions vary. This course will study and model complex and adaptive (as well as non- adaptive) systems, and will present and discuss the characteristics of complex and chaotic systems.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Engineering Management Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/600/em-630"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/600/em-630"
 }

@@ -1,16 +1,20 @@
 {
-  "id": "EE 629",
-  "name": "Internet of Things",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "629",
+  "title": "Internet of Things",
   "description": "This course provides the fundamentals of the Internet of Things (IoT), including architectures, systems, and analytics. It describes use cases and building blocks such as sensor networks, communication protocols, application programming interfaces (APIs), systems design and management, data analytics, and tools.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-629"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-629"
 }

@@ -1,15 +1,19 @@
 {
-  "id": "ISE 225",
-  "name": "Data Infrastructures",
+  "department": "ISE",
+  "department_name": "",
+  "discriminator": "225",
+  "title": "Data Infrastructures",
   "description": "This course provides an introduction to Data Engineering. Data Engineers gather and collect the data, store it, do batch processing or real-time processing on it, and serve it to a data scientist who can query it. This course is designed to give students a broad understanding of modern storage systems, data management techniques, and how these systems are used to store, access and analyze Big Data. Topics include data modeling; storage system design of disk arrays, network attached storage, clusters and data centers: relational databases and techniques for data analytics; no-SQL databases and their advantages; cloud data storage and the use of clouds for big data; data warehouses and data mining; the Apache ecosystem for data management with focus on hadoop file system and the mapreduce paradigm for data analytics; graph database management systems, such as Neo4j. Homework assignments will give students practical experience with important topics covered in the course, including the use of cloud storage, relational databases, NoSQL databases, and hadoop/Map Reduce.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Engineering Management Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ise-industrial-and-systems-engineering/200/ise-225"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ise-industrial-and-systems-engineering/200/ise-225"
 }

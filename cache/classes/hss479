@@ -1,16 +1,20 @@
 {
-  "id": "HSS 479",
-  "name": "Sociology of Gender",
+  "department": "HSS",
+  "department_name": "",
+  "discriminator": "479",
+  "title": "Sociology of Gender",
   "description": "This course introduces students to the study of gender from a sociological perspective. It focuses on gender as a social construction that occurs during interaction and influences our social relationships as well as personal experiences. We examine how gender and power are interrelated. To address these questions, we will, first of all, investigate theories and studies that explain gender differences from biological and cultural perspectives. then, we will analyze how gender shapes and is shaped by large social institutions such as education, the workplace, the family, politics, and media. In this course, we will also explore the intersections of gender, race, class and sexual orientation. The readings, class discussions, and assignments are designed to help students improve their critical thinking skills, understand the social construction of gender, learn about sociological research, and develop their communication skills.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/400/hss-479"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/400/hss-479"
 }

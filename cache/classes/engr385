@@ -1,16 +1,20 @@
 {
-  "id": "ENGR 385",
-  "name": "Special Topics in Sustainable Engineering",
+  "department": "ENGR",
+  "department_name": "",
+  "discriminator": "385",
+  "title": "Special Topics in Sustainable Engineering",
   "description": "This is a multidisciplinary course addressing contemporary issues in sustainable engineering. The course is primarily project- based with relevant lectures and seminars from the instructor and guest speakers. Each student or group of students will develop a plan of project activities appropriate for the assigned credits under the supervision of an advisor and may include a co-advisor from outside Stevens. The scope of the project must not duplicate any activity for which credit has been or is being obtained in another course. This course is open to engineering undergraduate students from any discipline with at least sophomore standing. This course can be used as an elective in the Green Engineering Minor.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Undergraduate DEAN 498",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Engineering and Science"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/300/engr-385"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/300/engr-385"
 }

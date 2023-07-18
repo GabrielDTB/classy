@@ -1,19 +1,23 @@
 {
-  "id": "ME 628",
-  "name": "Manufacturing and Packaging of Pharmaceutical Oral Solid Dosage Products",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "628",
+  "title": "Manufacturing and Packaging of Pharmaceutical Oral Solid Dosage Products",
   "description": "The course covers oral solid dosage (OSD) manufacturing and packaging in the pharmaceutical industry. Production unit operations include blending, granulation, size reduction, drying, compressing, and coating for tablets, as well as capsule production and filling. Packaging aspects reviewed include requirements for primary and secondary containers and labeling, package testing. The course emphasizes design, scale-up, trouble-shooting, validation, quality testing, and operation of typical OSD manufacturing and packaging facilities, including equipment, material flow, utilities, and quality assurance. The term project required for this course involves conceptual design of a contract manufacturing and packaging facility for OSD products.",
   "credits": "3",
-  "cross_listed": "CHE 628, PME 628",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    "CHE 628, PME 628"
+  ],
+  "distributions": [
     "Chemical Engineering Program",
     "Mechanical Engineering Program",
     "Pharmaceutical Manufacturing Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-628"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-628"
 }

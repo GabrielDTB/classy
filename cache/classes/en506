@@ -1,16 +1,20 @@
 {
-  "id": "EN 506",
-  "name": "Air Pollution Principles and Control",
+  "department": "EN",
+  "department_name": "",
+  "discriminator": "506",
+  "title": "Air Pollution Principles and Control",
   "description": "An introduction to the principles and control of air pollution, including: types and measurement of air pollution; air pollution chemistry; atmospheric dispersion modeling; compressible fluid flow; particle dynamics; ventilation systems; inertial devices; electrostatic precipitators; scrubbers; filters; absorption and adsorption; combustion; condensation.",
   "credits": "3",
-  "cross_listed": "ME 532",
   "prerequisites": "EN 377 and (Grad Student or (Junior or Senior))",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "ME 532"
+  ],
+  "distributions": [
     "Environmental Engineering Program",
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-506"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-506"
 }

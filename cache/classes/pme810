@@ -1,13 +1,17 @@
 {
-  "id": "PME 810",
-  "name": "Special Topics in Pharmaceutical Manufacturing Practices",
+  "department": "PME",
+  "department_name": "",
+  "discriminator": "810",
+  "title": "Special Topics in Pharmaceutical Manufacturing Practices",
   "description": "A participating seminar on topics of current interest and importance in Pharmaceutical Manufacturing Practices",
   "credits": "3-1",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pharmaceutical Manufacturing Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pme-pharmaceutical-manufacturing/800/pme-810"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pme-pharmaceutical-manufacturing/800/pme-810"
 }

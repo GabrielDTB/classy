@@ -1,16 +1,20 @@
 {
-  "id": "EE 465",
-  "name": "Introduction to Communication Systems",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "465",
+  "title": "Introduction to Communication Systems",
   "description": "Review of probability, random processes, signals and systems; continuous-wave modulation including AM, DSB-SC, SSB, FM and PM; superheterodyne receiver; noise analysis; pulse modulation including PAM, PPM, PDM and PCM; quantization and coding; delta modulation, linear prediction and DPCM; baseband digital transmission, matched filter and error rate analysis; passband digital transmission including ASK, PSK and FSK.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "EE 348 and (ENGR 241 or ENGR 243 )",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/400/ee-465"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/400/ee-465"
 }

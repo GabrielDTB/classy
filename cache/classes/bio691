@@ -1,11 +1,15 @@
 {
-  "id": "BIO 691",
-  "name": "Introduction to Systems Biology",
+  "department": "BIO",
+  "department_name": "",
+  "discriminator": "691",
+  "title": "Introduction to Systems Biology",
   "description": "Systems biology is a new approach to complex biological problems. It uses a combination of the most modern techniques for comprehensive measurements of cells and molecules, combined with complex computer and mathematical modeling, to build up inclusive depictions of how living systems function. This course is an integrative approach to help comprehend dynamic biological systems. True understanding of systems biology requires a cross-disciplinary approach. Topics will include both a biological and computer science perspective taught by experts in each individual discipline. The course will cover introduction to advance biological subjects in cell biology and genetics followed by introduction to computer science methods including modeling and \"bio-machine\" features of systems biology. In class, we will also explore critical reading of current research.",
   "credits": "3",
-  "cross_listed": "BIO 691/ CS 691 - Introduction to Systems Biology",
   "prerequisites": "",
   "offered": [],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/600/bio-691"
+  "cross_listings": [
+    "BIO 691/ CS 691 - Introduction to Systems Biology"
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/600/bio-691"
 }

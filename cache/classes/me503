@@ -1,13 +1,17 @@
 {
-  "id": "ME 503",
-  "name": "Principles of Mechanical Engineering",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "503",
+  "title": "Principles of Mechanical Engineering",
   "description": "This course is intended to provide non-mechanical engineering students with an understanding of the principles of mechanical design. It is given from the viewpoint that design is the central activity of the engineering profession, and it is more concerned with the introduction of mechanical engineering principles pertinent to design of products. This course presents design as an interdisciplinary activity that draws on such diverse subjects as materials selection, modeling and analysis, and manufacturing processes.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-503"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-503"
 }

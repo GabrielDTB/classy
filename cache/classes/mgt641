@@ -1,17 +1,21 @@
 {
-  "id": "MGT 641",
-  "name": "Marketing Management",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "641",
+  "title": "Marketing Management",
   "description": "The study of marketing principles from the conceptual, analytical, and managerial points of view. Topics include: strategic planning, market segmentation, product life-cycle, new product development, advertising and selling, pricing, distribution, governmental, and other environmental influences as these factors relate to markets and the business structure.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/600/mgt-641"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/600/mgt-641"
 }

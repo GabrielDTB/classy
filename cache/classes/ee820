@@ -1,17 +1,21 @@
 {
-  "id": "EE 820",
-  "name": "Research Seminar",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "820",
+  "title": "Research Seminar",
   "description": "Research Seminar",
   "credits": "0",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/800/ee-820"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/800/ee-820"
 }

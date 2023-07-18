@@ -1,17 +1,21 @@
 {
-  "id": "MGT 611",
-  "name": "Project Analytics",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "611",
+  "title": "Project Analytics",
   "description": "Formalized procedures, tools, and techniques used in conceptual and detailed planning of the project. Development of work breakdown structure as the foundation for project cost and project duration. Application of project data in monitoring the project progress and in formulating remedial actions in response to unexpected occurrences.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "EM 612 or MGT 550 or MGT 609 or MGT 802 or MGT 803 or SYS 612 or SDOE 612",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/600/mgt-611"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/600/mgt-611"
 }

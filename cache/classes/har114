@@ -1,14 +1,18 @@
 {
-  "id": "HAR 114",
-  "name": "Introduction to Photography",
+  "department": "HAR",
+  "department_name": "",
+  "discriminator": "114",
+  "title": "Introduction to Photography",
   "description": "This course provides an introduction to the techniques, processes, history, and language of photography. Students will gain a technical understanding of cameras, production techniques, and post-production/presentation in order to develop their abilities to communicate creatively through studio exercises, discussion, and homework projects.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/100/har-114"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/100/har-114"
 }

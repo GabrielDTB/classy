@@ -1,15 +1,19 @@
 {
-  "id": "PEP 579",
-  "name": "Nonlinear Optics",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "579",
+  "title": "Nonlinear Optics",
   "description": "This course is dedicated to give students a working knowledge of the fundamental concepts and modern applications of nonlinear optics in optical communications, lasers, optical metrology, and quantum computing. Through this course, students will gain in-depth understanding and master mathematical tools for modeling nonlinear optical susceptibilities, wave propagation and coupling in nonlinear media, harmonic, sum, and difference frequency generation, parametric amplification and oscillation, phase-conjugation via four-wave mixing, self-phase modulation, and solitons.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-579"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-579"
 }

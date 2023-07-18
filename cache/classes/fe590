@@ -1,11 +1,15 @@
 {
-  "id": "FE 590",
-  "name": "Statistical Learning",
+  "department": "FE",
+  "department_name": "",
+  "discriminator": "590",
+  "title": "Statistical Learning",
   "description": "Introduction to information theory: the thermodynamic approach of Shannon and Brillouin. Data conditioning, model dissection, extrapolation, and other issues in building industrial strength data-driven models. Pattern recognition-based modeling and data mining: theory and algorithmic structure of clustering, classification, feature extraction, Radial Basis Functions, and other data mining techniques. Non-linear data-driven model building through pattern identification and knowledge extraction. Adaptive learning systems and genetic algorithms. Case studies emphasizing financial applications: handling financial, economic, market, and demographic data; and time series analysis and leading indicator identification.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-590"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-590"
 }

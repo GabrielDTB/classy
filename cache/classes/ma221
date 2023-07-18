@@ -1,17 +1,21 @@
 {
-  "id": "MA 221",
-  "name": "Differential Equations",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "221",
+  "title": "Differential Equations",
   "description": "Ordinary differential equations of first and second order, homogeneous and non-homogeneous equations; improper integrals, Laplace transforms; review of infinite series, series solutions of ordinary differential equations near an ordinary point; boundary-value problems; orthogonal functions; Fourier series; separation of variables for partial differential equations.",
   "credits": "4",
-  "cross_listed": "",
   "prerequisites": "MA 124 or MA 126",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/200/ma-221"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/200/ma-221"
 }

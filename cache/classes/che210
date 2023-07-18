@@ -1,17 +1,21 @@
 {
-  "id": "CHE 210",
-  "name": "Process Analysis",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "210",
+  "title": "Process Analysis",
   "description": "The objective of this course is to train students in the application of the basic concepts of material and energy balances in chemical process design. Equations of state for ideal and real gases, including mixtures will be covered. Multiphase systems will also be studied.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CH 116 and CoReq MA 221",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/200/che-210"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/200/che-210"
 }

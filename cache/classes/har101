@@ -1,15 +1,19 @@
 {
-  "id": "HAR 101",
-  "name": "Foundations in Creative Software",
+  "department": "HAR",
+  "department_name": "",
+  "discriminator": "101",
+  "title": "Foundations in Creative Software",
   "description": "In this course, students will be introduced to software used in creative fields, including photo editing, vector graphics, and video and audio editing. Through technical lectures and applied homework projects, students will gain competency with industry-standard software. Additional topics include file management, terminology used in static and moving image software, and exporting to a variety of platforms.",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/100/har-101"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/100/har-101"
 }

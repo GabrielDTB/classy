@@ -1,15 +1,19 @@
 {
-  "id": "CS 582",
-  "name": "Causal Inference",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "582",
+  "title": "Causal Inference",
   "description": "This course covers what causality is, how we can infer it using automated methods, and how to use causes to predict future events, explain past occurrences and intervene on systems. Students will learn both the theory behind causal inference methods as well as how to apply them to real-world datasets such as from finance, biology, and politics. In addition to Bayesian networks, we will cover methods for causal inference in time series including dynamic Bayesian networks, Granger causality, and logic-based methods.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-582"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-582"
 }

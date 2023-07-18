@@ -1,13 +1,17 @@
 {
-  "id": "CE 746",
-  "name": "Soil Mechanics",
+  "department": "CE",
+  "department_name": "",
+  "discriminator": "746",
+  "title": "Soil Mechanics",
   "description": "Advanced topics in soil mechanics and geotechnology. Application of theory of elasticity to geotechnical problems; two and three dimensional consolidation theories; settlement analysis, strength of soils.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CE 595",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Civil Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/700/ce-746"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/700/ce-746"
 }

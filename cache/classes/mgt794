@@ -1,13 +1,17 @@
 {
-  "id": "MGT 794",
-  "name": "Decision Analysis for Corporate Network Systems",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "794",
+  "title": "Decision Analysis for Corporate Network Systems",
   "description": "This course surveys sector implementation of corporate telecommunication networks and the business issues involved in their selections. Issues of equipment acquisition, financing and accounting will be studied in depth. Additionally, the equipment/system selection process will use the techniques of probabilistic outcomes, simulation, sensitivity analysis and multi-attribute analysis to better define the risks and opportunities of these investments. Also studied are telecommunications systems' effects on the balance sheet of the corporation as financial assets or liabilities; strategic assets, active revenue-producing tools or passive service provision in the corporation's realization of a business plan.",
   "credits": "3",
-  "cross_listed": "TM 670",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    "TM 670"
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/700/mgt-794"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/700/mgt-794"
 }

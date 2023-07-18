@@ -1,13 +1,17 @@
 {
-  "id": "ME 523",
-  "name": "Mechatronics II",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "523",
+  "title": "Mechatronics II",
   "description": "This course builds upon the foundation formed in ME522 Mechatronics I. It emphasizes the fundamentals of machine design, thus advancing the students knowledge of the principles of motion control, mechanical power transmission, safety as well as aspects of industrial standards as they affect equipment design and component selection, programmable logic controller (PLC) programming, and industrial component sizing. Industrial modeling tools are provided and used during the semester as are discussions on backlash, mechanical resonance, and PID loops. This course fosters a systematic understanding of todays industrial products selection and applications of components for machine design.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "ME 522 and (Grad Student or (Junior or Senior))",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-523"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-523"
 }

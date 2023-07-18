@@ -1,13 +1,17 @@
 {
-  "id": "EN 780",
-  "name": "Non-Linear Correlation and System Identification",
+  "department": "EN",
+  "department_name": "",
+  "discriminator": "780",
+  "title": "Non-Linear Correlation and System Identification",
   "description": "An investigation of tools to identify nonlinear processes and relationships. Mathematical tools covered include nonlinear regression, artificial neural networks, and multivariate polynomial regression. Applications include mass transfer correlations, prediction of drinking water quality, and modeling of wastewater treatment processes.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CE 679",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Environmental Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/700/en-780"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/700/en-780"
 }

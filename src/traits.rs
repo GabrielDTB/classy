@@ -18,14 +18,14 @@ pub trait Class {
     /// Mathematics, Computer Science, Accounting, etc.
     fn department_name(&self) -> String;
     /// Returns the number code that comes after the department code.
-    fn discriminator(&self) -> u8;
+    fn discriminator(&self) -> String;
     /// Returns the title of the class, **excluding the ID**.
     fn title(&self) -> String;
     /// Returns the description of the class.
     /// Intro to Programming, Differential Calculus, etc.
     fn description(&self) -> String;
     /// Returns the number of credits the class provides.
-    fn credits(&self) -> u8;
+    fn credits(&self) -> String;
     /// Returns the prerequisites of a class formatted as a single String.
     fn prerequisites(&self) -> String;
     /// Returns a Vec of the semesters that the class is offered in.

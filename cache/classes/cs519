@@ -1,16 +1,20 @@
 {
-  "id": "CS 519",
-  "name": "Distributed Commerce",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "519",
+  "title": "Distributed Commerce",
   "description": "The course provides an understanding of electronic commerce and related architectures, protocols, and technologies. It describes the e-commerce concept, objectives, and market drivers, as well as its requirements and underpinning techniques and technologies, including the Internet, WWW, multimedia, intelligent agents, client-server, and data mining. Security in e-commerce is addressed, including types of security attacks, security mechanisms, Virtual Private Networks (VPNs), firewalls, Intranets, and extranets. Implementation issues in e-commerce, including the design and management of its infrastructure and applications (ERP, CRM, and SCM), are discussed. M-commerce is addressed, electronic payment systems with their associated protocols are described, and various B2C and B2B applications are presented. Also, policy and regulatory issues in ecommerce are discussed.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-519"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-519"
 }

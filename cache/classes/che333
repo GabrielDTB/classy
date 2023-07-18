@@ -1,17 +1,21 @@
 {
-  "id": "CHE 333",
-  "name": "Chemical Engineering Thermodynamics II",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "333",
+  "title": "Chemical Engineering Thermodynamics II",
   "description": "Based on thermodynamic property theories and models for pure substances introduced in Chemical Engineering Thermodynamics I, this course explores theories, models, and methods for thermodynamic properties of mixtures, phase equilibrium, and chemical reaction equilibrium. After the course study, students will be able to establish equilibrium relationships and create mixture property data for separation operation analysis, reactor design, and chemical process design.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CHE 233",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/300/che-333"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/300/che-333"
 }

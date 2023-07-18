@@ -1,16 +1,20 @@
 {
-  "id": "BME 423",
-  "name": "Engineering Design VII",
+  "department": "BME",
+  "department_name": "",
+  "discriminator": "423",
+  "title": "Engineering Design VII",
   "description": "Senior design courses. Senior design provides, over the course of two semesters, a collaborative design experience with a significant biomedical problem related to human health. The project will often originate with an industrial sponsor or a medical practitioner at a nearby medical facility and will contain a clear implementation objective (i.e. for a medical device). It is a capstone experience that draws extensively on the student’s engineering and scientific background and requires independent judgments and actions. The project generally involves a determination of the medical need, a detailed economic analysis of the market potential, physiological considerations, biocompatibility issues, ease of patient use, an engineering analysis of the design, manufacturing considerations and experimentation and/or prototype construction of the device. The faculty advisor, industrial sponsor or biomedical practitioner works closely with the group to insure that the project meets its goals in a timely way. Leadership and entrepreneurship are nourished throughout all phases of the project. The project goals are met in a stepwise fashion, with each milestone forming a part of a final report with a common structure. Oral and written progress reports are presented to a panel of faculty at specified intervals and at the end of each semester.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Seniors Only and ( BME 322 and BME 342 or BME 343 and BME 344 and BME 311 or BME 505 and BME 506 ) and CoReq BME 482 / IDE 401",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biomedical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/400/bme-423"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/400/bme-423"
 }

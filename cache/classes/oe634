@@ -1,13 +1,17 @@
 {
-  "id": "OE 634",
-  "name": "Air-Sea Interactions: Theory and Measurement",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "634",
+  "title": "Air-Sea Interactions: Theory and Measurement",
   "description": "Momentum, heat and water flux across the air-sea interface, shear stress and the neutral wind profile, adiabatic lapse rate in the lower atmosphere, static and dynamic stability of a stratified fluid, effects of stability on transfer processes in the lower atmosphere and ocean surface layer, direct measurement of eddy flux, and indirect determination of eddy flux from routine shipboard meteorological observations.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "OE 633",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-634"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-634"
 }

@@ -1,9 +1,10 @@
 {
-  "id": "CPE 800",
-  "name": "Special Problems in Computer Engineering (M.Eng)",
+  "department": "CPE",
+  "department_name": "",
+  "discriminator": "800",
+  "title": "Special Problems in Computer Engineering (M.Eng)",
   "description": "An investigation of current research topic at the pre-master’s level, under the direction of a faculty member. A written report is required, which should have the substance of a publishable article. Students with no practical experience who do not write a master’s thesis are invited to take advantage of this experience.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/800/cpe-800"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/800/cpe-800"
 }

@@ -1,13 +1,17 @@
 {
-  "id": "CS 557",
-  "name": "Introduction to Natural Language Processing",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "557",
+  "title": "Introduction to Natural Language Processing",
   "description": "Introduction to the basic theory and current practice for syntactic analysis of documents, written in English, for supervised and unsupervised document classification and information retrieval. The approach extends statistical machine learning to include language models and formal grammars.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-557"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-557"
 }

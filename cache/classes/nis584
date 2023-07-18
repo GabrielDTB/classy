@@ -1,19 +1,23 @@
 {
-  "id": "NIS 584",
-  "name": "Wireless Systems Security",
+  "department": "NIS",
+  "department_name": "",
+  "discriminator": "584",
+  "title": "Wireless Systems Security",
   "description": "Wireless systems and their unique vulnerabilities to attack; system security issues in the context of wireless systems, including satellite, terrestrial microwave, military tactical communications, public safety, cellular and wireless LAN networks; security topics: confidentiality/privacy, integrity, availability, and control of fraudulent usage of networks. Issues addressed include jamming, interception and means to avoid them. Case studies and student projects are an important component of the course.",
   "credits": "3",
-  "cross_listed": "EE 584, TM 584",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    "EE 584, TM 584"
+  ],
+  "distributions": [
     "Electrical Engineering Program",
     "Information and Data Engineering Program",
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/500/nis-584"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/500/nis-584"
 }

@@ -1,16 +1,20 @@
 {
-  "id": "PEP 309",
-  "name": "Introductory Optics Lab",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "309",
+  "title": "Introductory Optics Lab",
   "description": "This is the first course in optical experimentation and design of optical systems. Topics include operating principles and setup of lab apparatus related to both ray and wave behavior of light. Instrument related to ray optics include mirrors, lenses and prisms. For wave optics, operation of polarizer, spectrometer and interferometer will be examined.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "PEP 209 and CoReq EE 509 / PEP 509",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/300/pep-309"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/300/pep-309"
 }

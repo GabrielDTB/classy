@@ -1,17 +1,21 @@
 {
-  "id": "ENGR 232",
-  "name": "Systems with Analog Circuits",
+  "department": "ENGR",
+  "department_name": "",
+  "discriminator": "232",
+  "title": "Systems with Analog Circuits",
   "description": "This course continues the experiential sequence in design. Design projects and lectures addressthe area of electronics and instrumentation. Core design themes are further developed.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "ENGR 231 and ENGR 245",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Engineering and Science"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/200/engr-232"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/200/engr-232"
 }

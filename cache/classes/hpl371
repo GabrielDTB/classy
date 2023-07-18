@@ -1,13 +1,17 @@
 {
-  "id": "HPL 371",
-  "name": "Philosophy of Time",
+  "department": "HPL",
+  "department_name": "",
+  "discriminator": "371",
+  "title": "Philosophy of Time",
   "description": "Time is one of the fundamental problems in philosophy. It poses specific challenges for any analysis or definition. Many philosophers have even denied the existence of time. Others have pointed at the difference between the linear time of nature and the non-linear time of human experience. The class will discuss classical and modern texts. It will raise questions such as: why is there only one direction of time? Does time have a beginning? Is time travel possible? Is time real or a product of our understanding? Is a timeless existence possible?",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hpl-humanitiesphilosophy/300/hpl-371"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hpl-humanitiesphilosophy/300/hpl-371"
 }

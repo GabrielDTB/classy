@@ -1,15 +1,19 @@
 {
-  "id": "OE 635",
-  "name": "Stochastic Analysis of Ocean Waves",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "635",
+  "title": "Stochastic Analysis of Ocean Waves",
   "description": "Introduction to probability theory; statistical techniques for characterizing random variables and evaluation of data; statistical techniques for analyzing stochastic processes; and application of power spectral density techniques to the representation of the sea surface and other stochastic marine processes.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-635"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-635"
 }

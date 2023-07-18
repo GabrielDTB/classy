@@ -1,13 +1,17 @@
 {
-  "id": "FIN 565",
-  "name": "Financial Plan Development",
+  "department": "FIN",
+  "department_name": "",
+  "discriminator": "565",
+  "title": "Financial Plan Development",
   "description": "This course integrates the different aspects of the financial planning process and demonstrates how to apply this knowledge to the development of a comprehensive financial plan. Students learn how to solve the main problems related to the financial planning process: cash management, debt management, taxation, insurance, retirement, investment, portfolio optimization, and estate planning. At the end of the course, students should be able to construct a plan according to the CFP Boards Financial Planning Practice Standards and client objectives. The course is appropriate for students who want to become financial planners and especially for those that plan to take the CFP Certification Examination.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "FIN 550 and FIN 555 and FIN 560 and (Grad Student (or Junior or Senior))",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/500/fin-565"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/500/fin-565"
 }

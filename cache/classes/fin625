@@ -1,13 +1,17 @@
 {
-  "id": "FIN 625",
-  "name": "Capital Markets",
+  "department": "FIN",
+  "department_name": "",
+  "discriminator": "625",
+  "title": "Capital Markets",
   "description": "This course is designed to familiarize the student with the current workings of the capital markets. This course describes fundamental analytical techniques and state-of-the-art financial instruments. It begins with the time value of money and progresses to bond mathematics, portfolio management, and derivatives. The role of information technology is emphasized in both the development and delivery of financial instruments. Students will learn to structure IT applications to meet the needs of a trader or broker. Topics include the time value of money, bond math, the yield curve, analytical tools, trading and investment strategies, money market instruments and repurchase agreements, corporate bonds, macroeconomic dynamics, derivatives, securitization, equities, and the role of IT in capital markets",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/600/fin-625"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/600/fin-625"
 }

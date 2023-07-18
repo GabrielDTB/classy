@@ -1,17 +1,21 @@
 {
-  "id": "FE 529",
-  "name": "GPU Computing in Finance",
+  "department": "FE",
+  "department_name": "",
+  "discriminator": "529",
+  "title": "GPU Computing in Finance",
   "description": "In this course the students will learn the basics of CUDA programming using financial data and applications. They will learn how to use C++, Matlab and R to access the GPU in their computer and to use the Stevens GPU cluster. The course is designed for Nvidia CUDA but the basics are easily transferable to Open CL.",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "FE 522 and (Grad Student or (Junior or Senior))",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-529"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-529"
 }

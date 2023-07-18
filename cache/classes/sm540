@@ -1,17 +1,21 @@
 {
-  "id": "SM 540",
-  "name": "Sustainability Assessment Tools",
+  "department": "SM",
+  "department_name": "",
+  "discriminator": "540",
+  "title": "Sustainability Assessment Tools",
   "description": "This course will provide students with an overview on the various assessment tools and technical skills that corporate sustainability professionals would use in their roles. Sustainability can be quite vague and how do we know if we have achieved it? In this course, we examine setting sustainability goals, measuring progress towards sustainability outcomes, and managing so-called \"sustainability transitions\". We will take a look at how sustainability is measured and communicated through sustainability reporting frameworks such as GRI & SASB as well as a deep dive into how to quantify greenhouse gas (GHG) emissions and set goals and targets for a climate action plan.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Engineering and Science"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sm-sustainability-management/500/sm-540"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sm-sustainability-management/500/sm-540"
 }

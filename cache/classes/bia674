@@ -1,16 +1,20 @@
 {
-  "id": "BIA 674",
-  "name": "Supply Chain Analytics",
+  "department": "BIA",
+  "department_name": "",
+  "discriminator": "674",
+  "title": "Supply Chain Analytics",
   "description": "Supply chain analytics is one of the fastest growing business intelligence application areas. Important element in Supply Chain Management is to have timely access to trends and metrics across key performance indicators, while recent advances in information and communication technologies have contributed to the rapid increase of data-driven decision making. The topics covered will be divided into strategic and supply chain design and operations, including -among others- supplier analytics, capacity planning, demand-supply matching, sales and operations planning, location analysis and network management, inventory management and sourcing. The primary goal of the course is to familiarize the students with tactical and strategic issues surrounding the design and operation of supply chains, to develop supply chain analytical skills for solving real life problems, and to teach students a wide range of methods and tools -in the areas of predictive, descriptive and prescriptive analytics- to efficiently manage demand and supply networks.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bia-business-intelligence-and-analytics/600/bia-674"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bia-business-intelligence-and-analytics/600/bia-674"
 }

@@ -1,9 +1,10 @@
 {
-  "id": "ME 801",
-  "name": "Special Problems in Mechanical Engineering (PhD)",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "801",
+  "title": "Special Problems in Mechanical Engineering (PhD)",
   "description": "3 credits for the degree of Doctor of Philosophy.",
   "credits": "1-6",
-  "cross_listed": "",
   "prerequisites": "Doctoral Students Only and Permission Required",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/800/me-801"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/800/me-801"
 }

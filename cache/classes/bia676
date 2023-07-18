@@ -1,15 +1,19 @@
 {
-  "id": "BIA 676",
-  "name": "Data Stream Analytics",
+  "department": "BIA",
+  "department_name": "",
+  "discriminator": "676",
+  "title": "Data Stream Analytics",
   "description": "In recent years, the progress in sensor technologies, RFID (Radio Frequency Identification) tags, smart phones and other smart devices has made it possible to measure, record, and report large streams of transactional data in real time. Such data sets, which continuously and rapidly grow over time, are referred to as Big Data Streams. Analysis of streaming data poses a number of unique challenges which are not easily solved through direct applications of well-known data mining methods and algorithms developed for traditional static data. This course will serve as a first course on the emerging field of \"Data Streams Analytics\". It will provide an introduction to IoT, sensors & devices, the architecture and environment in which these devices generate data streams, the data quality & data cleaning, data acquisition, and emerging methodologies and algorithms for knowledge discovery from data streams. Topics include: synopsis & sampling techniques, sliding windows, computing the entropy in streams, data streams correlations, change detection, outliers & anomaly detection.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MIS 637",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bia-business-intelligence-and-analytics/600/bia-676"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bia-business-intelligence-and-analytics/600/bia-676"
 }

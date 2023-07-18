@@ -1,16 +1,20 @@
 {
-  "id": "EMT 810",
-  "name": "Special Topics in Management of Technology",
+  "department": "EMT",
+  "department_name": "",
+  "discriminator": "810",
+  "title": "Special Topics in Management of Technology",
   "description": "A participating seminar on topics of current interest and importance in Management of Technology.",
   "credits": "3-1",
-  "cross_listed": "",
   "prerequisites": "MS/TM and EMBA Only",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/emt-executive-management-of-technology/800/emt-810"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/emt-executive-management-of-technology/800/emt-810"
 }

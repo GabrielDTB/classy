@@ -1,16 +1,20 @@
 {
-  "id": "TM 617",
-  "name": "Next Generation Wireless Systems",
+  "department": "TM",
+  "department_name": "",
+  "discriminator": "617",
+  "title": "Next Generation Wireless Systems",
   "description": "This course provides a broad and comprehensive perspective 3.5G, 4G and emerging 5G mobile wireless networks. The architecture of HSPA and Ev-DO are examined and differentiated. Our study of 4G begins with an examination of OFDM and OFDMA. The principle 4G standard, LTE, is studied next. The LTE access and core networks are examined and the important functional network elements are identified and distinguished. Key enabling technologies for 5G wireless networks are also identified and discussed and the network architecture for 5G is examined. Of particular importance is the role of Software Defined Networks and Network Function Virtualization in 5G (both RAN and core networks). The architecture, advantages, and challenges of the Cloud (or Centralized) RAN (C-RAN) is examined.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "TM 615",
   "offered": [
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/tm-telecommunications-management/600/tm-617"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/tm-telecommunications-management/600/tm-617"
 }

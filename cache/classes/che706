@@ -1,17 +1,21 @@
 {
-  "id": "CHE 706",
-  "name": "Co-Op Engagement in Chemical Engineering",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "706",
+  "title": "Co-Op Engagement in Chemical Engineering",
   "description": "Co-Op Engagement in Chemical Engineering",
   "credits": "0",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/700/che-706"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/700/che-706"
 }

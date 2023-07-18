@@ -1,13 +1,17 @@
 {
-  "id": "HAR 371",
-  "name": "Creative Programming II",
+  "department": "HAR",
+  "department_name": "",
+  "discriminator": "371",
+  "title": "Creative Programming II",
   "description": "This interdisciplinary course introduces students to programming languages created for artists and designers for making practical and experimental interactive artworks. Leveraging the power of custom-written software, this project-based class focuses on interactivity through the lens of video games. Students will design a series of games, as well as learn about artists/ designers using code for creative projects, and the mechanics and history of popular and art games.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "HAR 271",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/300/har-371"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/300/har-371"
 }

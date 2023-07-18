@@ -1,16 +1,20 @@
 {
-  "id": "EE 627",
-  "name": "Data Acquisition, Modeling and Analysis: Big Data Analytics",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "627",
+  "title": "Data Acquisition, Modeling and Analysis: Big Data Analytics",
   "description": "This course is designed to enhance ECE’s students knowledge in core subjects with the ability of analyzing big data applications. It will cover both the computational techniques, and the mathematical intuitions in the skill sets for the big data analytics. This class will provide students with the necessary data engineering processing skills, refined data optimizations for feature engineering, and sophisticated linear analysis for data transform and model ensembling.",
   "credits": "3",
-  "cross_listed": "AAI 627",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "AAI 627"
+  ],
+  "distributions": [
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-627"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-627"
 }

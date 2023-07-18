@@ -1,14 +1,18 @@
 {
-  "id": "CPE 556",
-  "name": "Computing Principles for Mobile and Embedded Systems",
+  "department": "CPE",
+  "department_name": "",
+  "discriminator": "556",
+  "title": "Computing Principles for Mobile and Embedded Systems",
   "description": "Embedded systems have emerged as a primary application area, highlighting the co-integration of application-specific hardware components with programmable, flexible, adaptable, and versatile software components. Such systems have been one of the drivers of important new computing principles that play an important role in achieving optimal performance of the overall system. This course will provide the student with a background in these new computing principles and their application to embedded systems. Representative topics include emerging computing paradigms in the areas of context- aware pervasive systems, spatio-temporal access control with distributed software agents, vehicular computing, information systems cryptography, trust and privacy in mobile environments, location-aware services, RFID systems, wireless medical networks, and urban sensing.",
   "credits": "3",
-  "cross_listed": "EE 556",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    "EE 556"
+  ],
+  "distributions": [
     "Computer Engineering Program",
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/500/cpe-556"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/500/cpe-556"
 }

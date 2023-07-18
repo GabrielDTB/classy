@@ -1,15 +1,19 @@
 {
-  "id": "CH 461",
-  "name": "Instrumental Analysis II - Electrochemistry",
+  "department": "CH",
+  "department_name": "",
+  "discriminator": "461",
+  "title": "Instrumental Analysis II - Electrochemistry",
   "description": "Theory and practice of electrochemical methods in analytical chemistry. Includes potentiometry, coulometry, amperometry, polarography, voltammetry, conductivity, etc.",
   "credits": "4",
-  "cross_listed": "",
   "prerequisites": "CH 116 and CH 118",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/400/ch-461"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/400/ch-461"
 }

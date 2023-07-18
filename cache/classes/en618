@@ -1,14 +1,18 @@
 {
-  "id": "EN 618",
-  "name": "HAZMAT Spill Response Planning",
+  "department": "EN",
+  "department_name": "",
+  "discriminator": "618",
+  "title": "HAZMAT Spill Response Planning",
   "description": "This course is designed to introduce students to the state-of-the-art techniques in spill response planning. Numerical and analytical techniques for the prediction of fate and effects of in-water spills are discussed. Spill cleanup technologies are introduced, including mechanical (e.g., booms and skimmers), chemical (e.g., dispersants), and biological. Students are instructed in the essential steps toward developing an effective spill response plan. Special attention is paid to the influence of spill characteristics and environmental factors - waves, currents, shoreline geometry, sensitive ecological areas, etc. - in the selection of an appropriate planning strategy. Examples are given of existing spill response plans in the New York/New Jersey region, and case studies of actual spills are discussed as a means of providing students with an understanding of the complexities of operational spill response planning.",
   "credits": "3",
-  "cross_listed": "OE 618",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    "OE 618"
+  ],
+  "distributions": [
     "Environmental Engineering Program",
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/600/en-618"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/600/en-618"
 }

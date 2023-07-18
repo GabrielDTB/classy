@@ -1,15 +1,19 @@
 {
-  "id": "QF 101",
-  "name": "Quantitative Finance",
+  "department": "QF",
+  "department_name": "",
+  "discriminator": "101",
+  "title": "Quantitative Finance",
   "description": "This is the 1st Spine Course in the Quantitative Finance program. The course objective is to introduce students to the basics of business, finance, and the capital markets as a foundation for subsequent Spine Courses. There is no pre-requisite, and no prior knowledge of business or finance topics is assumed.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/100/qf-101"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/100/qf-101"
 }

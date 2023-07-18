@@ -1,15 +1,19 @@
 {
-  "id": "PEP 540",
-  "name": "Physical Electronics",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "540",
+  "title": "Physical Electronics",
   "description": "Charged particle motions in electric and magnetic fields; electron and ion optics; charged particle velocity and mass spectrometry; electron and ion beam confinement; thermionic emission; the Pierce gun; field emission; secondary emission; photoelectric effect; sputtering; surface ionization; volume ionization; and Townsend discharge.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-540"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-540"
 }

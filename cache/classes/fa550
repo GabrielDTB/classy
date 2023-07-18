@@ -1,17 +1,21 @@
 {
-  "id": "FA 550",
-  "name": "Data Visualization Application",
+  "department": "FA",
+  "department_name": "",
+  "discriminator": "550",
+  "title": "Data Visualization Application",
   "description": "Effective visualization of complex data allows for useful insights, more effective communication, and making decisions. This course investigates methods for visualizing financial datasets from a variety of perspectives in order to best identify the right tool for a given task. Students will use a number of tools to refine their data and create visualizations, including: R and associated visualization libraries, Ruby on Rails visualization tools, ManyEyes, HTML5 & CSS 3, D3.js and related javascript libraries, Google Chart Tools, Google Refine, and image-editing programs.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Grad Student or (Junior or Senior with cGPA => 3.0)",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fa-financial-analytics/500/fa-550"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fa-financial-analytics/500/fa-550"
 }

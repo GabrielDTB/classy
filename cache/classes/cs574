@@ -1,9 +1,10 @@
 {
-  "id": "CS 574",
-  "name": "Object-Oriented Analysis and Design",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "574",
+  "title": "Object-Oriented Analysis and Design",
   "description": "Theory of object-oriented design, classes, interfaces, inheritance hierarchy, and correctness; abstract data types, encapsulation, formal specification with preconditions, postconditions and invariants, and proofs of correctness; object-oriented software, objects and classes, genericity, inheritance, polymorphism, and overloading; single and multiple inheritance, programming by contract, subclassing as subcontract, specification, and verification; programming language examples include C+ +, Java, Smalltalk, and Eiffel. Pre-req: Undergraduate data structures and algorithms OR CS 590",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "( CS 385 or CS 590 ) and (Grad Student or (Junior or Senior))",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-574"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-574"
 }

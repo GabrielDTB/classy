@@ -1,15 +1,19 @@
 {
-  "id": "MA 712",
-  "name": "Mathematical Models of Risk",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "712",
+  "title": "Mathematical Models of Risk",
   "description": "The course will introduce the students to the fundamental mathematical models of risk and approaches to decision-making under uncertainty and risk-aversion. The mathematical models will range from classical models as Expected Utility Theory, Prospect Theory, Dual Utility Theory, to state-of-the-art work on stochastic dominance, the theory of coherent risk measures, and general deviation measures. The course also surveys recent developments in particular applied areas as portfolio optimization, asset pricing, nuclear safety, reliability, etc.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/700/ma-712"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/700/ma-712"
 }

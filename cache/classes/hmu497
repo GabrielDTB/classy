@@ -1,16 +1,20 @@
 {
-  "id": "HMU 497",
-  "name": "Music Performance: Recital",
+  "department": "HMU",
+  "department_name": "",
+  "discriminator": "497",
+  "title": "Music Performance: Recital",
   "description": "Concurrent to the 4th term of music instruction, HMU 496, all students are required to perform a public recital or recital by jury. The recital should consist of a repertoire determined by the instructor. Co-requisite: HMU 496 (4th term)",
   "credits": "0.5",
-  "cross_listed": "",
   "prerequisites": "Mus & Tech Ugrad Only",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Music and Technology Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/400/hmu-497"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/400/hmu-497"
 }

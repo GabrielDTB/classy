@@ -1,15 +1,19 @@
 {
-  "id": "QF 102",
-  "name": "Basic Financial Tools",
+  "department": "QF",
+  "department_name": "",
+  "discriminator": "102",
+  "title": "Basic Financial Tools",
   "description": "This is the 2nd Spine Course in the Quantitative Finance program. The course objective is to familiarize students with the methods of creating and managing investment portfolios. This involves understanding basic concepts of portfolio construction, integrating investment decisions across multiple positions and asset categories. A Secondary objective is to expand the student’s familiarity with the sources and formats of the standard financial reports prepared by public companies in the United States, and to allow students to gain experience in accessing and using publicly available financial information. In addition, students will continue to gain experience with the use of real-time market information on traded securities and the application of simple valuation metrics. Third, students will examine the more prominent types of business models in the financial industry, including commercial banks, investment banks, asset managers and other financial service companies.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "QF 101",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/100/qf-102"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/100/qf-102"
 }

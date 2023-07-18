@@ -1,9 +1,10 @@
 {
-  "id": "CPE 359",
-  "name": "Electronic Circuits",
+  "department": "CPE",
+  "department_name": "",
+  "discriminator": "359",
+  "title": "Electronic Circuits",
   "description": "Design of differential amplifiers using BJTs or FETs, design of output stages (class B and class AB), output and input impedance of differential amplifiers, frequency response. Feedback amplifiers, Nyquist criteria, Nyquist plots and root loci, bode plots, gain/phase margins and application in compensation for operational amplifiers, oscillators, tuned amplifiers and filters (passive and active). A suitable circuit analysis package is used for solving many of the problems.",
   "credits": "3",
-  "cross_listed": "EE 359",
   "prerequisites": "(ENGR 232 or ENGR 212) CoReq",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    "EE 359"
+  ],
+  "distributions": [
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/300/cpe-359"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/300/cpe-359"
 }

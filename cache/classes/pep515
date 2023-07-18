@@ -1,19 +1,23 @@
 {
-  "id": "PEP 515",
-  "name": "Photonics I",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "515",
+  "title": "Photonics I",
   "description": "This course will cover topics encompassing the fundamental subject matter for the design of optical systems. Topics will include optical system analysis, optical instrument analysis, applications of thin-film coatings and opto-mechanical system design in the first term. The second term will cover the subjects of photometry and radiometry, spectrographic and spectrophotometric systems, infrared radiation measurement and instrumentation, lasers in optical systems and photon- electron conversion.",
   "credits": "3",
-  "cross_listed": "EE 515, MT 515",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    "EE 515, MT 515"
+  ],
+  "distributions": [
     "Department of Physics",
     "Electrical Engineering Program",
     "Materials Science and Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-515"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-515"
 }

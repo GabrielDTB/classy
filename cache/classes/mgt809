@@ -1,15 +1,19 @@
 {
-  "id": "MGT 809",
-  "name": "Industry Capstone Experience",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "809",
+  "title": "Industry Capstone Experience",
   "description": "In this course students work on an industry project with a team of their peers under the supervision of a faculty advisor and industry mentor. Students will work on project tasks and manage client expectations while applying their disciplinary and technical knowledge to the project. In addition to the project-specific deliverables, students will produce a statement of work, present weekly project updates, and a final presentation and project report to management. This three-credit course is tied to the Industry Capstone Program in the School of Business. Students must first apply for a project before registering for this course.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MGT 808",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/800/mgt-809"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/800/mgt-809"
 }

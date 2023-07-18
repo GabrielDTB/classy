@@ -1,16 +1,20 @@
 {
-  "id": "CH 245",
-  "name": "Organic Chemistry Lab I",
+  "department": "CH",
+  "department_name": "",
+  "discriminator": "245",
+  "title": "Organic Chemistry Lab I",
   "description": "Laboratory includes introduction to organic reaction and separation techniques, reactions of functional groups, and synthesis. Corequisite: CH 243",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "CH 243 CoReq",
   "offered": [
     "Fall Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/200/ch-245"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/200/ch-245"
 }

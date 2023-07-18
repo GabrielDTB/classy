@@ -1,15 +1,19 @@
 {
-  "id": "ME 685",
-  "name": "Mobile Microrobotic Systems",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "685",
+  "title": "Mobile Microrobotic Systems",
   "description": "This course introduces the fundamentals of the emerging field of Microrobots, which combines aspects of robotics, micro and nanotechnology and extends our explorations to sub-millimeter scales. This course discusses scaling laws that can be used to determine the dominant forces and effects; models force such as surface forces, friction and viscous drag acting on microrobots. It focuses on the design, fabrication, analysis and control of micro robotic systems. It also covers on-board and remote sensing and actuation methods, especially for use in limited spaces such as inside the human body. In addition, possible on-board powering and locomotion methods on surfaces, in air, in liquids and on fluid-air interfaces will be discussed. Finally, current and future applications including noninvasive medical diagnosis and treatment, environmental remediation and scientific tools are also addressed. Many of these principles covered in the course are also applicable to macroscale systems.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-685"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-685"
 }

@@ -1,16 +1,20 @@
 {
-  "id": "EN 365",
-  "name": "Numerical Modeling in Civil and Environmental Engineering",
+  "department": "EN",
+  "department_name": "",
+  "discriminator": "365",
+  "title": "Numerical Modeling in Civil and Environmental Engineering",
   "description": "The course introduces modeling and simulation concepts as applied to Civil, Environmental and Ocean Engineering problems. The emphasis will be on applications of these concepts to solve problems. Concepts covered will include empirical vs mechanistic models, example models in civil, environmental, and ocean engineering areas, matrix methods to solve a system of linear equations, numerical methods to solve non-linear equations, numerical differentiation and integration, initial value and boundary value problems, curve fitting and Monte-Carlo simulations. The class will use state of the art programming tools to complete the coursework.",
   "credits": "3",
-  "cross_listed": "CE 365",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "CE 365"
+  ],
+  "distributions": [
     "Civil Engineering Program",
     "Environmental Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/300/en-365"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/300/en-365"
 }

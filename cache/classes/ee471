@@ -1,17 +1,21 @@
 {
-  "id": "EE 471",
-  "name": "Transport Phenomena in Solid State Devices",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "471",
+  "title": "Transport Phenomena in Solid State Devices",
   "description": "Introduction to the underlying phenomena and operation of solid state electronic, magnetic and optical devices essential in the functioning of computers, communications and other systems currently being designed by engineers and scientists. Charge carrier concentrations and their transport are analyzed from both microscopic and macroscopic viewpoints, carrier drift due to electric and magnetic fields in solid state devices is formulated and optical energy absorption and emission are related to the energy levels in solid-state materials. Diffusion, generation and recombination of charge carriers are combined with carrier drift to produce a continuity equation for the analysis of solid state devices. Explanations and models of the operation of PN, metal-oxide, metal-oxide-semiconductor and heterostructure junctions are used to describe diode, transistor, photodiode, laser, integrated circuit and other device operation.",
   "credits": "4",
-  "cross_listed": "CPE 471",
   "prerequisites": "ENGR 232 or ENGR 212",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    "CPE 471"
+  ],
+  "distributions": [
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/400/ee-471"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/400/ee-471"
 }

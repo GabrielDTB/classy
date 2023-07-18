@@ -1,13 +1,17 @@
 {
-  "id": "MA 501",
-  "name": "Introduction to Mathematical Analysis",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "501",
+  "title": "Introduction to Mathematical Analysis",
   "description": "This course is an introduction to the basic ideas of pre-calculus and calculus for the people who need preparation or review before taking more advanced courses. The exact content depends upon the particular needs of those enrolled and the requirements of degree programs they are pursuing. Topics covered will be selected from the following: algebra, functions, and graphs; slopes and secant lines; derivatives; chain rule; optimization; curve sketching; integration; the exponential and natural logarithm; and probability density functions and integration by parts.",
   "credits": "0 - 3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-501"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/500/ma-501"
 }

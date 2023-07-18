@@ -1,16 +1,20 @@
 {
-  "id": "CS 548",
-  "name": "Enterprise Software Architecture and Design",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "548",
+  "title": "Enterprise Software Architecture and Design",
   "description": "This course covers the issues in designing and engineering large enterprise and cloud-based software systems. Such systems are distributed and require increasingly complex inter-enterprise as well as intra-enterprise coordination. Technologies such as Web Services and cloud computing provide platforms for building such systems, and architectures such as, microservices and cloud native applications, event-driven architecture (EDA), domain-driven design (DDD), representational state transfer (REST), command query responsibility segregation (CQRS), serverless and blockchain are idioms for structuring such systems. Data modeling includes E-R designs, XML and JSON Schemas, NoSQL data models, semantic data modeling (OWL), and object relational mapping (ORM). Process modeling includes BPMN, Workflow and Petri nets. The course includes hands-on application of the concepts with tools such as Jakarta EE and Eclipse MicroProfile, Docker, Kubernetes and Kafka, and Hyperledger Fabric. Knowledge of Java or C# is required.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "( CS 385 or CS 590 ) and (Grad Student or (Junior or Senior))",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-548"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-548"
 }

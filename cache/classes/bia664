@@ -1,11 +1,15 @@
 {
-  "id": "BIA 664",
-  "name": "Data and Information Quality",
+  "department": "BIA",
+  "department_name": "",
+  "discriminator": "664",
+  "title": "Data and Information Quality",
   "description": "The objective of this elective course is to study key concepts and techniques in data quality & reliability assessment, monitoring and improvement and prepare BIA students to deal with the real worlds dirty data as they enter the workforce. This will be done through a series of readings and lectures, case studies of the applications, application of technologies typically found in the field, and a semester long, small team project that applies what has been learned. The course will introduce the different traditional perspectives of data and information quality from management, database, statistics and data mining, and concentrate on the emerging perspective for data scientists and data engineers. This course is open to students in Business Intelligence and Analytics, Information Systems, and Computer Science, or with the permission of the instructor.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bia-business-intelligence-and-analytics/600/bia-664"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bia-business-intelligence-and-analytics/600/bia-664"
 }

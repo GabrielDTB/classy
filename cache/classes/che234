@@ -1,16 +1,20 @@
 {
-  "id": "CHE 234",
-  "name": "Chemical Engineering Thermodynamics",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "234",
+  "title": "Chemical Engineering Thermodynamics",
   "description": "Thermodynamic laws and functions with particular emphasis on systems of variable composition and chemically reacting systems. Chemical potential, fugacity and activity, excess function properties, standard states, phase and reaction equilibria, reaction coordinate, chemical-to-electrical energy conversion.",
   "credits": "4",
-  "cross_listed": "",
   "prerequisites": "CH 116 and ( ENGR 115 or ENGR 116) and MA 221",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/200/che-234"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/200/che-234"
 }

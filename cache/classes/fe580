@@ -1,15 +1,19 @@
 {
-  "id": "FE 580",
-  "name": "Securitization of Financial Assets",
+  "department": "FE",
+  "department_name": "",
+  "discriminator": "580",
+  "title": "Securitization of Financial Assets",
   "description": "This course provides a theoretical and practical analysis of the asset-backed security market. Topics include: Duration And Convexity of Bond Yields, Price Dynamics of Mortgages and Cash Flows, Default Risk, Interest Rate Volatility, Interest Rate Risk Management of Mortgage-Backed Securities, Securitization, Corporate Debt and The Securitization Markets, Asset-Backed Commercial Paper, Collateralized Loan Obligations, Structuring Synthetic Collateralized Loan Obligations, Securitization of Revolving Credit, Financial Derivatives and Their Use as Hedging Tools. Half of the course is in the Hanlon Financial Systems Lab, where theoretical models are illustrated with real scenarios.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student orAt Least Junior",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-580"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-580"
 }

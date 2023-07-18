@@ -1,16 +1,20 @@
 {
-  "id": "MIS 110",
-  "name": "Creative Problem Solving in Computing",
+  "department": "MIS",
+  "department_name": "",
+  "discriminator": "110",
+  "title": "Creative Problem Solving in Computing",
   "description": "This is a fundamental course introducing computer science and problem-solving using computers. The Python programming language is used exclusively. No prior programming experience is required. The roles of hardware and software in computing systems is examined and the steps in a software development process are identified. Python programs will be developed which process different data types and functions, employ decision structures, and use the Python math library. Basic interactive graphics programs will be developed and the importance and role of simulation in problem solving will be introduced. The concept of an object will be studied along with their application in programming.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mis-information-systems/100/mis-110"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mis-information-systems/100/mis-110"
 }

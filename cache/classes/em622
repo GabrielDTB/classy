@@ -1,17 +1,21 @@
 {
-  "id": "EM 622",
-  "name": "Decision Making Via Data Analysis Techniques",
+  "department": "EM",
+  "department_name": "",
+  "discriminator": "622",
+  "title": "Decision Making Via Data Analysis Techniques",
   "description": "This course provides a hands-on introduction to the modern techniques for visualizing data and leverages such techniques with the corresponding problem solving skills necessary to complement data visualization into specific strategic decision making. The student will first learn to use the latest off the shelf software for data visualization. In specific the student will learn the following languages: R, D3, Google refine and Spot fire.",
   "credits": "3",
-  "cross_listed": "SYS 622",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "SYS 622"
+  ],
+  "distributions": [
     "Engineering Management Program",
     "Systems Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/600/em-622"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/600/em-622"
 }

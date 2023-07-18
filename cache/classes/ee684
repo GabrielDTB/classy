@@ -1,13 +1,17 @@
 {
-  "id": "EE 684",
-  "name": "Spread Spectrum and CDMA",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "684",
+  "title": "Spread Spectrum and CDMA",
   "description": "Provides depth in the several topics related to signal processing and data processing that appear within wireless communications systems. The treatment is mathematical, providing depth in the analytic formulations and analysis techniques. Digital signal processing techniques will be given particular emphasis, recognizing their considerable influence on present and emerging designs. However, these digital signal processing techniques will be supplemented by analog signal processing techniques will be supplemented by analog signal processing techniques, which continue to be important for front-ends of receivers (and will remain important as carrier frequencies continue to migrate to higher frequencies). In addition to covering the mathematical principles of digital and analog signal processing, the course will cover contemporary digital signal processors. The data processing issue arises in the coding of data for improved communications performance. Compression algorithms, reducing the amount of data that must be transmitted, coding techniques to provide error detection/protection, and encryption techniques to improve security are representative examples of data processing.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-684"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-684"
 }

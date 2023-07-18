@@ -1,13 +1,17 @@
 {
-  "id": "ENGR 312",
-  "name": "Design Laboratory III",
+  "department": "ENGR",
+  "department_name": "",
+  "discriminator": "312",
+  "title": "Design Laboratory III",
   "description": "Design Laboratory III",
   "credits": "2",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Engineering and Science"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/300/engr-312"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/300/engr-312"
 }

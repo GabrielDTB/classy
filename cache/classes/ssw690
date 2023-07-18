@@ -1,16 +1,20 @@
 {
-  "id": "SSW 690",
-  "name": "Software Engineering Studio",
+  "department": "SSW",
+  "department_name": "",
+  "discriminator": "690",
+  "title": "Software Engineering Studio",
   "description": "Software Engineering Studio",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Software Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/600/ssw-690"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/600/ssw-690"
 }

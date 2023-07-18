@@ -1,16 +1,20 @@
 {
-  "id": "TM 650",
-  "name": "Software Defined Networking and Network Function Virtualization",
+  "department": "TM",
+  "department_name": "",
+  "discriminator": "650",
+  "title": "Software Defined Networking and Network Function Virtualization",
   "description": "This course examines two important new network technologies and architectures; Software-Defined Networking (SDN) and Network Function Virtualization (NFV). These two closely related approaches are a direct response to the changing requirements to support new networking services in an integrated and flexible approach. The reason for each architecture is presented and their ability to meet the changing network requirements is examined. The architecture, standards, and applications for each is presented and studied. Each architecture is differentiated and compared and the potential interworking of each is considered. The course concludes with an introduction and study of the Internet of Things (IoT). The course is guided by both a required textbook and recently published scholarly papers on these topics.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "TM 610",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/tm-telecommunications-management/600/tm-650"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/tm-telecommunications-management/600/tm-650"
 }

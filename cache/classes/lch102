@@ -1,15 +1,19 @@
 {
-  "id": "LCH 102",
-  "name": "Beginning Chinese II",
+  "department": "LCH",
+  "department_name": "",
+  "discriminator": "102",
+  "title": "Beginning Chinese II",
   "description": "The second of the four-core series continues the study of the Chinese language and will emphasize student participation through communicative activities. Students will learn to describe actions in progress, make appointments, discuss wants, navigate travel, and negotiate purchases. Students will further master everyday conversation and gain a better understanding of Chinese cultures. The course will be conducted almost entirely in Chinese. Beginning Chinese I (or equivalent) or placement test required. NOTE: Does not count for Humanities credit.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/lch-language-chinese/100/lch-102"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/lch-language-chinese/100/lch-102"
 }

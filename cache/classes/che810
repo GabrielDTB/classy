@@ -1,13 +1,17 @@
 {
-  "id": "CHE 810",
-  "name": "Special Topics in Chemical Engineering",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "810",
+  "title": "Special Topics in Chemical Engineering",
   "description": "A participating seminar on topics of current interest and importance in Chemical Engineering.",
   "credits": "3-1",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/800/che-810"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/800/che-810"
 }

@@ -1,15 +1,19 @@
 {
-  "id": "MIS 634",
-  "name": "Business Intelligence & Data Integration - LAB",
+  "department": "MIS",
+  "department_name": "",
+  "discriminator": "634",
+  "title": "Business Intelligence & Data Integration - LAB",
   "description": "This 1-credit lab course provides an experiential learning component for MIS 633 ML Engineering 2 for which it is a co-requisite. MIS 634 provides hands-on experience in designing, implementing, and querying data warehouses and large-scale database systems. The relevant software is introduced using demonstrations, in-class exercises and homework exercises that are closely tied to and executed in synch with the conceptual and theoretical material covered in MIS 633. Specifically, students will gain hands-on experience in using: (i) Alteryx - a widely used commercial tool for the Extract-Transform- Load (ETL) function, (ii) ERWIN - a widely used commercial tool for representing conceptual (e.g., E-R diagrams) and logical data models (e.g., relational DBMS) and (iii) a NoSQL database (e.g., MongoDB). Students in MIS 634 must also be enrolled in the associated 2-credit lecture course MIS 633 Business Intelligence & Data Integration course.",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "MIS 633 CoReq",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mis-information-systems/600/mis-634"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mis-information-systems/600/mis-634"
 }

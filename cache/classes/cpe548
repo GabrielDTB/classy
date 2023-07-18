@@ -1,18 +1,22 @@
 {
-  "id": "CPE 548",
-  "name": "Digital Signal Processing",
+  "department": "CPE",
+  "department_name": "",
+  "discriminator": "548",
+  "title": "Digital Signal Processing",
   "description": "Review of mathematics of signals and systems including sampling theorem, Fourier transform, z-transform, Hilbert transform; algorithms for fast computation: DFT, DCT computation, convolution; filter design techniques: FIR and IIR filter design, time and frequency domain methods, window method and other approximation theory based methods; structures for realization of discrete time systems: direct form, parallel form, lattice structure and other state-space canonical forms (e.g., orthogonal filters and related structures); roundoff and quantization effects in digital filters: analysis of sensitivity to coefficient quantization, limit cycle in IIR filters, scaling to prevent overflow, role of special structures.",
   "credits": "3",
-  "cross_listed": "EE 548",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    "EE 548"
+  ],
+  "distributions": [
     "Computer Engineering Program",
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/500/cpe-548"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/500/cpe-548"
 }

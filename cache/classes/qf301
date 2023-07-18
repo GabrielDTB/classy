@@ -1,15 +1,19 @@
 {
-  "id": "QF 301",
-  "name": "Advanced Time Series Analytics and Machine Learning",
+  "department": "QF",
+  "department_name": "",
+  "discriminator": "301",
+  "title": "Advanced Time Series Analytics and Machine Learning",
   "description": "This course will cover the main topics of the analysis of time series to evaluate risk and return of the main products of capital markets (equity, fixed income, and derivatives). Students will work with historical databases, conduct their own analysis, and test trading strategies based on the techniques reviewed during the class.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "QF 202 and QF 212",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/300/qf-301"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/300/qf-301"
 }

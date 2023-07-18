@@ -1,16 +1,20 @@
 {
-  "id": "CAL 900",
-  "name": "Thesis in CAL (MA)",
+  "department": "CAL",
+  "department_name": "",
+  "discriminator": "900",
+  "title": "Thesis in CAL (MA)",
   "description": "Thesis in CAL (MA)",
   "credits": "1-10",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "College of Arts and Letters"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cal-college-of-arts-letters/900/cal-900"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cal-college-of-arts-letters/900/cal-900"
 }

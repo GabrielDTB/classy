@@ -1,14 +1,18 @@
 {
-  "id": "CHE 670",
-  "name": "Polymer Properties and Structure",
+  "department": "CHE",
+  "department_name": "",
+  "discriminator": "670",
+  "title": "Polymer Properties and Structure",
   "description": "Stress-strain relationships, theory of linear viscoelasticity and relaxation spectra, temperature dependence of viscoelastic behavior, dielectric properties, dynamic mechanical and electrical testing, molecular theories of flexible chains, statistical mechanics and thermodynamics of rubber-like undiluted systems, and morphology of high polymers.",
   "credits": "3",
-  "cross_listed": "MT 670",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    "MT 670"
+  ],
+  "distributions": [
     "Chemical Engineering Program",
     "Materials Science and Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/600/che-670"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/che-chemical-engineering/600/che-670"
 }

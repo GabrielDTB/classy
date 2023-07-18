@@ -1,17 +1,21 @@
 {
-  "id": "HMU 489",
-  "name": "Internship",
+  "department": "HMU",
+  "department_name": "",
+  "discriminator": "489",
+  "title": "Internship",
   "description": "HMU 489 Internship is a program of independent work arranged between the student and a professional organization. The student will receive academic credit for his or her participation in the internship and the satisfactory completion of various academic components including: (1) the submission of a detailed journal of activities that demonstrates substantive experiences and training; (2) the submission of a ten-page research paper, the topic of which shall be determined in consult with the student’s faculty advisor; and (3) an assessment from the student’s internship mentor or supervisor. These components will be reviewed by the student’s faculty advisor and evaluated for a grade for this course.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Undergraduate DEAN 498",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Music and Technology Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/400/hmu-489"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/400/hmu-489"
 }

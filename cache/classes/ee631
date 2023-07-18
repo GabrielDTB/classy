@@ -1,16 +1,20 @@
 {
-  "id": "EE 631",
-  "name": "Cooperating Autonomous Mobile Robots",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "631",
+  "title": "Cooperating Autonomous Mobile Robots",
   "description": "Advanced topics in autonomous and intelligent mobile robots, with emphasis on planning algorithms and cooperative control. Robot kinematics, path and motion planning, formation strategies, cooperative rules, and behaviors. The application of cooperative control spans from natural phenomena of groupings, such as fish schools, bird flocks, and deer herds, to engineering systems such as mobile sensing networks and vehicle platoon.",
   "credits": "3",
-  "cross_listed": "CPE 631",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "CPE 631"
+  ],
+  "distributions": [
     "Computer Engineering Program",
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-631"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-631"
 }

@@ -1,13 +1,17 @@
 {
-  "id": "HAR 230",
-  "name": "Animation I",
+  "department": "HAR",
+  "department_name": "",
+  "discriminator": "230",
+  "title": "Animation I",
   "description": "This course introduces students to modeling and simple computer animation using industry-standard tools. It also provides a foundation for further work with 3-D and imaging tools. In addition to technical subjects, students will learn about the history, artistic practice, and developmental trajectory of 3-D graphics. It is recommended (but not required) that the student consider Animation as a two-semester sequence, with the student planning to register for HAR 331 Animation II the second semester. Does not fulfill general humanities requirements; may be taken as a free elective.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/200/har-230"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/200/har-230"
 }

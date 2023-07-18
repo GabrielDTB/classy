@@ -1,17 +1,21 @@
 {
-  "id": "BME 560",
-  "name": "Movement Control Rehabilitation",
+  "department": "BME",
+  "department_name": "",
+  "discriminator": "560",
+  "title": "Movement Control Rehabilitation",
   "description": "Effective strategies for movement rehabilitation must consider several underlying factors for each unique clinical case. These factors include: (1) the sensorimotor mechanisms causing movement dysfunction, (2) the residual capabilities of each person, and (3) the technological platform available to execute clinical objectives. In this course, the clinical movement disorders that will be discussed include spinal cord injury, orthopaedic trauma (from soft tissue tears to limb amputations), stroke, and Parkinson’s disease. The modes of rehabilitation to be evaluated fall across the spectrum from surgical intervention, strength and coordination training, use of assistive devices, and feedback control principles for advanced human-machine interfaces such as neuro-prostheses and powered exoskeletons. Students will be exposed to advanced concepts of neuromuscular physiology and biomechanical assessment. Learning materials will include lecture presentations, literature reviews, building experimental databases, and assignments using simulation software. The course will conclude with a final project that includes a research proposal and executing a related pilot experiment primarily through simulation.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "BME 506 and (Grad Student or (Junior or Senior))",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biomedical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/500/bme-560"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/500/bme-560"
 }

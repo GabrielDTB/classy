@@ -1,13 +1,17 @@
 {
-  "id": "MA 758",
-  "name": "Special Topics in Graph Theory",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "758",
+  "title": "Special Topics in Graph Theory",
   "description": "This course will focus on one or more topics of current interest in graph theory and its applications. Possible topics include: linear algebra and graph theory; graphs and groups, graphical enumeration; extremal graph theory; graph equations; covering and packing problems; graph algorithms; graph theoretic models of computation.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/700/ma-758"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/700/ma-758"
 }

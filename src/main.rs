@@ -53,11 +53,11 @@ impl Handler {
             .footer(|f| f.text("Database Years: 2022-2023"))
             .to_owned()
     }
-    fn prefixes_embed(&self) -> CreateEmbed {
+    fn departments_embed(&self) -> CreateEmbed {
         let mut embed = CreateEmbed::default();
-        embed.title("Class Prefixes");
+        embed.title("Class Departments");
         embed.description(
-            "Here are all the prefixes for classes that can be queried with classy random:",
+            "Here are all the departments for classes that can be queried with classy random:",
         );
         embed.fields({
             let mut departments = self
@@ -80,13 +80,13 @@ impl EventHandler for Handler {
             .content
             .split(" ")
             .filter(|s| !s.is_empty())
-            .map(|s| s.to_uppercase());
+            .map(|s| s.to_ascii_lowercase());
         match tokens.next().as_deref() {
             Some(PREFIX) => {}
             _ => return,
         }
         let statuses = match tokens.next().as_deref() {
-            Some("query") => {
+            Some("query") | Some("q") => {
                 let id = tokens.collect::<String>();
                 let class = self.catalog.query_by_id(&id);
                 let embed = match class {
@@ -106,10 +106,10 @@ impl EventHandler for Handler {
                         .await
                 }]
             }
-            Some("random") => {
+            Some("random") | Some("rand") | Some("r") => {
                 let mut departments = tokens.collect::<Vec<String>>();
                 if departments.is_empty() {
-                    departments.push(String::from("*"));
+                    departments.push(String::from(""));
                 }
                 let matches = departments
                     .iter()
@@ -143,41 +143,62 @@ impl EventHandler for Handler {
                     ]
                 }
             }
-            Some("help") => {
+            Some("help") | Some("h") => {
                 vec![
                     msg.reply(
                         &context.http,
                         // There's gotta be a better way to format this
                         "\
                         __**Commands**__\n\
-                        **help**\n\t\
-                            Gives this message.\n\
-                        **query** __class_id__\n\t\
-                            Gives details about a class.\n\t\
-                            *Examples*\n\t\t\
-                                classy query cs 115\n\t\t\
-                                classy query ma125\n\
-                        **random** __class_prefix__ __...__\n\t\
-                            Queries a random class from the given prefixes.\n\t\
-                            *Defaults*\n\t\t\
-                                If no class prefix is supplied, a random\n\t\t\
-                                class from all available classes is picked.\n\t\
-                            *Examples*\n\t\t\
-                                classy random\n\t\t\
-                                classy random hli\n\t\t\
-                                classy random cs cpe ee\n\
-                            **prefixes**\n\t\
-                            Lists all the class prefixes.
-                        ",
+                        **help**\n\
+                          \tGives this message.\n\
+                        **query** __class_id__\n\
+                          \tGives details about a class.\n\
+                          \t*Examples*\n\
+                            \t\tclassy query cs 115\n\
+                            \t\tclassy query ma125\n\
+                        **random** __class_prefix__ __...__\n\
+                          \tQueries a random class from the given prefixes.\n\
+                          \t*Defaults*\n\
+                            \t\tIf no class prefix is supplied, a random\n\
+                            \t\tclass from all available classes is picked.\n\
+                          \t*Examples*\n\
+                            \t\tclassy random\n\
+                            \t\tclassy random hli\n\
+                            \t\tclassy random cs cpe ee\n\
+                        **departments**\n\
+                          \tLists all the class departments\n\
+                          \tused for class queries.\n\
+                        **aliases**\n\
+                          \tLists all the aliases for each command.
+                        "
+                        .trim(),
                     )
                     .await,
                 ]
             }
-            Some("prefixes") => {
+            Some("aliases") | Some("a") => {
+                vec![
+                    msg.reply(
+                        &context.http,
+                        "\
+                        __**Command Aliases**__\n\
+                        **help:** h\n\
+                        **query:** q\n\
+                        **random:** rand, r\n\
+                        **departments:** dep, d\n\
+                        **aliases:** a\n\
+                        "
+                        .trim(),
+                    )
+                    .await,
+                ]
+            }
+            Some("departments") | Some("dep") | Some("d") => {
                 // list all the course prefixes as an embed with fields
                 vec![
                     msg.channel_id
-                        .send_message(&context.http, |m| m.set_embed(self.prefixes_embed()))
+                        .send_message(&context.http, |m| m.set_embed(self.departments_embed()))
                         .await,
                 ]
             }

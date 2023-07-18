@@ -1,15 +1,19 @@
 {
-  "id": "HMU 102",
-  "name": "Music History II",
+  "department": "HMU",
+  "department_name": "",
+  "discriminator": "102",
+  "title": "Music History II",
   "description": "In this course, student will review western Baroque to Classic music from 1600 to 1780, from several perspectives: as individual expressions of various composers, as examples of particular styles and forms, as analytic problems, and as artworks derived from changing social circumstances. This course emphasizes the development of skills in talking and writing about piano, pipe organ, orchestral and early opera music. Some composers include Bach, Vivaldi, Purcell, Pachebel, and Handel. The course will consist of discussions, assigned readings, oral presentations, and periodic examinations. Goals: To learn by reading notation and listening to samples of the earliest forms of music; To acquire verbal skills which are needed to explain music styles; To learn about the culture of the time which inspired the compositions.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Music and Technology Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/100/hmu-102"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/100/hmu-102"
 }

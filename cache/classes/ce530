@@ -1,17 +1,21 @@
 {
-  "id": "CE 530",
-  "name": "Nondestructive Evaluation and Structural Health Monitoring",
+  "department": "CE",
+  "department_name": "",
+  "discriminator": "530",
+  "title": "Nondestructive Evaluation and Structural Health Monitoring",
   "description": "This course introduces principles and applications of Nondestructive Evaluation (NDE) and Structural Health Monitoring (SHM) techniques, which are important in design, manufacturing, and maintenance. Most commonly used methods such as ultrasonic, magnetic, radiographic, liquid penetrant, and eddy currents, as well as emerging infrared and laser testing and monitoring are discussed with emphasis on physical concepts behind each of these methods as well as practical examples of their applications.",
   "credits": "3",
-  "cross_listed": "ME 521",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "ME 521"
+  ],
+  "distributions": [
     "Civil Engineering Program",
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/500/ce-530"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/500/ce-530"
 }

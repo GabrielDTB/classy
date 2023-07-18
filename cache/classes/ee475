@@ -1,13 +1,17 @@
 {
-  "id": "EE 475",
-  "name": "Advanced Communication Systems",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "475",
+  "title": "Advanced Communication Systems",
   "description": "Information theory and coding. Error control coding: CRCs, trellis codes, convolutional codes, and Viterbi decoding. Quantization and digitization of speech: PCM, ADPCM, DM, LPC, and VSELP algorithms. Carrier recovery and synchronization. Multiplexers: TDM and FDM hierarchies. Echo cancelers, equalizers, and scrambler/unscramblers. Spread spectrum communication systems. Mobile communications: digital cellular communication systems and PCS Encryption techniques. Introduction to computer communications networks.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "EE 465",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/400/ee-475"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/400/ee-475"
 }

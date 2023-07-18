@@ -1,13 +1,17 @@
 {
-  "id": "EE 645",
-  "name": "Image Processing and Comp Vision",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "645",
+  "title": "Image Processing and Comp Vision",
   "description": "The goal is to acquaint the students with the fundamental techniques of image processing. Specific topics include: Digital imaging fundamentals; neighborhood operators; clustering, region growing; split and merge, segmentation; edge and line linking; degradation model, restoration, inverse filtering; zero-crossing methods, gradient edge detectors; gray level co-occurrence, texture analysis; morphological operations; image registration and enhancement; scale space filtering; motion estimation; 3D image recognition and estimation.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "EE 605",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-645"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-645"
 }

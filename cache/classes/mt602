@@ -1,15 +1,19 @@
 {
-  "id": "MT 602",
-  "name": "Principles of Inorganic Materials Synthesis",
+  "department": "MT",
+  "department_name": "",
+  "discriminator": "602",
+  "title": "Principles of Inorganic Materials Synthesis",
   "description": "The goal of this course is to learn the basic concepts commonly utilized in the processing of advanced materials with specific compositions and microstructures. Solid state diffusion mechanisms are described with emphasis on the role of point defects, the mobility of diffusing atoms and their interactions. Macroscopic diffusion phenomena are analyzed by formulating partial differential equations and presenting their solutions. The relationships between processing and microstructure are developed on the basis of the rate of nucleation and growth processes that occur during condensation, solidification and precipitation. Diffusionless phase transformations observed in certain metallic and ceramic materials are discussed.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MT 521 or MT 603",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Materials Science and Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/600/mt-602"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/600/mt-602"
 }

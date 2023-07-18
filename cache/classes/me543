@@ -1,15 +1,19 @@
 {
-  "id": "ME 543",
-  "name": "Air-Conditioning",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "543",
+  "title": "Air-Conditioning",
   "description": "Analysis of refrigeration cycles, properties of refrigerants and coolants; psychrometry; factors affecting human comfort; environmental control requirements in industrial processes; estimation of infiltration and ventilation, heat transmission coefficients, insulation; heating and cooling load on buildings; numerical methods for building energy analysis; selection of air distribution systems, ducting and fans; selection of water and steam distribution systems, piping and pumps.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-543"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-543"
 }

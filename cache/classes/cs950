@@ -1,16 +1,20 @@
 {
-  "id": "CS 950",
-  "name": "Design Project",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "950",
+  "title": "Design Project",
   "description": "Design project required for the degree of Engineer in Computer Science. One to 12 credits. Course may be repeated for credit up to a total of 12 credits.",
   "credits": "1-12",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/900/cs-950"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/900/cs-950"
 }

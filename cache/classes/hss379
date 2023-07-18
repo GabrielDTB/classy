@@ -1,16 +1,20 @@
 {
-  "id": "HSS 379",
-  "name": "International Politics",
+  "department": "HSS",
+  "department_name": "",
+  "discriminator": "379",
+  "title": "International Politics",
   "description": "An analysis of the contemporary international political framework. The course explores the character of the state system, the nation-state, the role of leadership personality, transnational actors, the balance-of-power, security and economic issues, the nature and limitations of power, the uses of terrorism, and Third World issues.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester",
     "Winter Intersession"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/300/hss-379"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/300/hss-379"
 }

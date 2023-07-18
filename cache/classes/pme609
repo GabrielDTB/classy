@@ -1,9 +1,10 @@
 {
-  "id": "PME 609",
-  "name": "Project Management Fundamentals",
+  "department": "PME",
+  "department_name": "",
+  "discriminator": "609",
+  "title": "Project Management Fundamentals",
   "description": "This course deals with the basic problems of managing a project, defined as a temporary organization built for the purpose of achieving a specific objective. Both operational and conceptual issues will be considered. Operational issues include definition, planning, implementation, control, and evaluation of the project. Conceptual issues include project management vs. hierarchical management, matrix organization, project authority, motivation, and morale. Cases will be used to illustrate problems in project management and how to resolve them.",
   "credits": "3",
-  "cross_listed": "MGT 609",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
@@ -12,9 +13,12 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    "MGT 609"
+  ],
+  "distributions": [
     "Pharmaceutical Manufacturing Program",
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pme-pharmaceutical-manufacturing/600/pme-609"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pme-pharmaceutical-manufacturing/600/pme-609"
 }

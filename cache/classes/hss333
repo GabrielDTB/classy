@@ -1,13 +1,17 @@
 {
-  "id": "HSS 333",
-  "name": "Psychology of Prejudice",
+  "department": "HSS",
+  "department_name": "",
+  "discriminator": "333",
+  "title": "Psychology of Prejudice",
   "description": "This course gives an overview of theoretical perspectives, research methods, empirical findings, and practical applications of psychological research on prejudice, stigma, and intergroup relations. Several issues will be examined in depth that are central to research in this area. The topics include, but are not limited to: the development of prejudice among children, the role of cognitive, social, personality, and motivational factors in maintaining prejudice and stigma, the psychological consequences of prejudice and stigma, and strategies for reducing prejudice, stigma, and intergroup conflict.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/300/hss-333"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/300/hss-333"
 }

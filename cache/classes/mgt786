@@ -1,15 +1,19 @@
 {
-  "id": "MGT 786",
-  "name": "Social Network Analysis Research Seminar",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "786",
+  "title": "Social Network Analysis Research Seminar",
   "description": "This course addresses concepts and theories of social networks and social network analysis. Core concepts include representations and models of networks, basic descriptive statistics at the individual and network level, and standard models of network formation. The course also covers more advanced topics in network theory, including community detection, processes over networks such as contagion and influence, and models of dynamic networks.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/700/mgt-786"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/700/mgt-786"
 }

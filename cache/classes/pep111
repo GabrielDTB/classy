@@ -1,17 +1,21 @@
 {
-  "id": "PEP 111",
-  "name": "Mechanics",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "111",
+  "title": "Mechanics",
   "description": "Vectors, kinetics, Newton’s laws, dynamics or particles, work and energy, friction, conservative forces, linear momentum, center-of-mass and relative motion, collisions, angular momentum, static equilibrium, rigid body rotation, Newton’s law of gravity, simple harmonic motion, wave motion and sound.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/100/pep-111"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/100/pep-111"
 }

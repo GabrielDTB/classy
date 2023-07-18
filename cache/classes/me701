@@ -1,11 +1,15 @@
 {
-  "id": "ME 701",
-  "name": "Mechanical Engineering Co-Op Education Project",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "701",
+  "title": "Mechanical Engineering Co-Op Education Project",
   "description": "This course is for ME graduate students who are on Co-Op assignment.",
   "credits": "0",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/700/me-701"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/700/me-701"
 }

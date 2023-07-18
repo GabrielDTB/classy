@@ -1,16 +1,20 @@
 {
-  "id": "BIO 568",
-  "name": "Computational Biology",
+  "department": "BIO",
+  "department_name": "",
+  "discriminator": "568",
+  "title": "Computational Biology",
   "description": "Topics at the interface of biology and computer technology will be discussed, including molecular sequence analysis, phylogeny generation, biomolecular structure simulation, and modeling of site-directed mutagenesis.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CH 321",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biological Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/500/bio-568"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/500/bio-568"
 }

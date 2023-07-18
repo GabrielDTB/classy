@@ -1,17 +1,21 @@
 {
-  "id": "ME 358",
-  "name": "Machine Dynamics and Mechanisms",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "358",
+  "title": "Machine Dynamics and Mechanisms",
   "description": "The principles of dynamics as applied to the analysis of the accelerations and dynamic forces in machines such as linkages, cam systems, gears trains, belts, chains and couplings. The effect these dynamic forces have on the dynamic balance and operation of the machines and the attending stresses in the individual components of the machines. Some synthesis techniques. Students also work in teams on a semester long project associated with the design of a mechanical system from recognizing the need through a detailed conceptual design.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "( ENGR 126 or ENGR  211) and ( ENGR 232 OR ENGR 212)  and ( MA 227 or MA 226 ) and ME 225",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/300/me-358"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/300/me-358"
 }

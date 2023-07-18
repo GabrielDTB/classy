@@ -1,18 +1,22 @@
 {
-  "id": "EE 509",
-  "name": "Intermediate Waves and Optics",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "509",
+  "title": "Intermediate Waves and Optics",
   "description": "The general study of field phenomena; scattering and vector fields and waves; dispersion, phase, and group velocity; interference, diffraction, and polarization; coherence and correlation; and geometric and physical optics.",
   "credits": "3",
-  "cross_listed": "PEP 509",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    "PEP 509"
+  ],
+  "distributions": [
     "Department of Physics",
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/500/ee-509"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/500/ee-509"
 }

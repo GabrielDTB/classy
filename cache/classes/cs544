@@ -1,15 +1,19 @@
 {
-  "id": "CS 544",
-  "name": "Health Informatics",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "544",
+  "title": "Health Informatics",
   "description": "This course integrates computer science and health informatics. It is the capstone course for students in the service- oriented computing program who choose the health informatics application domain. The course covers the history of health informatics, including discussions of protocols and standards, such as OSI, UDEF, and HL7; review of information access and evaluation, health care terminology and health care economics, and looks at system selection and evaluation in the areas of telemedicine, dental informatics, consumer health informatics, and hospital/clinical informatics. Special attention is given to Web services and mobile computing as they relate to the health care industry. The course includes extensive readings.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-544"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-544"
 }

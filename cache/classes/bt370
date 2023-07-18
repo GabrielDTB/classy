@@ -1,16 +1,20 @@
 {
-  "id": "BT 370",
-  "name": "Human Centered Design",
+  "department": "BT",
+  "department_name": "",
+  "discriminator": "370",
+  "title": "Human Centered Design",
   "description": "Design thinking is a unique form of inquiry that provides a proven problem-solving process that can achieve amazing results. Most of the most innovative companies in the world such as Apple, Google and P&G require their technical staff to use design thinking methods to help solve their project challenges. Human Centered Design concepts and methods have wide applicability that goes way beyond product innovation and can be used to design organizations of people, information structures, compensation systems as well as the entire consumer experience. Applying these approaches can often create entirely new systems that are more useful and usable and often times amazing. The logic of this approach can sometimes solve \"wicked problems\" which have defied previous solutions.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/300/bt-370"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/300/bt-370"
 }

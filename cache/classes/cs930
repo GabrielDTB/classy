@@ -1,16 +1,20 @@
 {
-  "id": "CS 930",
-  "name": "Computer Science Qualifying Exam -  Written",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "930",
+  "title": "Computer Science Qualifying Exam -  Written",
   "description": "The CS PhD qualifying exam consists of two parts: one oral and one written. The written part of the qualifying exam consists of earning a grade of B+ or better in CS 601 \"Algorithmic Complexity,\" which is offered in two versions each academic year: First, as a standalone exam each January, or as a regular doctoral-level course each Spring. Students must successfully pass written part of the qualifying exam with at most two attempts and are highly encouraged to take the exam during their first year of studies in the Ph.D. program.",
   "credits": "0",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/900/cs-930"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/900/cs-930"
 }

@@ -1,13 +1,17 @@
 {
-  "id": "OE 626",
-  "name": "Port Planning and Development",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "626",
+  "title": "Port Planning and Development",
   "description": "This course introduces students to the evaluation and optimization of port and harbor layout from the standpoint of safe and efficient vessel navigation and cargo loading and unloading. Students receive instruction in the analysis tools and procedures used in the assessment of vessel motions, while underway in open water and in navigation channels, and while at dock. The evaluation of long wave motions and harbor resonance problems are discussed, as is risk-based analysis of port and harbor protection (e.g., breakwaters). Students will be introduced to computer models used in the evaluation of these issues, and will make extensive use of the models in the conduct of in-class case studies of port and harbor layouts.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-626"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-626"
 }

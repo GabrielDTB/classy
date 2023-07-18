@@ -1,13 +1,17 @@
 {
-  "id": "CE 607",
-  "name": "Theory of Elastic Stability",
+  "department": "CE",
+  "department_name": "",
+  "discriminator": "607",
+  "title": "Theory of Elastic Stability",
   "description": "Buckling failure of beams, columns, plates and shells in the elastic and plastic range; post buckling strength of plates; application of variational principles.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Civil Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/600/ce-607"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/600/ce-607"
 }

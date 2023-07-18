@@ -1,15 +1,19 @@
 {
-  "id": "FE 518",
-  "name": "Mathematica for Financial App",
+  "department": "FE",
+  "department_name": "",
+  "discriminator": "518",
+  "title": "Mathematica for Financial App",
   "description": "The course provides an introduction to programming, graphics, and financial data analysis using Mathematica. Students will learn programming in Mathematica Software, starting with elementary but quickly moving to advanced programming. They will learn it as an integrated quantitative methodology for analysis of markets, and optimal trading in stocks and options. The course is based on \"hands-on\" projects dealing with contemporary topics in financial mathematics and it complements theoretical courses of finance.",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-518"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-518"
 }

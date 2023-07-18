@@ -1,13 +1,17 @@
 {
-  "id": "ACC 351",
-  "name": "Federal Taxation of Individuals",
+  "department": "ACC",
+  "department_name": "",
+  "discriminator": "351",
+  "title": "Federal Taxation of Individuals",
   "description": "This course deals with the methods and principles of US Federal income taxation. It is concerned with the history and politics behind the federal income tax laws and regulations, including major emphasis on tax provisions common to all types of taxpayers, particularly individuals. Topics include: tax authority, research, compliance and planning; gross income and exclusions; individual deductions and credits; tax rate schedules and calculation; filing status; investments and property transactions; self-employment income; retirement planning; home ownership and professional ethics.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "BT 200 or ACC 200",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/acc-accounting/300/acc-351"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/acc-accounting/300/acc-351"
 }

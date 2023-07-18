@@ -1,16 +1,20 @@
 {
-  "id": "PEP 151",
-  "name": "Introduction to Astronomy",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "151",
+  "title": "Introduction to Astronomy",
   "description": "The course is designed to fulfill a science requirement credit for the general student population. The main objective of the course is to present a coherent introduction to the methods of study and physical properties of astronomical objects. Throughout the course complex objects will be reduced to their essential features that explain the observed phenomena. Current and historic observations will be used as the motivation. Data analysis assignments will be given from real observational data (listed as ’Lab’ in the syllabus). A set of semester-long group projects in astro-photography will give students a hands-on experience in imaging astronomical phenomena using everyday digital cameras(listed as ’Project’ in the syllabus). The course will include an evening demonstration on campus and a visit to the planetarium. In terms of general education, astronomy will be used as a vehicle to introduce the essentials of model-building, justified simplifications, physical reasoning and self- correcting nature of scientific method.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/100/pep-151"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/100/pep-151"
 }

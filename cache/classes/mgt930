@@ -1,16 +1,20 @@
 {
-  "id": "MGT 930",
-  "name": "Business Administration Qualifying Exam- Oral",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "930",
+  "title": "Business Administration Qualifying Exam- Oral",
   "description": "The goal of the qualifying exam is to foster and evaluate the research potential of Ph.D. students and assess their mastery of the relevant content domain for their concentration. The Qualifying Exam for Ph.D. students consists of the following components: 1) A written academic paper; 2) A one-hour oral defense of the academic paper; 3) A conceptual written exam; 4) A review of the student’s coursework grades; 5) An English language competency evaluation. By the end of the student’s fourth semester, the student, in consultation with the Ph.D. student’s advisor, must form a qualifying exam committee consisting of three School of Business faculty members, and communicate this to the Ph.D. Program Director for approval. The evaluation of a student’s qualifying exam will be done by a committee of three tenured/tenure-track faculty members form the School of Business. The student’s faculty advisor will serve as the chair of the committee. The student and the advisor should work together to choose two more members for the committee. The committee’s composition and completion of the evaluation process should be submitted to the Ph.D. Program Director for approval no later than the end of the fifth semester from the date of enrollment. Students have two chances to pass the qualifying exam and the second date has to be within 90 days from the publication of the first exam result. The Ph.D. committee has some discretionary power regarding the timings.",
   "credits": "0",
-  "cross_listed": "",
   "prerequisites": "MGT 920",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/900/mgt-930"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/900/mgt-930"
 }

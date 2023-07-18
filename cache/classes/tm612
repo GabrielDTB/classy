@@ -1,16 +1,20 @@
 {
-  "id": "TM 612",
-  "name": "Regulation and Policy in the Telecommunications Industry",
+  "department": "TM",
+  "department_name": "",
+  "discriminator": "612",
+  "title": "Regulation and Policy in the Telecommunications Industry",
   "description": "Historical perspective of telecommunications as a regulated industry; effects of regulation on industry growth in pre- and post- divestiture environments; special case of divestiture of AT&T; government regulatory agencies and processes; management issues related to business between regulated and non-regulated corporations; and tariff structures, rules, and rate-making in the regulated environment. Issues of privatization and deregulation in international telecommunications and their effects on global companies are also studied.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/tm-telecommunications-management/600/tm-612"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/tm-telecommunications-management/600/tm-612"
 }

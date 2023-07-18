@@ -1,16 +1,20 @@
 {
-  "id": "HPL 348",
-  "name": "Aesthetics",
+  "department": "HPL",
+  "department_name": "",
+  "discriminator": "348",
+  "title": "Aesthetics",
   "description": "An exploration of theories of art and of aesthetic experience. Questions addressed include the following: Are judgments of taste objective? What are the roles of form, expression, and representation in the arts? How is art related to society? What is the nature of creativity in art and science? What is the relationship between creativity and madness? Examples are drawn from the various art forms, including painting, literature, music, dance, and film.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hpl-humanitiesphilosophy/300/hpl-348"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hpl-humanitiesphilosophy/300/hpl-348"
 }

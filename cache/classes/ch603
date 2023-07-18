@@ -1,17 +1,21 @@
 {
-  "id": "CH 603",
-  "name": "Principles of Scientific Practice and Research",
+  "department": "CH",
+  "department_name": "",
+  "discriminator": "603",
+  "title": "Principles of Scientific Practice and Research",
   "description": "A course designed for graduate students on principles of scientific practice and research. In this course, we will discuss the most important skills that a researcher should have which includes ethics, literature review, scientific writing, and presentation skills.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/600/ch-603"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ch-chemistry/600/ch-603"
 }

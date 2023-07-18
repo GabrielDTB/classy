@@ -1,17 +1,21 @@
 {
-  "id": "CM 511",
-  "name": "Construction Accounting",
+  "department": "CM",
+  "department_name": "",
+  "discriminator": "511",
+  "title": "Construction Accounting",
   "description": "This course presents the principles of accounting for construction projects. Topics include elements of cost accounting, project accounting, and financial analysis used by the construction manager.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Construction Management Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cm-construction-management/500/cm-511"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cm-construction-management/500/cm-511"
 }

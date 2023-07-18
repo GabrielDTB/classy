@@ -1,15 +1,19 @@
 {
-  "id": "FIN 526",
-  "name": "Private Equity and Venture Capital",
+  "department": "FIN",
+  "department_name": "",
+  "discriminator": "526",
+  "title": "Private Equity and Venture Capital",
   "description": "This course addresses the fundamentals of venture capital, which includes the venture capital industry, the structure of venture capital firms and venture capital investments. It addresses in some detail the relationship between venture risk and return, the cost of venture capital and the valuation of high growth companies. The course covers a variety of valuation methods as well as analysis of company capital structure or \"cap tables\".",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "EMT 623 or MGT 623 and FIN 623 and BT 321",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/500/fin-526"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fin-finance/500/fin-526"
 }

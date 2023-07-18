@@ -1,15 +1,19 @@
 {
-  "id": "HLI 321",
-  "name": "Literature, Science and Technology",
+  "department": "HLI",
+  "department_name": "",
+  "discriminator": "321",
+  "title": "Literature, Science and Technology",
   "description": "This course investigates the views man has expressed about the advent impact of technology and science across recorded history. Questions that might be addressed include: What is the relationship between religion and technology? Has man always viewed technological innovations as positive? What relationship is there between man’s vision of utopian society and technology? Readings may include, but are not limited to, novels, philosophical treatises, and the literature of various societies.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/300/hli-321"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/300/hli-321"
 }

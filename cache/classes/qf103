@@ -1,16 +1,20 @@
 {
-  "id": "QF 103",
-  "name": "Introduction to Financial Tools and Technology",
+  "department": "QF",
+  "department_name": "",
+  "discriminator": "103",
+  "title": "Introduction to Financial Tools and Technology",
   "description": "The course will introduce students to the Bloomberg terminal, from technical analysis to fundamental analysis. Students will also learn how to retrieve historical data from Bloomberg and analyze that data in the SAS statistical program. The course arms the students with skill-sets typically learned on the job.",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/100/qf-103"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/qf-quantitative-finance/100/qf-103"
 }

@@ -133,12 +133,10 @@ pub fn parse_class(page: ClassPage) -> Class {
         "".into(), // TODO
         id.chars()
             .filter(|c| c.is_ascii_digit())
-            .collect::<String>()
-            .parse()
-            .unwrap(),
+            .collect::<String>(),
         name,
         description,
-        credits.parse().unwrap(),
+        credits,
         prerequisites,
         offered,
         vec![cross_listed],

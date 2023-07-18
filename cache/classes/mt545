@@ -1,14 +1,18 @@
 {
-  "id": "MT 545",
-  "name": "Plasma Processing",
+  "department": "MT",
+  "department_name": "",
+  "discriminator": "545",
+  "title": "Plasma Processing",
   "description": "Basic plasma physics; some atomic processes; and plasma diagnostics. Plasma production; DC glow discharges and RF glow discharges; magnetron discharges. Plasma-surface interaction; sputter deposition of thin films; reactive ion etching, ion milling, and texturing; electron beam-assisted chemical vapor deposition; and ion implantation. Sputtering systems; ion sources; electron sources; and ion beam handling.",
   "credits": "3",
-  "cross_listed": "PEP 545",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    "PEP 545"
+  ],
+  "distributions": [
     "Department of Physics",
     "Materials Science and Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/500/mt-545"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mt-materials-engineering/500/mt-545"
 }

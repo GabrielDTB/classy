@@ -1,18 +1,22 @@
 {
-  "id": "NIS 505",
-  "name": "Probability for Telecommunications Managers",
+  "department": "NIS",
+  "department_name": "",
+  "discriminator": "505",
+  "title": "Probability for Telecommunications Managers",
   "description": "This course provides a background in probability and stochastic processes necessary for the analysis of telecommunications systems. Topics include axioms of probability, combinatorial methods, discrete and continuous random variables, expectation, Poisson processes, birth-death processes, and Markov processes.",
   "credits": "3",
-  "cross_listed": "TM 605",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    "TM 605"
+  ],
+  "distributions": [
     "Information and Data Engineering Program",
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/500/nis-505"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nis-networked-information-systems/500/nis-505"
 }

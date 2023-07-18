@@ -1,13 +1,17 @@
 {
-  "id": "HAR 321",
-  "name": "Virtual and Augmented Reality",
+  "department": "HAR",
+  "department_name": "",
+  "discriminator": "321",
+  "title": "Virtual and Augmented Reality",
   "description": "Virtual and augmented realties combine our real-world environments with dynamic computer-generated sensory inputs such as 3D models, sound, video, and graphics to create immersive artworks. In this course students will learn a range of current tools and processes within this field to develop creative artworks, and discuss historical, contemporary and theoretical issues of virtual and augmented reality.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/300/har-321"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/300/har-321"
 }

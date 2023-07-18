@@ -1,16 +1,20 @@
 {
-  "id": "EN 530",
-  "name": "Introduction to Sustainable Engineering",
+  "department": "EN",
+  "department_name": "",
+  "discriminator": "530",
+  "title": "Introduction to Sustainable Engineering",
   "description": "This course assesses current and potential future energy systems, covers resources, extraction, conversion, and end-use, and emphasizes meeting regional and global energy needs in the 21st century in a sustainable manner. Topics relevant to renewable and conventional energy technologies will be presented including fossil fuels, combustion, environmental effects, carbon sequestration, nuclear power, wind power, solar energy, hydrogen, and fuel cells. Key attributes will be described within a framework that aids in evaluation and analysis of energy technology systems in the context of political, social, economic, and environmental goals.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Environmental Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-530"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-530"
 }

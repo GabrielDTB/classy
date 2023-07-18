@@ -1,13 +1,17 @@
 {
-  "id": "ES 621",
-  "name": "Fundamentals of Enterprise Systems",
+  "department": "ES",
+  "department_name": "",
+  "discriminator": "621",
+  "title": "Fundamentals of Enterprise Systems",
   "description": "Traditional systems engineering techniques must be adapted to understand a broader class of human designed systems that we refer to as an enterprise, of which a technical system is only one part. Students will learn how describe the value of systems engineering on complex projects, provide a (common) global view of the system and enterprise, elicit and write good requirements, and understand how to develop robust and efficient architectures. Students should complete this class with \"next steps\" knowledge of tools, templates, capability patterns, and community. Case studies and examples are used throughout to give students an appreciation of how systems engineering tools, techniques, and thinking can be applied to the real world enterprises that we encounter daily.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Systems Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/es-enterprise-systems/600/es-621"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/es-enterprise-systems/600/es-621"
 }

@@ -1,13 +1,17 @@
 {
-  "id": "EN 504",
-  "name": "Basics of Air Pollution Assessment",
+  "department": "EN",
+  "department_name": "",
+  "discriminator": "504",
+  "title": "Basics of Air Pollution Assessment",
   "description": "This course will focus on the relationship and impact that international relations, international business, and foreign policy have on world trade, commerce, and finance. The course will provide the student with a better understanding of how the complexity of international differences affects political, economic, and cultural behaviors. Among the topics for discussion: the content and scope of international politics, the international struggle for power, the role and impact of non-governmental organizations, foreign policy as a tool for promoting international commerce, the role of international law and world public opinion, the rise of regionalism, the political economy of international trade.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Environmental Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-504"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-504"
 }

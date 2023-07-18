@@ -1,17 +1,21 @@
 {
-  "id": "SOC 501",
-  "name": "Introduction to JAVA Programming",
+  "department": "SOC",
+  "department_name": "",
+  "discriminator": "501",
+  "title": "Introduction to JAVA Programming",
   "description": "An introduction to the Java programming language for those students who have little or no programming background. It is intended as an elective for the Master of Science in Information Systems to be taken near the end of the program. Basic topics considered will be programs and program structure in general and Java syntax, data types, flow of control, classes, methods and objects, arrays, exception handling, and recursion. In addition, the use of Java in enterprise-wide computing and distributed systems will be introduced by considering APIs in general, and the ones specific to JDBC and the Java security features in particular. Not for credit for Computer Science department undergraduate majors.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/soc-service-oriented-computing/500/soc-501"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/soc-service-oriented-computing/500/soc-501"
 }

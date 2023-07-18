@@ -1,15 +1,19 @@
 {
-  "id": "CS 541",
-  "name": "Artificial Intelligence",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "541",
+  "title": "Artificial Intelligence",
   "description": "Artificial intelligence (AI), sometimes called machine intelligence, is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and animals. Colloquially, the term \"artificial intelligence\" is used to describe machines that mimic cognitive functions that humans associate with other human minds, such as learning and problem solving. The course will emphasize on both learning and problem solving, and will develop rigorous statistical models for real-world AI applications. The course will also deliver modern optimization techniques to find an optimal model for a given problem. It will require a math background in calculus, linear algebra and probability, and programming skills in Python or Matlab.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "( MA 222 and MA 232 and (Junior or Senior)) or (Grad Student)",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-541"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-541"
 }

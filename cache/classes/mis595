@@ -1,15 +1,19 @@
 {
-  "id": "MIS 595",
-  "name": "Information Security and the Law",
+  "department": "MIS",
+  "department_name": "",
+  "discriminator": "595",
+  "title": "Information Security and the Law",
   "description": "This course examines every major aspect of the relationship between information security and the law, at a level suitable for information security specialists and senior managers who supervise information security operations. In the first phase, the course explores substantive legal principles relating to information security, with regard to both private and government interests. The second phase of the course explores information security operations as the repository of information that may be at issue in legal proceedings. Finally, the course concludes with a discussion of the balancing process required to promote information security in a system of ordered liberties, that is, with due respect for civil rights.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CS 306 and CS 594 and FIN 545",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mis-information-systems/500/mis-595"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mis-information-systems/500/mis-595"
 }

@@ -1,17 +1,21 @@
 {
-  "id": "EM 680",
-  "name": "Designing and Managing the Development Enterprise",
+  "department": "EM",
+  "department_name": "",
+  "discriminator": "680",
+  "title": "Designing and Managing the Development Enterprise",
   "description": "This course addresses the design of the peopled-system that is responsible for designing and testing a product or operational system. There are three keys to designing the development system that are emphasized as part of this course: the fact that the design process should be a discovery process, the critical feedback and control activities that must be implemented for cost-discovery process, the critical feedback and control activities that must be implemented for cost-effective success, and the design of risk management(with an emphasis on adaptive testing) activities. This course will focus on the functional processes that must be performed by the development system, but will also address physical resources(people and software) and associated organizational structures.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "EngineeringManagement Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/600/em-680"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/600/em-680"
 }

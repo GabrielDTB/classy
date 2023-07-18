@@ -1,15 +1,19 @@
 {
-  "id": "CAL 101",
-  "name": "English Skills",
+  "department": "CAL",
+  "department_name": "",
+  "discriminator": "101",
+  "title": "English Skills",
   "description": "Open to International Students Only. Cannot be used for Humanities Credit.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Undergraduate DEAN 498",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "College of Arts and Letters"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cal-college-of-arts-letters/100/cal-101"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cal-college-of-arts-letters/100/cal-101"
 }

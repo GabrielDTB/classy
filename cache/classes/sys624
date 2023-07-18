@@ -1,18 +1,22 @@
 {
-  "id": "SYS 624",
-  "name": "Informatics for Engineering Management",
+  "department": "SYS",
+  "department_name": "",
+  "discriminator": "624",
+  "title": "Informatics for Engineering Management",
   "description": "This course enables the Engineering Management student to acquire the knowledge and skills he/she will need to handle the variety and volume of information encountered in today’s workplace. The course uses Python, which is rapidly becoming the language of choice for information handling and data analysis. Students will work with both structured and semi-structured data.",
   "credits": "3",
-  "cross_listed": "EM 624",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    "EM 624"
+  ],
+  "distributions": [
     "Engineering Management Program",
     "Systems Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-624"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-624"
 }

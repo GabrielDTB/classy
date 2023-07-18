@@ -1,13 +1,17 @@
 {
-  "id": "SSW 424",
-  "name": "Engineering Design VIII",
+  "department": "SSW",
+  "department_name": "",
+  "discriminator": "424",
+  "title": "Engineering Design VIII",
   "description": "This is the second course of a year long, two-course sequence which involves the students in a small-team Software Engineering project. The problem for the project is taken from industry, business, government or a not-for-profit organization. Each student team works with a client and is expected to collect data, analyze it and develop a design by the end of the first semester. In the second semester the design solution of the problem is completed and a written report is submitted for binding. During the year, oral and written progress reports are presented to peers, faculty and clients. The total project involves the application of the subject areas covered in the SSW 322 Software Design Evolution course, as well as skills learned in the other technical and non-technical courses of the Software Engineering curriculum.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "IDE 402 Coreq and SSW 423",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Software Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/400/ssw-424"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ssw-software-engineering/400/ssw-424"
 }

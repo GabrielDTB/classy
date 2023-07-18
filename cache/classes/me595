@@ -1,15 +1,19 @@
 {
-  "id": "ME 595",
-  "name": "Heat Exchanger Design",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "595",
+  "title": "Heat Exchanger Design",
   "description": "Basic principles of heat exchanger design; types of heat exchangers, heat exchanger effectiveness; uncertainty analysis of design and operating parameters; fouling factors; heat transfer augmentation in heat exchangers, two-phase flow, boiling and condensation in heat exchangers, second law of thermodynamics for optimization of heat exchanger design; tube vibrations; codes and standards; individually supervised heat exchanger design project.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-595"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-595"
 }

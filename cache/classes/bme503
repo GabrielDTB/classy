@@ -1,15 +1,19 @@
 {
-  "id": "BME 503",
-  "name": "Physiology for Engineers II",
+  "department": "BME",
+  "department_name": "",
+  "discriminator": "503",
+  "title": "Physiology for Engineers II",
   "description": "A study of the physiological functions of major organ systems (Neural, Blood, Muscle, Heart, Vascular System Renal, Respiratory and Lymphatics) and how they interact to maintain homeostasis from a systems engineering point of view. Functional anatomy and physiology will be covered as well as quantitative methods for the analysis of organ function and their interactions. An analysis of changes in the major physiological variables with exercise will be used as an example of the integration of the major organs to compensate for stress.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biomedical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/500/bme-503"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/500/bme-503"
 }

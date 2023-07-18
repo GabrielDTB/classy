@@ -1,9 +1,10 @@
 {
-  "id": "ME 802",
-  "name": "Special Problems in Mechanical Engineering (Deg ME)",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "802",
+  "title": "Special Problems in Mechanical Engineering (Deg ME)",
   "description": "3 credits for the degree of Mechanical Engineer.",
   "credits": "1-6",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/800/me-802"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/800/me-802"
 }

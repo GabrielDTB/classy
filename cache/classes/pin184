@@ -1,11 +1,15 @@
 {
-  "id": "PIN 184",
-  "name": "Pinnacle Scholar Seminar II",
+  "department": "PIN",
+  "department_name": "",
+  "discriminator": "184",
+  "title": "Pinnacle Scholar Seminar II",
   "description": "This seminar covers topics specific to each of the Pinnacle Scholars Learning Communities and topics that will aid Pinnacle Scholars as they determine which of the three summer involvement opportunities that they will engage in. Students will learn how to prepare a research proposal, develop a plan for an entrepreneurial and innovative project and explore the steps necessary to engage in an international experience. In addition, Pinnacle Scholars will explore graduate education programs and associated entrance exams.",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "PIN 183 and Pinnacle Scholar",
   "offered": [],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pin-pinnacle-scholar/100/pin-184"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pin-pinnacle-scholar/100/pin-184"
 }

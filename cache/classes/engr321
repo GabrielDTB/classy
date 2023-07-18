@@ -1,17 +1,21 @@
 {
-  "id": "ENGR 321",
-  "name": "Engineering Design V: Materials Selection and Process Optimization",
+  "department": "ENGR",
+  "department_name": "",
+  "discriminator": "321",
+  "title": "Engineering Design V: Materials Selection and Process Optimization",
   "description": "This course includes both experimentation and open-ended design problems that are integrated with the Materials Processing course taught concurrently. Core design themes are further developed.",
   "credits": "2",
-  "cross_listed": "",
   "prerequisites": "ENGR 344 CoReq",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Engineering and Science"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/300/engr-321"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/300/engr-321"
 }

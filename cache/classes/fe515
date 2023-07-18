@@ -1,16 +1,20 @@
 {
-  "id": "FE 515",
-  "name": "Introduction to R",
+  "department": "FE",
+  "department_name": "",
+  "discriminator": "515",
+  "title": "Introduction to R",
   "description": "In this course the students will learn the basics of the open source programming language R. The language will be introduced using financial data and applications. Basic statistical knowledge is required to complete the course. The course is designed so that upon completion the students will be able to use R for assignments and research using data particularly in finance.",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-515"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/500/fe-515"
 }

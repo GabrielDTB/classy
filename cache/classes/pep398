@@ -1,15 +1,19 @@
 {
-  "id": "PEP 398",
-  "name": "SKIL IV: Sensors and System Design",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "398",
+  "title": "SKIL IV: Sensors and System Design",
   "description": "Each week in this course the lecture part will focus on a specific quantity to be measured (like pressure, force, or intensity) and the different sensors that can be used for it. Focus is thereby to understand the how the sensor works – i.e., through which physical effects the quantity to be measured (like for example force) is converted to a number / gauge reading / easily measurable value. The corresponding properties of each sensor (range, resolution, response time, hysteresis, etc.) as well as limitations will be addressed. In the laboratory section of this class the student teams continue to envision, design, build and run an experiment on their own, which can be a continuation of the project chosen in PEP 397 – yet students are encouraged to look for individual research projects within and outside the department in collaboration with the faculty. During the class, the teams are required to deliver progress report in different formats, exposing them to project proposal, reporting and presentation skills.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "PEP 397",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/300/pep-398"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/300/pep-398"
 }

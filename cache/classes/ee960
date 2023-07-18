@@ -1,9 +1,10 @@
 {
-  "id": "EE 960",
-  "name": "Research in Electrical Engineering (PhD)",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "960",
+  "title": "Research in Electrical Engineering (PhD)",
   "description": "Original research of a significant character, undertaken under the guidance of a member of the departmental faculty, which may serve as the basis for the dissertation required for the degree of Doctor of Philosophy. Hours and credits to be arranged.",
   "credits": "1-60",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/900/ee-960"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/900/ee-960"
 }

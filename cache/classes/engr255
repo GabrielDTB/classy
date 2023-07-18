@@ -1,13 +1,17 @@
 {
-  "id": "ENGR 255",
-  "name": "Dynamical Systems",
+  "department": "ENGR",
+  "department_name": "",
+  "discriminator": "255",
+  "title": "Dynamical Systems",
   "description": "Rigid-body kinematics; relative motion; rigid-body kinetics; direct and oblique impact; eccentric impact; unified analysis of the dynamic response of mechanical, electrical, fluid and thermal systems, based on the underlying mathematical principles of linear systems response; introduction to time- and frequency-response methods using block diagrams, signal-flow graphs, methods used in the study of communications systems with practical applications.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Engineering and Science"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/200/engr-255"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/engr-interdepartmental-engineering/200/engr-255"
 }

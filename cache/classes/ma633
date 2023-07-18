@@ -1,13 +1,17 @@
 {
-  "id": "MA 633",
-  "name": "Generalized Functions and Other Operational Methods",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "633",
+  "title": "Generalized Functions and Other Operational Methods",
   "description": "Modern theory of the delta function and other generalized functions: Fourier and Laplace transforms and applications to ordinary and partial differential equations.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 547",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-633"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-633"
 }

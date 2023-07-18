@@ -1,13 +1,17 @@
 {
-  "id": "EE 615",
-  "name": "OFDM and Multicarrier Communications",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "615",
+  "title": "OFDM and Multicarrier Communications",
   "description": "This course reviews multicarrier modulation (MCM) methods which offer several advantages over conventional single carrier systems for broadband data transmission. Topics include fundamentals of MCM, where the data stream is divided into several parallel bit streams, each of which has a much lower bit rate, to exploit multipath diversity and practical applications. It will cover new advances, as well as the present core technology. Hands-on learning with computer-based approaches will include simulation in MATLAB and state-of-the-art high level software packages to design and implement modulation, filtering, synchronization, and demodulation.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "EE 609",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-615"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/600/ee-615"
 }

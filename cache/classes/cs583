@@ -1,13 +1,17 @@
 {
-  "id": "CS 583",
-  "name": "Deep Learning",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "583",
+  "title": "Deep Learning",
   "description": "Deep learning (DL) is a family of the most powerful and popular machine learning (ML) methods and has wide realworld applications such as face recognition, machine translation, self-driving car, recommender system, playing the Go game, etc. This course is designed for students either with or without ML background. The course will cover fundamental ML, computer vision, and natural language problems and DL tools for solving the problems. The students will be able to use DL methods for solving real-world ML problems. The homework is mostly implementation and programming using the Python language and popular DL frameworks such as TensorFlow and Keras. Knowledge and skills in Python programming and linear algebra are strictly required. Probability theory, statistics, and numerical analysis are recommended by not required. Knowledge in machine learning and artificial intelligence is helpful but unnecessary. Pre-Req: Undergrad linear algebra and probability.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 232 or CS 556 and (Grad Student or (Junior or Senior))",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-583"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-583"
 }

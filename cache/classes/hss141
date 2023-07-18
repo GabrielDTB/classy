@@ -1,9 +1,10 @@
 {
-  "id": "HSS 141",
-  "name": "Introduction to Sociology",
+  "department": "HSS",
+  "department_name": "",
+  "discriminator": "141",
+  "title": "Introduction to Sociology",
   "description": "The objective of this course is to provide students with a general survey of the field of sociology. This course aims at providing students with a way to think about and understand the social world and one’s place in it. Therefore, the lectures, readings and assignments will focus on understanding the basic social processes and how they can be applied to everyday events, both small and large, both personal and political.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/100/hss-141"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hss-humanitiessocial-sciences/100/hss-141"
 }

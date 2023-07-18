@@ -1,13 +1,17 @@
 {
-  "id": "BME 950",
-  "name": "Biomedical Engineer Design Project",
+  "department": "BME",
+  "department_name": "",
+  "discriminator": "950",
+  "title": "Biomedical Engineer Design Project",
   "description": "Design project for the degree of Biomedical Engineer.",
   "credits": "1-15",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biomedical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/900/bme-950"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/900/bme-950"
 }

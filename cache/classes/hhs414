@@ -1,13 +1,17 @@
 {
-  "id": "HHS 414",
-  "name": "Industrial America",
+  "department": "HHS",
+  "department_name": "",
+  "discriminator": "414",
+  "title": "Industrial America",
   "description": "In the late nineteenth and early twentieth centuries the United States was fundamentally transformed. This course examines the nation’s genesis as an industrial and economic power and society’s adaptation to the industrial age. It also considers the impact of industrialism on such historical problems as technological change, economic development, race and gender relations, political participation, reform movements, urbanization, immigration, imperialism, and globalization.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/400/hhs-414"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/400/hhs-414"
 }

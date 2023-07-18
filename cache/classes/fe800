@@ -1,9 +1,10 @@
 {
-  "id": "FE 800",
-  "name": "Project in Financial Engineering",
+  "department": "FE",
+  "department_name": "",
+  "discriminator": "800",
+  "title": "Project in Financial Engineering",
   "description": "Three credits for the degree of Master of Science (Financial Engineering). This course is typically conducted as a one-on-one course between a faculty member and a student. A student may take up to two special problems courses in a master’s degree program. A department technical report is required as the final product for this course.",
   "credits": "1-6",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/800/fe-800"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/800/fe-800"
 }

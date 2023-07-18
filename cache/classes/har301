@@ -1,13 +1,17 @@
 {
-  "id": "HAR 301",
-  "name": "Professional Practices",
+  "department": "HAR",
+  "department_name": "",
+  "discriminator": "301",
+  "title": "Professional Practices",
   "description": "This course covers the essentials of being a professional artist or designer: professional writing, portfolio preparation, finding exhibition and job opportunities, and finances for creatives. By the end of the semester, students will have crafted a portfolio of their work, as well as a professional packet for seeking internships, jobs, and exhibition opportunities. Additionally, the course marks the beginning of the Visual Art & Technology thesis process. Students will conduct research and write an artist statement outlining other artists and creatives whose work is an influence.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "VART Ugrad Only",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/300/har-301"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/300/har-301"
 }

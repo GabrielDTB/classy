@@ -1,13 +1,17 @@
 {
-  "id": "OE 545",
-  "name": "Acoustic & Noise Measurement",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "545",
+  "title": "Acoustic & Noise Measurement",
   "description": "See course description ME 569.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-545"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-545"
 }

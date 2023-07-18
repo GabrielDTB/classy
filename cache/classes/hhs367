@@ -1,13 +1,17 @@
 {
-  "id": "HHS 367",
-  "name": "Twentieth Century History",
+  "department": "HHS",
+  "department_name": "",
+  "discriminator": "367",
+  "title": "Twentieth Century History",
   "description": "A survey of 20th century Middle Eastern history and politics. This course will explore the issues of nationalism, secularism and social transformations set within the predominantly Islamic Middle East. The different paths adopted by Turkey, Iran and Egypt will be among the major topics to be explored.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/300/hhs-367"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/300/hhs-367"
 }

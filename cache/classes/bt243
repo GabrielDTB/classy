@@ -1,16 +1,20 @@
 {
-  "id": "BT 243",
-  "name": "Macroeconomics",
+  "department": "BT",
+  "department_name": "",
+  "discriminator": "243",
+  "title": "Macroeconomics",
   "description": "The forces which govern the overall performance of the national economy are covered. Areas discussed include the essence of the economic problem, supply and demand analysis, national income theory, the monetary system, alternative approaches to economic policy, current macroeconomic problems, and international economics.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/200/bt-243"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/200/bt-243"
 }

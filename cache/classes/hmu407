@@ -1,15 +1,19 @@
 {
-  "id": "HMU 407",
-  "name": "Sound Design",
+  "department": "HMU",
+  "department_name": "",
+  "discriminator": "407",
+  "title": "Sound Design",
   "description": "Sound Design calls upon major technical elements from HMU 410-413 from psychoacoustics to sound wave manipulation within the digital to create soundscapes that enhance the art of story telling. The student will learn to create original sound effects, use and manipulate existing sound effect libraries, and identify the audio needs of a visual image. They will use the Digital Audio Workstation (DAW), as instructed in the Sound Recording course series, to integrate audio and visual elements. They will also be able to create a stand-alone soundscape for radio or audio only internet applications. Via lab assignments, students will complete the course with the foundation for an audio portfolio - demo CD.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "HMU 232",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Music and Technology Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/400/hmu-407"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/400/hmu-407"
 }

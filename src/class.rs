@@ -5,10 +5,10 @@ use serde::{Deserialize, Serialize};
 pub struct Class {
     department: String,
     department_name: String,
-    discriminator: u8,
+    discriminator: String,
     title: String,
     description: String,
-    credits: u8,
+    credits: String,
     prerequisites: String,
     offered: Vec<String>,
     cross_listings: Vec<String>,
@@ -20,10 +20,10 @@ impl Class {
     pub fn new(
         department: String,
         department_name: String,
-        discriminator: u8,
+        discriminator: String,
         title: String,
         description: String,
-        credits: u8,
+        credits: String,
         prerequisites: String,
         offered: Vec<String>,
         cross_listings: Vec<String>,
@@ -56,8 +56,8 @@ impl ClassTrait for Class {
     fn department_name(&self) -> String {
         self.department_name.clone()
     }
-    fn discriminator(&self) -> u8 {
-        self.discriminator
+    fn discriminator(&self) -> String {
+        self.discriminator.clone()
     }
     fn title(&self) -> String {
         self.title.clone()
@@ -65,8 +65,8 @@ impl ClassTrait for Class {
     fn description(&self) -> String {
         self.description.clone()
     }
-    fn credits(&self) -> u8 {
-        self.credits
+    fn credits(&self) -> String {
+        self.credits.clone()
     }
     fn prerequisites(&self) -> String {
         self.prerequisites.clone()

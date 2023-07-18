@@ -1,11 +1,15 @@
 {
-  "id": "HAR 425",
-  "name": "Moving Image: Advanced Projects",
+  "department": "HAR",
+  "department_name": "",
+  "discriminator": "425",
+  "title": "Moving Image: Advanced Projects",
   "description": "Moving Image: Advanced Projects",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/400/har-425"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/har-humanitiesart/400/har-425"
 }

@@ -1,16 +1,20 @@
 {
-  "id": "ME 515",
-  "name": "Automotive Engineering",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "515",
+  "title": "Automotive Engineering",
   "description": "Analysis of the automotive vehicle as an entire integrated system under highway and off-road conditions. Significant subject areas include power-train design, control and stability; suspension design, tire-road interface, soil-vehicle interface, four- wheeled, tracked and unconventional vehicles; emphasis is on design theory.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Spring Semester",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-515"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-515"
 }

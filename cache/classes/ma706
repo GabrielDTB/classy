@@ -1,17 +1,21 @@
 {
-  "id": "MA 706",
-  "name": "Co-Op Engagement in Mathematics",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "706",
+  "title": "Co-Op Engagement in Mathematics",
   "description": "Co-Op Engagement in Mathematics",
   "credits": "0",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/700/ma-706"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/700/ma-706"
 }

@@ -1,16 +1,20 @@
 {
-  "id": "MGT 680",
-  "name": "Organizational Behavior and Theory",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "680",
+  "title": "Organizational Behavior and Theory",
   "description": "Organization scientists generally think of organizations as being comprised of three levels of analysis: the individual, the group or department, and the organization itself. Using a systems perspective, this course focuses on the group and interpersonal factors accompanying an organization's operation. Topics covered include understanding organizations as structured systems, individual differences and performance, group dynamics and performance, learning, motivation, leadership, and principles of communication particularly as they relate to decision-making and conflict management.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/600/mgt-680"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/600/mgt-680"
 }

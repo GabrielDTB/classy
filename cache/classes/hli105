@@ -1,16 +1,20 @@
 {
-  "id": "HLI 105",
-  "name": "Special Topics in Literature",
+  "department": "HLI",
+  "department_name": "",
+  "discriminator": "105",
+  "title": "Special Topics in Literature",
   "description": "The subject of this course changes, but recent topics have been an in-depth study of Shakespeare’s Hamlet, consideration of three of his comedies, and a study of literary New York.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/100/hli-105"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/100/hli-105"
 }

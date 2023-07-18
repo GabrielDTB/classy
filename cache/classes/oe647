@@ -1,13 +1,17 @@
 {
-  "id": "OE 647",
-  "name": "Advanced Hydrodynamic Laboratory",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "647",
+  "title": "Advanced Hydrodynamic Laboratory",
   "description": "Several of the important theories germane to ocean engineering are reviewed or developed and used to predict body or fluid behavior. These predictions are then compared with results obtained by the student using the Davidson Laboratory research facilities.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-647"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/600/oe-647"
 }

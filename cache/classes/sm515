@@ -1,15 +1,19 @@
 {
-  "id": "SM 515",
-  "name": "Statistical Methods in Sustainability",
+  "department": "SM",
+  "department_name": "",
+  "discriminator": "515",
+  "title": "Statistical Methods in Sustainability",
   "description": "This course introduces various data analysis techniques in the field of sustainability management using statistical tools. It focuses on environmental data analysis as well as quantitative business and social science research methods. Students learn how to design experiments for environmental management studies, how to statistically analyze scientific data, and how to present and report processed data. Students also learn the principles of survey design that are standard practices in business and social science sustainability fields, including how to frame survey questionnaire, how to design appropriate survey plans (sample volume, time frame etc.), statistical methods to analyze survey data, and interpret survey results.",
   "credits": "3",
-  "cross_listed": "EN 515",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "EN 515"
+  ],
+  "distributions": [
     "Environmental Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sm-sustainability-management/500/sm-515"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sm-sustainability-management/500/sm-515"
 }

@@ -1,18 +1,22 @@
 {
-  "id": "PEP 503",
-  "name": "Introduction to Solid State Physics",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "503",
+  "title": "Introduction to Solid State Physics",
   "description": "Description of simple physical models which account for electrical conductivity and thermal properties of solids. Basic crystal lattice structure, X-ray diffraction and dispersion curves for phonons and electrons in reciprocal space. Energy bands, Fermi surfaces, metals, insulators and semiconductors, superconductivity and ferromagnetism.",
   "credits": "3",
-  "cross_listed": "MT 503, NANO 503, EE 503",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    "MT 503, NANO 503, EE 503"
+  ],
+  "distributions": [
     "Department of Physics",
     "Electrical Engineering Program",
     "Materials Science and Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-503"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/500/pep-503"
 }

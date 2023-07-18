@@ -1,13 +1,17 @@
 {
-  "id": "PEP 602",
-  "name": "Secure and Robust Communications",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "602",
+  "title": "Secure and Robust Communications",
   "description": "The course presents an overview of areas of first responders and military activities and using of different heterogeneous wireless systems during large scale crises, such as natural disasters, acts of terrorism, and also during homeland defense, financial and military operations. The course includes an analysis of different wireless network architectures from security point of view. The course is the second part of the graduate certificate program \"Wireless Secure Network Design\" which includes also three other courses - PEP 601, 603 and 604. Fall semester.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/600/pep-602"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/600/pep-602"
 }

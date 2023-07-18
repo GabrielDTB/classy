@@ -1,16 +1,20 @@
 {
-  "id": "SYS 637",
-  "name": "Cost-Effective Space Mission Operations",
+  "department": "SYS",
+  "department_name": "",
+  "discriminator": "637",
+  "title": "Cost-Effective Space Mission Operations",
   "description": "This course examines the real-world space mission operations. Taking a process-oriented approach, the course provides an in-depth view of the entirety of space mission operations, including the concept of operations and all functions that are performed in support of a space mission. Interactive discussions focus on initial requirements definition, operations concept development, functional allocation among spacecraft, payload, ground system and operators. A detailed model is provided that allows the user to estimate operations complexity and then prepare an estimate of the number of operators required and overall cost. This is a hands-on course with a focus on space missions for science, military and commercial applications.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Systems Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-637"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-637"
 }

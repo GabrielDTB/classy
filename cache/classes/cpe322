@@ -1,17 +1,21 @@
 {
-  "id": "CPE 322",
-  "name": "Engineering Design VI",
+  "department": "CPE",
+  "department_name": "",
+  "discriminator": "322",
+  "title": "Engineering Design VI",
   "description": "This course addresses the general topic of selection, evaluation, and design of a project concept, emphasizing the principles of team-based projects and the stages of project development. Techniques to acquire information related to the state-of-the- art concepts and components impacting the project, evaluation of alternative approaches and selection of viable solutions based on appropriate cost factors, presentation of proposed projects at initial, intermediate and final stages of development, and related design topics. Students are encouraged to use this experience to prepare for the senior design project courses.",
   "credits": "2",
-  "cross_listed": "EE 322",
   "prerequisites": "ENGR 122 and CoReq CPE 345 / EE 345 / PEP 345",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "EE 322"
+  ],
+  "distributions": [
     "Computer Engineering Program",
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/300/cpe-322"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cpe-computer-engineering/300/cpe-322"
 }

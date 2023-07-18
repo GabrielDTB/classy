@@ -1,15 +1,19 @@
 {
-  "id": "PEP 397",
-  "name": "SKIL III: Advanced Measurement Techniques and System Design",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "397",
+  "title": "SKIL III: Advanced Measurement Techniques and System Design",
   "description": "The lecture part of this course introduces the student to advanced measurement techniques and their implementation in modern devices like lock-in amplifiers and network analyzers. Consequences of the measurement method applied in those devices (like filtering and / or averaging) on the original data and the loss of information is a special focus in this class. In the laboratory section of this class, student teams will envision, design, build and run an experiment on their own. The class will assist you to do this in an efficient manner, exposing the student to project planning and tracking as well as reporting and presentation skills.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "PEP 298",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/300/pep-397"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/300/pep-397"
 }

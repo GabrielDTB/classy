@@ -1,15 +1,19 @@
 {
-  "id": "PEP 297",
-  "name": "SKIL I: Introduction to Data Analysis and Electronic Based Measurements",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "297",
+  "title": "SKIL I: Introduction to Data Analysis and Electronic Based Measurements",
   "description": "The Science Knowledge Integration Ladder (SKIL) sequence is a six part course sequence designed to introduce students majoring in physics to basic methods of measurements, data analysis, research and design methods, and scientific communication. In SKIL I students will be introduced to a suite of standard measurement instruments (Multimeters, power supplies, digital oscilloscope, function generators) and then use those instruments to collect data sets that can be analyzed using standard statistical methods. Measurements will be made primarily on ‘analog’ signals that can be analyzed using the method of least squares. Results will be presented in detailed lab reports that will be developed using a draft/edit/redraft method.",
   "credits": "2",
-  "cross_listed": "",
   "prerequisites": "PEP 112",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/200/pep-297"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/200/pep-297"
 }

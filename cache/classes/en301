@@ -1,13 +1,17 @@
 {
-  "id": "EN 301",
-  "name": "Sustainable Engineering",
+  "department": "EN",
+  "department_name": "",
+  "discriminator": "301",
+  "title": "Sustainable Engineering",
   "description": "This course examines the global environmental and resource issues that we face as a result of human actions, in particular those to which engineering has been a contributor and also for which it can offer the potential for solutions that move us along the path to a sustainable future. A variety of techniques and paradigms will be studied that can make production, use and disposal of our engineered products sustainable. These include industrial ecology, life cycle analysis, green engineering, and design for the environment.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CH 115 and (MA 124 or MA 126)",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Environmental Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/300/en-301"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/300/en-301"
 }

@@ -1,17 +1,21 @@
 {
-  "id": "ME 654",
-  "name": "Advanced Robotics",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "654",
+  "title": "Advanced Robotics",
   "description": "Robot path control, dynamics of robot systems, mechanical drive systems; microcomputers, computational architectures, digital control of manipulators; sensors, force and compliance control, vision systems, tactile sensing, range finding and navigation; intelligence and task planning.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "ME 598",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-654"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/600/me-654"
 }

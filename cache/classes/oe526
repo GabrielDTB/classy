@@ -1,13 +1,17 @@
 {
-  "id": "OE 526",
-  "name": "Computer-Aided Aspect of Naval Architecture*",
+  "department": "OE",
+  "department_name": "",
+  "discriminator": "526",
+  "title": "Computer-Aided Aspect of Naval Architecture*",
   "description": "Basic principles and design calculations in naval architecture as an extension of OE 525 PNA course with emphasis placed on the application of computers. Computer-aided studies of hull-forms, intact stability, damaged stability, resistance and propulsion characteristics, course-keeping analysis, ship motion predictions. Problems in the area of naval architecture will be considered on computers through time-sharing systems.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Ocean Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-526"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/oe-ocean-engineering/500/oe-526"
 }

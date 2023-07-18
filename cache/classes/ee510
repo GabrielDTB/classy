@@ -1,17 +1,21 @@
 {
-  "id": "EE 510",
-  "name": "Introduction to Radar Systems",
+  "department": "EE",
+  "department_name": "",
+  "discriminator": "510",
+  "title": "Introduction to Radar Systems",
   "description": "The radar equation for pulses, signal to noise ratio, target cross section, and antenna parameters; Doppler radar, CW radar, multifrequency CW radar, FM radar, and chirp radar; tracking and acquisition radar, radar wave propagation; transmitter and receiver design; and interference considerations.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Electrical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/500/ee-510"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ee-electrical-engineering/500/ee-510"
 }

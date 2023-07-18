@@ -1,15 +1,19 @@
 {
-  "id": "MA 615",
-  "name": "Numerical Analysis I",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "615",
+  "title": "Numerical Analysis I",
   "description": "The MA 615-616 sequence covers topics in numerical analysis and numerical methods including: errors and accuracy; polynomial approximation; interpolation; numerical differentiation and integration; numerical solution of differential equations; least square and minimum-maximum error approximations; nonlinear equations; simultaneous linear equations; summing series, Fourier series, filter design, the frequency approach, design of numerical tools, and statistics of error analysis; eigenvalues and eigenvectors of matrices; and the orientation throughout is toward computers.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 547",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-615"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-615"
 }

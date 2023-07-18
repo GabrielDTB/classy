@@ -1,13 +1,17 @@
 {
-  "id": "SYS 760",
-  "name": "Advanced Decision and Risk Analysis",
+  "department": "SYS",
+  "department_name": "",
+  "discriminator": "760",
+  "title": "Advanced Decision and Risk Analysis",
   "description": "This course is the advanced study of analytic techniques for rational decision making that addresses uncertainty, conflicting objectives, and risk attitudes. This course covers advanced techniques for modeling uncertainty; values and risk preference. The advanced techniques for modeling uncertainty include Bayesian networks and the various approaches for both representing joint probability distributions and computing posterior distributions given new evidence. The techniques for modeling preferences address various degrees of preferential dependence among objectives. Finally, the risk preference techniques address non-exponential risk preference and the associated computation of value of information. These techniques are valuable as part of the risk management process, conduct of systems engineering trade-offs, and managing systems engineering projects",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "SYS 660",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Systems Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/700/sys-760"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/700/sys-760"
 }

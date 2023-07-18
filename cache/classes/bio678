@@ -1,13 +1,17 @@
 {
-  "id": "BIO 678",
-  "name": "Experimental Microbiology",
+  "department": "BIO",
+  "department_name": "",
+  "discriminator": "678",
+  "title": "Experimental Microbiology",
   "description": "Discussions in medical, industrial, and environmental microbiology will include bacteriology, virology, mycology, parasitology, and infectious diseases. Includes experimental laboratory instruction.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "BIO 382 or Graduate Students",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biological Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/600/bio-678"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/600/bio-678"
 }

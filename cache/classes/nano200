@@ -1,17 +1,21 @@
 {
-  "id": "NANO 200",
-  "name": "Introduction to Nanotechnology",
+  "department": "NANO",
+  "department_name": "",
+  "discriminator": "200",
+  "title": "Introduction to Nanotechnology",
   "description": "The course addresses the science underpinnings of nanotechnology to provide an understanding of the fundamental challenges and limitations involved in designing and demonstrating nanodevices and systems. The role of solid state physics, chemistry and some biology will be emphasized together with some basic engineering science ideas applied at the nanoscale. By the end of the course, students will understand principles of the fabrication, characterization and manipulation of nanoscale materials, systems, and devices.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CH 115 and PEP 111",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Materials Science and Engineering Program",
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nano-nanotechnology/200/nano-200"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/nano-nanotechnology/200/nano-200"
 }

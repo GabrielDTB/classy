@@ -1,15 +1,19 @@
 {
-  "id": "CE 565",
-  "name": "Numerical Methods for Civil and Environmental Engineering",
+  "department": "CE",
+  "department_name": "",
+  "discriminator": "565",
+  "title": "Numerical Methods for Civil and Environmental Engineering",
   "description": "An introduction to numerical and methods applied to civil and environmental engineering. Methods for solution of nonlinear equations, systems of linear equations, interpolation, regression, and solution of ordinary and partial differential equations. Applications include trusses, beams, river oxygen balances and adsorption isotherms. Several computer projects are required.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Civil Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/500/ce-565"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/500/ce-565"
 }

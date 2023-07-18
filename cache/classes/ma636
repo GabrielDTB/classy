@@ -1,15 +1,19 @@
 {
-  "id": "MA 636",
-  "name": "Functional Analysis II",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "636",
+  "title": "Functional Analysis II",
   "description": "In this course the students continue to study the principles of analysis in functional spaces on a deeper level. They will consider Hahn-Banach theorem and separability, separability, linear topological spaces; weak topologies; spectral analysis; introduction in C*-algebras; applications to integral and differential equations; spectal theorems for self-adjoint operators; Stone-Weierstrass approximation theorem; Lebesgue measures and integral; Fredholm alternative; theory of nonlinear operators; Schauder fixed-point theorem; unbounded operators.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 635",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-636"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-636"
 }

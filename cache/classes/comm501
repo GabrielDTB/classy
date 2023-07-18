@@ -1,13 +1,17 @@
 {
-  "id": "COMM 501",
-  "name": "Foundations of Technical Communications",
+  "department": "COMM",
+  "department_name": "",
+  "discriminator": "501",
+  "title": "Foundations of Technical Communications",
   "description": "This course introduces professional communications: how should professionals construct technical documents for the business or scientific/technical community? What are the techniques writers need for specialized, clear writing? Topics include: genres of technical writing; successful writingstrategies; design principles; format and contents. Students will practice the techniques presented through weekly writing assignments.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "College of Arts and Letters"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/comm-professional-communications/500/comm-501"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/comm-professional-communications/500/comm-501"
 }

@@ -1,13 +1,17 @@
 {
-  "id": "CE 695",
-  "name": "Traffic Flow Modeling and Operations",
+  "department": "CE",
+  "department_name": "",
+  "discriminator": "695",
+  "title": "Traffic Flow Modeling and Operations",
   "description": "An introduction course for machine learning theory, algorithms and applications. This course aims to provide students with the knowledge in understanding key elements of how to design algorithms/systems that automatically learn, improve, and accumulate knowledge with experience. Topics covered in this course include decision tree learning, neural networks, Bayesian learning, reinforcement learning, ensembling multiple learning algorithms, and various application problems. The students will have a chance to simulate their algorithms in programming language and apply them to solve real-world problems.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "EE 605",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Civil Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/600/ce-695"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/600/ce-695"
 }

@@ -1,16 +1,20 @@
 {
-  "id": "ME 483",
-  "name": "Control Systems",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "483",
+  "title": "Control Systems",
   "description": "Analysis and synthesis of single-input, single-output (SISO) linear time-invariant (LTI) feedback control systems. Laplace transforms, transfer functions, poles and zeros, block diagrams, time response, and frequency response. Performance criteria, multi-domain systems modeling, Routh-Hurwitz stability, root-locus, Bode plots, stability margins, compensator design, applications relevant to mechanical engineering.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "((MA 225 and MA 226) or MA 227 or MA 282 ) and (ME 225 or MA 221)",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/400/me-483"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/400/me-483"
 }

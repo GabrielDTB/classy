@@ -1,13 +1,17 @@
 {
-  "id": "MA 240",
-  "name": "Proofs and Refutations",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "240",
+  "title": "Proofs and Refutations",
   "description": "This course is concerned with the art of constructing rigorous mathematical arguments, i.e. proofs. Famous and elegant proofs in various branches of mathematics are studied in detail. Different methods of proof, including direct proof, reductio ad absurdum, proof by induction, and others are practiced and assessed. Open only to students majoring in Pure and Applied Mathematics. Other students require the signature of the instructor to register.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MA 122",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/200/ma-240"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/200/ma-240"
 }

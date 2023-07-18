@@ -1,15 +1,19 @@
 {
-  "id": "PEP 222",
-  "name": "Physics Lab II for Scientists",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "222",
+  "title": "Physics Lab II for Scientists",
   "description": "An introduction to experimental measurements and data analysis. Students will learn how to use a variety of measurement techniques, including computer-interfaced experimentation, virtual instrumentation, and computational analysis and presentation. First semester experiments include basic mechanical and electrical measurements, motion and friction, RC circuits, the physical pendulum, and electric field mapping. Second semester experiments include the second order electrical system, geometrical and physical optics and traveling and standing waves.",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "PEP 221",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/200/pep-222"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/200/pep-222"
 }

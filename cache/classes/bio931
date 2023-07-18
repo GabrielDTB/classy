@@ -1,16 +1,20 @@
 {
-  "id": "BIO 931",
-  "name": "Chemical Biology Qualifying Exam - Oral",
+  "department": "BIO",
+  "department_name": "",
+  "discriminator": "931",
+  "title": "Chemical Biology Qualifying Exam - Oral",
   "description": "The CCB Department has recently merged the Qual. and Prelim. exams into one exam. This combined examination is meant to evaluate the doctoral candidate’s potential to become an independent scientist. The examination is based on an original research proposal in an area of the student’s own choice, preferably an area related to the pending dissertation area but with a topic significantly different from his or her thesis. It is submitted in written form and defended orally before the Thesis Committee. The students will be required to complete and pass the combined qualifying/preliminary exam at the end of their second year. The Department felt that the student's subject knowledge is already being tested during their core courses, therefore, qualifying/preliminary exam should be based on the student’s research and these exams should help them prepare to do their research.",
   "credits": "0",
-  "cross_listed": "",
   "prerequisites": "BIO 930",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Chemical Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/900/bio-931"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bio-biology/900/bio-931"
 }

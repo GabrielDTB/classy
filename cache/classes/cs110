@@ -1,15 +1,19 @@
 {
-  "id": "CS 110",
-  "name": "Creative Problem Solving in Computing",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "110",
+  "title": "Creative Problem Solving in Computing",
   "description": "This course is an introduction to problem solving using computers. It is specially tailored for student with no prior programming experience. CS110 offers an alternative to CS105, and prepares students for CS115. The entire course is problem driven. Programming concepts are introduced and develop as tools for creative problem solving.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/100/cs-110"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/100/cs-110"
 }

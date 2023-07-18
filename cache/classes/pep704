@@ -1,16 +1,20 @@
 {
-  "id": "PEP 704",
-  "name": "Group Theory for Physicists in Solid State and Molecular Physics",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "704",
+  "title": "Group Theory for Physicists in Solid State and Molecular Physics",
   "description": "Group theory for physicists with applications to solid state and molecular physics. Relation between group theory and quantum (or classical) mechanics, between classes and observables, and between representations and states. Point groups: full rotation group, crystallographic point groups, and spin-associated double groups. Crystal field theory with and without spin, selection rules and character tables, and use of product representation. Form of macroscopic crystal tensors molecular vibrational states and spectra. Translational properties of crystals. Energy band structure. Formal classification of space groups with examples. Time reversal and Onsager relations with examples. Lattice vibrations and phonons. Localized valence orbitals in chemistry. Hartree-Fock many-electron wave-functions. Phase transitions. Representative texts: M. Lax Symmetry, Principles in Solid State and Molecular Physics; Heine Group, Theory in Quantum Mechanics.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/700/pep-704"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/700/pep-704"
 }

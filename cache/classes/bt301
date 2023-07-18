@@ -1,15 +1,19 @@
 {
-  "id": "BT 301",
-  "name": "Strategy",
+  "department": "BT",
+  "department_name": "",
+  "discriminator": "301",
+  "title": "Strategy",
   "description": "Students learn how to set preliminary goals, objectives, and strategies. They begin to develop the specific aspects of their business plan, including an actual sales/revenue plan. Topics covered also include preparing an research and development plan and the use of historical information to prepare sales, revenues, and marketing expense estimates. Students work independently and in class, individually and in teams.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/300/bt-301"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/300/bt-301"
 }

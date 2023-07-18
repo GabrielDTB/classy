@@ -1,9 +1,10 @@
 {
-  "id": "PEP 112",
-  "name": "Electricity and Magnetism",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "112",
+  "title": "Electricity and Magnetism",
   "description": "Coulomb’s law, concepts of electric field and potential, Gauss’ law, capacitance, current and resistance, DC and R-C transient circuits, magnetic fields, Ampere’s law, Faraday’s law of induction, inductance, A/C circuits, electromagnetic oscillations, Maxwell’s equations and electromagnetic waves.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "(MA 115 or MA 122 ) and PEP 111",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/100/pep-112"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/100/pep-112"
 }

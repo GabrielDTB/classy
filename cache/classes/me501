@@ -1,13 +1,17 @@
 {
-  "id": "ME 501",
-  "name": "Basic Engineering Mechanics",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "501",
+  "title": "Basic Engineering Mechanics",
   "description": "Basic Engineering practice for student in the Design and Production Management Program whose background is weak in analysis and engineering practice. Topics include Static and Dynamics, Strength of Materials, and Systems Modeling. The course will emphasize basic relationships in these areas necessary to the understanding of design and manufacturing principles as covered in ME503.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-501"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-501"
 }

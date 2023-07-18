@@ -1,15 +1,19 @@
 {
-  "id": "MGT 103",
-  "name": "Introduction to Entrepreneurial Thinking",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "103",
+  "title": "Introduction to Entrepreneurial Thinking",
   "description": "Entrepreneurial thinking enables engineers to design value-added products and processes that delights the customer and creates a superior business model. This course teaches students a new way of problem solving, finding unique fit between a real-world problem and a new solution. Learning objectives include, teaming and leadership skills, obtaining information through customer discovery, enhancing presentation skills, and techniques for assessing a new idea; including customer and value analysis, competition analysis, and basic financial analysis. The course is taught in an interactive, immersive and experiential format through a hands-on project and computer simulation. In-class time is focused on active discussions, team activities and project presentations.",
   "credits": "2",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Engineering and Science"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/100/mgt-103"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/100/mgt-103"
 }

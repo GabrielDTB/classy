@@ -1,15 +1,19 @@
 {
-  "id": "CS 665",
-  "name": "Forensic Analysis",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "665",
+  "title": "Forensic Analysis",
   "description": "Forensics involves the identification, preservation, and analysis of evidence of attacks in order to identify attackers and document their activity with sufficient reliability to justify appropriate technological, business, and legal responses. This course focuses on the technological and not on the legal components of the topic. The technical aspects will focus on analyzing both network and host data. This includes review of network traffic logs (pcap, flow records) and profiles and their types, identification of attack signatures and fingerprints, study of various traceback methods, application of data mining techniques, and the extraction of information (e.g., from malware, including botnet traffic) acquired through the use of network analysis tools and techniques, recovering evidence left behind, and technologies that can be used to assist in the analysis of obtained data or in obtaining more data. We will look into methodologies for recovering data from persistent storage and memory. Investigate the use of virtual machines in providing auditing capabilities to analysts and in setting traps for attackers. The class will not only cover the subjects in theory but instead also provide the students with an extensive hands-on experience. The class will involve a fair amount of programming.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "( CS 306 and CS 392 ) or CS 631",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/600/cs-665"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/600/cs-665"
 }

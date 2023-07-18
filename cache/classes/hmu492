@@ -1,16 +1,20 @@
 {
-  "id": "HMU 492",
-  "name": "Music Performance: Stevens Choir",
+  "department": "HMU",
+  "department_name": "",
+  "discriminator": "492",
+  "title": "Music Performance: Stevens Choir",
   "description": "The study and performance of choral masterworks.",
   "credits": "0.5",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Music and Technology Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/400/hmu-492"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/400/hmu-492"
 }

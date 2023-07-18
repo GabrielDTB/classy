@@ -1,13 +1,17 @@
 {
-  "id": "CS 425",
-  "name": "Cybersecurity Capstone I",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "425",
+  "title": "Cybersecurity Capstone I",
   "description": "Under the guidance of a cybersecurity faculty member of the department, students will participate in a year-long cybersecurity project. The project may be conducted in a number of ways, including as a cybersecurity-only project, as a project where the cybersecurity student is integrated into the senior capstone project of another discipline like CS, QF, ECE, or as a project where the cybersecurity student interacts in a consultant role with one or more senior capstone teams of another discipline.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "CS 576 CoReq",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/400/cs-425"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/400/cs-425"
 }

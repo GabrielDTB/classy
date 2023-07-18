@@ -1,14 +1,18 @@
 {
-  "id": "CS 517",
-  "name": "Quantum Information and Quantum Computation",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "517",
+  "title": "Quantum Information and Quantum Computation",
   "description": "The course will introduce the fundamentals and applications of quantum information and quantum computation. The topics to be covered include: the probabilistic and nonlocal amplitude theory of quantum mechanics (two mysteries: entanglement and wave-particle duality); unit of quantum information and computation -- quantum bits (Qubit); completeness of quantum mechanics - Einstein Podolsky Rosen Paradox and Bell inequality; application of entanglement in quantum teleportation, Wave-particle duality and its application in quantum eraser; quantum operators and quantum measurement; quantum key distribution in two different protocols (BB84 apply randomness and Ekert 91 apply quantum entanglement); quantum gates and quantum circuits, quantum coding and quantum search and factorization algorisms; decoherence and quantum error correction; quantum-classical analogy and realize quantum protocols with classical optics.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program",
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-517"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-517"
 }

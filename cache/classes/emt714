@@ -1,16 +1,20 @@
 {
-  "id": "EMT 714",
-  "name": "Technology Strategy",
+  "department": "EMT",
+  "department_name": "",
+  "discriminator": "714",
+  "title": "Technology Strategy",
   "description": "This course discusses the technology strategy process and develops skills, methodologies, and critical thinking in order to achieve technological competitive advantage. Subjects covered include technology life-cycles, type and characteristics of RD&E project portfolio selection, and an overview of successful development strategies. Case studies will be used to build competence and confidence in the concepts.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "MS/TM and EMBA Only",
   "offered": [
     "Fall Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/emt-executive-management-of-technology/700/emt-714"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/emt-executive-management-of-technology/700/emt-714"
 }

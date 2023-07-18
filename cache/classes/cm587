@@ -1,16 +1,20 @@
 {
-  "id": "CM 587",
-  "name": "Environmental Law and Management",
+  "department": "CM",
+  "department_name": "",
+  "discriminator": "587",
+  "title": "Environmental Law and Management",
   "description": "A survey of legal and regulatory approaches to environmental protection. Topics include: environmental ethics, National Environmental Policy Act, State and Federal environmental agencies; and the Clean Water Act, Safe Drinking Water Act, Superfund, Resource Recovery and Conservation Act, Right-to-Know, Environmental Cleanup Responsibility Act, and wetlands protection.",
   "credits": "3",
-  "cross_listed": "EN 587, SM 587",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "EN 587, SM 587"
+  ],
+  "distributions": [
     "Construction Management Program",
     "Environmental Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cm-construction-management/500/cm-587"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cm-construction-management/500/cm-587"
 }

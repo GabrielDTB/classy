@@ -1,11 +1,15 @@
 {
-  "id": "CLK 183",
-  "name": "Clark Scholar Seminar I",
+  "department": "CLK",
+  "department_name": "",
+  "discriminator": "183",
+  "title": "Clark Scholar Seminar I",
   "description": "In this course, Clark Scholars will create a personal model for leadership. The class will provide an exposure to key leadership traits and different leadership styles, and will provide leadership case studies. Clark Scholars will also learn about and discuss subjects including, but not limited to, the transition to university life, campus resources, conducting research, and international learning experiences.",
   "credits": "1",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/clk-clark-scholars/100/clk-183"
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/clk-clark-scholars/100/clk-183"
 }

@@ -1,13 +1,17 @@
 {
-  "id": "HMU 193",
-  "name": "Music Appreciation II",
+  "department": "HMU",
+  "department_name": "",
+  "discriminator": "193",
+  "title": "Music Appreciation II",
   "description": "The course aims to guide and strengthen students in developing the skills of active listening in order to increase their enjoyment of ballet music, film music, music theater and opera. To this end, the course strengthens the students’ ability to identify and respond to the basic conventions of ballet, film, music theater and opera and the way that the basic musical building blocks—melody, harmony, rhythm, tempo, tone color and form—take creative advantage of these conventions for expressive purposes, including the creation of mood, characterization, narration and storytelling. The course is not intended as a historical survey of the genres of ballet, film music, music theater or opera. Rather, it focuses on important core works from these genres, placed in their historical and stylistic context for purposes of comparison and appreciation. The aim throughout is to focus on works that an interested music lover is liable to hear in the normal course of their musical experience and that form a basis for further in-depth exploration of these genres. At the same time, the course provides, without losing this central focus, at least brief exposure and consideration of selected examples of contemporary pop and commercial music in these and related genres, including hip-hop and music video, that will build on the students’ pre- existing interest and enthusiasm. Finally, and unique to the Music and Technology program at Stevens, the course draws special attention, wherever appropriate, to important milestones in the development of music technology and their impact on the development of music in the genres of ballet, film music, music theater and opera as well as related contemporary genres.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "HMU 192",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Music and Technology Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/100/hmu-193"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hmu-humanitiesmusic/100/hmu-193"
 }

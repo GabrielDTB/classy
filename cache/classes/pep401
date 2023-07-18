@@ -1,13 +1,17 @@
 {
-  "id": "PEP 401",
-  "name": "Current Topics in Physics",
+  "department": "PEP",
+  "department_name": "",
+  "discriminator": "401",
+  "title": "Current Topics in Physics",
   "description": "Current Topics in Physics",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Department of Physics"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/400/pep-401"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pep-physics-engineering-physics/400/pep-401"
 }

@@ -1,17 +1,21 @@
 {
-  "id": "MGT 663",
-  "name": "Discovering and Exploiting Entrepreneurial Opportunities",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "663",
+  "title": "Discovering and Exploiting Entrepreneurial Opportunities",
   "description": "In this course, students will evaluate and create their own prospective business strategies. They will develop an understanding of entrepreneurship and innovation in starting and growing a business venture. Students will be given an opportunity to actually start their own business or create a business in their company by learning how to take advantage of the new order of business opportunities of the information age. This course’s main objective is to show students how to identify these opportunities, be able to formulate and evaluate both qualitatively and quantitatively whether the opportunity is worth pursuing, and, of course, how it may be pursued. Actual case studies and experiences will be intertwined with the course content.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/600/mgt-663"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/600/mgt-663"
 }

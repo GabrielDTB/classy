@@ -1,15 +1,19 @@
 {
-  "id": "BT 330",
-  "name": "Social Psychology and Organizational Behavior",
+  "department": "BT",
+  "department_name": "",
+  "discriminator": "330",
+  "title": "Social Psychology and Organizational Behavior",
   "description": "Using an applied and experiential format, this course exposes students to theory, methods and research in organizational behavior and social psychology. Topics relating to individual differences and group dynamics in organizational settings are stressed. Learning occurs through discussion, group activities, and the completion of assessment instruments. Emphasis is on helping students understand and improve their skills in key areas, including decision-making, leadership, negotiation, and conflict resolution.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/300/bt-330"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bt-business-and-technology/300/bt-330"
 }

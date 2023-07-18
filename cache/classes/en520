@@ -1,17 +1,21 @@
 {
-  "id": "EN 520",
-  "name": "Soil Behavior and Its Role in Environmental Applications",
+  "department": "EN",
+  "department_name": "",
+  "discriminator": "520",
+  "title": "Soil Behavior and Its Role in Environmental Applications",
   "description": "An overview of soil mineralogy, soil formation, chemistry, and composition. Influence of the above factors in environmental engineering properties; study of colloidal phenomena; fate and transport of trace metals in sediments, soil fabric, and structure; conduction phenomena; and compressibility, strength, deformation properties, and stress-strain-time effects, as they pertain to environmental geotechnology applications (i.e., contaminated soil remediation, soil/solid waste stabilization, waste containment alternatives, soil-water-contaminant interactions, and contaminant transport).",
   "credits": "3",
-  "cross_listed": "CE 520",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "CE 520"
+  ],
+  "distributions": [
     "Civil Engineering Program",
     "Environmental Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-520"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/en-environmental-engineering/500/en-520"
 }

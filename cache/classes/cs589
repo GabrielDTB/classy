@@ -1,17 +1,21 @@
 {
-  "id": "CS 589",
-  "name": "Text Mining and Information Retrieval",
+  "department": "CS",
+  "department_name": "",
+  "discriminator": "589",
+  "title": "Text Mining and Information Retrieval",
   "description": "This course is a graduate-level course on fundamental techniques in information retrieval and text mining. By taking this course, students learn how to crawl, clean, process, mine, and infer knowledge from a massive amount of text data; how to build a search engine from scratch, in-cluding indexing, building retrieval models, and evaluating the performance of a search engine; they will also learn important machine learning and deep learning techniques for text data, in-cluding topic model, LSTM and BERT; finally, they will learn state-of-the-art research topics in text mining and information retrieval, and get research experience in these topics by working on the final project.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "((Grad Student) or (Junior or Senior and CS 115 ))",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Computer Science Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-589"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/cs-computer-science/500/cs-589"
 }

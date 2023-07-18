@@ -1,15 +1,19 @@
 {
-  "id": "HLI 447",
-  "name": "Survey of British Literature",
+  "department": "HLI",
+  "department_name": "",
+  "discriminator": "447",
+  "title": "Survey of British Literature",
   "description": "A study of major works and authors, including Beowulf, Chaucer, Spenser, Milton, Shakespeare, Wordsworth, and Wolf.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/400/hli-447"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hli-humanitiesliterature/400/hli-447"
 }

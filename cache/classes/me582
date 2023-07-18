@@ -1,19 +1,23 @@
 {
-  "id": "ME 582",
-  "name": "Waste-to-Energy Technology",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "582",
+  "title": "Waste-to-Energy Technology",
   "description": "Waste-to-Energy (WtE) is an established and growing technology for processing municipal solid waste (MSW) around the world. Its use is driven by regulatory requirements, economics and social considerations, and has significant sustainability benefits over landfilling. This course introduces the student to global waste management approaches, details the waste-to-energy process, explains the residual value in WtE ash and introduces emerging technologies to further advance the practice of recovering energy and value from our solid waste. Topics covered include MSW handling equipment, MSW combustion systems, furnace and boiler design, emissions control, ash management and reuse and alternative conversion technologies.",
   "credits": "3",
-  "cross_listed": "CHE 582, MT 582",
   "prerequisites": "Instructor Permission and (Grad Student (or Junior or Senior))",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    "CHE 582, MT 582"
+  ],
+  "distributions": [
     "Chemical Engineering Program",
     "Materials Science and Engineering Program",
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-582"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-582"
 }

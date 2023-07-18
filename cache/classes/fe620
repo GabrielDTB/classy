@@ -1,17 +1,21 @@
 {
-  "id": "FE 620",
-  "name": "Pricing and Hedging",
+  "department": "FE",
+  "department_name": "",
+  "discriminator": "620",
+  "title": "Pricing and Hedging",
   "description": "This course deals with basic financial derivatives theory, arbitrage, hedging, and risk. The theory discusses Itô's lemma, the diffusion equation and parabolic partial differential equations, the Black-Scholes model and formulae. The course includes applications of asset price random walks, the log-normal distribution, and estimating volatility from historic data. Numerical techniques such as finite difference and binomial methods are used to value options for practical examples. Financial information and software packages available on the Internet are used for modeling and analysis. Prerequisite: Multivariable Calculus, Ma/FE610, and programming in C, C++, or Java.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "FE 610 CoReq",
   "offered": [
     "Fall Semester",
     "Spring Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/600/fe-620"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/fe-financial-engineering/600/fe-620"
 }

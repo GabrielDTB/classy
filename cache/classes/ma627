@@ -1,15 +1,19 @@
 {
-  "id": "MA 627",
-  "name": "Combinatorial Analysis",
+  "department": "MA",
+  "department_name": "",
+  "discriminator": "627",
+  "title": "Combinatorial Analysis",
   "description": "Fundamental laws of counting, permutations, combinations, recurrence relations, Mšbius inversion, probleme des menages, probleme des recontres, partitions, trees, generating functions, Ramsey theory, transversal theory, and matroid theory.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pure and Applied Mathematics Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-627"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ma-mathematics/600/ma-627"
 }

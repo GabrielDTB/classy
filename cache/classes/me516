@@ -1,16 +1,20 @@
 {
-  "id": "ME 516",
-  "name": "Nuclear Reactor Safety and Waste Disposal",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "516",
+  "title": "Nuclear Reactor Safety and Waste Disposal",
   "description": "This course covers fundamental principles related to nuclear power reactor reliability, safety and waste disposal. Topics include radiation and radiological concepts and measurement, the fuel cycle and waste classification, State and Federal regulations and regulatory agencies, radiochemistry and the environmental fate of radionuclides, uranium-related wastes, low-level waste characteristics and management, high-level wastes characteristics and management, private fuel storage, waste package stability, risk assessment, geologic repositories, theory of retrievability in waste management, deep-well injection, transporting radioactive wastes, decontamination and decommission, transmutation, an international perspective on radioactive waste management, the Global Nuclear Energy Partnership, and the latest from the Blue Ribbon Commission.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Fall Semester",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-516"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/500/me-516"
 }

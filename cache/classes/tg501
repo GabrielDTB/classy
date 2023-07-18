@@ -1,15 +1,19 @@
 {
-  "id": "TG 501",
-  "name": "Entrepreneurship and Business for Engineers and Scientists",
+  "department": "TG",
+  "department_name": "",
+  "discriminator": "501",
+  "title": "Entrepreneurship and Business for Engineers and Scientists",
   "description": "Aspects of entrepreneurship and business most relevant for technical people and the practice of Technogenesis. Investigates business-related considerations in successfully commercializing new technology. Exposes technologists to five critical aspects of creating a successful new venture and/or a successful product or service business within an existing enterprise: (1) market and customer analysis, (2) beating the competition, (3) planning and managing for profitability, (4) high-tech marketing and sales, and (5) business partnerships and acquisitions. Students should take this course if they: (1) desire to maximize their effectiveness as technologists by understanding the business and customer considerations that impact the work of technologists, (2) intend to lead or participate in a technology-based new venture/start-up, or (3) contemplate an eventual transition from a technical to a business management career. It is intended for either advanced undergraduate (junior or senior) or graduate students in engineering or science curricula.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Engineering and Science"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/tg-technogenesis/500/tg-501"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/tg-technogenesis/500/tg-501"
 }

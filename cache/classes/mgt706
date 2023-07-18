@@ -1,9 +1,10 @@
 {
-  "id": "MGT 706",
-  "name": "Co-Op Engagement in Management",
+  "department": "MGT",
+  "department_name": "",
+  "discriminator": "706",
+  "title": "Co-Op Engagement in Management",
   "description": "This course is for MGT graduate students who are on Co-Op assignment.",
   "credits": "0",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "School of Business"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/700/mgt-706"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/mgt-management/700/mgt-706"
 }

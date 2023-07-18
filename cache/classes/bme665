@@ -1,15 +1,19 @@
 {
-  "id": "BME 665",
-  "name": "Pathophysiology",
+  "department": "BME",
+  "department_name": "",
+  "discriminator": "665",
+  "title": "Pathophysiology",
   "description": "Pathophysiology describes changes in physiology resulting in disease or injury. A solid understanding of normal physiology is necessary before attempting the study of abnormal situations. The course emphasizes the \"mechanistic\" approach to pathophysiology, i.e., A-B-C, rather that the symptom-diagnosis-treatment approach. Multiple examples, case studies and procedural videos are presented with a discussion of what they do well and where improvements can be made.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Biomedical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/600/bme-665"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/bme-biomedical-engineering/600/bme-665"
 }

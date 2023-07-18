@@ -1,9 +1,10 @@
 {
-  "id": "SYS 605",
-  "name": "Systems Integration",
+  "department": "SYS",
+  "department_name": "",
+  "discriminator": "605",
+  "title": "Systems Integration",
   "description": "This course will explore and discuss issues related to the integration and testing of complex systems. First and foremost, students will be exposed to issues relating to the formulation of system operational assessment and concept. Subsequently, functional modeling and analysis methods will be used to represent the system functionality and capability, leading to the packaging of these functions and capabilities into high-level system architecture. Specific focus will be given to issues of interface management and testability. The course will also address the related management issues pertaining to integrated product teams, vendors and suppliers, and subcontractors. In addition, selected articles will be researched to demonstrate the techniques explored in class.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Semester",
     "Summer Session 1"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Systems Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-605"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sys-systems-engineering/600/sys-605"
 }

@@ -1,15 +1,19 @@
 {
-  "id": "SM 530",
-  "name": "Sustainable Business Strategies",
+  "department": "SM",
+  "department_name": "",
+  "discriminator": "530",
+  "title": "Sustainable Business Strategies",
   "description": "This course will focus on best practices and emerging trends in sustainable business management. Topics will include corporate social responsibility, sustainable business theories, green business models, value chain management, green marketing, triple bottom line reporting, benefit-cost analysis and sustainability metrics and reporting. Students will explore the relationship between business management and sustainability goals for a number of industrial sectors. The course will include case studies as a tool for assessing strategies, identifying opportunities for improvements and recommending future actions. Students will be introduced to commonly used sustainability reporting frameworks and will use them to evaluate objective-setting and progress towards green goals.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "Graduate Student or At Least Junior",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Environmental Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sm-sustainability-management/500/sm-530"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/sm-sustainability-management/500/sm-530"
 }

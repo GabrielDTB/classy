@@ -1,16 +1,20 @@
 {
-  "id": "ME 470",
-  "name": "Mechanical Engineering Systems Laboratory",
+  "department": "ME",
+  "department_name": "",
+  "discriminator": "470",
+  "title": "Mechanical Engineering Systems Laboratory",
   "description": "Experiments in selected mechanical engineering systems areas, including principles and applications of experimentation, data-acquisition, design of experiments, and written and oral reporting on experimental hardware and results.",
   "credits": "2",
-  "cross_listed": "",
   "prerequisites": "ME 335 and ME 342 and ME 361",
   "offered": [
     "Fall Semester",
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Mechanical Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/400/me-470"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/me-mechanical-engineering/400/me-470"
 }

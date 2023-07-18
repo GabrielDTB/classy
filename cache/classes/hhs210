@@ -1,15 +1,19 @@
 {
-  "id": "HHS 210",
-  "name": "History of Medicine",
+  "department": "HHS",
+  "department_name": "",
+  "discriminator": "210",
+  "title": "History of Medicine",
   "description": "Examination of the history of medical science in the Western World from Greek antiquity to the present.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [
     "Spring Semester"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Humanities and Social Sciences Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/200/hhs-210"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/hhs-humanitieshistory/200/hhs-210"
 }

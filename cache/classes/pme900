@@ -1,9 +1,10 @@
 {
-  "id": "PME 900",
-  "name": "Thesis in Pharmaceutical Manufacturing and Engineering",
+  "department": "PME",
+  "department_name": "",
+  "discriminator": "900",
+  "title": "Thesis in Pharmaceutical Manufacturing and Engineering",
   "description": "Under the supervision of a faculty advisor, students are responsible for the preparation and completion of an independent thesis project. Hours and credits to be arranged.",
   "credits": "1-10",
-  "cross_listed": "",
   "prerequisites": "Need Permission - Graduate DEAN 698",
   "offered": [
     "Fall Semester",
@@ -11,8 +12,11 @@
     "Summer Session 1",
     "Summer Session 2"
   ],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Pharmaceutical Manufacturing Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pme-pharmaceutical-manufacturing/900/pme-900"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/pme-pharmaceutical-manufacturing/900/pme-900"
 }

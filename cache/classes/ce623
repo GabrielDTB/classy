@@ -1,13 +1,17 @@
 {
-  "id": "CE 623",
-  "name": "Structural Dynamics",
+  "department": "CE",
+  "department_name": "",
+  "discriminator": "623",
+  "title": "Structural Dynamics",
   "description": "Introduction to theory of structural dynamics with emphasis on civil engineering problems. One-degree systems; lumped parameter and multi-degree systems; approximate methods; analysis and design applications using computers.",
   "credits": "3",
-  "cross_listed": "",
   "prerequisites": "",
   "offered": [],
-  "distribution": [
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
     "Civil Engineering Program"
   ],
-  "link": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/600/ce-623"
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/ce-civil-engineering/600/ce-623"
 }
