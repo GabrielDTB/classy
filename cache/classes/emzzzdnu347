@@ -1,0 +1,17 @@
+{
+  "department": "EMZZZDNU",
+  "department_name": "",
+  "discriminator": "347",
+  "title": "Elements of Operations Research",
+  "description": "Elements of Operations Research",
+  "credits": "3",
+  "prerequisites": "EM 365",
+  "offered": [],
+  "cross_listings": [
+    ""
+  ],
+  "distributions": [
+    "Engineering Management Program"
+  ],
+  "url": "https://stevens.smartcatalogiq.com/en/2022-2023/academic-catalog/courses/em-engineering-management/300/em-347-zzzdnu"
+}
