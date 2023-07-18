@@ -51,36 +51,36 @@ impl ClassTrait for Class {
         format!("{} {}", self.department, self.discriminator)
     }
     fn department(&self) -> String {
-        self.department
+        self.department.clone()
     }
     fn department_name(&self) -> String {
-        self.department_name
+        self.department_name.clone()
     }
     fn discriminator(&self) -> u8 {
         self.discriminator
     }
     fn title(&self) -> String {
-        self.title
+        self.title.clone()
     }
     fn description(&self) -> String {
-        self.description
+        self.description.clone()
     }
     fn credits(&self) -> u8 {
         self.credits
     }
     fn prerequisites(&self) -> String {
-        self.prerequisites
+        self.prerequisites.clone()
     }
     fn offered(&self) -> Vec<String> {
-        self.offered
+        self.offered.clone()
     }
     fn cross_listings(&self) -> Vec<String> {
-        self.cross_listings
+        self.cross_listings.clone()
     }
     fn distributions(&self) -> Vec<String> {
-        self.distributions
+        self.distributions.clone()
     }
     fn url(&self) -> String {
-        self.url
+        self.url.clone()
     }
 }

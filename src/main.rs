@@ -24,8 +24,6 @@ struct Handler {
 
 impl Handler {
     fn class_embed(class: &Class) -> CreateEmbed {
-        let offered = class.offered().join("\n");
-        let distributions = class.distributions().join("\n");
         CreateEmbed::default()
             .title(class.id())
             .url(class.url())
@@ -38,7 +36,7 @@ impl Handler {
                     fields.push(("Cross Listed Classes", cross_listings, false));
                 }
                 if !class.prerequisites().is_empty() {
-                    fields.push(("Prerequisites", class.prerequisites(), false));
+                    fields.push(("Prerequisites", class.prerequisites().to_owned(), false));
                 } else {
                     fields.push(("Prerequisites", String::from("None"), false));
                 }
@@ -66,8 +64,8 @@ impl Handler {
                 .catalog
                 .departments()
                 .iter()
-                .map(|d| (d, "", true))
-                .collect::<Vec<(&String, &str, bool)>>();
+                .map(|d| (d.clone(), "", true))
+                .collect::<Vec<(String, &str, bool)>>();
             departments.sort();
             departments
         });
@@ -113,10 +111,6 @@ impl EventHandler for Handler {
                 if departments.is_empty() {
                     departments.push(String::from("*"));
                 }
-                let matches = departments
-                    .iter()
-                    .flat_map(|d| self.catalog.query_by_department(d))
-                    .collect::<Vec<&Class>>();
                 let matches = departments
                     .iter()
                     .fold(Vec::new(), |mut matches, department| {

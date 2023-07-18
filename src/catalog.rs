@@ -12,9 +12,9 @@ pub struct Catalog {
 impl CatalogTrait<Class> for Catalog {
     fn query_by_id(&self, id: &str) -> Option<&Class> {
         let quarry = clean(id);
-        for class in self.classes {
+        for class in self.classes.iter() {
             if quarry == clean(&class.id()) {
-                return Some(&class);
+                return Some(class);
             }
         }
         None
