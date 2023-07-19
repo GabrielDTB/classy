@@ -170,7 +170,10 @@ impl EventHandler for Handler {
                           \tLists all the class departments\n\
                           \tused for class queries.\n\
                         **aliases**\n\
-                          \tLists all the aliases for each command.
+                          \tLists all the aliases for each command.\n\
+                        **calendar**\n\
+                          \tReturns the link to the current/upcoming\n\
+                          \tyear's academic calendar.\n\
                         "
                         .trim(),
                     )
@@ -188,6 +191,7 @@ impl EventHandler for Handler {
                         **random:** rand, r\n\
                         **departments:** dep, d\n\
                         **aliases:** a\n\
+                        **calendar:** c\n\
                         "
                         .trim(),
                     )
@@ -200,6 +204,14 @@ impl EventHandler for Handler {
                     msg.channel_id
                         .send_message(&context.http, |m| m.set_embed(self.departments_embed()))
                         .await,
+                ]
+            }
+            Some("calendar") | Some("c") => {
+                vec![
+                    msg.reply(
+                        &context.http, 
+                        "https://assets.stevens.edu/mviowpldu823/5UlooMY3Cp7TtZctposW1C/d33d938e36645b08425ae48f1844244e/2023-2024_Academic_Calendar03192023__1_.pdf",
+                    ).await,
                 ]
             }
             _ => return,
