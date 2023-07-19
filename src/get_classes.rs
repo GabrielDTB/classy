@@ -13,7 +13,7 @@ use thiserror::Error;
 // use tokio::fs::File;
 // use tokio::io::{AsyncReadExt, AsyncWriteExt};
 
-const API_LINK: &str = "https://stevens.smartcatalogiq.com/Institutions/Stevens-Institution-of-Technology/json/2022-2023/Academic-Catalog.json";
+const API_LINK: &str = "https://stevens.smartcatalogiq.com/Institutions/Stevens-Institution-of-Technology/json/2023-2024/Academic-Catalog.json";
 
 #[derive(Error, Debug)]
 pub enum ClassQueryError {
@@ -59,10 +59,13 @@ pub async fn query_classes(cache: &Vec<ClassPage>) -> Vec<Result<ClassPage, Clas
     for link in links {
         println!("Querying {}: {}", length, counter);
         match client.get(&link).send().await {
-            Ok(response) => responses.push(Ok(ClassPage {
-                link,
-                text: response.text().await.unwrap(),
-            })),
+            Ok(response) => match response.status() {
+                reqwest::StatusCode::OK => responses.push(Ok(ClassPage {
+                    link,
+                    text: response.text().await.unwrap(),
+                })),
+                _ => {}
+            },
             Err(why) => {
                 responses.push(Err(ClassQueryError::Reqwest { source: why }));
                 return responses;
@@ -109,6 +112,7 @@ async fn query_class_links() -> Result<Vec<String>, ClassQueryError> {
 }
 
 pub fn parse_class(page: ClassPage) -> Class {
+    println!("{}", page.link);
     let html = Html::parse_document(page.text.as_str());
     let main = match html
         .select(&Selector::parse("div").unwrap())
@@ -180,16 +184,20 @@ fn parse_description(main: &ElementRef) -> String {
     flatten.replace_all(&*description, " ").trim().to_string()
 }
 fn parse_credits(main: &ElementRef) -> String {
-    main.select(&Selector::parse("div").unwrap())
-        .find(|element| element.value().attr("class") == Some("sc_credits"))
-        .unwrap_or_else(|| todo!())
+    let element = main
         .select(&Selector::parse("div").unwrap())
-        .find(|element| element.value().attr("class") == Some("credits"))
-        .unwrap_or_else(|| todo!())
-        .text()
-        .collect::<String>()
-        .trim()
-        .to_owned()
+        .find(|element| element.value().attr("class") == Some("sc_credits"));
+    match element {
+        None => String::from("0"),
+        Some(element) => element
+            .select(&Selector::parse("div").unwrap())
+            .find(|element| element.value().attr("class") == Some("credits"))
+            .unwrap_or_else(|| todo!())
+            .text()
+            .collect::<String>()
+            .trim()
+            .to_owned(),
+    }
 }
 fn parse_cross_listed(main: &ElementRef) -> String {
     // let mut out = vec![];
