@@ -76,25 +76,25 @@ impl Catalog {
                 })
                 .collect::<Vec<_>>();
 
-            println!("Checking for missing links in cached responses...");
-            'outer: loop {
-                let query = query_classes(&responses).await;
-                for response in query {
-                    let response = match response {
-                        Ok(response) => response,
-                        Err(_) => continue 'outer,
-                    };
-                    if responses
-                        .iter()
-                        .filter(|r| (**r).link == response.link)
-                        .count()
-                        == 0
-                    {
-                        responses.push(response);
-                    }
-                }
-                break;
-            }
+            // println!("Checking for missing links in cached responses...");
+            // 'outer: loop {
+            //     let query = query_classes(&responses).await;
+            //     for response in query {
+            //         let response = match response {
+            //             Ok(response) => response,
+            //             Err(_) => continue 'outer,
+            //         };
+            //         if responses
+            //             .iter()
+            //             .filter(|r| (**r).link == response.link)
+            //             .count()
+            //             == 0
+            //         {
+            //             responses.push(response);
+            //         }
+            //     }
+            //     break;
+            // }
 
             // println!(
             //     "Writing {} new responses to ./cache/responses...",
