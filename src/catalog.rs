@@ -76,40 +76,40 @@ impl Catalog {
                 })
                 .collect::<Vec<_>>();
 
-            println!("Checking for missing links in cached responses...");
-            'outer: loop {
-                let query = query_classes(&responses).await;
-                for response in query {
-                    let response = match response {
-                        Ok(response) => response,
-                        Err(_) => continue 'outer,
-                    };
-                    if responses
-                        .iter()
-                        .filter(|r| (**r).link == response.link)
-                        .count()
-                        == 0
-                    {
-                        responses.push(response);
-                    }
-                }
-                break;
-            }
+            // println!("Checking for missing links in cached responses...");
+            // 'outer: loop {
+            //     let query = query_classes(&responses).await;
+            //     for response in query {
+            //         let response = match response {
+            //             Ok(response) => response,
+            //             Err(_) => continue 'outer,
+            //         };
+            //         if responses
+            //             .iter()
+            //             .filter(|r| (**r).link == response.link)
+            //             .count()
+            //             == 0
+            //         {
+            //             responses.push(response);
+            //         }
+            //     }
+            //     break;
+            // }
 
-            println!(
-                "Writing {} new responses to ./cache/responses...",
-                responses.len() - cached_response_names.len()
-            );
-            for response in responses.iter() {
-                let sanitized_link = response.link.replace("/", "%");
-                if !cached_response_names.contains(&sanitized_link) {
-                    std::fs::write(
-                        format!("./cache/responses/{sanitized_link}"),
-                        serde_json::to_string_pretty(&response).unwrap(),
-                    )
-                    .unwrap();
-                };
-            }
+            // println!(
+            //     "Writing {} new responses to ./cache/responses...",
+            //     responses.len() - cached_response_names.len()
+            // );
+            // for response in responses.iter() {
+            //     let sanitized_link = response.link.replace("/", "%");
+            //     if !cached_response_names.contains(&sanitized_link) {
+            //         std::fs::write(
+            //             format!("./cache/responses/{sanitized_link}"),
+            //             serde_json::to_string_pretty(&response).unwrap(),
+            //         )
+            //         .unwrap();
+            //     };
+            // }
 
             println!("Parsing responses into Class objects...");
             classes.extend(responses.into_iter().map(|r| parse_class(r)));
