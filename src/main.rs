@@ -25,7 +25,7 @@ struct Handler {
 impl Handler {
     fn class_embed(class: &Class) -> CreateEmbed {
         CreateEmbed::default()
-            .title(class.id())
+            .title(format!("{} {}", class.id(), class.title()))
             .url(class.url())
             .description(class.description())
             .fields({
