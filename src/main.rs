@@ -50,7 +50,7 @@ impl Handler {
                 }
                 fields
             })
-            .footer(|f| f.text("Database Years: 2022-2023"))
+            .footer(|f| f.text("Database Years: 2023-2024"))
             .to_owned()
     }
     fn departments_embed(&self) -> CreateEmbed {
