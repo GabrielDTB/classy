@@ -57,18 +57,8 @@ impl Handler {
         let mut embed = CreateEmbed::default();
         embed.title("Class Departments");
         embed.description(
-            "Here are all the departments for classes that can be queried with classy random:",
+            self.catalog.departments().into_iter().map(|t| format!("**{}:** {}\n", t.0, t.1)).collect::<String>().trim()
         );
-        embed.fields({
-            let mut departments = self
-                .catalog
-                .departments()
-                .iter()
-                .map(|d| (d.clone(), "", true))
-                .collect::<Vec<(String, &str, bool)>>();
-            departments.sort();
-            departments
-        });
         embed
     }
 }
