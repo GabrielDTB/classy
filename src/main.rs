@@ -17,13 +17,14 @@ use std::env;
 
 const PREFIX: &str = "classy";
 const STEVENS_RED: serenity::utils::Color = serenity::utils::Color::from_rgb(163, 35, 56);
+const CURRENT_YEARS: &str = "2023-2024";
 
 struct Handler {
     catalog: Catalog,
 }
 
 impl Handler {
-    fn class_embed(class: &Class) -> CreateEmbed {
+    fn class_embed(&self, class: &Class) -> CreateEmbed {
         CreateEmbed::default()
             .title(format!("{} {}", class.id(), class.title()))
             .url(class.url())
@@ -50,7 +51,7 @@ impl Handler {
                 }
                 fields
             })
-            .footer(|f| f.text("Database Years: 2023-2024"))
+            .footer(|f| f.text(format!("Years: {CURRENT_YEARS} -- Classes: {}", self.catalog.query_by_department("").len())))
             .to_owned()
     }
     fn departments_embed(&self) -> CreateEmbed {
@@ -81,7 +82,7 @@ impl EventHandler for Handler {
                 let class = self.catalog.query_by_id(&id);
                 let embed = match class {
                     Some(class) => {
-                        let mut embed = Handler::class_embed(class);
+                        let mut embed = self.class_embed(class);
                         embed.color(STEVENS_RED);
                         Some(embed)
                     }
@@ -92,7 +93,7 @@ impl EventHandler for Handler {
                         .send_message(&context.http, |m| m.set_embed(embed))
                         .await
                 } else {
-                    msg.reply(&context.http, format!(r#"Class "{id}" not found"#))
+                    msg.reply(&context.http, format!(r#"Class "{id}" not found. Does it exist?"#))
                         .await
                 }]
             }
@@ -115,7 +116,7 @@ impl EventHandler for Handler {
                             .say(
                                 &context.http,
                                 format!(
-                                    "No classes exist within departments: {}",
+                                    "No classes found for departments [{}]. Do those departments exist?",
                                     departments.join(", ")
                                 ),
                             )
@@ -125,7 +126,7 @@ impl EventHandler for Handler {
                     let class = matches
                         .get(rand::thread_rng().gen_range(0..matches.len()))
                         .unwrap();
-                    let embed = Handler::class_embed(class).color(STEVENS_RED).to_owned();
+                    let embed = self.class_embed(class).color(STEVENS_RED).to_owned();
                     vec![
                         msg.channel_id
                             .send_message(&context.http, |m| m.set_embed(embed))
@@ -200,7 +201,7 @@ impl EventHandler for Handler {
                 vec![
                     msg.reply(
                         &context.http, 
-                        "https://assets.stevens.edu/mviowpldu823/5UlooMY3Cp7TtZctposW1C/d33d938e36645b08425ae48f1844244e/2023-2024_Academic_Calendar03192023__1_.pdf",
+                        format!("Here is the link for the {CURRENT_YEARS} academic calendar: https://assets.stevens.edu/mviowpldu823/5UlooMY3Cp7TtZctposW1C/d33d938e36645b08425ae48f1844244e/2023-2024_Academic_Calendar03192023__1_.pdf"),
                     ).await,
                 ]
             }

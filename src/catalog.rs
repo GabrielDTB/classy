@@ -24,7 +24,7 @@ impl CatalogTrait<Class> for Catalog {
     fn query_by_department(&self, department: &str) -> Vec<&Class> {
         let quarry = clean(department);
         if quarry.is_empty() {
-            return self.classes.iter().map(|c| c).collect::<Vec<&Class>>();
+            return self.classes.iter().collect::<Vec<&Class>>();
         }
         self.classes
             .iter()
@@ -115,6 +115,7 @@ impl Catalog {
 
             println!("Parsing responses into Class objects...");
             classes.extend(responses.into_iter().filter_map(|r| parse_class(r)));
+            println!("Parsed {} classes.", classes.len());
 
             println!(
                 "Checking against {} cached classes...",
@@ -135,14 +136,18 @@ impl Catalog {
                     .expect(&format!("{:#?}", class));
                 }
             }
-            println!("Wrote new classes to ./cache/classes...");
+            println!("Wrote new classes to ./cache/classes.");
         }
+
+        println!("Parsing departments from classes...");
         let mut departments = HashMap::new();
         for class in classes.iter() {
             if !departments.contains_key(&class.department()) {
                 departments.insert(class.department(), class.department_name());
             }
         }
+        println!("Parsed {} departments.", departments.len());
+
         Ok(Catalog {
             classes,
             departments,
