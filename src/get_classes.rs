@@ -145,11 +145,12 @@ pub fn parse_class(page: ClassPage) -> Option<Class> {
         None => todo!(),
     };
 
-    let id = parse_id(&main);
-    // if id.trim().is_empty() {
-    //     return None;
-    // }
-
+    let id = match &*parse_id(&main) {
+        "HSS HSS 317" => "HSS 317",
+        "EM 347 ZZZDNU" => "EM 347",
+        rest => rest,
+    }
+    .to_owned();
     let name = parse_name(&main);
     let description = parse_description(&main);
     let credits = parse_credits(&main);
@@ -159,7 +160,10 @@ pub fn parse_class(page: ClassPage) -> Option<Class> {
     let distribution = parse_distribution(&main);
     let link = page.link;
 
-    if link.contains("narrative-courses") {
+    if link.contains("narrative-courses")
+        || link.contains("te-technical-elective")
+        || link.contains("hum-humanities-general")
+    {
         return None;
     }
 
