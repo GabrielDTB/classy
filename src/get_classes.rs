@@ -218,7 +218,7 @@ pub fn parse_class(page: ClassPage) -> Option<Class> {
         credits,
         prerequisites,
         offered,
-        vec![cross_listed],
+        cross_listed,
         distribution,
         link,
     ))
@@ -274,7 +274,7 @@ fn parse_credits(main: &ElementRef) -> String {
             .to_owned(),
     }
 }
-fn parse_cross_listed(main: &ElementRef) -> String {
+fn parse_cross_listed(main: &ElementRef) -> Vec<String> {
     // let mut out = vec![];
     match main
         .select(&Selector::parse("div.sc_credits + h3 + a.sc-courselink").unwrap())
@@ -298,6 +298,9 @@ fn parse_cross_listed(main: &ElementRef) -> String {
             }
         }
     }
+    .split(",")
+    .map(|s| s.trim().to_owned())
+    .collect::<Vec<String>>()
 }
 fn parse_prerequisites(main: &ElementRef) -> String {
     main.select(&Selector::parse("div").unwrap())

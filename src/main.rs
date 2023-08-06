@@ -32,7 +32,7 @@ impl Handler {
             .fields({
                 let mut fields = vec![];
                 fields.push(("Credits", class.credits().to_string(), false));
-                let cross_listings = class.cross_listings().join("\n").trim().to_owned();
+                let cross_listings = class.cross_listings().join(", ").trim().to_owned();
                 if !cross_listings.is_empty() {
                     fields.push(("Cross Listed Classes", cross_listings, false));
                 }
