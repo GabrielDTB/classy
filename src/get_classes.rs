@@ -6,14 +6,16 @@ use reqwest::Client;
 use scraper::ElementRef;
 use scraper::{Html, Selector};
 use serde::{Deserialize, Serialize};
-use serde_json;
+// use serde_json;
 // use std::collections::BTreeSet;
 // use std::collections::HashMap;
 use thiserror::Error;
 // use tokio::fs::File;
 // use tokio::io::{AsyncReadExt, AsyncWriteExt};
 
-const API_LINK: &str = "https://stevens.smartcatalogiq.com/Institutions/Stevens-Institution-of-Technology/json/2023-2024/Academic-Catalog.json";
+// const API_LINK: &str = "https://stevens.smartcatalogiq.com/Institutions/Stevens-Institution-of-Technology/json/2023-2024/Academic-Catalog.json";
+const CLASSES_PAGE: &str =
+    "https://stevens.smartcatalogiq.com/en/2023-2024/academic-catalog/courses/";
 
 #[derive(Error, Debug)]
 pub enum ClassQueryError {
@@ -37,10 +39,32 @@ pub struct ClassPage {
 /// returning early if an error is added to
 /// the vec.
 pub async fn query_classes(cache: &Vec<ClassPage>) -> Vec<Result<ClassPage, ClassQueryError>> {
-    let mut links = match query_class_links().await {
-        Ok(value) => value,
-        Err(why) => return vec![Err(why)],
-    };
+    // let mut links = match query_class_links().await {
+    //     Ok(value) => value,
+    //     Err(why) => return vec![Err(why)],
+    // };
+    let classes_page = Html::parse_document(
+        reqwest::get(CLASSES_PAGE)
+            .await
+            .unwrap()
+            .text()
+            .await
+            .unwrap()
+            .as_str(),
+    );
+    let class_nodes = classes_page
+        .select(&Selector::parse("#main > ul:nth-child(3) > li").unwrap())
+        .collect::<Vec<_>>();
+    let mut links = class_nodes
+        .iter()
+        .map(|t| {
+            format!(
+                "https://stevens.smartcatalogiq.com{}/",
+                t.inner_html().split("\"").nth(1).unwrap().to_lowercase()
+            )
+        })
+        .collect::<Vec<_>>();
+
     let mut responses = Vec::with_capacity(links.len());
     for response in cache {
         if let Some(index) = links.iter().position(|link| *link == response.link) {
@@ -76,43 +100,42 @@ pub async fn query_classes(cache: &Vec<ClassPage>) -> Vec<Result<ClassPage, Clas
     responses
 }
 
-async fn query_class_links() -> Result<Vec<String>, ClassQueryError> {
-    let mut links = vec![];
-    let response = reqwest::get(API_LINK).await?;
-    let l1 = &response.json::<serde_json::Value>().await?["Children"][23];
-    // TODO Rewrite
-    for c1 in 0..65536 {
-        let l2 = &l1["Children"][c1];
-        if l2.is_null() {
-            break;
-        }
-        for c2 in 0..65536 {
-            let l3 = &l2["Children"][c2];
-            if l3.is_null() {
-                break;
-            }
-            for c3 in 0..65536 {
-                let course = match &l3["Children"][c3] {
-                    value => match value.is_null() {
-                        true => break,
-                        _ => value,
-                    },
-                };
-                links.push(
-                    "https://stevens.smartcatalogiq.com/en".to_string()
-                        + &*course["Path"]
-                            .as_str()
-                            .unwrap_or_else(|| todo!())
-                            .to_lowercase(),
-                );
-            }
-        }
-    }
-    Ok(links)
-}
+// async fn query_class_links() -> Result<Vec<String>, ClassQueryError> {
+//     let mut links = vec![];
+//     let response = reqwest::get(API_LINK).await?;
+//     let l1 = &response.json::<serde_json::Value>().await?["Children"][23];
+//     // TODO Rewrite
+//     for c1 in 0..65536 {
+//         let l2 = &l1["Children"][c1];
+//         if l2.is_null() {
+//             break;
+//         }
+//         for c2 in 0..65536 {
+//             let l3 = &l2["Children"][c2];
+//             if l3.is_null() {
+//                 break;
+//             }
+//             for c3 in 0..65536 {
+//                 let course = match &l3["Children"][c3] {
+//                     value => match value.is_null() {
+//                         true => break,
+//                         _ => value,
+//                     },
+//                 };
+//                 links.push(
+//                     "https://stevens.smartcatalogiq.com/en".to_string()
+//                         + &*course["Path"]
+//                             .as_str()
+//                             .unwrap_or_else(|| todo!())
+//                             .to_lowercase(),
+//                 );
+//             }
+//         }
+//     }
+//     Ok(links)
+// }
 
-pub fn parse_class(page: ClassPage) -> Class {
-    println!("{}", page.link);
+pub fn parse_class(page: ClassPage) -> Option<Class> {
     let html = Html::parse_document(page.text.as_str());
     let main = match html
         .select(&Selector::parse("div").unwrap())
@@ -123,6 +146,10 @@ pub fn parse_class(page: ClassPage) -> Class {
     };
 
     let id = parse_id(&main);
+    // if id.trim().is_empty() {
+    //     return None;
+    // }
+
     let name = parse_name(&main);
     let description = parse_description(&main);
     let credits = parse_credits(&main);
@@ -132,9 +159,53 @@ pub fn parse_class(page: ClassPage) -> Class {
     let distribution = parse_distribution(&main);
     let link = page.link;
 
-    Class::new(
+    if link.contains("narrative-courses") {
+        return None;
+    }
+
+    Some(Class::new(
         id.chars().filter(|c| c.is_alphabetic()).collect::<String>(),
-        "".into(), // TODO
+        link.split_once("/courses/")
+            .unwrap()
+            .1
+            .split_once("/")
+            .unwrap()
+            .0
+            .split_once("-")
+            .unwrap()
+            .1
+            .split("-")
+            .map(std::primitive::str::trim)
+            .map(|s| if s == "humanities" { "hplaceholder" } else { s })
+            .map(|s| match s.strip_prefix("humanities") {
+                Some(rest) => format!("humanities {}", rest),
+                None => String::from(s),
+            })
+            .map(|s| {
+                if s == "hplaceholder" {
+                    String::from("humanities")
+                } else {
+                    s
+                }
+            })
+            .map(|s| {
+                if s == "languageitalian" {
+                    String::from("language italian")
+                } else {
+                    s
+                }
+            })
+            .collect::<Vec<_>>()
+            .join(" ")
+            .split(" ")
+            .map(|s| match s {
+                "or" | "and" | "of" | "for" => String::from(s),
+                _ => {
+                    format!("{}{}", (&s[..1].to_string()).to_uppercase(), &s[1..])
+                }
+            })
+            .collect::<Vec<_>>()
+            .join(" "),
         id.chars()
             .filter(|c| c.is_ascii_digit())
             .collect::<String>(),
@@ -146,7 +217,7 @@ pub fn parse_class(page: ClassPage) -> Class {
         vec![cross_listed],
         distribution,
         link,
-    )
+    ))
 }
 
 fn parse_id(main: &ElementRef) -> String {

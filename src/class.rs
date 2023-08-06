@@ -1,7 +1,7 @@
 pub use crate::traits::Class as ClassTrait;
 use serde::{Deserialize, Serialize};
 
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct Class {
     department: String,
     department_name: String,

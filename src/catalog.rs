@@ -2,9 +2,11 @@ use crate::class::*;
 use crate::get_classes::*;
 pub use crate::traits::Catalog as CatalogTrait;
 use serde_json;
+use std::collections::HashMap;
 
 pub struct Catalog {
     classes: Vec<Class>,
+    departments: HashMap<String, String>,
     //classes_by_id: HashMap<String, &'a Class>,
     //classes_by_department: HashMap<String, Vec<&'a Class>>,
 }
@@ -112,7 +114,7 @@ impl Catalog {
             // }
 
             println!("Parsing responses into Class objects...");
-            classes.extend(responses.into_iter().map(|r| parse_class(r)));
+            classes.extend(responses.into_iter().filter_map(|r| parse_class(r)));
 
             println!(
                 "Checking against {} cached classes...",
@@ -130,23 +132,30 @@ impl Catalog {
                         format!("./cache/classes/{short_id}"),
                         serde_json::to_string_pretty(class).unwrap(),
                     )
-                    .unwrap();
+                    .expect(&format!("{:#?}", class));
                 }
             }
             println!("Wrote new classes to ./cache/classes...");
         }
-        Ok(Catalog { classes })
+        let mut departments = HashMap::new();
+        for class in classes.iter() {
+            if !departments.contains_key(&class.department()) {
+                departments.insert(class.department(), class.department_name());
+            }
+        }
+        Ok(Catalog {
+            classes,
+            departments,
+        })
     }
-    pub fn departments(&self) -> Vec<String> {
-        self.classes.iter().map(|c| c.department()).fold(
-            Vec::new(),
-            |mut departments, department| {
-                if !departments.contains(&department) {
-                    departments.push(department);
-                }
-                departments
-            },
-        )
+    pub fn departments(&self) -> Vec<(String, String)> {
+        let mut pairs = self
+            .departments
+            .iter()
+            .map(|s| (s.0.clone(), s.1.clone()))
+            .collect::<Vec<_>>();
+        pairs.sort_unstable_by(|a, b| a.0.cmp(&b.0));
+        pairs
     }
 }
 
