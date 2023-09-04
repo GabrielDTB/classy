@@ -247,7 +247,7 @@ impl EventHandler for Handler {
                             .send_message(&context.http, |m| m.set_embed((&mut embed).title(format!(r#"Results for "{query}""#)).to_owned()))
                             .await
                     ],
-                    None => vec![msg.channel_id.say(&context.http, format!(r#"No results for "{query}""#)).await],
+                    None => vec![msg.reply(&context.http, format!(r#"No results for "{query}""#)).await],
                 }
             },
             _ => return,
