@@ -1,3 +1,7 @@
+use tantivy::{
+    collector::TopDocs, doc, query::QueryParser, schema::*, Index, IndexReader, ReloadPolicy,
+};
+
 use crate::class::*;
 use crate::get_classes::*;
 pub use crate::traits::Catalog as CatalogTrait;
@@ -7,6 +11,9 @@ use std::collections::HashMap;
 pub struct Catalog {
     classes: Vec<Class>,
     departments: HashMap<String, String>,
+    schema: Schema,
+    reader: IndexReader,
+    query_parser: QueryParser,
     //classes_by_id: HashMap<String, &'a Class>,
     //classes_by_department: HashMap<String, Vec<&'a Class>>,
 }
@@ -148,9 +155,44 @@ impl Catalog {
         }
         println!("Parsed {} departments.", departments.len());
 
+        let mut schema_builder = Schema::builder();
+        let id = schema_builder.add_text_field("id", STORED);
+        let title = schema_builder.add_text_field(
+            "title",
+            TextOptions::default()
+                .set_indexing_options(TextFieldIndexing::default().set_tokenizer("en_stem")),
+        );
+        let body = schema_builder.add_text_field(
+            "body",
+            TextOptions::default()
+                .set_indexing_options(TextFieldIndexing::default().set_tokenizer("en_stem")),
+        );
+        let schema = schema_builder.build();
+        let index = Index::create_in_ram(schema.clone());
+        let mut index_writer = index.writer(100_000_000).unwrap();
+        for class in classes.iter() {
+            index_writer
+                .add_document(doc!(
+                    id => class.id(),
+                    title => class.title(),
+                    body => class.description(),
+                ))
+                .unwrap();
+        }
+        index_writer.commit().unwrap();
+        let reader = index
+            .reader_builder()
+            .reload_policy(ReloadPolicy::Manual)
+            .try_into()
+            .unwrap();
+        let query_parser = QueryParser::for_index(&index, vec![title, body]);
+
         Ok(Catalog {
             classes,
             departments,
+            schema,
+            reader,
+            query_parser,
         })
     }
     pub fn departments(&self) -> Vec<(String, String)> {
@@ -161,6 +203,29 @@ impl Catalog {
             .collect::<Vec<_>>();
         pairs.sort_unstable_by(|a, b| a.0.cmp(&b.0));
         pairs
+    }
+    pub fn search(&self, query: &str, number_results: usize) -> Vec<&Class> {
+        let mut classes = Vec::new();
+        let searcher = self.reader.searcher();
+        let query = match self.query_parser.parse_query(query) {
+            Ok(value) => value,
+            Err(_) => return classes,
+        };
+        let top_docs = match searcher.search(&query, &TopDocs::with_limit(number_results)) {
+            Ok(value) => value,
+            Err(_) => return classes,
+        };
+        for (score, doc_address) in top_docs {
+            let retrieved_doc = searcher.doc(doc_address).unwrap();
+            let id = retrieved_doc
+                .get_first(self.schema.get_field("id").unwrap())
+                .unwrap()
+                .as_text()
+                .unwrap();
+            classes.push(self.query_by_id(id).unwrap());
+            println!("{} - {}", score, id);
+        }
+        classes
     }
 }
 

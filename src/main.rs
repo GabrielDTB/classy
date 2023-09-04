@@ -77,7 +77,7 @@ impl EventHandler for Handler {
             _ => return,
         }
         let statuses = match tokens.next().as_deref() {
-            Some("query") | Some("q") => {
+            Some("query" | "q") => {
                 let id = tokens.collect::<String>();
                 let class = self.catalog.query_by_id(&id);
                 let embed = match class {
@@ -97,7 +97,7 @@ impl EventHandler for Handler {
                         .await
                 }]
             }
-            Some("random") | Some("rand") | Some("r") => {
+            Some("random" | "rand" | "r") => {
                 let mut departments = tokens.collect::<Vec<String>>();
                 if departments.is_empty() {
                     departments.push(String::from(""));
@@ -134,7 +134,7 @@ impl EventHandler for Handler {
                     ]
                 }
             }
-            Some("help") | Some("h") => {
+            Some("help" | "h") => {
                 vec![
                     msg.reply(
                         &context.http,
@@ -171,7 +171,7 @@ impl EventHandler for Handler {
                     .await,
                 ]
             }
-            Some("aliases") | Some("a") => {
+            Some("aliases" | "a") => {
                 vec![
                     msg.reply(
                         &context.http,
@@ -189,7 +189,7 @@ impl EventHandler for Handler {
                     .await,
                 ]
             }
-            Some("departments") | Some("dep") | Some("d") => {
+            Some("departments" | "dep" | "d") => {
                 // list all the course prefixes as an embed with fields
                 vec![
                     msg.channel_id
@@ -197,12 +197,26 @@ impl EventHandler for Handler {
                         .await,
                 ]
             }
-            Some("calendar") | Some("c") => {
+            Some("calendar" | "c") => {
                 vec![
                     msg.reply(
                         &context.http, 
                         format!("Here is the link for the {CURRENT_YEARS} academic calendar: https://assets.stevens.edu/mviowpldu823/5UlooMY3Cp7TtZctposW1C/d33d938e36645b08425ae48f1844244e/2023-2024_Academic_Calendar03192023__1_.pdf"),
                     ).await,
+                ]
+            }
+            Some("search" | "s") => {
+                let query = tokens.collect::<Vec<String>>().join(" ");
+                let matches = self.catalog.search(&query, 10);
+                let mut response = String::new();
+                for class in matches {
+                    response = format!("{response}\n{} {}", class.id(), class.title());
+                }
+                vec![
+                    msg.reply(
+                        &context.http,
+                        response,
+                        ).await,
                 ]
             }
             _ => return,
