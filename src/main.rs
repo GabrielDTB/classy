@@ -192,6 +192,11 @@ impl EventHandler for Handler {
                         **calendar**\n\
                           \tReturns the link to the current/upcoming\n\
                           \tyear's academic calendar.\n\
+                        **search** __query__\n\
+                          \tReturns the top 10 classes for a query.\n\
+                          \t*Examples*\n\
+                            \t\tclassy search linear algebra\n\
+                            \t\tclassy search compilers\n\
                         "
                         .trim(),
                     )
@@ -210,6 +215,7 @@ impl EventHandler for Handler {
                         **departments:** dep, d\n\
                         **aliases:** a\n\
                         **calendar:** c\n\
+                        **search:** a\n\
                         "
                         .trim(),
                     )
