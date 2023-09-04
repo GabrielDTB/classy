@@ -52,15 +52,42 @@ impl Handler {
                 fields
             })
             .footer(|f| f.text(format!("Years: {CURRENT_YEARS} -- Classes: {}", self.catalog.query_by_department("").len())))
+            .color(STEVENS_RED)
             .to_owned()
     }
+    fn class_list_embed(&self, classes: Vec<&Class>) -> Option<CreateEmbed> {
+        if classes.len() > 25 || classes.is_empty() {
+            return None;
+        }
+        fn format_description(description: &str) -> String {
+            let description = description.chars().collect::<Vec<char>>();
+            let max_length = 135;
+            if description.len() <= max_length {
+                return description.iter().collect::<String>();
+            }
+            let shortened = description[..max_length-4].iter().rev().collect::<String>();
+            let split = match shortened.split_once(" ") {
+                Some(split) => split.1,
+                None => &*shortened,
+            };
+            let reassembled = split.chars().rev().collect::<String>();
+            format!("{reassembled} ...")
+        }
+        let fields = classes.iter().map(|c| (format!("{} {}", c.id(), c.title()), format!("{} [[^]]({})", format_description(&c.description()), c.url()), false)).collect::<Vec<_>>();
+        Some(CreateEmbed::default()
+            .fields(fields)
+            .footer(|f| f.text(format!("Years: {CURRENT_YEARS} -- Classes: {}", self.catalog.query_by_department("").len())))
+            .color(STEVENS_RED)
+            .to_owned())
+    }
     fn departments_embed(&self) -> CreateEmbed {
-        let mut embed = CreateEmbed::default();
-        embed.title("Class Departments");
-        embed.description(
-            self.catalog.departments().into_iter().map(|t| format!("**{}:** {}\n", t.0, t.1)).collect::<String>().trim()
-        );
-        embed
+        CreateEmbed::default()
+            .title("Class Departments")
+            .description(
+                self.catalog.departments().into_iter().map(|t| format!("**{}:** {}\n", t.0, t.1)).collect::<String>().trim()
+            )
+            .color(STEVENS_RED)
+            .to_owned()
     }
 }
 
@@ -208,17 +235,15 @@ impl EventHandler for Handler {
             Some("search" | "s") => {
                 let query = tokens.collect::<Vec<String>>().join(" ");
                 let matches = self.catalog.search(&query, 10);
-                let mut response = String::new();
-                for class in matches {
-                    response = format!("{response}\n{} {}", class.id(), class.title());
+                match self.class_list_embed(matches) {
+                    Some(mut embed) => vec![
+                        msg.channel_id
+                            .send_message(&context.http, |m| m.set_embed((&mut embed).title(format!(r#"Results for "{query}""#)).to_owned()))
+                            .await
+                    ],
+                    None => vec![msg.channel_id.say(&context.http, format!(r#"No results for "{query}""#)).await],
                 }
-                vec![
-                    msg.reply(
-                        &context.http,
-                        response,
-                        ).await,
-                ]
-            }
+            },
             _ => return,
         };
 

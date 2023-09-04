@@ -215,7 +215,7 @@ impl Catalog {
             Ok(value) => value,
             Err(_) => return classes,
         };
-        for (score, doc_address) in top_docs {
+        for (_score, doc_address) in top_docs {
             let retrieved_doc = searcher.doc(doc_address).unwrap();
             let id = retrieved_doc
                 .get_first(self.schema.get_field("id").unwrap())
@@ -223,7 +223,7 @@ impl Catalog {
                 .as_text()
                 .unwrap();
             classes.push(self.query_by_id(id).unwrap());
-            println!("{} - {}", score, id);
+            // println!("{} - {}", score, id);
         }
         classes
     }
